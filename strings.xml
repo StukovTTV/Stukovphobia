@@ -3915,7 +3915,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.Alienheavyengine.Description</Data></Cell>
-    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  produce 1 Alien Light Engine</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  produce 1 Alien Heavy Engine</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.FighterPlating</Data></Cell>
@@ -3923,7 +3923,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.FighterPlating.Description</Data></Cell>
-    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  increase Armour of a Human Fighter (except) F17 by 10; •  reduce Speed by 10 %; •  double Upkeep; •  allready upgraded:</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  increase Armour of a Human Fighter (except) F17 by 10;•  reduce Speed by 10 %;•  double Upkeep;•  allready upgraded:</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.FighterSpeed_I</Data></Cell>
@@ -3931,7 +3931,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.FighterSpeed_I.Description</Data></Cell>
-    <Cell><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  increase Speed of a Human Fighter (except) F17 by 10 Percent; •  increase Acceleration by 10 Percent; •  double Upkeep; •  allready upgraded:</Data></Cell>
+    <Cell><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  increase Speed of a Human Fighter (except) F17 by 10 Percent;•  increase Acceleration by 10 Percent;•  double Upkeep;•  allready upgraded:</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.FighterSpeed_II</Data></Cell>
@@ -3939,7 +3939,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.FighterSpeed_II.Description</Data></Cell>
-    <Cell><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  increase Speed of a Human Fighter (except) F17 by 25 Percent; •  increase Acceleration by 25 Percent; •  double Upkeep; •  allready upgraded:</Data></Cell>
+    <Cell><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  increase Speed of a Human Fighter (except) F17 by 25 Percent;•  increase Acceleration by 25 Percent;•  double Upkeep;•  allready upgraded:</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.FighterSpeed_III</Data></Cell>
@@ -3947,7 +3947,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.FighterSpeed_III.Description</Data></Cell>
-    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  increase Speed of a Human Fighter (except) F17 by 35 Percent; •  increase Acceleration by 35 Percent; •  double Upkeep; •  allready upgraded:</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  increase Speed of a Human Fighter (except) F17 by 35 Percent;•  increase Acceleration by 35 Percent;•  double Upkeep;•  allready upgraded:</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Genes</Data></Cell>
@@ -4052,6 +4052,22 @@
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_MaxReflex.Description</Data></Cell>
     <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  increase max Bravery by 3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKVAlienControlSystem</Data></Cell>
+    <Cell><Data ss:Type="String">Craft Alien Control System</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKVAlienControlSystem.Description</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  produce 1 Basic Alien Control System</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKVAlienComputers</Data></Cell>
+    <Cell><Data ss:Type="String">Craft Alien Computers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKVAlienComputers.Description</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  produce 1 Alien Computer</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">

@@ -86,7 +86,7 @@
    <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=Sheet1!R1C1:R1C10"
     ss:Hidden="1"/>
   </Names>
-  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="138" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="141" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="60">
    <Column ss:Width="270.75"/>
    <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="192"/>
@@ -534,7 +534,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.mirage4000</Data></Cell>
    </Row>
-   <Row ss:Index="51" ss:Height="25.5">
+   <Row ss:Index="51" ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell><Data ss:Type="String">ManTech.SKV_WeaponExpert1Sebillian</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsWeaponKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -542,7 +542,7 @@
     <Cell><Data ss:Type="String">1xItems.Sebillianweaponsergeant</Data></Cell>
     <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.WeaponKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );</Data></Cell>
    </Row>
-   <Row ss:Height="25.5">
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell><Data ss:Type="String">ManTech.SKV_EngineExpert1Sebillian</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsEngineKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -550,7 +550,7 @@
     <Cell><Data ss:Type="String">1xItems.Sebilliantechnician</Data></Cell>
     <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.EngineKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );</Data></Cell>
    </Row>
-   <Row ss:Height="25.5">
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell><Data ss:Type="String">ManTech.SKV_GeneticExpert1Sebillian</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsGeneticKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -558,7 +558,7 @@
     <Cell><Data ss:Type="String">1xItems.Sebillianmedic</Data></Cell>
     <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.GeneticKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );</Data></Cell>
    </Row>
-   <Row ss:Height="25.5">
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell><Data ss:Type="String">ManTech.SKV_FlightExpert1Sebillian</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsFlightKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -566,7 +566,7 @@
     <Cell><Data ss:Type="String">1xItems.Sebilliannavigator</Data></Cell>
     <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.FlightKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );</Data></Cell>
    </Row>
-   <Row ss:Height="25.5">
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell><Data ss:Type="String">ManTech.SKV_WeaponExpert1Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsWeaponKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -574,7 +574,7 @@
     <Cell><Data ss:Type="String">1xItems.Caesanweaponsergeant</Data></Cell>
     <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.WeaponKnowledge&quot; );&#10;StockItem( &quot;Items.CaesanGenes&quot; );</Data></Cell>
    </Row>
-   <Row ss:Height="25.5">
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell><Data ss:Type="String">ManTech.SKV_PsionicExpert1Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsPsionicKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -582,7 +582,7 @@
     <Cell><Data ss:Type="String">1xItems.CaesanPsion</Data></Cell>
     <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.CaesanGenes&quot; );&#10;StockItem( &quot;Items.PsionicKnowledge&quot; );</Data></Cell>
    </Row>
-   <Row ss:Height="25.5">
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell><Data ss:Type="String">ManTech.SKV_EngineExpert1Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsEngineKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -592,7 +592,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="25.5">
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell><Data ss:Type="String">ManTech.SKV_GeneticExpert1Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsGeneticKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -602,7 +602,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="25.5">
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell><Data ss:Type="String">ManTech.SKV_FlightExpert1Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsFlightKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -612,7 +612,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="38.25">
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
     <Cell><Data ss:Type="String">ManTech.SKV_WeaponExpert2Sebillian</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsWeaponKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -622,7 +622,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="38.25">
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
     <Cell><Data ss:Type="String">ManTech.SKV_EngineExpert2Sebillian</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsEngineKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -632,7 +632,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="38.25">
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
     <Cell><Data ss:Type="String">ManTech.SKV_GeneticExpert2Sebillian</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsGeneticKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -642,7 +642,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="38.25">
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
     <Cell><Data ss:Type="String">ManTech.SKV_FlightExpert2Sebillian</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsFlightKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -652,7 +652,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="38.25">
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
     <Cell><Data ss:Type="String">ManTech.SKV_WeaponExpert2Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsWeaponKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -662,7 +662,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="38.25">
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
     <Cell><Data ss:Type="String">ManTech.SKV_PsionicExpert2Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsPsionicKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -672,7 +672,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="38.25">
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
     <Cell><Data ss:Type="String">ManTech.SKV_EngineExpert2Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsEngineKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -682,7 +682,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="38.25">
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
     <Cell><Data ss:Type="String">ManTech.SKV_GeneticExpert2Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsGeneticKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -692,7 +692,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="38.25">
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
     <Cell><Data ss:Type="String">ManTech.SKV_FlightExpert2Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsFlightKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -702,7 +702,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="51">
+   <Row ss:AutoFitHeight="0" ss:Height="51">
     <Cell><Data ss:Type="String">ManTech.SKV_WeaponExpert3Sebillian</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsWeaponKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -712,7 +712,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="51">
+   <Row ss:AutoFitHeight="0" ss:Height="51">
     <Cell><Data ss:Type="String">ManTech.SKV_EngineExpert3Sebillian</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsEngineKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -722,7 +722,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="51">
+   <Row ss:AutoFitHeight="0" ss:Height="51">
     <Cell><Data ss:Type="String">ManTech.SKV_GeneticExpert3Sebillian</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsGeneticKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -732,7 +732,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="51">
+   <Row ss:AutoFitHeight="0" ss:Height="51">
     <Cell><Data ss:Type="String">ManTech.SKV_FlightExpert3Sebillian</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsFlightKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -742,7 +742,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="51">
+   <Row ss:AutoFitHeight="0" ss:Height="51">
     <Cell><Data ss:Type="String">ManTech.SKV_WeaponExpert3Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsWeaponKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -752,7 +752,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="51">
+   <Row ss:AutoFitHeight="0" ss:Height="51">
     <Cell><Data ss:Type="String">ManTech.SKV_PsionicExpert3Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsPsionicKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -762,7 +762,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="51">
+   <Row ss:AutoFitHeight="0" ss:Height="51">
     <Cell><Data ss:Type="String">ManTech.SKV_EngineExpert3Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsEngineKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -772,7 +772,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="51">
+   <Row ss:AutoFitHeight="0" ss:Height="51">
     <Cell><Data ss:Type="String">ManTech.SKV_GeneticExpert3Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsGeneticKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -782,7 +782,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="51">
+   <Row ss:AutoFitHeight="0" ss:Height="51">
     <Cell><Data ss:Type="String">ManTech.SKV_FlightExpert3Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsFlightKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -792,7 +792,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="63.75">
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
     <Cell><Data ss:Type="String">ManTech.SKV_WeaponExpert4Sebillian</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsWeaponKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -802,7 +802,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="63.75">
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
     <Cell><Data ss:Type="String">ManTech.SKV_EngineExpert4Sebillian</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsEngineKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -812,7 +812,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="63.75">
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
     <Cell><Data ss:Type="String">ManTech.SKV_GeneticExpert4Sebillian</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsGeneticKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -822,7 +822,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="63.75">
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
     <Cell><Data ss:Type="String">ManTech.SKV_FlightExpert4Sebillian</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsFlightKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -832,7 +832,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="63.75">
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
     <Cell><Data ss:Type="String">ManTech.SKV_WeaponExpert4Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsWeaponKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -842,7 +842,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="63.75">
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
     <Cell><Data ss:Type="String">ManTech.SKV_PsionicExpert4Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsPsionicKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -852,7 +852,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="63.75">
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
     <Cell><Data ss:Type="String">ManTech.SKV_EngineExpert4Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsEngineKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -862,7 +862,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="63.75">
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
     <Cell><Data ss:Type="String">ManTech.SKV_GeneticExpert4Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsGeneticKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -872,7 +872,7 @@
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Height="63.75">
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
     <Cell><Data ss:Type="String">ManTech.SKV_FlightExpert4Caesan</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsFlightKnowledge</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
@@ -890,7 +890,7 @@
     <Cell><Data ss:Type="String">1xItems.WraithElite</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;Items.WraithGenes&quot; );</Data></Cell>
    </Row>
-   <Row ss:Height="63.75">
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
     <Cell><Data ss:Type="String">ManTech.WraithOfficerGenes</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsPsionicKnowledge</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -906,7 +906,7 @@
     <Cell><Data ss:Type="String">1xItems.HarridanElite</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;Items.HarridanGenes&quot; );</Data></Cell>
    </Row>
-   <Row ss:Height="63.75">
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
     <Cell><Data ss:Type="String">ManTech.HarridanOfficerGenes</Data></Cell>
     <Cell><Data ss:Type="String">InterrogationsPsionicKnowledge</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -1133,7 +1133,7 @@
     <Cell><Data ss:Type="String">ManTech.AlienLightWeaponSystem</Data></Cell>
     <Cell><Data ss:Type="String">ProvingGrounds</Data></Cell>
     <Cell><Data ss:Type="Number">10</Data></Cell>
-    <Cell><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
     <Cell><Data ss:Type="String">10xItems.AlienBeamWeapon;1xItems.WeaponKnowledge</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;Items.Alienlightweaponsystem&quot; );</Data></Cell>
    </Row>
@@ -1141,7 +1141,7 @@
     <Cell><Data ss:Type="String">ManTech.AlienHeavyWeaponSystem</Data></Cell>
     <Cell><Data ss:Type="String">ProvingGrounds</Data></Cell>
     <Cell><Data ss:Type="Number">10</Data></Cell>
-    <Cell><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
     <Cell><Data ss:Type="String">10xItems.AlienTorpedo;1xItems.WeaponKnowledge</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;Items.Alienheavyweaponsystem&quot; );</Data></Cell>
    </Row>
@@ -1162,6 +1162,22 @@
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;Items.Alienheavyengine&quot; );</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">ManTech.SKVAlienControlSystem</Data></Cell>
+    <Cell><Data ss:Type="String">ProvingGrounds</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="String">10xItems.AlienControlSeat;1xItems.FlightKnowledge</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;Items.BasicAliencontrolsystem&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKVAlienComputers</Data></Cell>
+    <Cell><Data ss:Type="String">ProvingGrounds</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="String">10xItems.AlienConsole;1xItems.FlightKnowledge</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;Items.Aliencomputers&quot; );</Data></Cell>
+   </Row>
+   <Row ss:Index="123">
     <Cell><Data ss:Type="String">ManTech.FighterPlating</Data></Cell>
     <Cell><Data ss:Type="String">ProvingGrounds</Data></Cell>
     <Cell><Data ss:Type="Number">20</Data></Cell>
@@ -1207,7 +1223,7 @@
     <Cell ss:Index="9" ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
-   <Row ss:Index="127" ss:StyleID="s66">
+   <Row ss:Index="130" ss:StyleID="s66">
     <Cell ss:StyleID="s70"><Data ss:Type="String">ManTech.kfirc2</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">AlienShipyard</Data></Cell>
     <Cell><Data ss:Type="Number">6</Data></Cell>
@@ -1346,7 +1362,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>40</TopRowBottomPane>
+   <TopRowBottomPane>103</TopRowBottomPane>
    <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
@@ -1354,15 +1370,14 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>139</ActiveRow>
-     <ActiveCol>4</ActiveCol>
+     <ActiveRow>120</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
   <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C9:R8C10,R51C9:R117C10,R119C9:R469C10,R10C9:R49C10</Range>
+   <Range>R2C9:R8C10,R51C9:R117C10,R119C9:R472C10,R10C9:R49C10</Range>
    <Type>List</Type>
    <CellRangeList/>
    <Value>&quot;Yes,No&quot;</Value>
@@ -1370,7 +1385,7 @@
    <ErrorTitle>Invalid value.</ErrorTitle>
   </DataValidation>
   <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R1349C2:R1048576C2,R1346C2,R127C2:R138C2,R51C2:R125C2,R1C2:R49C2</Range>
+   <Range>R1352C2:R1048576C2,R1349C2,R130C2:R141C2,R1C2:R49C2,R51C2:R128C2</Range>
    <Type>List</Type>
    <CellRangeList/>
    <Value>&quot;Extraterrestrial,SoldierWeapons,Ammunition,Equipment,Armour,Vehicles,VehicleWeapons,Aircraft,AircraftWeapons&quot;</Value>

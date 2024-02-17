@@ -470,6 +470,22 @@
     <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.WraithEliteGenes&quot; );&#10;UnlockManufacture( &quot;ManTech.WraithOfficerGenes&quot; );&#10;UnlockManufacture( &quot;ManTech.HarridanOfficerGenes&quot; );&#10;UnlockManufacture( &quot;ManTech.HarridanEliteGenes&quot; );</Data></Cell>
     <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
    </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_CS</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell><Data ss:Type="String">Items.AlienControlSeat</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKVAlienControlSystem&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Computers</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell><Data ss:Type="String">Items.AlienConsole</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKVAlienComputers&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
    <Row ss:Index="55">
     <Cell ss:Index="2" ss:StyleID="s72"/>
    </Row>
@@ -1268,15 +1284,15 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>46</ActiveRow>
-     <ActiveCol>3</ActiveCol>
+     <ActiveRow>48</ActiveRow>
+     <ActiveCol>5</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
   <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R1050C3:R65497C3,R353C3:R1047C3,R168C3:R169C3,R117C3:R123C3,R106C3:R115C3,R68C3:R80C3,R338C3,R2C3,R133C3:R161C3,R50C3,R52C3:R54C3,R34C3:R36C3,R325C3:R326C3,R56C3:R66C3,R297C3:R298C3,R311C3:R322C3,R308C3:R309C3,R187C3:R188C3,R270C3:R279C3,R217C3:R219C3,R233C3,R221C3,R223C3:R230C3,R198C3,R215C3,R200C3:R203C3,R292C3,R267C3:R268C3,R281C3,R192C3,R195C3:R196C3,R171C3,R175C3:R184C3,R163C3:R165C3,R6C3:R7C3,R21C3:R32C3,R9C3:R17C3,R38C3:R48C3</Range>
+   <Range>R1050C3:R65497C3,R353C3:R1047C3,R168C3:R169C3,R117C3:R123C3,R106C3:R115C3,R68C3:R80C3,R338C3,R2C3,R133C3:R161C3,R52C3:R54C3,R34C3:R36C3,R325C3:R326C3,R56C3:R66C3,R297C3:R298C3,R311C3:R322C3,R308C3:R309C3,R187C3:R188C3,R270C3:R279C3,R217C3:R219C3,R233C3,R221C3,R223C3:R230C3,R198C3,R215C3,R200C3:R203C3,R292C3,R267C3:R268C3,R281C3,R192C3,R195C3:R196C3,R171C3,R175C3:R184C3,R163C3:R165C3,R6C3:R7C3,R21C3:R32C3,R9C3:R17C3,R38C3:R50C3</Range>
    <Type>List</Type>
    <CellRangeList/>
    <Value>&quot;Extraterrestrials,ExtraterrestrialTech,UFOs,Weaponary,Armour,Equipment,Vehicles,Aircraft,BaseStructures&quot;</Value>
