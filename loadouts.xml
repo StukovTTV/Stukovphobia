@@ -1,0 +1,474 @@
+<?xml version="1.0"?>
+<Loadouts MODMERGE="replace">
+
+<!-- Rookie -->
+<Loadout>
+		<Name>SoldierRoles.Rookie</Name>
+		<Image>uitextures/roles/Gear2</Image>
+		<Armour>armour.basic</Armour>
+		<RightHand>weapon.rifle</RightHand>
+		
+		<BeltItem>
+			<Name>ammo.ballistic.rifle</Name>
+			<Point>0,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.frag</Name>
+			<Point>1,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.smoke</Name>
+			<Point>2,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.flashbang</Name>
+			<Point>3,0</Point>
+		</BeltItem>
+		
+		<BackpackItem>
+			<Name>weapon.grenade.medipack</Name>
+			<Point>0,0</Point>
+		</BackpackItem>
+		<BackpackItem>
+			<Name>weapon.explosive.C4</Name>
+			<Point>3,0</Point>
+		</BackpackItem>
+</Loadout>
+
+<!-- Rifleman -->	
+
+<Loadout>
+		<Name>SoldierRoles.Rifleman</Name>
+		<Image>uitextures/roles/LWRifle</Image>
+		<Armour>armour.basic</Armour>
+		<RightHand>weapon.rifle</RightHand>
+		<BeltItem>
+			<Name>ammo.ballistic.rifle</Name>
+			<Point>0,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>ammo.ballistic.rifle</Name>
+			<Point>1,0</Point>
+		</BeltItem>
+		
+		<BeltItem>
+			<Name>weapon.grenade.frag</Name>
+			<Point>2,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.frag</Name>
+			<Point>2,1</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.smoke</Name>
+			<Point>3,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.smoke</Name>
+			<Point>3,1</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.flashbang</Name>
+			<Point>4,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.flashbang</Name>
+			<Point>4,1</Point>
+		</BeltItem>
+		
+		<BackpackItem>
+			<Name>weapon.grenade.medipack</Name>
+			<Point>0,0</Point>
+		</BackpackItem>
+	</Loadout>
+	
+	<!-- Assault -->
+	
+	<Loadout>
+		<Name>SoldierRoles.Assault</Name>
+		<Image>uitextures/roles/LWAssaullt</Image>
+		<Armour>armour.basic</Armour>
+		<RightHand>weapon.shotgun</RightHand>
+		<BeltItem>
+			<Name>ammo.ballistic.shotgun</Name>
+			<Point>0,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>ammo.ballistic.shotgun</Name>
+			<Point>1,0</Point>
+		</BeltItem>
+		
+		<BeltItem>
+			<Name>weapon.grenade.frag</Name>
+			<Point>2,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.frag</Name>
+			<Point>2,1</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.smoke</Name>
+			<Point>3,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.smoke</Name>
+			<Point>3,1</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.flashbang</Name>
+			<Point>4,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.flashbang</Name>
+			<Point>4,1</Point>
+		</BeltItem>
+			<BackpackItem>
+			<Name>weapon.grenade.medipack</Name>
+			<Point>0,0</Point>
+		</BackpackItem>
+	</Loadout>
+	
+	<!-- Sniper --> 
+	
+	<Loadout>
+		<Name>SoldierRoles.Sniper</Name>
+		<Image>uitextures/roles/sniper</Image>
+		<Armour>armour.basic</Armour>
+		<RightHand>weapon.sniper</RightHand>
+		<BeltItem>
+			<Name>ammo.ballistic.sniper</Name>
+			<Point>0,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>ammo.ballistic.sniper</Name>
+			<Point>1,0</Point>
+		</BeltItem>
+		
+		<BeltItem>
+			<Name>weapon.grenade.frag</Name>
+			<Point>2,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.smoke</Name>
+			<Point>3,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.flashbang</Name>
+			<Point>4,0</Point>
+		</BeltItem>
+		
+		<BackpackItem>
+			<Name>weapon.grenade.medipack</Name>
+			<Point>0,0</Point>
+		</BackpackItem>
+	</Loadout>
+	
+	<!-- Gunner -->
+	
+	<Loadout>
+		<Name>SoldierRoles.HeavyWeapons</Name>
+		<Image>uitextures/roles/heavy</Image>
+		<Armour>armour.basic</Armour>
+		<RightHand>weapon.machinegun</RightHand>
+		
+		<BeltItem>
+			<Name>ammo.ballistic.machinegun</Name>
+			<Point>2,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>ammo.ballistic.machinegun</Name>
+			<Point>3,0</Point>
+		</BeltItem>
+		<BackpackItem>
+			<Name>weapon.grenade.medipack</Name>
+			<Point>0,0</Point>
+		</BackpackItem>
+	</Loadout>
+	
+	<!-- Heavy Ordnance - Cannoneer -->
+	<Loadout>
+		<Name>SoldierRoles.Ordnance</Name>
+		<Image>uitextures/roles/ordnance</Image>
+		<Armour>armour.basic</Armour>
+		<RightHand>weapon.rocketlauncher</RightHand>
+		
+		<BeltItem>
+			<Name>weapon.pistol</Name>
+			<Point>2,0</Point>
+		</BeltItem>
+		
+		<BackpackItem>
+			<Name>weapon.rocket.frag</Name>
+			<Point>0,0</Point>
+		</BackpackItem>
+		<BackpackItem>
+			<Name>weapon.rocket.frag</Name>
+			<Point>0,1</Point>
+		</BackpackItem>
+		<BackpackItem>
+			<Name>weapon.rocket.frag</Name>
+			<Point>0,2</Point>
+		</BackpackItem>
+	</Loadout>
+	
+	<!--Rocketeer -->
+	
+	<Loadout>
+		<Name>SoldierRoles.Rocket</Name>
+		<Image>uitextures/roles/rocket</Image>
+		<Armour>armour.basic</Armour>
+		<RightHand>weapon.rocketlauncher</RightHand>
+		
+		<BeltItem>
+			<Name>weapon.pistol</Name>
+			<Point>2,0</Point>
+		</BeltItem>
+		
+		<BackpackItem>
+			<Name>weapon.rocket.frag</Name>
+			<Point>0,0</Point>
+		</BackpackItem>
+		<BackpackItem>
+			<Name>weapon.rocket.frag</Name>
+			<Point>0,1</Point>
+		</BackpackItem>
+		<BackpackItem>
+			<Name>weapon.rocket.frag</Name>
+			<Point>0,2</Point>
+		</BackpackItem>
+	</Loadout>
+	
+	<!-- Flamer -->
+	
+	<Loadout>
+		<Name>SoldierRoles.Flamer</Name>
+		<Image>uitextures/roles/flamer</Image>
+		<Armour>armour.basic</Armour>
+		<RightHand>weapon.pistol</RightHand>
+		
+		<BeltItem>
+			<Name>weapon.grenade.smoke</Name>
+			<Point>0,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.smoke</Name>
+			<Point>1,0</Point>
+		</BeltItem>
+			
+		<BackpackItem>
+			<Name>weapon.flamethrower</Name>
+			<Point>0,0</Point>
+		</BackpackItem>
+		<BackpackItem>
+			<Name>ammo.ballistic.flamethrower</Name>
+			<Point>0,2</Point>
+		</BackpackItem>
+		<BackpackItem>
+			<Name>ammo.ballistic.flamethrower</Name>
+			<Point>1,2</Point>
+		</BackpackItem>
+		<BackpackItem>
+			<Name>weapon.explosive.C4</Name>
+			<Point>2,2</Point>
+		</BackpackItem>
+		<BackpackItem>
+			<Name>weapon.explosive.C4</Name>
+			<Point>2,3</Point>
+		</BackpackItem>
+	</Loadout>
+	
+	<!-- Melee -->
+	
+	<Loadout>
+		<Name>SoldierRoles.Melee</Name>
+		<Image>uitextures/roles/melee</Image>
+		<Armour>armour.basic</Armour>
+		<RightHand>weapon.pistol</RightHand>
+		<LeftHand>weapon.combatshield</LeftHand>
+		<BeltItem>
+			<Name>ammo.ballistic.pistol</Name>
+			<Point>0,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.frag</Name>
+			<Point>1,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.smoke</Name>
+			<Point>2,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.flashbang</Name>
+			<Point>3,0</Point>
+		</BeltItem>
+		
+		<BackpackItem>
+			<Name>weapon.grenade.medipack</Name>
+			<Point>0,0</Point>
+		</BackpackItem>
+		
+	</Loadout>
+
+
+	<!-- Medic --> 		
+	<Loadout>
+		<Name>SoldierRoles.Medic</Name>
+		<Image>uitextures/roles/medic</Image>
+		<Armour>armour.basic</Armour>
+		<RightHand>weapon.pistol</RightHand>
+		<LeftHand>weapon.grenade.medipack</LeftHand>
+		<BeltItem>
+			<Name>ammo.ballistic.pistol</Name>
+			<Point>0,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>ammo.ballistic.pistol</Name>
+			<Point>1,0</Point>
+		</BeltItem>
+		
+		<BeltItem>
+			<Name>weapon.grenade.smoke</Name>
+			<Point>2,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.smoke</Name>
+			<Point>2,1</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.smoke</Name>
+			<Point>3,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.smoke</Name>
+			<Point>3,1</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.smoke</Name>
+			<Point>4,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.smoke</Name>
+			<Point>4,1</Point>
+		</BeltItem>
+		
+		<BackpackItem>
+			<Name>weapon.grenade.medipack</Name>
+			<Point>0,0</Point>
+		</BackpackItem>
+		<BackpackItem>
+			<Name>weapon.grenade.medipack</Name>
+			<Point>0,2</Point>
+		</BackpackItem>
+	</Loadout>
+	
+	<!-- Grenadeer -->
+	
+		<Loadout>
+		<Name>SoldierRoles.Grenadeer</Name>
+		<Image>uitextures/roles/grenade</Image>
+			<Armour>armour.basic</Armour>
+		<RightHand>weapon.pistol</RightHand>
+		
+		<BeltItem>
+			<Name>ammo.ballistic.pistol</Name>
+			<Point>0,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>ammo.ballistic.pistol</Name>
+			<Point>1,0</Point>
+		</BeltItem>
+		
+		<BeltItem>
+			<Name>weapon.grenade.frag</Name>
+			<Point>2,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.frag</Name>
+			<Point>2,1</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.frag</Name>
+			<Point>3,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.flashbang</Name>
+			<Point>3,1</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.flashbang</Name>
+			<Point>4,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.flashbang</Name>
+			<Point>4,1</Point>
+		</BeltItem>
+		
+		<BackpackItem>
+			<Name>weapon.grenade.frag</Name>
+			<Point>0,0</Point>
+		</BackpackItem>
+		<BackpackItem>
+			<Name>weapon.grenade.frag</Name>
+			<Point>1,0</Point>
+		</BackpackItem>
+		<BackpackItem>
+			<Name>weapon.grenade.frag</Name>
+			<Point>2,0</Point>
+		</BackpackItem>
+		<BackpackItem>
+			<Name>weapon.grenade.smoke</Name>
+			<Point>0,1</Point>
+		</BackpackItem>
+		<BackpackItem>
+			<Name>weapon.grenade.smoke</Name>
+			<Point>1,1</Point>
+		</BackpackItem>
+		<BackpackItem>
+			<Name>weapon.grenade.smoke</Name>
+			<Point>2,1</Point>
+		</BackpackItem>
+	</Loadout>
+	
+	<!-- Demolition Expert -->
+	
+	<Loadout>
+		<Name>SoldierRoles.Demolition</Name>
+		<Image>uitextures/roles/demolitions</Image>
+		<Armour>armour.basic</Armour>
+		<RightHand>weapon.shotgun</RightHand>
+		<BeltItem>
+			<Name>ammo.ballistic.shotgun</Name>
+			<Point>0,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>ammo.ballistic.shotgun</Name>
+			<Point>1,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.frag</Name>
+			<Point>2,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.grenade.frag</Name>
+			<Point>2,1</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.explosive.C4</Name>
+			<Point>3,0</Point>
+		</BeltItem>
+		<BeltItem>
+			<Name>weapon.explosive.C4</Name>
+			<Point>3,1</Point>
+		</BeltItem>
+		
+		<BackpackItem>
+			<Name>weapon.explosive.C4</Name>
+			<Point>0,0</Point>
+		</BackpackItem>
+		<BackpackItem>
+			<Name>weapon.explosive.C4</Name>
+			<Point>2,0</Point>
+		</BackpackItem>
+	</Loadout>
+	
+</Loadouts>

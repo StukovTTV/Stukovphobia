@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<spectre id="alienbase/props/screen_wall1_ne" width="1" height="1" version="1">
+    <state id="damaged" name="" pivotX="74" pivotY="155" pathScore="1" objectTypePreset="1" visibilityScore="1.000" bulletScore="0.500" orientation="4" sortPoint="0.700" hp="120" isCover="1" coverAnimName="lean" wallType="crushing" isVaultable="1" destructionSound="Brick Wall Window">
+        <image src="tiles/alienbase/props/screen_wall1_ne_damaged.png" />
+    </state>
+    <state id="default" name="" pivotX="74" pivotY="155" pathScore="1" objectTypePreset="1" visibilityScore="1.000" bulletScore="0.000" orientation="4" sortPoint="0.700" hp="10" isCover="1" coverAnimName="lean" wallType="crushing" destructionSound="Brick Wall Window">
+        <image src="tiles/alienbase/props/screen_wall1_ne.png" />
+    </state>
+    <state id="destroyed" name="" pivotX="74" pivotY="155" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="1.000" orientation="0" sortPoint="0.500" hp="0" wallType="none">
+        <image src="tiles/alienbase/props/screen_wall1_ne_destroyed.png" />
+    </state>
+</spectre>

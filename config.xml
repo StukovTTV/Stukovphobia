@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<Config>
+	<Shot MODMERGE="update">
+		<HeavyWeaponMovePenalty>0.35</HeavyWeaponMovePenalty>
+		<MinChance>3</MinChance>
+		<MaxChance>99</MaxChance>
+		<DamageRandomChance>13</DamageRandomChance>
+		<AimHighlightColor red="0.0" green="1.0" blue="0.0" />
+		<AlienWeaponAccuracyPenalty>0.5</AlienWeaponAccuracyPenalty>
+		<MinExplosiveDamageLevel>0.75</MinExplosiveDamageLevel>
+		<ArmourDegradation>10</ArmourDegradation>
+		<IncendiaryDamageBonusMul>5</IncendiaryDamageBonusMul>
+		<ArmourSuppressionPercentage>0.00001</ArmourSuppressionPercentage>
+		<SuppressBeyondRange>1</SuppressBeyondRange>
+		<proportionStunDamage>0.5</proportionStunDamage>
+		<ThrowingAccuracyUsesStrengthAndAim>1</ThrowingAccuracyUsesStrengthAndAim>
+		<ShortRangeHitBonusPerTile>10</ShortRangeHitBonusPerTile>
+		<ShortRangeHitBonusMinDistance>5.0</ShortRangeHitBonusMinDistance>
+		<KneelingBoost>30</KneelingBoost>
+		<ItemsGlobalHPLimit>201</ItemsGlobalHPLimit>		
+		<ReactionFireDoor normalOpenEasy="1" normalOpenNormal="1" normalOpenVeteran="1" normalOpenSuperhuman="1" largeOpenEasy="1" largeOpenNormal="1" largeOpenVeteran="1" largeOpenSuperhuman="1" aliensEasy="1" aliensNormal="1" aliensVeteran="1" aliensSuperhuman="1" />
+	</Shot>
+	
+   <CombatWindow MODMERGE="update">
+    <CanCloseNormalUFODoorOpenedInTurn>false</CanCloseNormalUFODoorOpenedInTurn>
+    <CanCloseLargeUFODoorOpenedInTurn>false</CanCloseLargeUFODoorOpenedInTurn>
+    <MeleeVehiclePriorityModifier>1.0</MeleeVehiclePriorityModifier>
+   </CombatWindow>
+
+	<LOS>
+		<FlareTurnCount>8</FlareTurnCount>
+	</LOS>
+
+	<Character MODMERGE="update">
+		<InterveningStoppingChance default="25" crouched="10" oneTileDistCrouched="10" shield="75" shieldCrouched="57" vehicle="90"/>
+		<BleedingWound damageAmount="5" chance="50" hpLossPerTurn="2" />
+		<RegenerateHPPercent>20</RegenerateHPPercent>
+		<PsionicBerserking fireAtUnitChance="10" />
+		<TargetCrouchingBonus default="30" oneTileDist="30" />
+	</Character>
+	
+	<AP>
+		<KneelingAP>10</KneelingAP>
+		<KneeledTurnAP>2</KneeledTurnAP>
+		<HandsFreeingAP>4</HandsFreeingAP>
+		<HandDragAP>4</HandDragAP>
+		<BackpackDragAP>10</BackpackDragAP>
+		<BeltDragAP>2</BeltDragAP>
+		<GroundDragAP>0</GroundDragAP>
+    </AP>
+
+	
+</Config>

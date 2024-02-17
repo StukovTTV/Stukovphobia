@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<spectre id="alienbase/sebillian_wall/wall_ne" width="1" height="1" version="1">
+    <state id="damaged" name="" pivotX="123" pivotY="132" pathScore="0" objectTypePreset="2" visibilityScore="0.000" bulletScore="0.000" orientation="2" sortPoint="0.300" hp="0" wallType="tall" destructionSound="Destruction Dirt">
+        <image src="tiles/alienbase/sebillian_wall/wall_ne_damaged.png" />
+    </state>
+    <state id="default" name="" pivotX="123" pivotY="132" pathScore="0" objectTypePreset="2" visibilityScore="0.000" bulletScore="0.000" orientation="2" sortPoint="0.300" hp="60" wallType="tall" destructionSound="Destruction Dirt">
+        <image src="tiles/alienbase/sebillian_wall/wall_ne.png" />
+    </state>
+    <state id="destroyed" name="" pivotX="123" pivotY="132" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="1.000" orientation="0" sortPoint="0.500" hp="0" wallType="none" />
+</spectre>

@@ -1,0 +1,4090 @@
+<?xml version="1.0"?>
+<Cities MODMERGE="update">
+
+
+<--! Soviet Union !-->
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Novosibirsk">
+    <Name>Novosibirsk</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>5980,0800</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Khabarovsk">
+    <Name>Khabarovsk</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>7174,0937</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Voronezh">
+    <Name>Voronezh</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>4951,0874</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Krasnoyarsk">
+    <Name>Krasnoyarsk</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>6210,0770</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Anadir">
+    <Name>Anadir</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>8140,0580</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Petropavlovsk-Kamchatskiy">
+    <Name>Petropavlovsk-Kamchatskiy</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>7705,0835</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Varna">
+    <Name>Varna</Name>
+    <Country>Bulgaria</Country>
+    <Population>3271110</Population>
+    <Location>4729,1060</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Sofia">
+    <Name>Sofia</Name>
+    <Country>Bulgaria</Country>
+    <Population>3271110</Population>
+    <Location>4622,1070</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tirana">
+    <Name>Tirana</Name>
+    <Country>Albania</Country>
+    <Population>3271110</Population>
+    <Location>4543,1107</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Belgrade">
+    <Name>Belgrade</Name>
+    <Country>Yugoslavia</Country>
+    <Population>3271110</Population>
+    <Location>4560,1025</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Sarajevo">
+    <Name>Sarajevo</Name>
+    <Country>Yugoslavia</Country>
+    <Population>3271110</Population>
+    <Location>4516,1047</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Zagreb">
+    <Name>Zagreb</Name>
+    <Country>Yugoslavia</Country>
+    <Population>3271110</Population>
+    <Location>4457,1004</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Bucharest">
+    <Name>Bucharest</Name>
+    <Country>Romania</Country>
+    <Population>3271110</Population>
+    <Location>4690,1035</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Cluj-Napoca">
+    <Name>Cluj-Napoca</Name>
+    <Country>Romania</Country>
+    <Population>3271110</Population>
+    <Location>4633,0980</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Chisinau">
+    <Name>Chisinau</Name>
+    <Country>Moldova</Country>
+    <Population>3271110</Population>
+    <Location>4748,0974</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Odesa">
+    <Name>Odesa</Name>
+    <Country>Ukraine</Country>
+    <Population>3271110</Population>
+    <Location>4795,0984</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Sevastopol">
+    <Name>Sevastopol</Name>
+    <Country>Ukraine</Country>
+    <Population>3271110</Population>
+    <Location>4858,1027</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Dnipro">
+    <Name>Dnipro</Name>
+    <Country>Ukraine</Country>
+    <Population>3271110</Population>
+    <Location>4894,0942</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Lviv">
+    <Name>Lviv</Name>
+    <Country>Ukraine</Country>
+    <Population>3271110</Population>
+    <Location>4657,0910</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Gdansk">
+    <Name>Gdansk</Name>
+    <Country>Poland</Country>
+    <Population>3271110</Population>
+    <Location>4520,0810</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Krakow">
+    <Name>Krakow</Name>
+    <Country>Poland</Country>
+    <Population>3271110</Population>
+    <Location>4551,0897</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Minsk">
+    <Name>Minsk</Name>
+    <Country>Belarus</Country>
+    <Population>3271110</Population>
+    <Location>4723,0819</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Vilnius">
+    <Name>Vilnius</Name>
+    <Country>Lithuania</Country>
+    <Population>3271110</Population>
+    <Location>4670,0802</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Riga">
+    <Name>Riga</Name>
+    <Country>Latvia</Country>
+    <Population>3271110</Population>
+    <Location>4644,0751</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tallinn">
+    <Name>Tallinn</Name>
+    <Country>Estonia</Country>
+    <Population>3271110</Population>
+    <Location>4658,0694</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Stalingrad">
+    <Name>Stalingrad</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>5109,0933</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Rostov-on-Don">
+    <Name>Rostov-on-Don</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>4995,0970</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Astrakhan">
+    <Name>Astrakhan</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>5189,0989</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Pskov">
+    <Name>Pskov</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>4738,0732</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Smolensk">
+    <Name>Smolensk</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>4832,0806</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Arkhangelsk">
+    <Name>Arkhangelsk</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>5022,0580</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kazan">
+    <Name>Kazan</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>5213,0774</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Perm">
+    <Name>Perm</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>5374,0716</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Chelyabinsk">
+    <Name>Chelyabinsk</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>5491,0789</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Omsk">
+    <Name>Omsk</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>5760,0790</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Irkutsk">
+    <Name>Irkutsk</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>6448,0836</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Almaty">
+    <Name>Almaty</Name>
+    <Country>Kazakhstan</Country>
+    <Population>3271110</Population>
+    <Location>5837,1060</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Bishkek">
+    <Name>Bishkek</Name>
+    <Country>Kyrgyzstan</Country>
+    <Population>3271110</Population>
+    <Location>5780,1072</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Astana">
+    <Name>Astana</Name>
+    <Country>Kazakhstan</Country>
+    <Population>3271110</Population>
+    <Location>5721,0882</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Ashgabat">
+    <Name>Ashgabat</Name>
+    <Country>Turkmenistan</Country>
+    <Population>3271110</Population>
+    <Location>5422,1181</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Urgench">
+    <Name>Urgench</Name>
+    <Country>Uzbekistan</Country>
+    <Population>3271110</Population>
+    <Location>5472,1097</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tashkent">
+    <Name>Tashkent</Name>
+    <Country>Uzbekistan</Country>
+    <Population>3271110</Population>
+    <Location>5674,1103</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Samarkand">
+    <Name>Samarkand</Name>
+    <Country>Uzbekistan</Country>
+    <Population>3271110</Population>
+    <Location>5620,1141</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Dushanbe">
+    <Name>Dushanbe</Name>
+    <Country>Tajikistan</Country>
+    <Population>3271110</Population>
+    <Location>5677,1165</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Mary">
+    <Name>Mary</Name>
+    <Country>Turkmenistan</Country>
+    <Population>3271110</Population>
+    <Location>5500,1187</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Yerevan">
+    <Name>Yerevan</Name>
+    <Country>Armenia</Country>
+    <Population>3271110</Population>
+    <Location>5109,1129</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tbilisi">
+    <Name>Tbilisi</Name>
+    <Country>Georgia</Country>
+    <Population>3271110</Population>
+    <Location>5110,1093</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Grozny">
+    <Name>Grozny</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>5146,1056</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+
+
+<--! Indochina !-->
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Shanghai">
+    <Name>Shanghai</Name>
+    <Country>China</Country>
+    <Population>3271110</Population>
+    <Location>6870,1325</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Jodhpur">
+    <Name>Jodhpur</Name>
+    <Country>India</Country>
+    <Population>3271110</Population>
+    <Location>5748,1454</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Urumchi">
+    <Name>Urumchi</Name>
+    <Country>China</Country>
+    <Population>3271110</Population>
+    <Location>6085,1052</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Pyongyang">
+    <Name>Pyongyang</Name>
+    <Country>North Korea</Country>
+    <Population>3271110</Population>
+    <Location>6955,1155</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Samarinda">
+    <Name>Samarinda</Name>
+    <Country>Indonesia</Country>
+    <Population>3271110</Population>
+    <Location>6760,2055</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Colombo">
+    <Name>Colombo</Name>
+    <Country>Sri Lanka</Country>
+    <Population>3271110</Population>
+    <Location>5915,1880</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+
+<--! North America !-->
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Denver">
+    <Name>Denver</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>1702,1132</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Jacksonville">
+    <Name>Jacksonville</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>2237,1355</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Minneapolis">
+    <Name>Minneapolis</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>1971,1021</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Edmonton">
+    <Name>Edmonton</Name>
+    <Country>Canada</Country>
+    <Population>3271110</Population>
+    <Location>1511,0826</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Calgary">
+    <Name>Calgary</Name>
+    <Country>Canada</Country>
+    <Population>3271110</Population>
+    <Location>1494,0881</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Winnipeg">
+    <Name>Winnipeg</Name>
+    <Country>Canada</Country>
+    <Population>3271110</Population>
+    <Location>1883,0910</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Toronto">
+    <Name>Toronto</Name>
+    <Country>Canada</Country>
+    <Population>3271110</Population>
+    <Location>2283,1048</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Montreal">
+    <Name>Montreal</Name>
+    <Country>Canada</Country>
+    <Population>3271110</Population>
+    <Location>2423,1000</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Halifax">
+    <Name>Halifax</Name>
+    <Country>Canada</Country>
+    <Population>3271110</Population>
+    <Location>2648,1027</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="St Johns">
+    <Name>St Johns</Name>
+    <Country>Canada</Country>
+    <Population>3271110</Population>
+    <Location>2894,0964</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Victoria">
+    <Name>Victoria</Name>
+    <Country>Canada</Country>
+    <Population>3271110</Population>
+    <Location>1281,0942</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Saskatoon">
+    <Name>Saskatoon</Name>
+    <Country>Canada</Country>
+    <Population>3271110</Population>
+    <Location>1668,0857</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Boston">
+    <Name>Boston</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>2476,1081</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Detroit">
+    <Name>Detroit</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>2202,1083</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Philadelphia">
+    <Name>Philadelphia</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>2381,1134</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Portland">
+    <Name>Portland</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>1302,1012</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Pittsburgh">
+    <Name>Pittsburgh</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>2271,1124</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="San Francisco">
+    <Name>San Francisco</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>1296,1176</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="St Louis">
+    <Name>St Louis</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>2040,1170</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kansas City">
+    <Name>Kansas City</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>1940,1156</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Atlanta">
+    <Name>Atlanta</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>2172,1275</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="New Orleans">
+    <Name>New Orleans</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>2043,1363</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Memphis">
+    <Name>Memphis</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>2046,1247</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Albuquerque">
+    <Name>Albuquerque</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>1667,1247</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Dallas">
+    <Name>Dallas</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>1891,1304</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Las Vegas">
+    <Name>Las Vegas</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>1476,1227</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Salt Lake City">
+    <Name>Salt Lake City</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>1542,1114</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Pheonix">
+    <Name>Pheonix</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>1546,1272</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Cincinnati">
+    <Name>Cincinnati</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>2170,1154</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Charlotte">
+    <Name>Charlotte</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>2298,1229</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<--! Central America !-->
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tijuana">
+    <Name>Tijuana</Name>
+    <Country>Mexico</Country>
+    <Population>3271110</Population>
+    <Location>1452,1332</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Durango">
+    <Name>Durango</Name>
+    <Country>Mexico</Country>
+    <Population>3271110</Population>
+    <Location>1701,1489</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Cali">
+    <Name>Cali</Name>
+    <Country>Colombia</Country>
+    <Population>3271110</Population>
+    <Location>2347,1975</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Monterrey">
+    <Name>Monterrey</Name>
+    <Country>Mexico</Country>
+    <Population>3271110</Population>
+    <Location>1809,1447</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Guadalajara">
+    <Name>Guadalajara</Name>
+    <Country>Mexico</Country>
+    <Population>3271110</Population>
+    <Location>1740,1574</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Hermosillo">
+    <Name>Hermosillo</Name>
+    <Country>Mexico</Country>
+    <Population>3271110</Population>
+    <Location>1574,1383</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tampico">
+    <Name>Tampico</Name>
+    <Country>Mexico</Country>
+    <Population>3271110</Population>
+    <Location>1868,1541</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Oaxaca">
+    <Name>Oaxaca</Name>
+    <Country>Mexico</Country>
+    <Population>3271110</Population>
+    <Location>1887,1651</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Merida">
+    <Name>Merida</Name>
+    <Country>Mexico</Country>
+    <Population>3271110</Population>
+    <Location>2056,1568</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kingston">
+    <Name>Kingston</Name>
+    <Country>Jamaica</Country>
+    <Population>3271110</Population>
+    <Location>2347,1632</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Port-au-Prince">
+    <Name>Port-au-Prince</Name>
+    <Country>Haiti</Country>
+    <Population>3271110</Population>
+    <Location>2451,1620</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="San Juan">
+    <Name>San Juan</Name>
+    <Country>Puerto Rico</Country>
+    <Population>3271110</Population>
+    <Location>2588,1627</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Cartagena">
+    <Name>Cartagena</Name>
+    <Country>Colombia</Country>
+    <Population>3271110</Population>
+    <Location>2375,1813</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Maracaibo">
+    <Name>Maracaibo</Name>
+    <Country>Venezuela</Country>
+    <Population>3271110</Population>
+    <Location>2460,1804</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Guayana City">
+    <Name>Guayana City</Name>
+    <Country>Venezuela</Country>
+    <Population>3271110</Population>
+    <Location>2665,1854</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<--! South America !-->
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Manaus">
+    <Name>Manaus</Name>
+    <Country>Brazil</Country>
+    <Population>3271110</Population>
+    <Location>2730,2120</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Chichayo">
+    <Name>Chichayo</Name>
+    <Country>Peru</Country>
+    <Population>3271110</Population>
+    <Location>2264,2199</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Riberalta">
+    <Name>Riberalta</Name>
+    <Country>Bolivia</Country>
+    <Population>3271110</Population>
+    <Location>2641,2243</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Cuiaba">
+    <Name>Cuiaba</Name>
+    <Country>Brazil</Country>
+    <Population>3271110</Population>
+    <Location>2812,2406</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Santa Cruz de la Sierra">
+    <Name>Santa Cruz de la Sierra</Name>
+    <Country>Bolivia</Country>
+    <Population>3271110</Population>
+    <Location>2661,2457</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Punta Arenas">
+    <Name>Punta Arenas</Name>
+    <Country>Chile</Country>
+    <Population>3271110</Population>
+    <Location>2475,3260</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Iquitos">
+    <Name>Iquitos</Name>
+    <Country>Peru</Country>
+    <Population>3271110</Population>
+    <Location>2424,2134</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Cusco">
+    <Name>Cusco</Name>
+    <Country>Peru</Country>
+    <Population>3271110</Population>
+    <Location>2452,2358</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Sucre">
+    <Name>Sucre</Name>
+    <Country>Bolivia</Country>
+    <Population>3271110</Population>
+    <Location>2608,2479</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Antofagasta">
+    <Name>Antofagasta</Name>
+    <Country>Chile</Country>
+    <Population>3271110</Population>
+    <Location>2494,2580</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Mendoza">
+    <Name>Mendoza</Name>
+    <Country>Argentina</Country>
+    <Population>3271110</Population>
+    <Location>2528,2784</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Salta">
+    <Name>Salta</Name>
+    <Country>Chile</Country>
+    <Population>3271110</Population>
+    <Location>2626,2564</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Concepcion">
+    <Name>Concepcion</Name>
+    <Country>Chile</Country>
+    <Population>3271110</Population>
+    <Location>2432,2882</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Bahia Blanca">
+    <Name>Bahia Blanca</Name>
+    <Country>Argentina</Country>
+    <Population>3271110</Population>
+    <Location>2681,2933</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Cordoba">
+    <Name>Cordoba</Name>
+    <Country>Argentina</Country>
+    <Population>3271110</Population>
+    <Location>2634,2756</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Comodoro Rivadavia">
+    <Name>Comodoro Rivadavia</Name>
+    <Country>Argentina</Country>
+    <Population>3271110</Population>
+    <Location>2558,3086</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Porto Alegre">
+    <Name>Porto Alegre</Name>
+    <Country>Brazil</Country>
+    <Population>3271110</Population>
+    <Location>2924,2752</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Belem">
+    <Name>Belem</Name>
+    <Country>Brazil</Country>
+    <Population>3271110</Population>
+    <Location>2990,2077</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Recife">
+    <Name>Recife</Name>
+    <Country>Brazil</Country>
+    <Population>3271110</Population>
+    <Location>3299,2212</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Salvador">
+    <Name>Salvador</Name>
+    <Country>Brazil</Country>
+    <Population>3271110</Population>
+    <Location>3220,2337</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Belo Horizonte">
+    <Name>Belo Horizonte</Name>
+    <Country>Brazil</Country>
+    <Population>3271110</Population>
+    <Location>3091,2499</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Sao Paulo">
+    <Name>Sao Paulo</Name>
+    <Country>Brazil</Country>
+    <Population>3271110</Population>
+    <Location>3036,2583</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<--! Southern Africa !-->
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Addis Ababa">
+    <Name>Addis Ababa</Name>
+    <Country>Ethiopia</Country>
+    <Population>3271110</Population>
+    <Location>4970,1840</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<--! Europe !-->
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Manchester">
+    <Name>Manchester</Name>
+    <Country>England</Country>
+    <Population>3271110</Population>
+    <Location>4036,0827</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Cardiff">
+    <Name>Cardiff</Name>
+    <Country>Wales</Country>
+    <Population>3271110</Population>
+    <Location>4027,0868</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Nantes">
+    <Name>Nantes</Name>
+    <Country>France</Country>
+    <Population>3271110</Population>
+    <Location>4060,0971</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Lyon">
+    <Name>Lyon</Name>
+    <Country>France</Country>
+    <Population>3271110</Population>
+    <Location>4207,1005</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Bordeaux">
+    <Name>Bordeaux</Name>
+    <Country>France</Country>
+    <Population>3271110</Population>
+    <Location>4080,1024</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Marseille">
+    <Name>Marseille</Name>
+    <Country>France</Country>
+    <Population>3271110</Population>
+    <Location>4218,1060</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Bilbao">
+    <Name>Bilbao</Name>
+    <Country>Spain</Country>
+    <Population>3271110</Population>
+    <Location>4029,1065</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Valencia">
+    <Name>Valencia</Name>
+    <Country>Spain</Country>
+    <Population>3271110</Population>
+    <Location>4083,1148</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Seville">
+    <Name>Seville</Name>
+    <Country>Spain</Country>
+    <Population>3271110</Population>
+    <Location>3959,1194</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Porto">
+    <Name>Porto</Name>
+    <Country>Portugal</Country>
+    <Population>3271110</Population>
+    <Location>3900,1109</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Zurich">
+    <Name>Zurich</Name>
+    <Country>Switzerland</Country>
+    <Population>3271110</Population>
+    <Location>4290,0965</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Amsterdam">
+    <Name>Amsterdam</Name>
+    <Country>Netherlands</Country>
+    <Population>3271110</Population>
+    <Location>4211,0854</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Brussels">
+    <Name>Brussels</Name>
+    <Country>Belgium</Country>
+    <Population>3271110</Population>
+    <Location>4200,0889</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Munich">
+    <Name>Munich</Name>
+    <Country>West Germany</Country>
+    <Population>3271110</Population>
+    <Location>4352,0953</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Frankfurt">
+    <Name>Frankfurt</Name>
+    <Country>West Germany</Country>
+    <Population>3271110</Population>
+    <Location>4287,0911</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Hamburg">
+    <Name>Hamburg</Name>
+    <Country>West Germany</Country>
+    <Population>3271110</Population>
+    <Location>4314,0827</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Oulu">
+    <Name>Oulu</Name>
+    <Country>Finland</Country>
+    <Population>3271110</Population>
+    <Location>4676,0566</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Aarhus">
+    <Name>Aarhus</Name>
+    <Country>Denmark</Country>
+    <Population>3271110</Population>
+    <Location>4325,0765</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Gothenburg">
+    <Name>Gothenburg</Name>
+    <Country>Sweden</Country>
+    <Population>3271110</Population>
+    <Location>4366,0732</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Bergen">
+    <Name>Bergen</Name>
+    <Country>Norway</Country>
+    <Population>3271110</Population>
+    <Location>4221,0667</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Cagliari">
+    <Name>Cagliari</Name>
+    <Country>Italy</Country>
+    <Population>3271110</Population>
+    <Location>4299,1151</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Milan">
+    <Name>Milan</Name>
+    <Country>Italy</Country>
+    <Population>3271110</Population>
+    <Location>4302,1010</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Venice">
+    <Name>Venice</Name>
+    <Country>Italy</Country>
+    <Population>3271110</Population>
+    <Location>4377,1010</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Florence">
+    <Name>Florence</Name>
+    <Country>Italy</Country>
+    <Population>3271110</Population>
+    <Location>4355,1053</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Palermo">
+    <Name>Palermo</Name>
+    <Country>Italy</Country>
+    <Population>3271110</Population>
+    <Location>4400,1182</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Naples">
+    <Name>Naples</Name>
+    <Country>Italy</Country>
+    <Population>3271110</Population>
+    <Location>4416,1114</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Belfast">
+    <Name>Belfast</Name>
+    <Country>Northern Ireland</Country>
+    <Population>3271110</Population>
+    <Location>3959,0803</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<--! Middle East !-->
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Thessaloniki">
+    <Name>Thessaloniki</Name>
+    <Country>Greece</Country>
+    <Population>3271110</Population>
+    <Location>4616,1121</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Heraklion">
+    <Name>Heraklion</Name>
+    <Country>Greece</Country>
+    <Population>3271110</Population>
+    <Location>4662,1241</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Nicosia">
+    <Name>Nicosia</Name>
+    <Country>Cyprus</Country>
+    <Population>3271110</Population>
+    <Location>4848,1247</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Antalya">
+    <Name>Antalya</Name>
+    <Country>Turkey</Country>
+    <Population>3271110</Population>
+    <Location>4795,1203</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Izmir">
+    <Name>Izmir</Name>
+    <Country>Turkey</Country>
+    <Population>3271110</Population>
+    <Location>4711,1170</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Ioannina">
+    <Name>Ioannina</Name>
+    <Country>Greece</Country>
+    <Population>3271110</Population>
+    <Location>4562,1141</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Edirne">
+    <Name>Edirne</Name>
+    <Country>Turkey</Country>
+    <Population>3271110</Population>
+    <Location>4695,1097</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Ankara">
+    <Name>Ankara</Name>
+    <Country>Turkey</Country>
+    <Population>3271110</Population>
+    <Location>4841,1138</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Adana">
+    <Name>Adana</Name>
+    <Country>Turkey</Country>
+    <Population>3271110</Population>
+    <Location>4900,1201</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Diyarbakir">
+    <Name>Diyarbakir</Name>
+    <Country>Turkey</Country>
+    <Population>3271110</Population>
+    <Location>5008,1178</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Trabzon">
+    <Name>Trabzon</Name>
+    <Country>Turkey</Country>
+    <Population>3271110</Population>
+    <Location>4997,1114</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Izmir">
+    <Name>Izmir</Name>
+    <Country>Turkey</Country>
+    <Population>3271110</Population>
+    <Location>4711,1170</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Beirut">
+    <Name>Beirut</Name>
+    <Country>Lebanon</Country>
+    <Population>3271110</Population>
+    <Location>4903,1277</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Aleppo">
+    <Name>Aleppo</Name>
+    <Country>Syria</Country>
+    <Population>3271110</Population>
+    <Location>4939,1218</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Damascus">
+    <Name>Damascus</Name>
+    <Country>Syria</Country>
+    <Population>3271110</Population>
+    <Location>4914,1288</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Deir-ez-Zur">
+    <Name>Deir-ez-Zur</Name>
+    <Country>Syria</Country>
+    <Population>3271110</Population>
+    <Location>5003,1238</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Amman">
+    <Name>Amman</Name>
+    <Country>Jordan</Country>
+    <Population>3271110</Population>
+    <Location>4917,1328</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Mosul">
+    <Name>Mosul</Name>
+    <Country>Iraq</Country>
+    <Population>3271110</Population>
+    <Location>5078,1222</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Basra">
+    <Name>Basra</Name>
+    <Country>Iraq</Country>
+    <Population>3271110</Population>
+    <Location>5181,1350</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kuwait City">
+    <Name>Kuwait City</Name>
+    <Country>Kuwait</Country>
+    <Population>3271110</Population>
+    <Location>5188,1378</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tabuk">
+    <Name>Tabuk</Name>
+    <Country>Saudi Arabia</Country>
+    <Population>3271110</Population>
+    <Location>4928,1397</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Medina">
+    <Name>Medina</Name>
+    <Country>Saudi Arabia</Country>
+    <Population>3271110</Population>
+    <Location>4990,1483</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Jeddah">
+    <Name>Jeddah</Name>
+    <Country>Saudi Arabia</Country>
+    <Population>3271110</Population>
+    <Location>4989,1557</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Riyadh">
+    <Name>Riyadh</Name>
+    <Country>Saudi Arabia</Country>
+    <Population>3271110</Population>
+    <Location>5158,1485</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Dammam">
+    <Name>Dammam</Name>
+    <Country>Saudi Arabia</Country>
+    <Population>3271110</Population>
+    <Location>5231,1443</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Sana'a">
+    <Name>Sana'a</Name>
+    <Country>Yemen</Country>
+    <Population>3271110</Population>
+    <Location>5103,1693</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Aden">
+    <Name>Aden</Name>
+    <Country>Yemen</Country>
+    <Population>3271110</Population>
+    <Location>5117,1751</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Salalah">
+    <Name>Salalah</Name>
+    <Country>Oman</Country>
+    <Population>3271110</Population>
+    <Location>5323,1657</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Muscat">
+    <Name>Muscat</Name>
+    <Country>Oman</Country>
+    <Population>3271110</Population>
+    <Location>5419,1510</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Doha">
+    <Name>Doha</Name>
+    <Country>Qatar</Country>
+    <Population>3271110</Population>
+    <Location>5268,1471</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tabriz">
+    <Name>Tabriz</Name>
+    <Country>Iran</Country>
+    <Population>3271110</Population>
+    <Location>5146,1186</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Isfahan">
+    <Name>Isfahan</Name>
+    <Country>Iran</Country>
+    <Population>3271110</Population>
+    <Location>5277,1318</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Shiraz">
+    <Name>Shiraz</Name>
+    <Country>Iran</Country>
+    <Population>3271110</Population>
+    <Location>5292,1375</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kerman">
+    <Name>Kerman</Name>
+    <Country>Iran</Country>
+    <Population>3271110</Population>
+    <Location>5393,1360</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Hamedan">
+    <Name>Hamedan</Name>
+    <Country>Iran</Country>
+    <Population>3271110</Population>
+    <Location>5210,1293</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<--! Indochina !-->
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Karachi">
+    <Name>Karachi</Name>
+    <Country>Pakistan</Country>
+    <Population>3271110</Population>
+    <Location>5624,1478</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Lahore">
+    <Name>Lahore</Name>
+    <Country>Pakistan</Country>
+    <Population>3271110</Population>
+    <Location>5784,1333</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kandahar">
+    <Name>Kandahar</Name>
+    <Country>Afghanistan</Country>
+    <Population>3271110</Population>
+    <Location>5592,1328</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Herat">
+    <Name>Herat</Name>
+    <Country>Afghanistan</Country>
+    <Population>3271110</Population>
+    <Location>5503,1268</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Mangalore">
+    <Name>Mangalore</Name>
+    <Country>India</Country>
+    <Population>3271110</Population>
+    <Location>5794,1747</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Madurai">
+    <Name>Madurai</Name>
+    <Country>India</Country>
+    <Population>3271110</Population>
+    <Location>5870,1815</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Chennai">
+    <Name>Chennai</Name>
+    <Country>India</Country>
+    <Population>3271110</Population>
+    <Location>5917,1735</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Patna">
+    <Name>Patna</Name>
+    <Country>India</Country>
+    <Population>3271110</Population>
+    <Location>6020,1464</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Hyderabad">
+    <Name>Hyderabad</Name>
+    <Country>India</Country>
+    <Population>3271110</Population>
+    <Location>5892,1648</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kolkata">
+    <Name>Kolkata</Name>
+    <Country>India</Country>
+    <Population>3271110</Population>
+    <Location>6096,1531</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kathmandu">
+    <Name>Kathmandu</Name>
+    <Country>Nepal</Country>
+    <Population>3271110</Population>
+    <Location>6013,1411</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Thimphu">
+    <Name>Thimphu</Name>
+    <Country>Bhutan</Country>
+    <Population>3271110</Population>
+    <Location>6135,1418</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Guwahati">
+    <Name>Guwahati</Name>
+    <Country>India</Country>
+    <Population>3271110</Population>
+    <Location>6175,1448</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Nagpur">
+    <Name>Nagpur</Name>
+    <Country>India</Country>
+    <Population>3271110</Population>
+    <Location>5907,1547</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kashgar">
+    <Name>Kashgar</Name>
+    <Country>China</Country>
+    <Population>3271110</Population>
+    <Location>5830,1154</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Lhasa">
+    <Name>Lhasa</Name>
+    <Country>China</Country>
+    <Population>3271110</Population>
+    <Location>6162,1363</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Dunhuang">
+    <Name>Dunhuang</Name>
+    <Country>China</Country>
+    <Population>3271110</Population>
+    <Location>6249,1131</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Chengdu">
+    <Name>Chengdu</Name>
+    <Country>China</Country>
+    <Population>3271110</Population>
+    <Location>6464,1344</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kunming">
+    <Name>Kunming</Name>
+    <Country>China</Country>
+    <Population>3271110</Population>
+    <Location>6436,1484</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Xi'an">
+    <Name>Xi'an</Name>
+    <Country>China</Country>
+    <Population>3271110</Population>
+    <Location>6573,1262</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Haikou">
+    <Name>Haikou</Name>
+    <Country>China</Country>
+    <Population>3271110</Population>
+    <Location>6603,1591</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Fuzhou">
+    <Name>Fuzhou</Name>
+    <Country>China</Country>
+    <Population>3271110</Population>
+    <Location>6809,1455</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Wuhan">
+    <Name>Wuhan</Name>
+    <Country>China</Country>
+    <Population>3271110</Population>
+    <Location>6688,1353</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Guangzhou">
+    <Name>Guangzhou</Name>
+    <Country>China</Country>
+    <Population>3271110</Population>
+    <Location>6684,1521</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Nanjing">
+    <Name>Nanjing</Name>
+    <Country>China</Country>
+    <Population>3271110</Population>
+    <Location>6791,1317</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Qingdao">
+    <Name>Qingdao</Name>
+    <Country>China</Country>
+    <Population>3271110</Population>
+    <Location>6843,1213</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Dalian">
+    <Name>Dalian</Name>
+    <Country>China</Country>
+    <Population>3271110</Population>
+    <Location>6862,1160</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Harbin">
+    <Name>Harbin</Name>
+    <Country>China</Country>
+    <Population>6977,1003</Population>
+    <Location>6977,1003</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Busan">
+    <Name>Busan</Name>
+    <Country>South Korea</Country>
+    <Population>3271110</Population>
+    <Location>7029,1246</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Fukuoka">
+    <Name>Fukuoka</Name>
+    <Country>Japan</Country>
+    <Population>3271110</Population>
+    <Location>7068,1278</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Osaka">
+    <Name>Osaka</Name>
+    <Country>Japan</Country>
+    <Population>3271110</Population>
+    <Location>7178,1257</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Sendai">
+    <Name>Sendai</Name>
+    <Country>Japan</Country>
+    <Population>3271110</Population>
+    <Location>7297,1179</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Sapporo">
+    <Name>Sapporo</Name>
+    <Country>Japan</Country>
+    <Population>3271110</Population>
+    <Location>7311,1063</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Cebu">
+    <Name>Cebu</Name>
+    <Country>Philippines</Country>
+    <Population>3271110</Population>
+    <Location>6912,1810</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Davao">
+    <Name>Davao</Name>
+    <Country>Philippines</Country>
+    <Population>3271110</Population>
+    <Location>6950,1881</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Mandalay">
+    <Name>Mandalay</Name>
+    <Country>Burma</Country>
+    <Population>3271110</Population>
+    <Location>6279,1545</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Rangoon">
+    <Name>Rangoon</Name>
+    <Country>Burma</Country>
+    <Population>3271110</Population>
+    <Location>6285,1672</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Chiang Mai">
+    <Name>Chiang Mai</Name>
+    <Country>Thailand</Country>
+    <Population>3271110</Population>
+    <Location>6346,1619</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Phuket">
+    <Name>Phuket</Name>
+    <Country>Thailand</Country>
+    <Population>3271110</Population>
+    <Location>6332,1863</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Vientiane">
+    <Name>Vientiane</Name>
+    <Country>Laos</Country>
+    <Population>3271110</Population>
+    <Location>6428,1635</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Hanoi">
+    <Name>Hanoi</Name>
+    <Country>Vietnam</Country>
+    <Population>3271110</Population>
+    <Location>6495,1565</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Da Nang">
+    <Name>Da Nang</Name>
+    <Country>Vietnam</Country>
+    <Population>3271110</Population>
+    <Location>6553,1682</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Ho Chi Minh City">
+    <Name>Ho Chi Minh City</Name>
+    <Country>Vietnam</Country>
+    <Population>3271110</Population>
+    <Location>6521,1799</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Phnom Penh">
+    <Name>Phnom Penh</Name>
+    <Country>Cambodia</Country>
+    <Population>3271110</Population>
+    <Location>6482,1772</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Penang">
+    <Name>Penang</Name>
+    <Country>Malaysia</Country>
+    <Population>3271110</Population>
+    <Location>6373,1924</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Padang">
+    <Name>Padang</Name>
+    <Country>Indonesia</Country>
+    <Population>3271110</Population>
+    <Location>6382,2067</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kuching">
+    <Name>Kuching</Name>
+    <Country>Malaysia</Country>
+    <Population>3271110</Population>
+    <Location>6602,2012</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Bander Seri Begawan">
+    <Name>Bander Seri Begawan</Name>
+    <Country>Brunei</Country>
+    <Population>3271110</Population>
+    <Location>6713,1936</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Palembang">
+    <Name>Palembang</Name>
+    <Country>Indonesia</Country>
+    <Population>3271110</Population>
+    <Location>6497,2114</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Surabaya">
+    <Name>Surabaya</Name>
+    <Country>Indonesia</Country>
+    <Population>3271110</Population>
+    <Location>6660,2212</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Makassar">
+    <Name>Makassar</Name>
+    <Country>Indonesia</Country>
+    <Population>3271110</Population>
+    <Location>6814,2163</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Ternate">
+    <Name>Ternate</Name>
+    <Country>Indonesia</Country>
+    <Population>3271110</Population>
+    <Location>6997,2029</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Nagpur">
+    <Name>Nagpur</Name>
+    <Country>India</Country>
+    <Population>3271110</Population>
+    <Location>5907,1547</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<--! Australasia !-->
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Jayapura">
+    <Name>Jayapura</Name>
+    <Country>Indonesia</Country>
+    <Population>3271110</Population>
+    <Location>7299,2109</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Honiara">
+    <Name>Honiara</Name>
+    <Country>Soloman Islands</Country>
+    <Population>3271110</Population>
+    <Location>7740,2261</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Hobart">
+    <Name>Hobart</Name>
+    <Country>Australia</Country>
+    <Population>3271110</Population>
+    <Location>7447,3017</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Darwin">
+    <Name>Darwin</Name>
+    <Country>Australia</Country>
+    <Population>3271110</Population>
+    <Location>7072,2330</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Cairns">
+    <Name>Cairns</Name>
+    <Country>Australia</Country>
+    <Population>3271110</Population>
+    <Location>7410,2432</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Alice Springs">
+    <Name>Alice Springs</Name>
+    <Country>Australia</Country>
+    <Population>3271110</Population>
+    <Location>7144,2584</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<--! North Africa !-->
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tobruk">
+    <Name>Tobruk</Name>
+    <Country>Libya</Country>
+    <Population>3271110</Population>
+    <Location>4638,1317</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Banjul">
+    <Name>Banjul</Name>
+    <Country>Gambia</Country>
+    <Population>3271110</Population>
+    <Location>3719,1740</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tambacounda">
+    <Name>Tambacounda</Name>
+    <Country>Senegal</Country>
+    <Population>3271110</Population>
+    <Location>3842,1726</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Korhogo">
+    <Name>Korhogo</Name>
+    <Country>Cote d'Ivoire</Country>
+    <Population>3271110</Population>
+    <Location>3969,1829</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Garoua">
+    <Name>Garoua</Name>
+    <Country>Cameroon</Country>
+    <Population>3271110</Population>
+    <Location>4411,1844</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Parakou">
+    <Name>Parakou</Name>
+    <Country>Benin</Country>
+    <Population>3271110</Population>
+    <Location>4152,1833</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Maidugun">
+    <Name>Maidugun</Name>
+    <Country>Nigeria</Country>
+    <Population>3271110</Population>
+    <Location>4391,1776</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tobruk">
+    <Name>Tobruk</Name>
+    <Country>Libya</Country>
+    <Population>3271110</Population>
+    <Location>4638,1317</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Alexandria">
+    <Name>Alexandria</Name>
+    <Country>Egypt</Country>
+    <Population>3271110</Population>
+    <Location>4776,1336</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Benghazi">
+    <Name>Benghazi</Name>
+    <Country>Libya</Country>
+    <Population>4553,1316</Population>
+    <Location>4553,1316</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Asyut">
+    <Name>Asyut</Name>
+    <Country>Egypt</Country>
+    <Population>3271110</Population>
+    <Location>4804,1427</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Aswan">
+    <Name>Aswan</Name>
+    <Country>Egypt</Country>
+    <Population>3271110</Population>
+    <Location>4840,1500</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Sabha">
+    <Name>Sabha</Name>
+    <Country>Libya</Country>
+    <Population>3271110</Population>
+    <Location>4420,1431</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Siwa">
+    <Name>Siwa</Name>
+    <Country>Egypt</Country>
+    <Population>3271110</Population>
+    <Location>4684,1381</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tunis">
+    <Name>Tunis</Name>
+    <Country>Tunisia</Country>
+    <Population>3271110</Population>
+    <Location>4325,1210</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Constantine">
+    <Name>Constantine</Name>
+    <Country>Algiers</Country>
+    <Population>3271110</Population>
+    <Location>4250,1225</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Sfax">
+    <Name>Sfax</Name>
+    <Country>Tunisia</Country>
+    <Population>3271110</Population>
+    <Location>4334,1256</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Oran">
+    <Name>Oran</Name>
+    <Country>Algeria</Country>
+    <Population>3271110</Population>
+    <Location>4078,1237</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Touggourt">
+    <Name>Touggourt</Name>
+    <Country>Algeria</Country>
+    <Population>3271110</Population>
+    <Location>4232,1294</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tangier">
+    <Name>Tangier</Name>
+    <Country>Morocco</Country>
+    <Population>3271110</Population>
+    <Location>3960,1232</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Marrakesh">
+    <Name>Marrakesh</Name>
+    <Country>Morocco</Country>
+    <Population>3271110</Population>
+    <Location>3921,1318</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Laayoune">
+    <Name>Laayoune</Name>
+    <Country>Morocco</Country>
+    <Population>3271110</Population>
+    <Location>3796,1427</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tamanrasset">
+    <Name>Tamanrasset</Name>
+    <Country>Algeria</Country>
+    <Population>3271110</Population>
+    <Location>4222,1525</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Nouakchott">
+    <Name>Nouakchott</Name>
+    <Country>Mauritania</Country>
+    <Population>3271110</Population>
+    <Location>3733,1633</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Bissau">
+    <Name>Bissau</Name>
+    <Country>Guinea-Bissau</Country>
+    <Population>3271110</Population>
+    <Location>3737,1782</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Conakry">
+    <Name>Conakry</Name>
+    <Country>Guinea</Country>
+    <Population>3271110</Population>
+    <Location>3782,1828</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Bamako">
+    <Name>Bamako</Name>
+    <Country>Mali</Country>
+    <Population>3271110</Population>
+    <Location>3915,1761</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Freetown">
+    <Name>Freetown</Name>
+    <Country>Sierra Leone</Country>
+    <Population>3271110</Population>
+    <Location>3798,1864</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Monrovia">
+    <Name>Monrovia</Name>
+    <Country>Liberia</Country>
+    <Population>3271110</Population>
+    <Location>3851,1901</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Djenne">
+    <Name>Djenne</Name>
+    <Country>Mali</Country>
+    <Population>3271110</Population>
+    <Location>3995,1725</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kiffa">
+    <Name>Kiffa</Name>
+    <Country>Mauritania</Country>
+    <Population>3271110</Population>
+    <Location>3833,1655</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Abidjan">
+    <Name>Abidjan</Name>
+    <Country>Cote d'Ivoire</Country>
+    <Population>3271110</Population>
+    <Location>4002,1930</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kumasi">
+    <Name>Kumasi</Name>
+    <Country>Ghana</Country>
+    <Population>3271110</Population>
+    <Location>4055,1892</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Accra">
+    <Name>Accra</Name>
+    <Country>Ghana</Country>
+    <Population>3271110</Population>
+    <Location>4088,1916</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Ouagadougou">
+    <Name>Ouagadougou</Name>
+    <Country>Burkina Faso</Country>
+    <Population>3271110</Population>
+    <Location>4067,1749</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Niamey">
+    <Name>Niamey</Name>
+    <Country>Niger</Country>
+    <Population>3271110</Population>
+    <Location>4144,1716</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Agadez">
+    <Name>Agadez</Name>
+    <Country>Niger</Country>
+    <Population>3271110</Population>
+    <Location>4275,1658</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kano">
+    <Name>Kano</Name>
+    <Country>Nigeria</Country>
+    <Population>3271110</Population>
+    <Location>4289,1772</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Abuja">
+    <Name>Abuja</Name>
+    <Country>Nigeria</Country>
+    <Population>3271110</Population>
+    <Location>4260,1837</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Port Harcourt">
+    <Name>Port Harcourt</Name>
+    <Country>Nigeria</Country>
+    <Population>3271110</Population>
+    <Location>4254,1934</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="N'Djamena">
+    <Name>N'Djamena</Name>
+    <Country>Chad</Country>
+    <Population>3271110</Population>
+    <Location>4433,1762</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Nyala">
+    <Name>Nyala</Name>
+    <Country>Sudan</Country>
+    <Population>3271110</Population>
+    <Location>4678,1768</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Port Sudan">
+    <Name>Port Sudan</Name>
+    <Country>Sudan</Country>
+    <Population>3271110</Population>
+    <Location>4938,1587</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Dongola">
+    <Name>Dongola</Name>
+    <Country>Sudan</Country>
+    <Population>3271110</Population>
+    <Location>4790,1610</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Asmara">
+    <Name>Asmara</Name>
+    <Country>Ethiopia</Country>
+    <Population>3271110</Population>
+    <Location>4972,1697</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Atbara">
+    <Name>Atbara</Name>
+    <Country>Sudan</Country>
+    <Population>3271110</Population>
+    <Location>4868,1642</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Gondar">
+    <Name>Gondar</Name>
+    <Country>Ethiopia</Country>
+    <Population>3271110</Population>
+    <Location>4944,1754</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<--! Southern Africa !-->
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Yaounde">
+    <Name>Yaounde</Name>
+    <Country>Cameroon</Country>
+    <Population>3271110</Population>
+    <Location>4356,1960</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Lubumbashi">
+    <Name>Lubumbashi</Name>
+    <Country>Zaire</Country>
+    <Population>3271110</Population>
+    <Location>4727,2300</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Awassa">
+    <Name>Awassa</Name>
+    <Country>Ethiopia</Country>
+    <Population>3271110</Population>
+    <Location>4949,1902</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Harar">
+    <Name>Harar</Name>
+    <Country>Ethiopia</Country>
+    <Population>3271110</Population>
+    <Location>5061,1820</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Libreville">
+    <Name>Libreville</Name>
+    <Country>Gabon</Country>
+    <Population>3271110</Population>
+    <Location>4314,2040</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Djibouti">
+    <Name>Djibouti</Name>
+    <Country>Djibouti</Country>
+    <Population>3271110</Population>
+    <Location>5075,1785</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Bangur">
+    <Name>Bangur</Name>
+    <Country>Central African Republic</Country>
+    <Population>3271110</Population>
+    <Location>4516,1945</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Bosaso">
+    <Name>Bosaso</Name>
+    <Country>Somalia</Country>
+    <Population>3271110</Population>
+    <Location>5216,1792</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Juba">
+    <Name>Juba</Name>
+    <Country>Sudan</Country>
+    <Population>3271110</Population>
+    <Location>4812,1920</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Pointe-Noire">
+    <Name>Pointe-Noire</Name>
+    <Country>Congo</Country>
+    <Population>3271110</Population>
+    <Location>4366,2155</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Brazzaville">
+    <Name>Brazzaville</Name>
+    <Country>Congo</Country>
+    <Population>3271110</Population>
+    <Location>4442,2133</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kinshasa">
+    <Name>Kinshasa</Name>
+    <Country>Zaire</Country>
+    <Population>3271110</Population>
+    <Location>4443,2144</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kisangani">
+    <Name>Kisangani</Name>
+    <Country>Zaire</Country>
+    <Population>3271110</Population>
+    <Location>4667,2037</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kampala">
+    <Name>Kampala</Name>
+    <Country>Uganda</Country>
+    <Population>3271110</Population>
+    <Location>4841,2037</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Mombasa">
+    <Name>Mombasa</Name>
+    <Country>Kenya</Country>
+    <Population>3271110</Population>
+    <Location>4996,2134</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kigali">
+    <Name>Kigali</Name>
+    <Country>Rwanda</Country>
+    <Population>3271110</Population>
+    <Location>4780,2093</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Bujumbura">
+    <Name>Bujumbura</Name>
+    <Country>Burundi</Country>
+    <Population>3271110</Population>
+    <Location>4763,2122</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Dodoma">
+    <Name>Dodoma</Name>
+    <Country>Tanzania</Country>
+    <Population>3271110</Population>
+    <Location>4904,2182</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Mtwara">
+    <Name>Mtwara</Name>
+    <Country>Tanzania</Country>
+    <Population>3271110</Population>
+    <Location>4995,2277</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Nacala">
+    <Name>Nacala</Name>
+    <Country>Mozambique</Country>
+    <Population>3271110</Population>
+    <Location>5016,2381</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Lilongwe">
+    <Name>Lilongwe</Name>
+    <Country>Malawi</Country>
+    <Population>3271110</Population>
+    <Location>4858,2357</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Lusaka">
+    <Name>Lusaka</Name>
+    <Country>Zambia</Country>
+    <Population>3271110</Population>
+    <Location>4731,2388</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Lubango">
+    <Name>Lubango</Name>
+    <Country>Angola</Country>
+    <Population>3271110</Population>
+    <Location>4400,2389</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Beira">
+    <Name>Beira</Name>
+    <Country>Mozambique</Country>
+    <Population>3271110</Population>
+    <Location>4886,2491</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Salisbury">
+    <Name>Salisbury</Name>
+    <Country>Rhodesia</Country>
+    <Population>3271110</Population>
+    <Location>4799,2448</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Port Elizabeth">
+    <Name>Port Elizabeth</Name>
+    <Country>South Africa</Country>
+    <Population>3271110</Population>
+    <Location>4698,2816</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Bloemfontein">
+    <Name>Bloemfontein</Name>
+    <Country>South Africa</Country>
+    <Population>3271110</Population>
+    <Location>4695,2705</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Durban">
+    <Name>Durban</Name>
+    <Country>South Africa</Country>
+    <Population>3271110</Population>
+    <Location>4798,2725</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Johannesburg">
+    <Name>Johannesburg</Name>
+    <Country>South Africa</Country>
+    <Population>3271110</Population>
+    <Location>4711,2636</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Gaborone">
+    <Name>Gaborone</Name>
+    <Country>Botswana</Country>
+    <Population>3271110</Population>
+    <Location>4656,2608</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tollara">
+    <Name>Tollara</Name>
+    <Country>Madagascar</Country>
+    <Population>3271110</Population>
+    <Location>5091,2576</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Ambanja">
+    <Name>Ambanja</Name>
+    <Country>Madagascar</Country>
+    <Population>3271110</Population>
+    <Location>5198,2357</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Bakwanga">
+    <Name>Bakwanga</Name>
+    <Country>Zaire</Country>
+    <Population>3271110</Population>
+    <Location>4630,2188</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Bulawayo">
+    <Name>Bulawayo</Name>
+    <Country>Rhodesia</Country>
+    <Population>3271110</Population>
+    <Location>4742,2504</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<--! Europe !-->
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="London">
+    <Name>London</Name>
+    <Country>England</Country>
+    <Population>3271110</Population>
+    <Location>4104,0875</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Edinburgh">
+    <Name>Edinburgh</Name>
+    <Country>Scotland</Country>
+    <Population>3271110</Population>
+    <Location>4030,0777</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Dublin">
+    <Name>Dublin</Name>
+    <Country>Ireland</Country>
+    <Population>3271110</Population>
+    <Location>3948,0839</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Madrid">
+    <Name>Madrid</Name>
+    <Country>Spain</Country>
+    <Population>3271110</Population>
+    <Location>4007,1125</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Barcelona">
+    <Name>Barcelona</Name>
+    <Country>Spain</Country>
+    <Population>3271110</Population>
+    <Location>4136,1110</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Lisbon">
+    <Name>Lisbon</Name>
+    <Country>Portugal</Country>
+    <Population>3271110</Population>
+    <Location>3891,1161</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Paris">
+    <Name>Paris</Name>
+    <Country>France</Country>
+    <Population>3271110</Population>
+    <Location>4149,0936</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Rome">
+    <Name>Rome</Name>
+    <Country>Italy</Country>
+    <Population>3271110</Population>
+    <Location>4379,1090</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Berlin">
+    <Name>Berlin</Name>
+    <Country>East Germany</Country>
+    <Population>3271110</Population>
+    <Location>4410,0866</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Prague">
+    <Name>Prague</Name>
+    <Country>Czechslovakia</Country>
+    <Population>3271110</Population>
+    <Location>4423,0911</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Vienna">
+    <Name>Vienna</Name>
+    <Country>Austria</Country>
+    <Population>3271110</Population>
+    <Location>4467,0946</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Copenhagen">
+    <Name>Copenhagen</Name>
+    <Country>Denmark</Country>
+    <Population>3271110</Population>
+    <Location>4376,0776</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Reykjavik">
+    <Name>Reykjavik</Name>
+    <Country>Iceland</Country>
+    <Population>3271110</Population>
+    <Location>3603,0585</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Stockholm">
+    <Name>Stockholm</Name>
+    <Country>Sweden</Country>
+    <Population>3271110</Population>
+    <Location>4504,0695</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Helsinki">
+    <Name>Helsinki</Name>
+    <Country>Finland</Country>
+    <Population>3271110</Population>
+    <Location>4663,0675</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Oslo">
+    <Name>Oslo</Name>
+    <Country>Norway</Country>
+    <Population>3271110</Population>
+    <Location>4335,0677</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Warsaw">
+    <Name>Warsaw</Name>
+    <Country>Poland</Country>
+    <Population>3271110</Population>
+    <Location>4577,0859</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kiev">
+    <Name>Kiev</Name>
+    <Country>Ukraine</Country>
+    <Population>3271110</Population>
+    <Location>4793,0903</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Budapest">
+    <Name>Budapest</Name>
+    <Country>Hungary</Country>
+    <Population>3271110</Population>
+    <Location>4540,966</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<--! Australasia !-->
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Adelaide">
+    <Name>Adelaide</Name>
+    <Country>Australia</Country>
+    <Population>3271110</Population>
+    <Location>7248,2832</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Melbourne">
+    <Name>Melbourne</Name>
+    <Country>Australia</Country>
+    <Population>3271110</Population>
+    <Location>7390,2906</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Perth">
+    <Name>Perth</Name>
+    <Country>Australia</Country>
+    <Population>3271110</Population>
+    <Location>6734,2774</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Brisbane">
+    <Name>Brisbane</Name>
+    <Country>Australia</Country>
+    <Population>3271110</Population>
+    <Location>7578,2687</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Canberra">
+    <Name>Canberra</Name>
+    <Country>Australia</Country>
+    <Population>3271110</Population>
+    <Location>7503,2851</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Sydney">
+    <Name>Sydney</Name>
+    <Country>Australia</Country>
+    <Population>3271110</Population>
+    <Location>7527,2827</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Wellington">
+    <Name>Wellington</Name>
+    <Country>New Zealand</Country>
+    <Population>3271110</Population>
+    <Location>8084,2979</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Christchurch">
+    <Name>Christchurch</Name>
+    <Country>New Zealand</Country>
+    <Population>3271110</Population>
+    <Location>8021,3033</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Auckland">
+    <Name>Auckland</Name>
+    <Country>New Zealand</Country>
+    <Population>3271110</Population>
+    <Location>8068,2882</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Port Moresby">
+    <Name>Port Moresby</Name>
+    <Country>Papua New Guinea</Country>
+    <Population>3271110</Population>
+    <Location>7441,2248</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Dili">
+    <Name>Dili</Name>
+    <Country>Timor Leste</Country>
+    <Population>3271110</Population>
+    <Location>6952,2247</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Jakarta">
+    <Name>Jakarta</Name>
+    <Country>Indonesia</Country>
+    <Population>3271110</Population>
+    <Location>6534,2195</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kuala Lumpur">
+    <Name>Kuala Lumpur</Name>
+    <Country>Malaysia</Country>
+    <Population>3271110</Population>
+    <Location>6406,1981</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Manila">
+    <Name>Manila</Name>
+    <Country>Philippines</Country>
+    <Population>3271110</Population>
+    <Location>6838,1711</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+
+
+<--! North America !-->
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Los Angeles">
+    <Name>Los Angeles</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>1397,1278</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="New York">
+    <Name>New York</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>2416,1121</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Houston">
+    <Name>Houston</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>1920,1368</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Chicago">
+    <Name>Chicago</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>2094,1094</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Washington DC">
+    <Name>Washington DC</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>2338,1162</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Miami">
+    <Name>Miami</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>2272,1470</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Seattle">
+    <Name>Seattle</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>1311,0961</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Anchorage">
+    <Name>Anchorage</Name>
+    <Country>United States</Country>
+    <Population>3271110</Population>
+    <Location>0689,0651</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Ottawa">
+    <Name>Ottawa</Name>
+    <Country>Canada</Country>
+    <Population>3271110</Population>
+    <Location>2358,1012</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Vancouver">
+    <Name>Vancouver</Name>
+    <Country>Canada</Country>
+    <Population>3271110</Population>
+    <Location>1303,0929</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Quebec City">
+    <Name>Quebec City</Name>
+    <Country>Canada</Country>
+    <Population>3271110</Population>
+    <Location>2486,0968</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Churchill">
+    <Name>Churchill</Name>
+    <Country>Canada</Country>
+    <Population>3271110</Population>
+    <Location>1963,0720</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Nuuk">
+    <Name>Nuuk</Name>
+    <Country>Greenland</Country>
+    <Population>3271110</Population>
+    <Location>2909,0552</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+
+
+<--! Central America !-->
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Havana">
+    <Name>Havana</Name>
+    <Country>Cuba</Country>
+    <Population>3271110</Population>
+    <Location>2225,1523</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Mexico City">
+    <Name>Mexico City</Name>
+    <Country>Mexico</Country>
+    <Population>3271110</Population>
+    <Location>1838,1605</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Caracas">
+    <Name>Caracas</Name>
+    <Country>Venezuela</Country>
+    <Population>3271110</Population>
+    <Location>2568,1809</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Bogota">
+    <Name>Bogota</Name>
+    <Country>Colombia</Country>
+    <Population>3271110</Population>
+    <Location>2420,1918</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Quito">
+    <Name>Quito</Name>
+    <Country>Ecuador</Country>
+    <Population>3271110</Population>
+    <Location>2289,2076</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Panama City">
+    <Name>Panama City</Name>
+    <Country>Panama</Country>
+    <Population>3271110</Population>
+    <Location>2286,1841</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="San Jose">
+    <Name>San Jose</Name>
+    <Country>Costa Rica</Country>
+    <Population>3271110</Population>
+    <Location>2185,1820</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Managua">
+    <Name>Managua</Name>
+    <Country>Nicaragua</Country>
+    <Population>3271110</Population>
+    <Location>2134,1766</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="San Salvador">
+    <Name>San Salvador</Name>
+    <Country>El Salvador</Country>
+    <Population>3271110</Population>
+    <Location>2069,1730</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Belmopan">
+    <Name>Belmopan</Name>
+    <Country>Belize</Country>
+    <Population>3271110</Population>
+    <Location>2075,1652</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Guatemala City">
+    <Name>Guatemala City</Name>
+    <Country>Guatemala</Country>
+    <Population>3271110</Population>
+    <Location>2032,1708</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+
+<--! South America !-->
+
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Lima">
+    <Name>Lima</Name>
+    <Country>Peru</Country>
+    <Population>3271110</Population>
+    <Location>2343,2320</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Santiago">
+    <Name>Santiago</Name>
+    <Country>Chile</Country>
+    <Population>3271110</Population>
+    <Location>2485,2813</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Buenos Aires">
+    <Name>Buenos Aires</Name>
+    <Country>Argentina</Country>
+    <Population>3271110</Population>
+    <Location>2761,2830</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Brasilia">
+    <Name>Brasilia</Name>
+    <Country>Brazil</Country>
+    <Population>3271110</Population>
+    <Location>3003,2405</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Fortaleza">
+    <Name>Fortaleza</Name>
+    <Country>Brazil</Country>
+    <Population>3271110</Population>
+    <Location>3216,2132</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Rio de Janeiro">
+    <Name>Rio de Janeiro</Name>
+    <Country>Brazil</Country>
+    <Population>3271110</Population>
+    <Location>3107,2566</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Asuncion">
+    <Name>Asuncion</Name>
+    <Country>Paraguay</Country>
+    <Population>3271110</Population>
+    <Location>2783,2619</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="La Paz">
+    <Name>La Paz</Name>
+    <Country>Bolivia</Country>
+    <Population>3271110</Population>
+    <Location>2555,2433</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Cayenne">
+    <Name>Cayenne</Name>
+    <Country>French Guiana</Country>
+    <Population>3271110</Population>
+    <Location>2854,1930</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Georgetown">
+    <Name>Georgetown</Name>
+    <Country>Guyana</Country>
+    <Population>3271110</Population>
+    <Location>2769,1897</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Paramaribo">
+    <Name>Paramaribo</Name>
+    <Country>Suriname</Country>
+    <Population>3271110</Population>
+    <Location>2802,1915</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Montevideo">
+    <Name>Montevideo</Name>
+    <Country>Uruguay</Country>
+    <Population>3271110</Population>
+    <Location>2845,2836</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+
+<--! North Africa !-->
+
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Cairo">
+    <Name>Cairo</Name>
+    <Country>Egypt</Country>
+    <Population>3271110</Population>
+    <Location>4804,1363</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tripoli">
+    <Name>Tripoli</Name>
+    <Country>Libya</Country>
+    <Population>3271110</Population>
+    <Location>4396,1303</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Dakar">
+    <Name>Dakar</Name>
+    <Country>Senegal</Country>
+    <Population>3271110</Population>
+    <Location>3697,1710</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Lagos">
+    <Name>Lagos</Name>
+    <Country>Nigeria</Country>
+    <Population>3271110</Population>
+    <Location>4168,1896</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Timbuktu">
+    <Name>Timbuktu</Name>
+    <Country>Mali</Country>
+    <Population>3271110</Population>
+    <Location>4019,1666</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Mogadishu">
+    <Name>Mogadishu</Name>
+    <Country>Somalia</Country>
+    <Population>3271110</Population>
+    <Location>5095,2003</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Khartoum">
+    <Name>Khartoum</Name>
+    <Country>Sudan</Country>
+    <Population>3271110</Population>
+    <Location>4837,1696</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Rabat">
+    <Name>Rabat</Name>
+    <Country>Morocco</Country>
+    <Population>3271110</Population>
+    <Location>3946,1276</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Algiers">
+    <Name>Algiers</Name>
+    <Country>Algeria</Country>
+    <Population>3271110</Population>
+    <Location>4164,1212</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+
+<--! Southern Africa !-->
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Cape Town">
+    <Name>Cape Town</Name>
+    <Country>South Africa</Country>
+    <Population>3271110</Population>
+    <Location>4520,2818</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Maputo">
+    <Name>Maputo</Name>
+    <Country>Mozambique</Country>
+    <Population>3271110</Population>
+    <Location>4837,2623</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Dar es Salaam">
+    <Name>Dar es Salaam</Name>
+    <Country>Tanzania</Country>
+    <Population>3271110</Population>
+    <Location>4982,2200</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Luanda">
+    <Name>Luanda</Name>
+    <Country>Angola</Country>
+    <Population>3271110</Population>
+    <Location>4401,2255</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Antananarivo">
+    <Name>Antananarivo</Name>
+    <Country>Madagascar</Country>
+    <Population>3271110</Population>
+    <Location>5167,2495</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Windhoek">
+    <Name>Windhoek</Name>
+    <Country>South Africa</Country>
+    <Population>3271110</Population>
+    <Location>4487,2565</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Nairobi">
+    <Name>Nairobi</Name>
+    <Country>Kenya</Country>
+    <Population>3271110</Population>
+    <Location>4929,2074</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<--! Middle East !-->
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Istanbul">
+    <Name>Istanbul</Name>
+    <Country>Turkey</Country>
+    <Population>3271110</Population>
+    <Location>4761,1113</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tel Aviv">
+    <Name>Tel Aviv</Name>
+    <Country>Israel</Country>
+    <Population>3271110</Population>
+    <Location>4880,1338</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Dubai">
+    <Name>Dubai</Name>
+    <Country>United Arab Emirates</Country>
+    <Population>3271110</Population>
+    <Location>5346,1485</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Baghdad">
+    <Name>Baghdad</Name>
+    <Country>Iraq</Country>
+    <Population>3271110</Population>
+    <Location>5114,1288</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Athens">
+    <Name>Athens</Name>
+    <Country>Greece</Country>
+    <Population>3271110</Population>
+    <Location>4640,1187</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tehran">
+    <Name>Tehran</Name>
+    <Country>Iran</Country>
+    <Population>3271110</Population>
+    <Location>5262,1232</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+
+<--! Soviet Union !-->
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Vladivostok">
+    <Name>Vladivostok</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>7099,1060</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Leningrad">
+    <Name>Leningrad</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>4786,0681</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Moscow">
+    <Name>Moscow</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>4950,0779</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Yakutsk">
+    <Name>Yakutsk</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>7312,0538</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Sverdlovsk">
+    <Name>Sverdlovsk</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>5557,0750</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tiksi">
+    <Name>Tiksi</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>6951,0392</Location>
+    <PopupDistance>0.6</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Baku">
+    <Name>Baku</Name>
+    <Country>Azerbaijan</Country>
+    <Population>3271110</Population>
+    <Location>5228,1124</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Murmansk">
+    <Name>Murmansk</Name>
+    <Country>Russia</Country>
+    <Population>3271110</Population>
+    <Location>4853,0479</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+<--! Indochina !-->
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Ulaanbaatar">
+    <Name>Ulaanbaatar</Name>
+    <Country>Mongolia</Country>
+    <Population>3271110</Population>
+    <Location>6555,0990</Location>
+    <PopupDistance>0.5</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Hong Kong">
+    <Name>Hong Kong</Name>
+    <Country>Hong Kong</Country>
+    <Population>3271110</Population>
+    <Location>6707,1535</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Seoul">
+    <Name>Seoul</Name>
+    <Country>South Korea</Country>
+    <Population>3271110</Population>
+    <Location>6994,1193</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Islamabad">
+    <Name>Islamabad</Name>
+    <Country>Pakistan</Country>
+    <Population>3271110</Population>
+    <Location>5755,1279</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="New Delhi">
+    <Name>New Delhi</Name>
+    <Country>India</Country>
+    <Population>3271110</Population>
+    <Location>5855,1390</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Mumbai">
+    <Name>Mumbai</Name>
+    <Country>India</Country>
+    <Population>3271110</Population>
+    <Location>5748,1616</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Dhaka">
+    <Name>Dhaka</Name>
+    <Country>Bangladesh</Country>
+    <Population>3271110</Population>
+    <Location>6151,1503</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Kabul">
+    <Name>Kabul</Name>
+    <Country>Afghanistan</Country>
+    <Population>3271110</Population>
+    <Location>5661,1261</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Bangkok">
+    <Name>Bangkok</Name>
+    <Country>Thailand</Country>
+    <Population>3271110</Population>
+    <Location>6382,1735</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Singapore">
+    <Name>Singapore</Name>
+    <Country>Singapore</Country>
+    <Population>3271110</Population>
+    <Location>6457,2018</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Taipei">
+    <Name>Taipei</Name>
+    <Country>Taiwan</Country>
+    <Population>3271110</Population>
+    <Location>6861,1475</Location>
+    <PopupDistance>0.4</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Beijing">
+    <Name>Beijing</Name>
+    <Country>China</Country>
+    <Population>3271110</Population>
+    <Location>6734,1135</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+
+<City MODMERGECHILD="Name" MODMERGECHILDCONTENT="Tokyo">
+    <Name>Tokyo</Name>
+    <Country>Japan</Country>
+    <Population>3271110</Population>
+    <Location>7278,1230</Location>
+    <PopupDistance>0.3</PopupDistance>
+    <DetailDistance>0.99</DetailDistance>
+  </City>
+
+</Cities>

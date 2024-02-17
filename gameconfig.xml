@@ -1,0 +1,443 @@
+<?xml version="1.0"?>
+<GameConfig> 
+<!-- GEOSCAPE TIME SETTING CONTROLS -->
+  <gameSpeed1 value="0.08333" 	comment="Game minutes elapsing per second on lowest speed setting." />
+  <gameSpeed2 value="30"  		comment="Game minutes elapsing per second on second lowest speed setting." />
+  <gameSpeed3 value="120" 		comment="Game minutes elapsing per second on second highest speed setting." />
+  <gameSpeed4 value="500" 		comment="Game minutes elapsing per second on highest speed setting." />
+
+  <airCombatSpeed1 value="0.7" comment="Air combat speed multiplier in the air combat UI" />
+  <airCombatSpeed2 value="0.4"  comment="Air combat speed multiplier in the air combat UI" />
+  <airCombatSpeed3 value="1" comment="Air combat speed multiplier in the air combat UI" />
+  <airCombatSpeed4 value="5" comment="Air combat speed multiplier in the air combat UI" />
+  
+<!-- STARTING MONEY -->
+  <startingMoney value="7500000" comment="The Xenonaut funds on new game start (before buying first base)" />
+  
+<!-- STARTING PERSONNEL -->
+  <startingSoldiers 	value="15" />
+  <startingScientists 	value="10" />
+  <startingTechnicians 	value="10" />
+  
+<!-- BASE BUILD COST -->
+<newBaseCost 			value="1000000" comment="The cost for a new base" />
+
+<!-- GEOSCAPE RADAR RANGES -->
+  <radarRange1  value="500"  comment="This is the detection range in KM of a base with 1 radar  built." />
+  <radarRange2  value="750" comment="This is the detection range in KM of a base with 2 radars built." />
+  <radarRange3  value="900" comment="This is the detection range in KM of a base with 3 radars built." />
+  <radarRange4  value="1000" comment="This is the detection range in KM of a base with 4 radars built." />
+  <radarRange5  value="1100" comment="This is the detection range in KM of a base with 5 radars built." />
+  <radarRange6  value="1200" comment="This is the detection range in KM of a base with 6 radars built." />
+  <radarRange7  value="1300" comment="This is the detection range in KM of a base with 7 radars built." />
+  <radarRange8  value="1350" comment="This is the detection range in KM of a base with 8 radars built." />
+  <radarRange9  value="1400" comment="This is the detection range in KM of a base with 9 radars built." />
+  <radarRange10  value="1450" comment="This is the detection range in KM of a base with 10 radars built." />
+  <radarRange11  value="1500" comment="This is the detection range in KM of a base with 11 radars built." />
+  <radarRange12  value="1525" comment="This is the detection range in KM of a base with 12 radars built." />
+  <radarRange13  value="1550" comment="This is the detection range in KM of a base with 13 radars built." />
+  <trackingRange value="1.5" comment="The radar tracking range multiplier. Radars will continue to track acquired UFOs within this range but will not detect additional UFOs." />
+  <showPossibleRadarRanges  value="true" comment="Show what radar ranges a base about to be built would have with 2 and 3 radars." />
+ 
+<!-- PERSONNEL RECRUITMENT AND SALARY COSTS -->
+  <scientistCost  value="60000" comment="The initial hire cost for a scientist and his monthly wage." />
+  <technicianCost value="50000" comment="The initial hire cost for an engineer and his monthly wage." />
+  <soldierCost    value="5000" comment="The initial hire cost for a soldier and his monthly wage." />
+
+
+<!-- SOLDIER GENERATION VARIABLES -->
+  <minSoldierAge value="21" comment="The minimal age of a soldier."  />
+  <maxSoldierAge value="55" comment="The maximal age of a soldier."  />
+  <femaleSoldierChance value="25" comment="The percent chance that a generated soldier is a female" />
+  <soldierStats MODMERGE="update" comment="Soldier's stats are generated with values in the specified range."> 
+	<actionPoints min="40" max="75" />
+	<resilence    min="40" max="65" />
+	<strength     min="30" max="65" />
+	<accuracy     min="40" max="65" />
+	<reflexes     min="30" max="65" />
+	<bravery      min="30" max="75" />
+  </soldierStats>	
+  <startingSoldiersStatBonus value="5" comment="Bonus applied to starting soldiers' stats" />
+<!-- SOLDIER DEVELOPMENT VARIABLES -->
+	<soldierDevelopment MODMERGE="update">
+  <!-- Soldiers develop their attributes by using them. Each time the soldier performs a certain action, he will gain a "progress point" in that attribute. Once he reaches the "pointsToProgress" value, the attribute will increase by one point. These progress points are cumulative and are stored from mission to mission. -->
+
+	<APProgress       pointsToProgress="600" maxPointsInSingleBattle="50000" globalMaxProgress="100" comment="A progress point is earned every time a soldier spends a TU on a mission" />
+	
+	<strengthProgress pointsToProgress="30"  maxPointsInSingleBattle="89"  globalMaxProgress="100" strengthCoeff="105" comment="Points are given when soldier moves one tile while carrying more than strengthCoeff percent of its maximum carry weight" />
+	
+	<accuracyProgress pointsToProgress="1"   maxPointsInSingleBattle="2"   globalMaxProgress="100" comment="Points are given when a soldier attempts to fire at a valid hostile enemy within weapon range * 1.5" />
+	
+	<reflexesProgress pointsToProgress="1"   maxPointsInSingleBattle="99"    globalMaxProgress="100" comment="A progress point is gained when a soldier performs a Reaction Fire test (it doesn't matter whether he passes or fails it)" />
+	
+	<braveryProgress  pointsToProgress="1"   maxPointsInSingleBattle="99"    globalMaxProgress="100" comment="A progress point is earned whenever a soldier panics in battle" />
+	
+	<resilienceProgress pointsToProgress="5" globalMaxProgress="99" comment="A progress points is earned every time the soldier gets a skillup in any other attribute" />
+  </soldierDevelopment>
+
+  <soldierRanks MODMERGE="update">
+  <!-- Soldiers increase their ranking when they have a certain number of rank points. A rank point is gained each time an AP, strength, accuracy, reflexes or bravery progress is done. -->
+	<Private 	rankPoints="0" />
+	<Corporal 	rankPoints="15" />
+	<Sergeant 	rankPoints="40" />
+	<Lieutenant rankPoints="80" />
+	<Captain 	rankPoints="130" />
+	<Major 		rankPoints="200" />
+	<Commander 	rankPoints="300" />
+	<Colonel 	rankPoints="600" />
+  </soldierRanks>
+<!-- OTHER SOLDIER VARIABLES -->
+  <!-- soldier carry capacity, which is the maximum carry capacity before getting TU penalties,
+  is calculated by doing: BaseSoldierCarryingCapacity + strength * SoldierCarryingCapacityStrengthMul -->
+  <BaseSoldierCarryingCapacity value="8" comment="This value is used to calculate soldier carrying capacity." />
+  <SoldierCarryingCapacityStrengthMul value="0.4" comment="The percentage of soldier strength used in the carrying capacity formula." />
+  <!-- after weigth goes over soldier carry capacity, the TUs will decrease linearly, down to 0 when he has soldierCarryCapacity * limitCarryCapacityMul KGs on his shoulder -->
+  <limitCarryCapacityMul value="1.75" comment="Soldier's carry capacity is multiplicated by this number to get the point at which a soldier will be left at 0 TUs" />
+
+<!-- SOLDIER RECOVERY VARIABLES -->
+  <!-- Soldier recovery chance is as follows: soldiers at or below a certan HP Value will never be recovered. For other soldiers, the chance to be recovered is: B + C * HP % , where
+  B is a base chance, and C is a coefficient, with HP being the soldier's hit points (0 or less) -->
+  <soldierUnrecoverableHitPoints value="-50" comment="Soldiers whose health is at or below this number will never be recovered" />
+  <soldierBaseRecoveryChance value="50" comment="The base recovery chance at 0 HP. This is B in the recovery formula" />
+  <soldierRecoveryDecreaseCoefficient value="1.0" comment="Recovery chance drops by this many percent for every HP below zero - this is C in the formula" />
+  
+  <overkillDamage value="0" comment="Soldiers whose HP drop below this value will be considered to have been killed with overdamage. Specify a negative number (e.g. -50) to activate. If set to 0 or greater, this is not triggered" /> 
+<!-- DIFFICULTY MULTIPLIERS -->
+<!-- The values for each are multiplied by these numbers 
+ <!--
+ <alienTickerSpeedEasy          value="0.8" />
+  <alienTickerSpeedNormal        value="0.9" />
+  <alienTickerSpeedVeteran       value="0.9" />
+  <alienTickerSpeedSuperhuman    value="1.0" />
+  <maintenanceModifierEasy			value="0.75" />
+  <maintenanceModifierNormal		value="0.9" />
+  <maintenanceModifierVeteran		value="1.0" />
+  <maintenanceModifierSuperhuman	value="1.0" />
+  <ufoHealthEasy                value="1.00" />
+  <ufoHealthNormal              value="1.20" />
+  <ufoHealthVeteran             value="1.50" />
+  <ufoHealthSuperhuman          value="2.00" />
+  <alienAttributeEasy            value="0.7" />
+  <alienAttributeNormal          value="0.8" />
+  <alienAttributeVeteran         value="1.0" />
+  <alienAttributeSuperhuman      value="1.25" />
+  <alienWeaponDamageEasy         value="0.6" />
+  <alienWeaponDamageNormal       value="0.8" />
+  <alienWeaponDamageVeteran      value="1.0" />
+  <alienWeaponDamageSuperhuman   value="1.1" />
+  <alienWeaponAccuracyEasy       value="0.6" />
+  <alienWeaponAccuracyNormal     value="0.8" />
+  <alienWeaponAccuracyVeteran    value="1.0" />
+  <alienWeaponAccuracySuperhuman value="1.25" />
+  
+  <humanAirplaneSpeedEasy		value="1.0" />
+  <humanAirplaneSpeedNormal		value="1.0" />
+  <humanAirplaneSpeedVeteran	value="1.0" />
+  <humanAirplaneSpeedSuperhuman	value="1.0" />
+  <humanAirplaneRangeEasy		value="1.0" />
+  <humanAirplaneRangeNormal		value="1.0" />
+  <humanAirplaneRangeVeteran	value="1.0" />
+  <humanAirplaneRangeSuperhuman	value="0.8" />
+  
+  <alienTickerSpeedEasy          value="0.66" />
+  <alienTickerSpeedNormal        value="0.75" />
+  <alienTickerSpeedVeteran       value="0.90" />
+  <alienTickerSpeedSuperhuman    value="1.10" />
+-->
+  <alienTickerSpeedEasy          value="0.50" />
+  <alienTickerSpeedNormal        value="0.50" />
+  <alienTickerSpeedVeteran       value="0.50" />
+  <alienTickerSpeedSuperhuman    value="0.50" />
+  
+  <maintenanceModifierEasy			value="3.0" />
+  <maintenanceModifierNormal		value="3.0" />
+  <maintenanceModifierVeteran		value="3.0" />
+  <maintenanceModifierSuperhuman	value="3.0" />
+
+  <ufoHealthEasy                value="1.00" />
+  <ufoHealthNormal              value="1.00" />
+  <ufoHealthVeteran             value="1.00" />
+  <ufoHealthSuperhuman          value="1.00" />
+  
+  <alienAttributeEasy            value="0.70" />
+  <alienAttributeNormal          value="0.70" />
+  <alienAttributeVeteran         value="0.70" />
+  <alienAttributeSuperhuman      value="0.70" />
+  
+  <alienWeaponDamageEasy         value="0.60" />
+  <alienWeaponDamageNormal       value="0.60" />
+  <alienWeaponDamageVeteran      value="0.60" />
+  <alienWeaponDamageSuperhuman   value="0.60" />
+  
+  <alienWeaponAccuracyEasy       value="0.60" />
+  <alienWeaponAccuracyNormal     value="0.60" />
+  <alienWeaponAccuracyVeteran    value="0.60" />
+  <alienWeaponAccuracySuperhuman value="0.60" />
+  
+  <humanAirplaneSpeedEasy		value="1.0" />
+  <humanAirplaneSpeedNormal		value="1.0" />
+  <humanAirplaneSpeedVeteran	value="1.0" />
+  <humanAirplaneSpeedSuperhuman	value="1.0" />
+  
+  <humanAirplaneRangeEasy		value="1.0" />
+  <humanAirplaneRangeNormal		value="1.0" />
+  <humanAirplaneRangeVeteran	value="1.0" />
+  <humanAirplaneRangeSuperhuman	value="0.8" />
+  
+  <!-- AFTERBURNER PARAMETERS -->
+  <afterBurnerFuelMultiplier  value="5.0"   comment="Afterburner fuel consumption multiplier when active." />
+  <afterBurnerSpeedMultiplier value="1.10"   comment="Afterburner speed multiplier." />
+
+<!-- AIRCRAFT REFUEL / REARM RATES -->
+  <refuelRate  value="2.0"  comment="The percent refueling rate for aircraft" />
+  <repairRate  value="0.02" comment="The percent repairing rate for aircraft" />
+  <rearmTime   value="140"   comment="Minutes needed to rearm each weapon slot of an airplane" />
+  <recoverTime value="72"   comment="Hours needed to recover an airplane from 0% to 1% (Above 1% will use repairRate)" />
+ 
+<!-- CONTINENTS FUNDING DAMAGE MODIFIERS -->
+<!-- Funding damage caused by alien missions to continents is multiplied by the value corresponding to the current difficulty settings -->
+  <fundingDamageModifier MODMERGE="update">
+	<Easy    value="0.66" />
+	<Normal  value="0.75" />
+	<Veteran value="1.0" />
+	<Insane  value="1.25" />
+  </fundingDamageModifier>
+  
+  <airCombatAIThinkChance difficultyEasy="0.7" difficultyNormal="0.8" difficultyVeteran="0.9" difficultySuperhuman="1"
+      comment="This controls UFO AI thinking in Air Combat. The higher this value is (between 0 and 1), the more likely UFOs will each second consider swapping to a better target." />
+
+  <airCombatDamageRandomChance value="25" comment="Damage spread of weapons in air combat (+/-%)" />
+    
+  <!-- AIRPLANE RECOVERY TOGGLE -->
+  <airplaneRecovery value="0.5" comment="If set to 1, lost airplanes will be recovered. Otherwise they are permanently destroyed" />
+
+<!-- AIR COMBAT ENGAGE DISTANCE -->
+  <airCombatEngageDistance value="150" comment="The distance (in km) at which an intercepting airplane engages an ufo (or viceversa)" />
+
+  <!-- UFO COMBAT BRAVERY -->
+  <airCombatAICurage          value="0.1"   comment="This controls the bravery of UFOs in Air Combat. The lower this value is (between 0 and 1), the less likely UFOs are to flee." />
+
+  <ufoEscortInboundFactor valueEasy="0.33" valueNormal="0.5" valueVeteran="0.7" valueSuperhuman="1"
+      comment="How much UFO escorts will face towards interceptors at the beginning of Air Combat. From 0 (=normal heading) to 1 (=directly towards interceptors)."/>
+
+		<!-- GEOSCAPE FUNDING REGION SETTINGS -->
+
+	<continentInitRelationNA  value="1000" comment="The initial relations value for North America." />
+	<continentInitRelationCA  value="1000" comment="The initial relations value for Central America." />
+	<continentInitRelationSA  value="1000" comment="The initial relations value for South America." />
+	<continentInitRelationEU  value="1000" comment="The initial relations value for Europe." />
+	<continentInitRelationRU  value="1000" comment="The initial relations value for USSR." />
+	<continentInitRelationNAF value="1000" comment="The initial relations value for North Africa." />
+	<continentInitRelationSAF value="1000" comment="The initial relations value for South Africa." />
+	<continentInitRelationME  value="1000" comment="The initial relations value for Middle East." />
+	<continentInitRelationIN  value="1000" comment="The initial relations value for Indochina." />
+	<continentInitRelationAA  value="1000" comment="The initial relations value for Australasia." />
+
+<!-- FUNDING MODIFIERS -->
+<!-- Each month, a funding region will pay the player $500 for each relations value point, multiplied by this modifier -->
+
+  <continentModNA  value="8.3" comment="North America modifies its funding by this value." />
+  <continentModCA  value="3.1" comment="Central America modifies its funding by this value." />
+  <continentModSA  value="3.3" comment="South America modifies its funding by this value." />
+  <continentModEU  value="7.5" comment="Europe modifies its funding by this value." />
+  <continentModRU  value="7.1" comment="USSR modifies its funding by this value." />
+  <continentModNAF value="3.5" comment="North Africa modifies its funding by this value." />
+  <continentModSAF value="2.7" comment="South Africa modifies its funding by this value." />
+  <continentModME  value="5.5" comment="Middle East modifies its funding by this value." />
+  <continentModIN  value="6.6" comment="Indochina modifies its funding by this value." />
+  <continentModAA  value="4.5" comment="Australasia modifies its funding by this value." />
+
+  <forecastChangeRounding 		value="1000" comment="The forecast funding change shown on geoscape will be rounded to multiples of this value" />
+  <forecastChangeImpreciseLevel value="0" comment="The forecast funding change shown on geoscape will be shown as text depending on (not) exceeding this this value, if not 0." />
+  <relationsCap 				value="500.0" comment="Multiplied by the starting relations score for each region to give the maximum value that nations relations can reach" />
+  
+<!-- TERROR FAILURE PENALTY -->
+  <terrorFailurePenalty 			value="300" comment="Penalty applied to the region relations when a terror event results in failure (no engagement by Xenonauts or GC loss)" />
+  <aerialTerrorFailurePenalty 		value="100" comment="Penalty applied to the region relations when an Aerial Terror event results in failure (no engagement by Xenonauts or AC loss)" />
+  <terrorSuccessBonus 				value="0" comment="Bonus granted to the region relations if a terror site is successfully secured" />
+  <terrorCivilianSurvivedBonus 		value="10" comment="Extra relations bonus for every civilian that survived a terror mission" />
+  <terrorLocalForcesSurvivedBonus 	value="5" comment="Extra relations bonus for every local forces fighter that survived a terror mission" />
+  
+  <crashsiteFundingBonus value="true" comment="Controls whether doing crash sites grants a relations bonus with the region" />
+  <crashsiteFundingModifier value="0.50" comment="If relations bonus for crash sites is enabled, the bonus is the shootdown bonus multiplied by this value" />
+  
+<!-- GEOSCAPE EVENTS PENALTY -->
+<!-- Penalties applied to the region relations of the continent (or nearest continent, if over sea) when one of the following events happens -->
+  <eventsPenalty MODMERGE="update">
+	<Abduction land="20" sea="13"/>
+	<AirlinerShotdown land="20" sea="25" />
+	<MinorCivilianAttack land="30" sea="25" />
+	<MajorCivilianAttack land="45" sea="40" />
+	<MajorMilitaryAttack land="60" sea="55" />
+  </eventsPenalty>
+
+			<!-- ALIEN INVASION AI SETTINGS -->
+<!-- The AI in Xenonauts is driven by a ticker which may only tick upwards. -->
+
+<!-- UFO TICKER PASSIVE INCREASE RATE 
+  <alienAITickerIdle value="0.000715" comment="The ticker will increase by this amount every in-game minute, irrespective of whether any alien activity is taking place. This is to force the invasion forwards even if the player is playing extremely well."/> 
+  <alienAITickerIdle value="0.001315" comment="The ticker will increase by this amount every in-game minute, irrespective of whether any alien activity is taking place. This is to force the invasion forwards even if the player is playing extremely well."/> -->
+  <alienAITickerIdle value="0.001015" comment="The ticker will increase by this amount every in-game minute, irrespective of whether any alien activity is taking place. This is to force the invasion forwards even if the player is playing extremely well."/> 
+  
+  
+<!-- UFO WAVE TIMING BASIC VALUE -->
+  <alienWavePeriod                    value="7200"       comment="This is the base value for time between UFO attack waves at the start of the game. It will fall as the alien ticker score increases." />
+  
+<!-- UFO WAVE TIMING VARIATION -->
+  <alienWavePeriodVariation			  value="0.5"        comment="Percent variation added or subtracted to alienWavePeriod" />
+
+<!-- UFO WAVE TIMING REDUCTION -->
+  <alienWavePeriodMultiplier          value="0.5"        comment="The time between UFO attack waves is reduced by the alien ticker score multiplied by this value." />
+  
+<!-- SINGLE MISSIONS' START DELAY -->
+  <alienMissionMaxStartDelay          value="30"         comment="Maximum time (in minutes) between wave spawn time and each single alien mission spawn" />
+
+<!-- ESCAPED UFO REINFORCEMENT CHANCE -->
+  <reinforcementChance value="60" comment="This is the percentage chance that a UFO that escapes to space after escaping air combat will return in the next UFO wave and attempt to complete its mission." />
+
+<!-- MINIMUM LAND TIME FOR ALIEN MISSIONS -->
+  <minimumMissionsLandTime value="480" comment="The minimum landing time (in minutes) for the alien missions" />
+
+<!-- ALIEN BASE AUTOMATIC DISCOVERY -->
+  <alienBaseDiscoveryChance value="25" comment="This is the percentage chance for an alien base to be discovered automatically whenever a check is performed using the value below." />
+  <alienBaseReportChance value="50" comment="This is the percentage chance that an alien base will be reported with its approximate location in the event log" />
+  <alienBaseReportPreciseChance value="50" comment="If a base is getting reported (previous variable), this is the chance that the report will have a more precise location" />
+  <alienBaseDiscoveryCycle value="4" comment="This many days need to pass to have a chance to detect an alien base - Should this not be done on a monthly basis?" />
+
+<!-- GEOSCAPE AI VARIABLES -->
+  <minMissionCount value="4"     comment="This is the mininum number of mission for a wave." />
+  <maxMissionCount value="11"    comment="This is the maxinum number of mission for a wave. Numbers from the next two parameters will be added to it." />
+  <maxMissionAlienBaseModifier value = "20" comment = "Add this much to maxMissionCount for every alien base on the map" />
+  <maxMissionHumanBaseModifier value = "3" comment = "Add this much to maxMissionCount for every human base on the map" />
+  <highBandTicker  value="1200" comment="This is the ticker value from where the maxMissionCount missions are going to be spawned." />
+  <parabolicPower  value="0.5"   comment="The amount of missions to spawn is: Floor(( tickerRate ^ parabolicPower) * (Max - Min)) + Min. Where tickerRate is: Min ( currentTicker / highBandTicker, 1)," />
+  
+<!-- ALIEN BASE LEVEL UP THRESHOLDS -->
+  <mediumAlienBaseTickerLimit value="45"  comment="Alien bases are medium sized above this ticker value."  />
+  <largeAlienBaseTickerLimit  value="90" comment="Alien bases are large sized above this ticker value."  />
+  <independentAlienBaseGrowth value="1" comment="If set to 1, each alien base will grow independently of the AI ticker" />
+  <alienBaseGrowthPerDay 	  value="1" comment="If bases grow independently, each base will grow this much per day"/>
+  <alienBaseStartingTickerMultiplier value = "0.05" comment="If bases grow independenly, new bases will start at AI ticker times this value"/>
+  <alienBaseSupplyGrowth	  value="15" comment="If bases grow independently, each successful Supply Run mission will increase base ticker by this much" />
+
+<!-- LOST BASES TURNING INTO ALIEN BASES -->
+  <xenonautBaseRetakeWindow value="48" comment="If greater than 0, Xenonaut bases that have been lost in combat will be replaced by an alien base, and can be recaptured in this many hours" />
+  <xenonautAlienBaseTickerConstant value="0" comment="An alien base created in place of a Xenonaut base will have its ticker set to: xenonautAlienBaseTickerConstant + (global alien ticker * xenonautAlienBaseTickerMultiplier)"/>
+  <xenonautAlienBaseTickerMultiplier value="0.064285714" comment="An alien base created in place of a Xenonaut base will have its ticker set to: xenonautAlienBaseTickerConstant + (global alien ticker * xenonautAlienBaseTickerMultiplier)"/>
+ <useXenonautBaseTilesetForRetakeMissions value="1" comment="If 1, Xenonaut base retake missions will take place in the Xenonaut base map instead of the alien base map. The mechanics of such missions are similar to regular base defense except for Xenonauts getting the first turn" />
+ <lostBaseEvacuation value="1" comment="If 1, and retaking Xenonaut bases is enabled, then airplanes and staff from lost bases will evacuate as possible. As possible means the game looks if other bases have free space available for engineers/scientists and aircraft and transfers them automatically." />
+
+			<!-- ALIEN UFO MISSION VARIABLES -->
+  
+<!-- RESEARCH MISSION (Passive) -->
+  <researchTicksPerMinute             value="0.001315"     comment="An alien research mission generates this many alien ticker points per minute of the UFO being on the map." />
+  <researchAbductionEventChance       value="20"	comment="An alien research mission has this percentage chance of generating an Abduction event each hour." />
+
+<!-- GROUND ATTACK MISSION (Passive) -->
+  <groundAttackTicksPerMinute         value="0.002315" 	comment="An alien ground attack mission generates this many alien ticker points per minute of the UFO being on the map." />
+  <groundAttackGAEventChance          value="20"    comment="An alien ground attack mission has this percentage chance of generating a Minor Ground Attack event per hour." />
+  <groundAttackAirlinerEventChance    value="5"     comment="An alien ground attack mission has this many percent chance of generating an Airliner Destroyed event per hour." />
+
+  
+<!-- BOMBING RUN MISSION (Passive) -->
+  <bombingRunTicksPerMinute           value="0.001315" 	comment="An alien bombing run mission generates this many alien ticker points per minute of the UFO being on the map." />
+  <bombingRunGAEventChance            value="10"    comment="An alien bombing run mission has this percentage chance of generating a Major Ground Attack event per hour." />
+  <bombingRunAerialTerrorChance       value="05"     comment="An alien ground attack mission has this percentage chance of generating an Aerial Terror event per hour." />
+  <aerialTerrorMissionDuration 	  min="12" max="24" comment="Aerial terror missions will last for a number of hours in this range"/>
+
+<!-- ALIEN BASE AND SUPPLY RUN (Passive) -->
+  <alienBaseTickerPerMinute           value="0.001315" 	comment="An alien base generates this many ticker points per minute after being built, even if undetected." />
+  <supplyRunTicker                    value="5"     comment="A successful alien supply run mission to a base generates this many ticker points." />
+  <alienBaseRelationsDamagePerDay     value="3.0" 	comment="An alien base damages relations in its continent by this much every day (24 hours)" />
+
+<!-- AIR SUPERIORITY MISSION (Aggressive) -->
+  <airSuperiorityTicksPerMinute       value="0.001315" 	comment="An alien air superiority mission generates this many ticker points per minute the UFO is on the map." />
+  <airSuperiorityAirlinerEventChance  value="20"    comment="An alien air superiority mission has this percentage chance per hour of generating an Airliner Destroyed event." />
+  <airSuperiorityCooldownTime         value="1"     comment="After having engaged in air combat, an alien air superiority mission won't intercept Xenonauts airplanes for this many hours" />
+
+<!-- BASE ATTACK MISSION (Aggressive) -->
+  <baseAttackMissionDelay             value="40" 	comment="Minimum time elapsed between two base attack missions, in days" />
+
+<!-- TERROR MISSION (Passive) -->
+  <terrorMissionDelay            	  value="30" 	comment="Minimum time elapsed between two terror missions, in days" />
+  <terrorMissionDuration min="12" max="24" 			comment="Terror missions will last for a number of hours in this range"/>
+  
+<!-- SCOUT MISSION (Aggressive) -->
+  <scoutTicksPerMinute                value="0.000315" 	comment="An alien scout mission generates this many alien ticker points per minute of the UFO being on the map." />
+
+
+<!-- CONSTRUCTION MISSION PERAMETERS -->
+<!-- These variables stop alien base construction missions being spawned too frequently - if this is removed then they will spawn in almost every UFO wave after they become available to the aliens. The delay values are the time (in days) that must elapse between two construction missions spawning. -->
+
+  <constructionMissionTickerLimit1 value="1100" comment="Alien construction missions will be delayed by constructionMissionDelay1 if the ticker is greater than this." />
+  <constructionMissionTickerLimit2 value="700" comment="Alien construction missions will be delayed by constructionMissionDelay2 if the ticker is greater than this." />
+  <constructionMissionTickerLimit3 value="300" comment="Alien construction missions will be delayed by constructionMissionDelay3 if the ticker is greater than this." />
+  
+  <constructionMissionDelay1  value="3" comment="See above." />
+  <constructionMissionDelay2  value="7" comment="See above." />
+  <constructionMissionDelay3  value="10" comment="See above." />
+  <constructionMissionDelay4  value="20" comment="Alien construction missions will be delayed by this if the ticker is smaller than constructionMissionTickerLimit3." />
+
+  <MaxAlienBases value="25" comment="Maximum number of alien bases before the game stops calling additional construction missions."/>
+
+<!-- MISC -->
+  <ufoProtectionDistance    value="2000" comment="This is the maximum distance until the AI is protecting crashed UFOs." />
+  <ufoProtectionChanceLimit value="1000" comment="This is the limit of the protection mission launch." />
+  <customSoldierCreationChance value="5" comment="This is the chance that a custom soldier will be brought instead of a normal one." />
+  <labSpacePerBuilding value="15" comment="Lab space will be increased per laboratory." />
+  <manSpacePerBuilding value="15" comment="Workshop space will be increased per workshop." />
+  <livSpacePerBuilding value="35" comment="Living space will be increased per living quarters." />
+
+  <powerCoresExplodeChance           value="35" comment="The chance that UFO power cores will explode on UFO crash." />
+  <powerCoreExplosionRadius          value="5.0" comment="The blast radius of the power core when it explodes on crash"/>
+  <powerCoreFireChance               value="60"  comment ="The % chance a tile will be affected by fire when the power cores explode"/>
+  <killCrewOnCrashChance             value="4" comment="The chance for an alien to be killed on UFO crash when power cores don't explode." />
+  <killCrewOnPowerCoreExplodedChance value="16" comment="The chance for an alien to be killed on UFO crash when power cores explode." />
+  
+  <instantResearchesPopupDelay value="24" comment="Delay before showing instant-completing researches, in hours" />
+  <instantResearchesPopupDelayVariation value="8" comment="Instant-completing researches delay will vary randomly by at most this many hours" />
+
+  <useStaticEscortChance value="1" comment="Sets whether the chance of a UFO spawning with an escort is a flat % drawn from the AM_* files."/>
+
+
+
+<!-- AIRCOMBAT PROJECTILES MISS RATE -->  
+  <ACProjMissRate value="0.05" comment="Chance that a projectile misses its target in air combat. Between 0.0 and 1.0" />
+
+<!-- ALIEN AI AND REGION RELATIONS DEBUG MODE --> 
+  <showAIDebug value="false" comment="When true, the ai debug panel is shown." />
+
+<!-- GAME START TICKER SCORE -->
+  <startingAlienTicker        value="0"     comment="The game starts with this alien ticker value."  />
+  
+<!-- This is mainly meant for testing and reporting bugs. It works even in Ironman mode, but if it is used to actually circumvent Ironman, that is obviously cheating. -->
+  <endTurnAutosave value="true" comment="If enabled, game is autosaved right after the player's turn ends. Only for debugging purposes." />
+
+<!-- DISCLAIMER SCREEN TEXT -->
+ <disclaimerTextTimeout value="6" comment="The disclaimer text will be shown for this many seconds." />
+  <disclaimerTextSize    value="20" comment="The disclaimer text will be shown with this size at 1024x768 resolution." />
+  <disclaimerText        value="The X-Division team proudly presents:
+
+ - [1.65/X.CE V0.35.0] X-Division 1.00 Beta. - 
+
+This is the beta build of the mod X-Division for the game Xenonauts. This represents the final quality of the mod.
+Please report any bugs and balance ideas encountered on the forums at http://www.goldhawkinteractive.com/forums in the thread.
+
+
+Version 1.00.11 - New Dawn
+
+New AI
+New Valkyrie maps
+Zombify now only zombifies on death
+Reinstated original timeframe for Phases
+
+.10 to .11 update is NOT save compatible
+See the full changelog at http://www.goldhawkinteractive.com/forums/
+
+
+Dont forget to patch your mod to fix the latest issues. Keep in mind that those might need a new campaign.
+
+Sincerely
+Drages, Charon, Draku, Sfarrelly" comment="This is the disclaimer text." />
+  
+</GameConfig>

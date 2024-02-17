@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<spectre id="alienbase/props/alienbase_datacore_small" width="1" height="1" version="1">
+    <state id="damaged" name="" pivotX="47" pivotY="106" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="0.400" orientation="0" sortPoint="0.500" hp="0" isCover="1" coverAnimName="lean" wallType="crushing" isRecoverable="1" recoverItemString="Items.AlienBaseCore" recoverAlienium="12" recoverAlienAlloys="40" destructionSound="Metal Prop">
+        <image src="tiles/alienbase/props/datacore_large_damaged.png" />
+    </state>
+    <state id="default" name="" pivotX="47" pivotY="106" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="0.400" orientation="0" sortPoint="0.500" hp="120" isCover="1" coverAnimName="lean" wallType="tall" isLamp="1" lightRadius="5.000" isRecoverable="1" recoverItemString="Items.AlienBaseCore" recoverAlienium="12" recoverAlienAlloys="40" destructionSound="Metal Prop">
+        <image src="tiles/alienbase/props/datacore_large.png" />
+    </state>
+    <state id="destroyed" name="" pivotX="47" pivotY="106" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="1.000" orientation="0" sortPoint="0.500" hp="0" wallType="none" />
+</spectre>

@@ -1,0 +1,1292 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Computer 2</Author>
+  <LastAuthor>Robert Straif</LastAuthor>
+  <Created>2012-03-29T13:18:51Z</Created>
+  <LastSaved>2024-02-11T13:55:08Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="/"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13485</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <TabRatio>221</TabRatio>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Normal 3">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="238"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:CharSet="238" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s79" ss:Parent="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="Categories" ss:RefersTo="=Sheet1!#REF!"/>
+ </Names>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="311" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60">
+   <Column ss:AutoFitWidth="0" ss:Width="232.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="65.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="118.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="394.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="83.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="306"/>
+   <Column ss:AutoFitWidth="0" ss:Width="175.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="99"/>
+   <Row ss:StyleID="s67">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Days</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Category</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Requires</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">When unlocked</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">When finished</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Knowledge shown</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="89.25">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.CooperationWithUSSR</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AlienInvasion</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.CooperationWithUSSR&quot;);&#10;UnlockKnowledge( &quot;airplane.human.mig29&quot;);&#10;UnlockManufacture( &quot;ManTech.mig29&quot;);&#10;UnlockItem(&quot;weapon.ak47&quot;);&#10;UnlockItem(&quot;ammo.ballistic.rifleAK&quot;);&#10;LockResearch(&quot;Researches.CooperationWithUSA&quot;);&#10;LockResearch(&quot;Researches.CooperationWithEU&quot;);</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.CooperationWithUSSR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="89.25">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.CooperationWithUSA</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AlienInvasion</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.CooperationWithUSA&quot;);&#10;UnlockKnowledge( &quot;airplane.human.f16&quot;);&#10;UnlockManufacture( &quot;ManTech.f16&quot;);&#10;LockResearch( &quot;Researches.CooperationWithUSSR&quot;);&#10;LockResearch( &quot;Researches.CooperationWithEU&quot;);&#10;UnlockItem(&quot;weapon.shotgun&quot;);&#10;UnlockItem(&quot;ammo.ballistic.shotgun&quot;);</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.CooperationWithUSA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="153">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.CooperationWithEU</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AlienInvasion</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.CooperationWithEU&quot;);&#10;UnlockKnowledge( &quot;airplane.human.mirage2000&quot;);&#10;UnlockManufacture( &quot;ManTech.mirage2000&quot;);&#10;LockResearch( &quot;Researches.CooperationWithUSA&quot;);&#10;LockResearch( &quot;Researches.CooperationWithUSSR&quot;);&#10;UnlockItem(&quot;weapon.gw_submachinegun&quot;);&#10;UnlockItem(&quot;weapon.gw_battlerifle&quot;);&#10;UnlockItem(&quot;ammo.ballistic.gw_submachinegun&quot;);</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.CooperationWithEU</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="153">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.USSRRockets</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.CooperationWithUSSR</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.CooperationWithUSSR&quot;);&#10;UnlockKnowledge( &quot;AV.K13M&quot;);&#10;UnlockKnowledge( &quot;AV.R98&quot;);&#10;UnlockKnowledge( &quot;AV.R73&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.K13M&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.R98&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.R73&quot;);</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AdvancedUSSRRockets</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="153">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.USARockets</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.CooperationWithUSA</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.CooperationWithUSA&quot;);&#10;UnlockKnowledge( &quot;AV.AIM9D&quot;);&#10;UnlockKnowledge( &quot;AV.AIM7E&quot;);&#10;UnlockKnowledge( &quot;AV.PYTHON&quot;); &#10;UnlockManufacture( &quot;ManTech.AV.AIM9D&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.AIM7E&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.PYTHON&quot;);&#10;</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AdvancedUSARockets</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="153">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.EURockets</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Researches.CooperationWithEU</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.CooperationWithEU&quot;);&#10;UnlockKnowledge( &quot;AV.SHAFRIR&quot;);&#10;UnlockKnowledge( &quot;AV.ASPIDE&quot;); &#10;UnlockManufacture( &quot;ManTech.AV.SHAFRIR&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.ASPIDE&quot;); &#10;</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AdvancedEURockets</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.AdvancedUSSRRockets</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">240</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.USSRRockets(AND)Researches.AV.ALENIUMMISSILE</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.AdvancedUSSRRockets&quot;);&#10;UnlockKnowledge( &quot;AV.BELUGA&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.BELUGA&quot;);&#10;UnlockKnowledge( &quot;AV.MAMMOTH&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.MAMMOTH&quot;);</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AdvancedUSSRRockets</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.AdvancedUSARockets</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">240</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.USARockets(AND)Researches.AV.ALENIUMMISSILE</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.AdvancedUSARockets&quot;);&#10;UnlockKnowledge( &quot;AV.SKYFLASH&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.SKYFLASH&quot;);&#10;UnlockKnowledge( &quot;AV.AD_ASTRA&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.AD_ASTRA&quot;);</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AdvancedUSARockets</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.AdvancedEURockets</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">240</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Researches.EURockets(AND)Researches.AV.ALENIUMMISSILE</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.AdvancedEURockets&quot;);&#10;UnlockKnowledge( &quot;AV.AIM9P&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.AIM9P&quot;);&#10;UnlockKnowledge( &quot;AV.R530&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.R530&quot;);</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AdvancedEURockets</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.CCCP_Asierus</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.CooperationWithUSSR(AND)Researches.asierus</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockKnowledge( &quot;airplane.human.mig23&quot;);&#10;UnlockManufacture( &quot;ManTech.mig23&quot;);</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.CooperationWithUSSR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.US_Asierus</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.CooperationWithUSA(AND)Researches.asierus</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockKnowledge( &quot;airplane.human.f15&quot;);&#10;UnlockManufacture( &quot;ManTech.f15&quot;);</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.CooperationWithUSA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.EU_Asierus</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Researches.CooperationWithEU(AND)Researches.asierus</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockKnowledge( &quot;airplane.human.miragef1&quot;);&#10;UnlockManufacture( &quot;ManTech.miragef1&quot;);</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.CooperationWithEU</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.CCCP_Foxtrott</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.CooperationWithUSSR(AND)Researches.mig31</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockKnowledge( &quot;airplane.human.tu128&quot;);&#10;UnlockManufacture( &quot;ManTech.tu128&quot;);</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.CooperationWithUSSR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.US_Foxtrott</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.CooperationWithUSA(AND)Researches.mig31</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockKnowledge( &quot;airplane.human.f14&quot;);&#10;UnlockManufacture( &quot;ManTech.f14&quot;);</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.CooperationWithUSA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="76.5">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.EU_Foxtrott</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Researches.CooperationWithEU(AND)Researches.mig31</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockKnowledge( &quot;airplane.human.mirage4000&quot;);&#10;UnlockManufacture( &quot;ManTech.mirage4000&quot;);&#10;UnlockKnowledge( &quot;airplane.human.tornado&quot;);&#10;UnlockManufacture( &quot;ManTech.tornado&quot;);</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.CooperationWithEU</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="409.5">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell><Data ss:Type="String">Researches.StunWeapons</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKV_EngineExpert1Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_EngineExpert1Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_EngineExpert2Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_EngineExpert2Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_EngineExpert3Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_EngineExpert3Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_EngineExpert4Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_EngineExpert4Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_FlightExpert1Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_FlightExpert1Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_FlightExpert2Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_FlightExpert2Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_FlightExpert3Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_FlightExpert3Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_FlightExpert4Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_FlightExpert4Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneticExpert1Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneticExpert1Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneticExpert2Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneticExpert2Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneticExpert3Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneticExpert3Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneticExpert4Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneticExpert4Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_PsionicExpert1Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_PsionicExpert2Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_PsionicExpert3Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_PsionicExpert4Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_WeaponExpert1Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_WeaponExpert1Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_WeaponExpert2Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_WeaponExpert2Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_WeaponExpert3Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_WeaponExpert3Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_WeaponExpert4Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_WeaponExpert4Sebillian&quot; );&#10;UnlockKnowledge( &quot;Researches.SKV_Interrogations&quot; );</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+   </Row>
+   <Row ss:Index="21" ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Base</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Items.PsionicKnowledge</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKV_LivingSpace&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_LabSpace&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_WorkshopSpace&quot; );</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Vehicle</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Items.EngineKnowledge</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKV_VehicleArmour&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_VehicleAmmo&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_TurretDamage&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GCWeapon&quot; );</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165.75">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_GeneLab</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Items.GeneticKnowledge</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKV_GeneAP&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneStrength&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneAccuracy&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneReflexes&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneHP&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_MedicSpace&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_Training&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_MaxAP&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_MaxHP&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_MaxStrength&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_MaxReflex&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_MaxBravery&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_MaxAcc&quot; );</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Afterburner</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Items.FlightKnowledge</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKV_AfterburnerFuel&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_AfterburnerSpeed&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_TurretAccuracy&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_RadarRange&quot; );</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:Index="4" ss:StyleID="s74"/>
+    <Cell ss:Index="6" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_LightScoutCCCP</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AlienLightScoutDatacore(AND)Researches.CooperationWithUSSR</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s77"><Data ss:Type="String">UnlockKnowledge( &quot;AV.CONVLIGHTSCOUTBEAM&quot; );&#10;UnlockKnowledge( &quot;airplane.human.mig21&quot;);&#10;UnlockManufacture( &quot;ManTech.mig21&quot;);</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_LightScoutUS</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AlienLightScoutDatacore(AND)Researches.CooperationWithUSA</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s77"><Data ss:Type="String">UnlockKnowledge( &quot;AV.CONVLIGHTSCOUTBEAM&quot; );&#10;UnlockKnowledge( &quot;airplane.human.f4&quot;);&#10;UnlockManufacture( &quot;ManTech.f4&quot;);</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_LightScoutEU</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AlienLightScoutDatacore(AND)Researches.CooperationWithEU</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s77"><Data ss:Type="String">UnlockKnowledge( &quot;AV.CONVLIGHTSCOUTBEAM&quot; );&#10;UnlockKnowledge( &quot;airplane.human.kfirc2&quot;);&#10;UnlockManufacture( &quot;ManTech.kfirc2&quot;);</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:Index="4" ss:StyleID="s74"/>
+    <Cell ss:Index="6" ss:StyleID="s77"/>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_ScoutCCCP</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AlienScoutDatacore(AND)Researches.CooperationWithUSSR</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s77"><Data ss:Type="String">UnlockKnowledge( &quot;AV.CONVSCOUTBEAM&quot; );&#10;UnlockKnowledge( &quot;AV.CONVSCOUTMISSILE&quot; );&#10;UnlockManufacture( &quot;ManTech.su15&quot;);</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_ScoutUS</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AlienScoutDatacore(AND)Researches.CooperationWithUSA</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s77"><Data ss:Type="String">UnlockKnowledge( &quot;AV.CONVSCOUTBEAM&quot; );&#10;UnlockKnowledge( &quot;AV.CONVSCOUTMISSILE&quot; );&#10;UnlockManufacture( &quot;ManTech.f1&quot;);</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_ScoutEU</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AlienScoutDatacore(AND)Researches.CooperationWithEU</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s77"><Data ss:Type="String">UnlockKnowledge( &quot;AV.CONVSCOUTBEAM&quot; );&#10;UnlockKnowledge( &quot;AV.CONVSCOUTMISSILE&quot; );&#10;UnlockManufacture( &quot;ManTech.jaguar&quot;);</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+   </Row>
+   <Row ss:Index="34" ss:AutoFitHeight="0" ss:Height="63.75">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_CorvetteCCCP</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AlienCorvetteDatacore(AND)Researches.CooperationWithUSSR</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s77"><Data ss:Type="String">UnlockKnowledge( &quot;AV.CONVCORVETTEBEAM&quot; );&#10;UnlockKnowledge( &quot;AV.CONVCORVETTECANNON&quot; );&#10;UnlockKnowledge( &quot;AV.CONVCORVETTEMISSILE&quot; );&#10;UnlockKnowledge( &quot;airplane.human.su27&quot;);&#10;UnlockManufacture( &quot;ManTech.su27&quot;);</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_CorvetteUS</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AlienCorvetteDatacore(AND)Researches.CooperationWithUSA</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s77"><Data ss:Type="String">UnlockKnowledge( &quot;AV.CONVCORVETTEBEAM&quot; );&#10;UnlockKnowledge( &quot;AV.CONVCORVETTECANNON&quot; );&#10;UnlockKnowledge( &quot;AV.CONVCORVETTEMISSILE&quot; );&#10;UnlockKnowledge( &quot;airplane.human.f5&quot;);&#10;UnlockManufacture( &quot;ManTech.f5&quot;);</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_CorvetteEU</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AlienCorvetteDatacore(AND)Researches.CooperationWithEU</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s77"><Data ss:Type="String">UnlockKnowledge( &quot;AV.CONVCORVETTEBEAM&quot; );&#10;UnlockKnowledge( &quot;AV.CONVCORVETTECANNON&quot; );&#10;UnlockKnowledge( &quot;AV.CONVCORVETTEMISSILE&quot; );&#10;UnlockKnowledge( &quot;airplane.human.lightning&quot;);&#10;UnlockManufacture( &quot;ManTech.lightning&quot;);</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+   </Row>
+   <Row ss:Index="38" ss:AutoFitHeight="0" ss:Height="51">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_CruiserCCCP</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AlienLightCruiserDatacore(AND)Researches.CooperationWithUSSR</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s77"><Data ss:Type="String">UnlockKnowledge( &quot;AV.CONVLIGHTCRUISERBEAM&quot; );&#10;UnlockKnowledge( &quot;AV.CONVLIGHTCRUISERYAMATO&quot; );&#10;UnlockKnowledge( &quot;airplane.human.su2&quot;);&#10;UnlockManufacture( &quot;ManTech.su2&quot;);</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_CruiserUS</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AlienLightCruiserDatacore(AND)Researches.CooperationWithUSA</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s77"><Data ss:Type="String">UnlockKnowledge( &quot;AV.CONVLIGHTCRUISERBEAM&quot; );&#10;UnlockKnowledge( &quot;AV.CONVLIGHTCRUISERYAMATO&quot; );&#10;UnlockKnowledge( &quot;airplane.human.f12&quot;);&#10;UnlockManufacture( &quot;ManTech.f12&quot;);</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_CruiserEU</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AlienLightCruiserDatacore(AND)Researches.CooperationWithEU</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s77"><Data ss:Type="String">UnlockKnowledge( &quot;AV.CONVLIGHTCRUISERBEAM&quot; );&#10;UnlockKnowledge( &quot;AV.CONVLIGHTCRUISERYAMATO&quot; );&#10;UnlockKnowledge( &quot;airplane.human.aj37&quot;);&#10;UnlockManufacture( &quot;ManTech.aj37&quot;);</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_LightEngine</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Items.AlienLightEngines</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.Alienlightengine&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_HeavyEngine</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Items.AlienHeavyEngines</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.Alienheavyengine&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_LWS</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell><Data ss:Type="String">Items.AlienBeamWeapon</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.AlienLightWeaponSystem&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_HWS</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell><Data ss:Type="String">Items.AlienTorpedo</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.AlienHeavyWeaponSystem&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_AFP</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell><Data ss:Type="String">Items.AlienPlates</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.FighterPlating&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Speed</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.AlienLightEngines(OR)Items.AlienHeavyEngines</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.FighterSpeed_I&quot; );&#10;UnlockManufacture( &quot;ManTech.FighterSpeed_II&quot; );&#10;UnlockManufacture( &quot;ManTech.FighterSpeed_III&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.WraithHarridanGenes</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell><Data ss:Type="String">Items.WraithElite(OR)Items.WraithOfficer(OR)Items.HarridanElite(OR)Items.HarridanOfficer</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.WraithEliteGenes&quot; );&#10;UnlockManufacture( &quot;ManTech.WraithOfficerGenes&quot; );&#10;UnlockManufacture( &quot;ManTech.HarridanOfficerGenes&quot; );&#10;UnlockManufacture( &quot;ManTech.HarridanEliteGenes&quot; );</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+   </Row>
+   <Row ss:Index="55">
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>34</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>46</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R1050C3:R65497C3,R353C3:R1047C3,R168C3:R169C3,R117C3:R123C3,R106C3:R115C3,R68C3:R80C3,R338C3,R2C3,R133C3:R161C3,R50C3,R52C3:R54C3,R34C3:R36C3,R325C3:R326C3,R56C3:R66C3,R297C3:R298C3,R311C3:R322C3,R308C3:R309C3,R187C3:R188C3,R270C3:R279C3,R217C3:R219C3,R233C3,R221C3,R223C3:R230C3,R198C3,R215C3,R200C3:R203C3,R292C3,R267C3:R268C3,R281C3,R192C3,R195C3:R196C3,R171C3,R175C3:R184C3,R163C3:R165C3,R6C3:R7C3,R21C3:R32C3,R9C3:R17C3,R38C3:R48C3</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;Extraterrestrials,ExtraterrestrialTech,UFOs,Weaponary,Armour,Equipment,Vehicles,Aircraft,BaseStructures&quot;</Value>
+   <ErrorMessage>Use the list to select a dategory.</ErrorMessage>
+   <ErrorTitle>Invalid value.</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R1C3</Range>
+   <ErrorMessage>Use the list to select a dategory.</ErrorMessage>
+   <ErrorTitle>Invalid value.</ErrorTitle>
+  </DataValidation>
+ </Worksheet>
+</Workbook>

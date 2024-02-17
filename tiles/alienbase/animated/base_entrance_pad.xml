@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE sequence SYSTEM "sidewalkdtd">
+<sequence name="base_entrance_pad.xml" source="./telepad_*.png">
+    <img regx="97" regy="145" name="base_entrance_pad" w="0" h="0" />
+    <framelist>
+        <frame regx="50" regy="26" x="0" y="0" w="98" h="50" name="telepad_1.png" />
+        <frame regx="50" regy="26" x="99" y="0" w="98" h="50" name="telepad_2.png" />
+        <frame regx="50" regy="26" x="0" y="51" w="98" h="50" name="telepad_3.png" />
+        <frame regx="50" regy="26" x="0" y="102" w="98" h="50" name="telepad_4.png" />
+    </framelist>
+    <timeline name="main" frametime="120">
+        <keyframe frame="1" />
+        <keyframe frame="2" />
+        <keyframe frame="3" />
+        <keyframe frame="4" />
+        <keyframe jumpto="0" />
+    </timeline>
+</sequence>

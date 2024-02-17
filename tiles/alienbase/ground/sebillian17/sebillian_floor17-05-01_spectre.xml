@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<spectre version="1" height="1" width="1" id="tiles/alienbase/ground/sebillian17/sebillian_floor17-05-01">
+    <state wallType="none" hp="30" sortPoint="0.500" orientation="0" bulletScore="1.000" visibilityScore="1.000" objectTypePreset="0" pathScore="1" pivotY="24" pivotX="48" name="" id="damaged" footstepsSound="Dirt" destructionSound="Destruction Dirt">
+        <image src="tiles/alienbase/ground/sebillian17/sebillian_floor17-05-01_damaged.png" />
+    </state>
+    <state wallType="none" hp="30" sortPoint="0.500" orientation="0" bulletScore="1.000" visibilityScore="1.000" objectTypePreset="0" pathScore="1" pivotY="24" pivotX="48" name="" id="default" footstepsSound="Dirt" destructionSound="Destruction Dirt">
+        <image src="tiles/alienbase/ground/sebillian17/sebillian_floor17-05-01.png" />
+    </state>
+    <state wallType="none" hp="0" sortPoint="0.500" orientation="0" bulletScore="1.000" visibilityScore="1.000" objectTypePreset="0" pathScore="1" pivotY="24" pivotX="48" name="" id="destroyed" footstepsSound="Dirt" destructionSound="Destruction Dirt">
+        <image src="tiles/alienbase/ground/sebillian17/sebillian_floor17-05-01_destroyed.png" />
+    </state>
+</spectre>

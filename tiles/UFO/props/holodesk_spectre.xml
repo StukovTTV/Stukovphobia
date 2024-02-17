@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<spectre id="UFO/props/holodesk" width="2" height="2" version="1">
+    <state id="damaged" name="" pivotX="85" pivotY="65" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="0.500" orientation="0" sortPoint="0.500" hp="240" wallType="tall" isLamp="1" lightRadius="5.000" destructionSound="Metal Prop">
+        <image src="tiles/UFO/props/holodesk_damaged.png" />
+    </state>
+    <state id="default" name="" pivotX="85" pivotY="65" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="0.500" orientation="0" sortPoint="0.500" hp="30" wallType="tall" isLamp="1" lightRadius="5.000" isRecoverable="1" recoverItemString="Items.AlienHoloDesk" recoverAlienium="1" recoverAlienAlloys="0" destructionSound="Metal Prop">
+        <anim src="tiles/UFO/props/holodesk" anim="main" />
+    </state>
+    <state id="destroyed" name="" pivotX="85" pivotY="65" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="0.500" orientation="0" sortPoint="0.500" hp="0" wallType="tall" isLamp="1" lightRadius="5.000" destructionSound="Metal Prop">
+        <image src="tiles/UFO/props/holodesk_destroyed.png" />
+    </state>
+</spectre>

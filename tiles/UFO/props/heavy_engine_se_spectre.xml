@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<spectre id="UFO/props/heavy_engine_se" width="2" height="3" version="1">
+    <state id="damaged" name="" pivotX="95" pivotY="159" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="0.000" orientation="0" sortPoint="0.500" hp="240" wallType="tall" isRecoverable="1" recoverItemString="" recoverAlienium="1" recoverAlienAlloys="5" destructionSound="Metal Prop">
+        <image src="tiles/UFO/props/heavy_engine_se_damaged.png" />
+    </state>
+    <state id="default" name="" pivotX="95" pivotY="159" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="0.000" orientation="0" sortPoint="0.500" hp="240" wallType="tall" isRecoverable="1" recoverItemString="Items.AlienHeavyEngines" recoverAlienium="1" recoverAlienAlloys="5" destructionSound="Metal Prop">
+        <image src="tiles/UFO/props/heavy_engine_se.png" />
+    </state>
+    <state id="destroyed" name="" pivotX="95" pivotY="159" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="0.000" orientation="0" sortPoint="0.500" hp="0" wallType="tall" isExplosive="1" explosionRadius="5.000" explosionDamage="250" destructionSound="Metal Prop">
+        <image src="tiles/UFO/props/heavy_engine_se_destroyed.png" />
+    </state>
+</spectre>

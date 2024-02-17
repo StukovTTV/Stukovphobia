@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<spectre id="UFO/props/corridor_cover_se" width="1" height="1" version="1">
+    <state id="damaged" name="" pivotX="116" pivotY="134" pathScore="1" objectTypePreset="1" visibilityScore="1.000" bulletScore="0.500" orientation="2" sortPoint="0.300" hp="120" isCover="1" coverAnimName="lean" wallType="crushing" isVaultable="1" destructionSound="Metal Prop">
+        <image src="tiles/UFO/props/corridor_cover_se_damaged.png" />
+    </state>
+    <state id="default" name="" pivotX="116" pivotY="134" pathScore="1" objectTypePreset="1" visibilityScore="1.000" bulletScore="0.500" orientation="2" sortPoint="0.300" hp="120" isCover="1" coverAnimName="lean" wallType="crushing" isVaultable="1" isVaultable="1" isRecoverable="1" recoverItemString="Items.AlienPlates" recoverAlienium="0" recoverAlienAlloys="0" destructionSound="Metal Prop">
+        <image src="tiles/UFO/props/corridor_cover_se.png" />
+    </state>
+    <state id="destroyed" name="" pivotX="116" pivotY="134" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="1.000" orientation="0" sortPoint="0.500" hp="0" wallType="none">
+        <image src="tiles/UFO/props/corridor_cover_se_destroyed.png" />
+    </state>
+</spectre>

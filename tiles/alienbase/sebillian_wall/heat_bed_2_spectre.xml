@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<spectre id="alienbase/sebillian_wall/heat_bed_2" width="2" height="1" version="1">
+    <state id="damaged" name="" pivotX="121" pivotY="131" pathScore="1" objectTypePreset="3" visibilityScore="1.000" bulletScore="0.500" orientation="0" sortPoint="0.500" hp="240" isCover="1" coverAnimName="lean" wallType="crushing" destructionSound="Destruction Dirt">
+        <image src="tiles/alienbase/sebillian_wall/heat_bed_2_damaged.png" />
+    </state>
+    <state id="default" name="" pivotX="121" pivotY="131" pathScore="1" objectTypePreset="3" visibilityScore="1.000" bulletScore="0.500" orientation="0" sortPoint="0.500" hp="240" isCover="1" coverAnimName="lean" wallType="crushing" destructionSound="Destruction Dirt">
+        <image src="tiles/alienbase/sebillian_wall/heat_bed_2.png" />
+    </state>
+    <state id="destroyed" name="" pivotX="121" pivotY="131" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="1.000" orientation="0" sortPoint="0.500" hp="0" wallType="none">
+        <image src="tiles/alienbase/sebillian_wall/heat_bed_2_destroyed.png" />
+    </state>
+</spectre>

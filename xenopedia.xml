@@ -1,0 +1,629 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>dell</Author>
+  <LastAuthor>user</LastAuthor>
+  <Created>2013-04-29T16:38:45Z</Created>
+  <LastSaved>2022-12-17T20:41:26Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13485</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <TabRatio>221</TabRatio>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="238"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Normal 2 9">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63" ss:Name="Normal 5">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64" ss:Name="Normal 8">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65" ss:Name="Normal 9">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66" ss:Name="Normal_Sheet1">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s80">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s84" ss:Parent="s62">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s85" ss:Parent="s63">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s86">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s88">
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="Categories" ss:RefersTo="=Sheet1!#REF!"/>
+ </Names>
+ <Worksheet ss:Name="Sheet1">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=Sheet1!R1C1:R1C22"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="54" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="232.5" ss:Span="1"/>
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="188.25"/>
+   <Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="130.5"/>
+   <Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="80.25"/>
+   <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="1067.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="537"/>
+   <Row ss:StyleID="s71">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Name</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">DisplayName</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Image</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Category</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Interface</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Description</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">AV.K13M</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">K-13M Missile</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">xenopediaimages/k13m</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Aircraft Missiles</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The Vympel K-13  is a short-range, infrared homing air-to-air missile developed by the Soviet Union. It is similar in appearance and function to the American AIM-9B Sidewinder from which it was reverse-engineered.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">AV.R98</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">R-98 Missile</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">xenopediaimages/r98</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Aircraft Torpedo</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The Kaliningrad R-98 is a medium-range air-to-air missile developed by the Soviet Union for interceptor aircraft use.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">AV.R73</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">R-73 Missile</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">xenopediaimages/r73</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Aircraft Missiles</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The R-73 is a short-range air-to-air missile developed by Vympel NPO.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">AV.AIM9D</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">AIM-9D Missile</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">xenopediaimages/aim9d</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Aircraft Missiles</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The AIM-9D Sidewinder (where &quot;AIM&quot; stands for &quot;Air Intercept Missile&quot;) is a short-range air-to-air missile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">AV.AIM7E</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">AIM-7E Missile</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">xenopediaimages/aim7e</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Aircraft Torpedo</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The AIM-7E Sparrow (where &quot;AIM&quot; stands for &quot;Air Intercept Missile&quot;) is a medium range air-to-air torpedo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">AV.SHAFRIR</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Shafrir Missile</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">xenopediaimages/shafrir</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Aircraft Missiles</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The Shafrir is a short-range air-to-air missile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">AV.PYTHON</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Python Missile</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">xenopediaimages/python</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Aircraft Missiles</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The Python is a short-range air-to-air missile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">AV.SKYFLASH</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Skyflash Missile</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">xenopediaimages/skyflash</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Aircraft Torpedo</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The Skyflash, or Sky Flash in marketing material, is a medium-range semi-active radar homing air-to-air missile derived from the US AIM-7 Sparrow missile.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">AV.ASPIDE</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Aspide Missile</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">xenopediaimages/aspide</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Aircraft Torpedo</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Aspide (the Italian name for the asp) is an Italian medium range air-to-air missile</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s80">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">AV.AD_ASTRA</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Ad Astra Missile</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">xenopediaimages/ad_astra</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Aircraft Missiles</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Astra is an Indian family of all weather beyond-visual-range air-to-air missile</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s80">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">AV.BELUGA</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Beluga Missile</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">xenopediaimages/beluga</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Aircraft Missiles</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The Beluga is a short-range air-to-air missile</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell><Data ss:Type="String">av.mammoth</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">AV.MAMMOTH</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">xenopediaimages/mammoth</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Aircraft Torpedo</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The Mammoth is a medium-range semi-active radar homing air-to-air missile</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell><Data ss:Type="String">AV.AIM9P</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">AIM-9P Missile</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/aim9p</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Aircraft Missiles</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The AIM-9P Sidewinder (where &quot;AIM&quot; stands for &quot;Air Intercept Missile&quot;) is a short-range air-to-air missile</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell><Data ss:Type="String">AV.R530</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">R-530 Missile</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/r530</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Aircraft Torpedo</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">The Matra R.530 is a French medium to short range air-to-air missile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Researches.CooperationWithUSSR</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Cooperation with USSR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">xenopediaimages/USSR</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Extraterrestrials</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Cooperation with USSR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Researches.CooperationWithUSA</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Cooperation with USA</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">xenopediaimages/USA</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Extraterrestrials</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Cooperation with USA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Researches.CooperationWithEU</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Cooperation with European nations</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">xenopediaimages/EU</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Extraterrestrials</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Cooperation with European nations</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Researches.AdvancedUSSRRockets</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Advanced USSR rockets</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">xenopediaimages/USSRRockets</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Extraterrestrials</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Advanced USSR rockets</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Researches.AdvancedUSARockets</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Advanced USA rockets</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">xenopediaimages/USARockets</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Extraterrestrials</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Advanced USA rockets</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Researches.AdvancedEURockets</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Advanced EU rockets</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">xenopediaimages/EURockets</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Extraterrestrials</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Advanced EU rockets</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell><Data ss:Type="String">airplane.human.mig21</Data></Cell>
+    <Cell><Data ss:Type="String">MiG-21bis (Fishbed N)</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/mig21</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">The Mikoyan-Gurevich MiG-21 (Russian: Микоян и Гуревич МиГ-21; NATO reporting name: Fishbed) is a supersonic jet fighter and interceptor aircraft, designed by the Mikoyan-Gurevich Design Bureau in the Soviet Union. Its nicknames include: &quot;balalaika&quot;, because its planform resembles the stringed musical instrument of the same name; &quot;Ołówek&quot;, Polish for &quot;pencil&quot;, due to the shape of its fuselage,[2] and &quot;Én Bạc&quot;, meaning &quot;silver&#160;swallow&quot;, in Vietnamese. </Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell><Data ss:Type="String">airplane.human.mig23</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">MiG-23P (Flogger-G)</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/mig23</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">The Mikoyan-Gurevich MiG-23 is a variable-geometry fighter aircraft, designed by the Mikoyan-Gurevich design bureau in the Soviet Union. It is a third-generation jet fighter, alongside similar Soviet aircraft such as the Su-17 &quot;Fitter&quot;.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.su15</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Su-15TM (Flagon-F)</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/su15</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The Sukhoi Su-15 is a twinjet supersonic interceptor aircraft developed by the Soviet Union.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.miragef1</Data></Cell>
+    <Cell><Data ss:Type="String">Mirage F.1</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/miragef1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The Dassault Mirage F1 is a French fighter and attack aircraft designed and manufactured by Dassault Aviation. It was developed as a successor to the popular Mirage III family.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.kfirc2</Data></Cell>
+    <Cell><Data ss:Type="String">Kfir C.2</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/kfirc2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The Israel Aircraft Industries Kfir is an Israeli all-weather multirole combat aircraft based on the French Dassault Mirage 5, with Israeli avionics and an Israeli-built version of the General Electric J79 turbojet engine</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.f4</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">F-4S Phantom II</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/f4</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The McDonnell Douglas F-4 Phantom II is an American tandem two-seat, twin-engine, all-weather, long-range supersonic jet interceptor and fighter-bomber originally developed by McDonnell Aircraft for the United States Navy.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.f5</Data></Cell>
+    <Cell><Data ss:Type="String">F-5E Tiger II</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/f5</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The Northrop F-5 is a family of supersonic light fighter aircraft initially designed as a privately funded project in the late 1950s by Northrop Corporation. </Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.lightning</Data></Cell>
+    <Cell><Data ss:Type="String">Lightning F.6</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/lightning</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The Lightning is a very distinctive aircraft, with its unique stacked engine design, highly swept wings, and large ventral fuel tank. It was designed as a high performance interceptor aircraft, to defend against Soviet bombers, sacrificing range and flexibility for raw performance. With most of the fuselage taken up by the two powerful Rolls-Royce Avon engines, fuel had to be put wherever it could fit inside the wings (including inside the flaps), and in a large ventral fuel tank fitted to the underside of the aircraft. Another factor adding to the Lightning's unique appearance is the fitment of two air-to-air missiles to the sides of the forward fuselage.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.jaguar</Data></Cell>
+    <Cell><Data ss:Type="String">Jaguar GR.Mk.1</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/jaguar</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The SEPECAT Jaguar is an Anglo-French jet attack aircraft originally used by the British Royal Air Force and the French Air Force in the close air support and nuclear strike role.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.aj37</Data></Cell>
+    <Cell><Data ss:Type="String">AJ.37 Viggen</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/aj37</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The Saab 37 Viggen (Swedish for &quot;the Bolt&quot; or &quot;the Tufted Duck&quot; is a Swedish single-seat, single-engine, short-medium range combat aircraft.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.f1</Data></Cell>
+    <Cell><Data ss:Type="String">Mitsubishi F-1</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/f1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The Mitsubishi F-1 is a Japanese swept-wing, single-seat, twin-engine supersonic strike aircraft</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.tu128</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Tu-128M (Fiddler)</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/tu128</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The Tupolev Tu-28 (NATO reporting name Fiddler) is a long-range interceptor aircraft introduced by the Soviet Union in the 1960s. The official designation was Tu-128, but this designation was less commonly used in the West.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.f12</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">F-12A Blackbird</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/f12</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The Lockheed F-12 is an American Mach&#160;3+ capable, high-altitude interceptor prototype, developed and manufactured by American aerospace company Lockheed Corporation.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.mig29</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">MiG-29 (Fulcrum)</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/mig29</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The Mikoyan MiG-29 (Russian: Микоян МиГ-29; NATO reporting name: Fulcrum) is a twin-engine fighter aircraft designed in the Soviet Union.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.su27</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Su-27 (Flanker)</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/su27</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The Sukhoi Su-27 is a Soviet-origin twin-engine supermaneuverable fighter aircraft designed by Sukhoi</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.f16</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">F-16A Fighting Falcon</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/f16</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The General Dynamics F-16 Fighting Falcon is a single-engine multirole fighter aircraft originally developed by General Dynamics for the United States Air Force. Designed as an air superiority day fighter, it evolved into a successful all-weather multirole aircraft.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.f15</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">F-15A Eagle</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/f15</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The McDonnell Douglas F-15 Eagle is an American twin-engine, all-weather tactical fighter aircraft designed by McDonnell Douglas. </Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.f14</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">F-14A Tomcat</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/f14</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The Grumman F-14 Tomcat is an American carrier-capable supersonic, twin-engine, two-seat, twin-tail, variable-sweep wing fighter aircraft. The Tomcat was developed for the United States Navy's Naval Fighter Experimental program after the collapse of the General Dynamics-Grumman F-111B project.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.mirage2000</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Mirage 2000</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/mirage2000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The Dassault Mirage 2000 is a French multirole, single-engine, fourth-generation jet fighter manufactured by Dassault Aviation.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.tornado</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Tornado F.2</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/tornado</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The Panavia Tornado Air Defence Variant (ADV) was a long-range, twin-engine interceptor version of the swing-wing Panavia Tornado.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.mirage4000</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Mirage 4000</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/mirage4000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">The Dassault Mirage 4000 was a French prototype twinjet fighter aircraft developed by Dassault-Breguet from their Mirage 2000.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">weapon.farmershotgun</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Primitive Shotgun</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">xenopediaimages/farmershotgun</Data></Cell>
+    <Cell><Data ss:Type="String">X-Division Early Weapons</Data></Cell>
+    <Cell><Data ss:Type="String">WEP</Data></Cell>
+    <Cell><Data ss:Type="String">A primitive Shotgun</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">weapon.ak47</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">AK 47</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">xenopediaimages/ak47_colour</Data></Cell>
+    <Cell><Data ss:Type="String">X-Division Early Weapons</Data></Cell>
+    <Cell><Data ss:Type="String">WEP</Data></Cell>
+    <Cell><Data ss:Type="String">Rifles are versatile weapons with average damage output. They are effective at long range using single shots, but can also burst fire to suppress enemies or inflict heavy close-quarters damage. This makes them reliable weapons that do not excel at any particular role</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Alien Interrogation - Extract Knowledge</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">xenopediaimages/interrogation</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Extraterrestrials</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">We can ... convince ... Aliens to share their Knowledge with us. Unfortunately usually they do not survive the Interrogation.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CONVLIGHTSCOUTBEAM</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Converted Alien Light Scout Beam</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/alienbeam1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Aircraft Cannons</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell><Data ss:Type="String">A Light Scout Alien Beam weapon. Adaptation to our systems will reduce its power considerably though. We expect it to be 25% less effective with a lot lower Ammunition.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CONVSCOUTBEAM</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Converted Alien Scout Beam</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/alienbeam1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Aircraft Cannons</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell><Data ss:Type="String">Interrogation of some commanding Aliens can lead us to get their Scout Alien Beam weapon. Adaptation to our systems will reduce its power considerably though. We expect it to be 25% less effective with a lot lower Ammunition.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CONVSCOUTMISSILE</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Converted Alien Scout Missile Launcher</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/alienmissile</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Aircraft Missiles</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell><Data ss:Type="String">Interrogation of some commanding Aliens can lead us to get their Scout Alien Missile Launcher. Adaptation to our systems will reduce its power considerably though. We expect it to be 25% less effective with a lot lower Ammunition.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CONVCORVETTEBEAM</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Converted Alien Corvette Beam</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/alienbeam1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Aircraft Cannons</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell><Data ss:Type="String">Interrogation of some commanding Aliens can lead us to get their Corvette Alien Beam weapon. Adaptation to our systems will reduce its power considerably though. We expect it to be 25% less effective with a lot lower Ammunition.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CONVCORVETTECANNON</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Converted Alien Corvette Cannon</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/aliencannon</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Aircraft Cannons</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell><Data ss:Type="String">Interrogation of some commanding Aliens can lead us to get their Corvette Alien Cannon weapon. Adaptation to our systems will reduce its power considerably though. We expect it to be 25% less effective with a lot lower Ammunition.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CONVCORVETTEMISSILE</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Converted Alien Corvette Missile Launcher</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/alienmissile</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Aircraft Missiles</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell><Data ss:Type="String">Interrogation of some commanding Aliens can lead us to get their Corvette Alien Missile Launcher. Adaptation to our systems will reduce its power considerably though. We expect it to be 25% less effective with a lot lower Ammunition.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s80">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">airplane.human.su2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Su-15TM (Flagon-F)</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/su</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Aircraft</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">AC</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">he Sukhoi Su-2 Grach  is a subsonic, single-seat, twin-engine jet aircraft developed in the Soviet Union by Sukhoi.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CONVLIGHTCRUISERBEAM</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Converted Alien Cruiser Beam</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/alienbeam1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Aircraft Cannons</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell><Data ss:Type="String">Interrogation of some commanding Aliens can lead us to get their Cruiser Alien Beam weapon. Adaptation to our systems will reduce its power considerably though. We expect it to be 25% less effectivewith a lot lower Ammunition.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CONVLIGHTCRUISERYAMATO</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Converted Alien Yamato Cannon</Data></Cell>
+    <Cell><Data ss:Type="String">xenopediaimages/alienbeam1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Aircraft Cannons</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACW</Data></Cell>
+    <Cell><Data ss:Type="String">Interrogation of some commanding Aliens can lead us to get their Yamato Cannon. Adaptation to our systems will reduce its power considerably though. We expect it to be 25% less effective with a lot lower Ammunition.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>19</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>52</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <AutoFilter x:Range="R1C1:R51C22"
+   xmlns="urn:schemas-microsoft-com:office:excel">
+  </AutoFilter>
+ </Worksheet>
+</Workbook>

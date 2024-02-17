@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<spectre id="UFO/props/teleport_pad" width="1" height="1" version="1">
+    <state id="damaged" name="" pivotX="97" pivotY="144" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="1.000" orientation="0" sortPoint="0.500" hp="0" wallType="none" destructionSound="Metal Prop">
+        <image src="tiles/UFO/props/teleport_pad_damaged.png" />
+    </state>
+    <state id="default" name="" pivotX="97" pivotY="144" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="1.000" orientation="0" sortPoint="0.500" hp="0" wallType="none" destructionSound="Metal Prop" isUFONeverHide="1" isRecoverable="1" recoverItemString="Items.AlienTeleportation" recoverAlienium="0" recoverAlienAlloys="0">
+        <image src="tiles/UFO/props/teleport_pad.png" />
+    </state>
+    <state id="destroyed" name="" pivotX="97" pivotY="144" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="1.000" orientation="0" sortPoint="0.500" hp="0" wallType="none" />
+</spectre>

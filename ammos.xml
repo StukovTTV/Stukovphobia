@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Ammos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.gw_submachinegun">
+        <stockTextureName>weapons/ballistic/gw_Submachinegun_ammo</stockTextureName>
+        <dragTextureName>weapons/ballistic/gw_submachinegun_ammo</dragTextureName>
+        <slotsizex>1</slotsizex>
+        <slotsizey>1</slotsizey>
+        <weight>1</weight>
+    </Ammo>
+	<Ammo name="ammo.ballistic.rifleAK">
+        <stockTextureName>weapons/ballistic/assaultrifle_ammo</stockTextureName>
+        <dragTextureName>weapons/ballistic/assaultrifle_ammo</dragTextureName>
+        <slotsizex>1</slotsizex>
+        <slotsizey>1</slotsizey>
+        <weight>1</weight>
+    </Ammo>
+</Ammos>

@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40"
+ xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>user</LastAuthor>
+  <LastSaved>2023-01-31T20:09:07Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <Colors>
+   <Color>
+    <Index>3</Index>
+    <RGB>#C0C0C0</RGB>
+   </Color>
+   <Color>
+    <Index>4</Index>
+    <RGB>#FF0000</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13200</WindowHeight>
+  <WindowWidth>26910</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Default">
+  </Style>
+  <Style ss:ID="s63" ss:Name="Normal_">
+   <Font ss:FontName="Arial"/>
+  </Style>
+  <Style ss:ID="s66" ss:Parent="s63">
+   <Font ss:FontName="Arial" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s68">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s69" ss:Parent="s63">
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s70">
+   <Font ss:FontName="Tahoma" x:Family="Swiss" ss:Color="#333333"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="171.75"/>
+   <Column ss:StyleID="s62" ss:Width="235.5" ss:Span="1"/>
+   <Column ss:Index="4" ss:StyleID="s62" ss:Width="51.75"/>
+   <Column ss:StyleID="s62" ss:Width="59.25"/>
+   <Column ss:StyleID="s62" ss:Width="57"/>
+   <Column ss:StyleID="s62" ss:Width="45.75"/>
+   <Column ss:Index="9" ss:StyleID="s62" ss:Width="60.75"/>
+   <Column ss:StyleID="s62" ss:Width="50.25"/>
+   <Column ss:StyleID="s62" ss:Width="59.25"/>
+   <Column ss:StyleID="s62" ss:Width="58.5"/>
+   <Column ss:StyleID="s62" ss:Width="144.75"/>
+   <Column ss:StyleID="s62" ss:Width="58.5"/>
+   <Column ss:StyleID="s62" ss:Width="68.25"/>
+   <Column ss:StyleID="s62" ss:Width="100.5"/>
+   <Column ss:StyleID="s62" ss:Width="60"/>
+   <Row ss:AutoFitHeight="0" ss:Height="13.3125">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">stockTextureName</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">dragTextureName</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">type</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">twoHanded</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">damage</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">range</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">clipsize</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">accuracy</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">weight</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">slotsizex</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">slotsizey</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ammo</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">reloadCost</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">reloadSound</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">inventoryCategory</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">isBigGun</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapon.gw_submachinegun</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/ballistic/eu/GW_Submachinegun</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/ballistic/eu/GW_Submachinegun</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0.8</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ammo.ballistic.pistol</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Ballistics</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapon.gw_battlerifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/ballistic/eu/GW_Battlerifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/ballistic/eu/GW_Battlerifle</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ammo.ballistic.sniper</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">weapon.ak47</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">weapons/ballistic/soviet/AK47_colour</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">weapons/ballistic/soviet/AK47_colour</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0.8</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ammo.ballistic.rifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Ballistics</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.farmershotgun</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/ballistic/farmershotgun</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/ballistic/farmershotgun</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.shotgun</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.3125">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">weapon.combatshield</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">weapons/misc/combatshield</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">weapons/misc/combatshield</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ammo.none</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s70"><Data ss:Type="String">EExtra1</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <SplitVertical>1</SplitVertical>
+   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>0</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C16,R4C16</Range>
+   <Type>List</Type>
+   <UseBlank/>
+   <CellRangeList/>
+   <Value>&quot;Ballistics,Lasers,Plasmas,MAGs,Grenades,Rockets,Other&quot;</Value>
+  </DataValidation>
+  <x:WorksheetOptions/>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="59.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="13.3125"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <x:WorksheetOptions/>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="59.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="13.3125"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <x:WorksheetOptions/>
+ </Worksheet>
+</Workbook>

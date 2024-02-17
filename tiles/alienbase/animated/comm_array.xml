@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE sequence SYSTEM "sidewalkdtd">
+<sequence name="comm_array.xml" source="./comm_array_*.png">
+    <img regx="258" regy="282" name="comm_array" w="0" h="0" />
+    <framelist>
+        <frame regx="74" regy="83" x="422" y="442" w="145" h="140" name="comm_array_00.png" />
+        <frame regx="74" regy="84" x="422" y="300" w="145" h="141" name="comm_array_01.png" />
+        <frame regx="73" regy="85" x="274" y="444" w="145" h="142" name="comm_array_02.png" />
+        <frame regx="73" regy="86" x="274" y="300" w="147" h="143" name="comm_array_03.png" />
+        <frame regx="72" regy="87" x="419" y="153" w="146" h="144" name="comm_array_04.png" />
+        <frame regx="70" regy="89" x="274" y="153" w="144" h="146" name="comm_array_05.png" />
+        <frame regx="68" regy="91" x="133" y="153" w="140" h="148" name="comm_array_06.png" />
+        <frame regx="68" regy="93" x="403" y="0" w="138" h="150" name="comm_array_07.png" />
+        <frame regx="68" regy="95" x="133" y="0" w="136" h="152" name="comm_array_08.png" />
+        <frame regx="68" regy="96" x="0" y="465" w="132" h="153" name="comm_array_09.png" />
+        <frame regx="68" regy="97" x="0" y="310" w="132" h="154" name="comm_array_10.png" />
+        <frame regx="68" regy="97" x="0" y="155" w="132" h="154" name="comm_array_11.png" />
+        <frame regx="68" regy="97" x="0" y="0" w="132" h="154" name="comm_array_12.png" />
+        <frame regx="68" regy="95" x="270" y="0" w="132" h="152" name="comm_array_13.png" />
+        <frame regx="68" regy="92" x="542" y="0" w="136" h="149" name="comm_array_14.png" />
+        <frame regx="68" regy="91" x="133" y="302" w="137" h="148" name="comm_array_15.png" />
+    </framelist>
+    <timeline name="main" frametime="80">
+        <keyframe frame="1" time="1000" />
+        <keyframe frame="2" />
+        <keyframe frame="3" />
+        <keyframe frame="4" time="500" />
+        <keyframe frame="5" />
+        <keyframe frame="6" />
+        <keyframe frame="7" />
+        <keyframe frame="8" />
+        <keyframe frame="9" />
+        <keyframe frame="10" />
+        <keyframe frame="11" />
+        <keyframe frame="12" time="500" />
+        <keyframe frame="13" />
+        <keyframe frame="14" />
+        <keyframe frame="15" />
+        <keyframe frame="16" time="1000" />
+        <keyframe frame="15" />
+        <keyframe frame="14" />
+        <keyframe frame="13" />
+        <keyframe frame="12" time="500" />
+        <keyframe frame="11" />
+        <keyframe frame="10" />
+        <keyframe frame="9" />
+        <keyframe frame="8" />
+        <keyframe frame="7" />
+        <keyframe frame="6" />
+        <keyframe frame="5" />
+        <keyframe frame="4" time="500" />
+        <keyframe frame="3" />
+        <keyframe frame="2" />
+        <keyframe jumpto="0" />
+    </timeline>
+</sequence>

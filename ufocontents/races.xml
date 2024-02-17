@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Races>
+!--	<Race MODMERGEATTRIBUTE="id" MODMERGE="insert" id="harridan">harridan</Race>
+	<Race MODMERGEATTRIBUTE="id" MODMERGE="insert" id="wraith">wraith</Race>
+	<Race MODMERGEATTRIBUTE="id" MODMERGE="insert" id="praetor">praetor</Race>
+</Races>

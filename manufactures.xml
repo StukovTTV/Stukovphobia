@@ -1,0 +1,1386 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>user</Author>
+  <LastAuthor>Robert Straif</LastAuthor>
+  <Created>2011-04-14T17:25:36Z</Created>
+  <LastSaved>2024-02-16T19:51:10Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="/"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13485</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <TabRatio>221</TabRatio>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s68">
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s70">
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="Categories" ss:RefersTo="=Sheet1!#REF!"/>
+ </Names>
+ <Worksheet ss:Name="Sheet1">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=Sheet1!R1C1:R1C10"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="138" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60">
+   <Column ss:Width="270.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="192"/>
+   <Column ss:AutoFitWidth="0" ss:Width="65.25" ss:Span="1"/>
+   <Column ss:Index="5" ss:Width="645"/>
+   <Column ss:AutoFitWidth="0" ss:Width="56.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="78"/>
+   <Column ss:Width="822.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0"/>
+   <Column ss:StyleID="s62" ss:Width="126.75"/>
+   <Row ss:StyleID="s64">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Name</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Category</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Unit days</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Unit cost</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Unit materials</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Image</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">When unlocked</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">When unit produced</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Starting</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">FillsSlot</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.AlienCrates</Data></Cell>
+    <Cell><Data ss:Type="String">Resources9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.AlienCrates&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.AlienPlates</Data></Cell>
+    <Cell><Data ss:Type="String">Resources9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.AlienPlates&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.AlienCommandSeat</Data></Cell>
+    <Cell><Data ss:Type="String">Resources9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.AlienCommandSeat&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.AlienConsole</Data></Cell>
+    <Cell><Data ss:Type="String">Resources9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.AlienConsole&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.AlienControlSeat</Data></Cell>
+    <Cell><Data ss:Type="String">Resources9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.AlienControlSeat&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.AlienHeavyEngines</Data></Cell>
+    <Cell><Data ss:Type="String">Resources9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.AlienHeavyEngines&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.AlienHoloDesk</Data></Cell>
+    <Cell><Data ss:Type="String">Resources9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.AlienHoloDesk&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.AlienLightEngines</Data></Cell>
+    <Cell><Data ss:Type="String">Resources9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.AlienLightEngines&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.AlienScreen</Data></Cell>
+    <Cell><Data ss:Type="String">Resources9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.AlienScreen&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.AlienTeleportation</Data></Cell>
+    <Cell><Data ss:Type="String">Resources9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.AlienTeleportation&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.AlienBeamWeapon</Data></Cell>
+    <Cell><Data ss:Type="String">Resources9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.AlienBeamWeapon&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.AlienTorpedo</Data></Cell>
+    <Cell><Data ss:Type="String">Resources9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.AlienTorpedo&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.CaesanGenes</Data></Cell>
+    <Cell><Data ss:Type="String">Genes</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.CaesanGenes&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.SebillianGenes</Data></Cell>
+    <Cell><Data ss:Type="String">Genes</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.SebillianGenes&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.WraithGenes</Data></Cell>
+    <Cell><Data ss:Type="String">Genes</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.WraithGenes&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.HarridanGenes</Data></Cell>
+    <Cell><Data ss:Type="String">Genes</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.HarridanGenes&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.PsionicKnowledge</Data></Cell>
+    <Cell><Data ss:Type="String">Knowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.PsionicKnowledge&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.GeneticKnowledge</Data></Cell>
+    <Cell><Data ss:Type="String">Knowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.GeneticKnowledge&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.WeaponKnowledge</Data></Cell>
+    <Cell><Data ss:Type="String">Knowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.WeaponKnowledge&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.EngineKnowledge</Data></Cell>
+    <Cell><Data ss:Type="String">Knowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.EngineKnowledge&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Dummy.Items.FlightKnowledge</Data></Cell>
+    <Cell><Data ss:Type="String">Knowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Charon;1xItems.Sfarrelly</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s66"><Data ss:Type="String">StockItem( &quot;Items.FlightKnowledge&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:Index="8" ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.AV.K13M</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft Missile &amp; Torpedo 0</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">4500</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s68"><Data ss:Type="String">StockItem( &quot;AV.K13M&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.AV.R98</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft Missile &amp; Torpedo 0</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">6000</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s68"><Data ss:Type="String">StockItem( &quot;AV.R98&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.AV.R73</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft Missile &amp; Torpedo 0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s68"><Data ss:Type="String">StockItem( &quot;AV.R73&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.AV.AIM9D</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft Missile &amp; Torpedo 0</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">1500</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s68"><Data ss:Type="String">StockItem( &quot;AV.AIM9D&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.AV.AIM7E</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft Missile &amp; Torpedo 0</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">1500</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s68"><Data ss:Type="String">StockItem( &quot;AV.AIM7E&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.AV.SHAFRIR</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft Missile &amp; Torpedo 0</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">6500</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s68"><Data ss:Type="String">StockItem( &quot;AV.SHAFRIR&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.AV.PYTHON</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft Missile &amp; Torpedo 0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">6250</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s68"><Data ss:Type="String">StockItem( &quot;AV.PYTHON&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.AV.SKYFLASH</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft Missile &amp; Torpedo 0</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">6250</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s68"><Data ss:Type="String">StockItem( &quot;AV.SKYFLASH&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.AV.ASPIDE</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft Missile &amp; Torpedo 0</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">1500</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s68"><Data ss:Type="String">StockItem( &quot;AV.ASPIDE&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.AV.AD_ASTRA</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft Missile &amp; Torpedo 0</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s68"><Data ss:Type="String">StockItem( &quot;AV.AD_ASTRA&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.AV.BELUGA</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft Missile &amp; Torpedo 0</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s68"><Data ss:Type="String">StockItem( &quot;AV.BELUGA&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.AV.MAMMOTH</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft Missile &amp; Torpedo 0</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s68"><Data ss:Type="String">StockItem( &quot;AV.MAMMOTH&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.AV.AIM9P</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft Missile &amp; Torpedo 0</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">8100</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s68"><Data ss:Type="String">StockItem( &quot;AV.AIM9P&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.AV.R530</Data></Cell>
+    <Cell><Data ss:Type="String">Aircraft Missile &amp; Torpedo 0</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">9900</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s68"><Data ss:Type="String">StockItem( &quot;AV.R530&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.farmershotgun</Data></Cell>
+    <Cell><Data ss:Type="String">AWC1</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s68"><Data ss:Type="String">StockItem( &quot;weapon.farmershotgun&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.ak47</Data></Cell>
+    <Cell><Data ss:Type="String">AWC1</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s68"><Data ss:Type="String">StockItem( &quot;weapon.ak47&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">ManTech.mig23</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Aircraft Units 0</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">250000</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.mig23&quot; );</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.mig23</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">ManTech.miragef1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Aircraft Units 0</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">32200</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.miragef1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.miragef1</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell><Data ss:Type="String">ManTech.tu128</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Aircraft Units 0</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">500000</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.tu128&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.tu128</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell><Data ss:Type="String">ManTech.mig29</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Aircraft Units 0</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">440000</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.mig29&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.mig29</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell><Data ss:Type="String">ManTech.f16</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Aircraft Units 0</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">200000</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.f16&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.f16</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell><Data ss:Type="String">ManTech.f15</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Aircraft Units 0</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">280000</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.f15&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.f15</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell><Data ss:Type="String">ManTech.f14</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Aircraft Units 0</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">275000</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.f14&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.f14</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell><Data ss:Type="String">ManTech.mirage2000</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Aircraft Units 0</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">55300</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.mirage2000&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.mirage2000</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell><Data ss:Type="String">ManTech.tornado</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Aircraft Units 0</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">58100</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.tornado&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.tornado</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell><Data ss:Type="String">ManTech.mirage4000</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Aircraft Units 0</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">79100</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.mirage4000&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.mirage4000</Data></Cell>
+   </Row>
+   <Row ss:Index="51" ss:Height="25.5">
+    <Cell><Data ss:Type="String">ManTech.SKV_WeaponExpert1Sebillian</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsWeaponKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Sebillianweaponsergeant</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.WeaponKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">ManTech.SKV_EngineExpert1Sebillian</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsEngineKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Sebilliantechnician</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.EngineKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">ManTech.SKV_GeneticExpert1Sebillian</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsGeneticKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Sebillianmedic</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.GeneticKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">ManTech.SKV_FlightExpert1Sebillian</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsFlightKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Sebilliannavigator</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.FlightKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">ManTech.SKV_WeaponExpert1Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsWeaponKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Caesanweaponsergeant</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.WeaponKnowledge&quot; );&#10;StockItem( &quot;Items.CaesanGenes&quot; );</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">ManTech.SKV_PsionicExpert1Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsPsionicKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.CaesanPsion</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.CaesanGenes&quot; );&#10;StockItem( &quot;Items.PsionicKnowledge&quot; );</Data></Cell>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">ManTech.SKV_EngineExpert1Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsEngineKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Caesantechnician</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.EngineKnowledge&quot; );&#10;StockItem( &quot;Items.CaesanGenes&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">ManTech.SKV_GeneticExpert1Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsGeneticKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Caesanmedic</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.CaesanGenes&quot; );&#10;StockItem( &quot;Items.GeneticKnowledge&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="25.5">
+    <Cell><Data ss:Type="String">ManTech.SKV_FlightExpert1Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsFlightKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Caesannavigator</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.FlightKnowledge&quot; );&#10;StockItem( &quot;Items.CaesanGenes&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell><Data ss:Type="String">ManTech.SKV_WeaponExpert2Sebillian</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsWeaponKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Sebillianweaponofficer</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.WeaponKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell><Data ss:Type="String">ManTech.SKV_EngineExpert2Sebillian</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsEngineKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Sebillianengineer</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.EngineKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell><Data ss:Type="String">ManTech.SKV_GeneticExpert2Sebillian</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsGeneticKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Sebillianphysician</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.GeneticKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell><Data ss:Type="String">ManTech.SKV_FlightExpert2Sebillian</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsFlightKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Sebillianpilot</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.FlightKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell><Data ss:Type="String">ManTech.SKV_WeaponExpert2Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsWeaponKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Caesanweaponofficer</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.WeaponKnowledge&quot; );&#10;StockItem( &quot;Items.CaesanGenes&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell><Data ss:Type="String">ManTech.SKV_PsionicExpert2Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsPsionicKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.CaesanPsionAssault</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.CaesanGenes&quot; );&#10;StockItem( &quot;Items.PsionicKnowledge&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell><Data ss:Type="String">ManTech.SKV_EngineExpert2Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsEngineKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Caesanengineer</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.EngineKnowledge&quot; );&#10;StockItem( &quot;Items.CaesanGenes&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell><Data ss:Type="String">ManTech.SKV_GeneticExpert2Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsGeneticKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Caesanphysician</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.CaesanGenes&quot; );&#10;StockItem( &quot;Items.GeneticKnowledge&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="38.25">
+    <Cell><Data ss:Type="String">ManTech.SKV_FlightExpert2Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsFlightKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Caesanpilot</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.FlightKnowledge&quot; );&#10;StockItem( &quot;Items.CaesanGenes&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="51">
+    <Cell><Data ss:Type="String">ManTech.SKV_WeaponExpert3Sebillian</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsWeaponKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">20000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Sebillianweaponcommander</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.WeaponKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="51">
+    <Cell><Data ss:Type="String">ManTech.SKV_EngineExpert3Sebillian</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsEngineKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">20000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Sebillianchief</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.EngineKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="51">
+    <Cell><Data ss:Type="String">ManTech.SKV_GeneticExpert3Sebillian</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsGeneticKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">20000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Sebilliandoctor</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.GeneticKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="51">
+    <Cell><Data ss:Type="String">ManTech.SKV_FlightExpert3Sebillian</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsFlightKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">20000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Sebilliancruisecommander</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.FlightKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="51">
+    <Cell><Data ss:Type="String">ManTech.SKV_WeaponExpert3Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsWeaponKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">20000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Caesanweaponcommander</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.WeaponKnowledge&quot; );&#10;StockItem( &quot;Items.CaesanGenes&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="51">
+    <Cell><Data ss:Type="String">ManTech.SKV_PsionicExpert3Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsPsionicKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">20000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.CaesanPsionMaster</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.CaesanGenes&quot; );&#10;StockItem( &quot;Items.PsionicKnowledge&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="51">
+    <Cell><Data ss:Type="String">ManTech.SKV_EngineExpert3Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsEngineKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">20000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Caesanchief</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.EngineKnowledge&quot; );&#10;StockItem( &quot;Items.CaesanGenes&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="51">
+    <Cell><Data ss:Type="String">ManTech.SKV_GeneticExpert3Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsGeneticKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">20000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Caesandoctor</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.CaesanGenes&quot; );&#10;StockItem( &quot;Items.GeneticKnowledge&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="51">
+    <Cell><Data ss:Type="String">ManTech.SKV_FlightExpert3Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsFlightKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">20000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Caesancruisecommander</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.FlightKnowledge&quot; );&#10;StockItem( &quot;Items.CaesanGenes&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell><Data ss:Type="String">ManTech.SKV_WeaponExpert4Sebillian</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsWeaponKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">40000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Sebilliantacticalcommander</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.WeaponKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell><Data ss:Type="String">ManTech.SKV_EngineExpert4Sebillian</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsEngineKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">40000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Sebillianheadengineer</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.EngineKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell><Data ss:Type="String">ManTech.SKV_GeneticExpert4Sebillian</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsGeneticKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">40000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Sebillianprofessor</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.GeneticKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell><Data ss:Type="String">ManTech.SKV_FlightExpert4Sebillian</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsFlightKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">40000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Sebillianfleetcommander</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.FlightKnowledge&quot; );&#10;StockItem( &quot;Items.SebillianGenes&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell><Data ss:Type="String">ManTech.SKV_WeaponExpert4Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsWeaponKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">40000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Caesantacticalcommander</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.WeaponKnowledge&quot; );&#10;StockItem( &quot;Items.CaesanGenes&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell><Data ss:Type="String">ManTech.SKV_PsionicExpert4Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsPsionicKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">40000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.CaesanPsionPsycho</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.CaesanGenes&quot; );&#10;StockItem( &quot;Items.PsionicKnowledge&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell><Data ss:Type="String">ManTech.SKV_EngineExpert4Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsEngineKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">40000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Caesanheadengineer</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.EngineKnowledge&quot; );&#10;StockItem( &quot;Items.CaesanGenes&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell><Data ss:Type="String">ManTech.SKV_GeneticExpert4Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsGeneticKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">40000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Caesanprofessor</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.CaesanGenes&quot; );&#10;StockItem( &quot;Items.GeneticKnowledge&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell><Data ss:Type="String">ManTech.SKV_FlightExpert4Caesan</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsFlightKnowledge</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">40000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Caesanfleetcommander</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.FlightKnowledge&quot; );&#10;StockItem( &quot;Items.CaesanGenes&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );&#10;StockItem( &quot;Items.LightFibre&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.WraithEliteGenes</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsPsionicKnowledge</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.WraithElite</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;Items.WraithGenes&quot; );</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell><Data ss:Type="String">ManTech.WraithOfficerGenes</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsPsionicKnowledge</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">20000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.WraithOfficer</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.WraithGenes&quot; );&#10;StockItem( &quot;Items.WraithGenes&quot; );&#10;StockItem( &quot;Items.WraithGenes&quot; );&#10;StockItem( &quot;Items.WraithGenes&quot; );&#10;StockItem( &quot;Items.WraithGenes&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.HarridanEliteGenes</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsPsionicKnowledge</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.HarridanElite</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;Items.HarridanGenes&quot; );</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell><Data ss:Type="String">ManTech.HarridanOfficerGenes</Data></Cell>
+    <Cell><Data ss:Type="String">InterrogationsPsionicKnowledge</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">20000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.HarridanOfficer</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s71"><Data ss:Type="String">StockItem( &quot;Items.HarridanGenes&quot; );&#10;StockItem( &quot;Items.HarridanGenes&quot; );&#10;StockItem( &quot;Items.HarridanGenes&quot; );&#10;StockItem( &quot;Items.HarridanGenes&quot; );&#10;StockItem( &quot;Items.HarridanGenes&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_MedicSpace</Data></Cell>
+    <Cell><Data ss:Type="String">AlienFoundry</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">4xItems.GeneticKnowledge</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_TurretDamage</Data></Cell>
+    <Cell><Data ss:Type="String">AlienFoundry</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">2xItems.EngineKnowledge;2xItems.WeaponKnowledge</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_TurretAccuracy</Data></Cell>
+    <Cell><Data ss:Type="String">AlienFoundry</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">3xItems.FlightKnowledge;3xItems.AlienConsole;3xItems.AlienControlSeat</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_LivingSpace</Data></Cell>
+    <Cell><Data ss:Type="String">AlienFoundry</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">4xItems.PsionicKnowledge</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_LabSpace</Data></Cell>
+    <Cell><Data ss:Type="String">AlienFoundry</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.PsionicKnowledge;3xItems.GeneticKnowledge</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_WorkshopSpace</Data></Cell>
+    <Cell><Data ss:Type="String">AlienFoundry</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.PsionicKnowledge;3xItems.EngineKnowledge</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_GCWeapon</Data></Cell>
+    <Cell><Data ss:Type="String">AlienFoundry</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">4xItems.WeaponKnowledge</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_VehicleArmour</Data></Cell>
+    <Cell><Data ss:Type="String">AlienFoundry</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">4xItems.EngineKnowledge</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_VehicleAmmo</Data></Cell>
+    <Cell><Data ss:Type="String">AlienFoundry</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">4xItems.EngineKnowledge</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_RadarRange</Data></Cell>
+    <Cell><Data ss:Type="String">AlienFoundry</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">4xItems.FlightKnowledge;1xItems.EngineKnowledge</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_Training</Data></Cell>
+    <Cell><Data ss:Type="String">AlienFoundry</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">500000</Data></Cell>
+    <Cell><Data ss:Type="String">6xItems.PsionicKnowledge;3xItems.AlienScreen</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_GeneAP</Data></Cell>
+    <Cell><Data ss:Type="String">GeneLab</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">4xItems.GeneticKnowledge;10xItems.WraithGenes</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_GeneStrength</Data></Cell>
+    <Cell><Data ss:Type="String">GeneLab</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">3xItems.GeneticKnowledge;10xItems.SebillianGenes</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_GeneAccuracy</Data></Cell>
+    <Cell><Data ss:Type="String">GeneLab</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">3xItems.GeneticKnowledge;10xItems.HarridanGenes</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_GeneReflexes</Data></Cell>
+    <Cell><Data ss:Type="String">GeneLab</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">3xItems.GeneticKnowledge;10xItems.CaesanGenes</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_GeneHP</Data></Cell>
+    <Cell><Data ss:Type="String">GeneLab</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">3xItems.GeneticKnowledge;5xItems.WraithGenes;5xItems.HarridanGenes;5xItems.CaesanGenes;5xItems.SebillianGenes</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_MaxAP</Data></Cell>
+    <Cell><Data ss:Type="String">GeneLab</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="String">2xItems.GeneticKnowledge;8xItems.WraithGenes</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_MaxHP</Data></Cell>
+    <Cell><Data ss:Type="String">GeneLab</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="String">2xItems.GeneticKnowledge;8xItems.SebillianGenes</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_MaxStrength</Data></Cell>
+    <Cell><Data ss:Type="String">GeneLab</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="String">2xItems.GeneticKnowledge;8xItems.SebillianGenes</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_MaxAcc</Data></Cell>
+    <Cell><Data ss:Type="String">GeneLab</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="String">2xItems.GeneticKnowledge;8xItems.HarridanGenes</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_MaxReflex</Data></Cell>
+    <Cell><Data ss:Type="String">GeneLab</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="String">2xItems.GeneticKnowledge;8xItems.CaesanGenes</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_MaxBravery</Data></Cell>
+    <Cell><Data ss:Type="String">GeneLab</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="String">2xItems.GeneticKnowledge;5xItems.WraithGenes;5xItems.HarridanGenes;5xItems.CaesanGenes;5xItems.SebillianGenes</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:Index="8" ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.AlienLightWeaponSystem</Data></Cell>
+    <Cell><Data ss:Type="String">ProvingGrounds</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">10xItems.AlienBeamWeapon;1xItems.WeaponKnowledge</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;Items.Alienlightweaponsystem&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.AlienHeavyWeaponSystem</Data></Cell>
+    <Cell><Data ss:Type="String">ProvingGrounds</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">10xItems.AlienTorpedo;1xItems.WeaponKnowledge</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;Items.Alienheavyweaponsystem&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Alienlightengine</Data></Cell>
+    <Cell><Data ss:Type="String">ProvingGrounds</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="String">10xItems.AlienLightEngines;1xItems.EngineKnowledge</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;Items.Alienlightengine&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.Alienheavyengine</Data></Cell>
+    <Cell><Data ss:Type="String">ProvingGrounds</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="String">10xItems.AlienHeavyEngines;1xItems.EngineKnowledge</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;Items.Alienheavyengine&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.FighterPlating</Data></Cell>
+    <Cell><Data ss:Type="String">ProvingGrounds</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">250000</Data></Cell>
+    <Cell><Data ss:Type="String">50xItems.AlienPlates;1xItems.EngineKnowledge</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.FighterSpeed_I</Data></Cell>
+    <Cell><Data ss:Type="String">ProvingGrounds</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">250000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.AlienLightEngines;1xItems.AlienPowerSource;1xItems.AlienControlSeat;2xItems.FlightKnowledge</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.FighterSpeed_II</Data></Cell>
+    <Cell><Data ss:Type="String">ProvingGrounds</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">500000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.AlienHeavyEngines;1xItems.AlienReactor;1xItems.AlienControlSeat;2xItems.FlightKnowledge</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.FighterSpeed_III</Data></Cell>
+    <Cell><Data ss:Type="String">ProvingGrounds</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">2000000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.AlienHyperdrive;1xItems.AlienFusionReactor;1xItems.AlienControlSeat;2xItems.FlightKnowledge</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_AfterburnerFuel</Data></Cell>
+    <Cell><Data ss:Type="String">ProvingGrounds</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">2xItems.SebillianFlightKnowledge;2xItems.EngineKnowledge</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.SKV_AfterburnerSpeed</Data></Cell>
+    <Cell><Data ss:Type="String">ProvingGrounds</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">2xItems.SebillianFlightKnowledge;2xItems.EngineKnowledge</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Index="127" ss:StyleID="s66">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">ManTech.kfirc2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AlienShipyard</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">22400</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.CaesanOperatorLightScout;1xItems.SebillianOperatorLightScout;1xItems.WeaponKnowledge</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.kfirc2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.kfirc2</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">ManTech.f4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AlienShipyard</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">250000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.CaesanOperatorLightScout;1xItems.SebillianOperatorLightScout;1xItems.WeaponKnowledge</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.f4&quot; );</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.f4</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">ManTech.f5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AlienShipyard</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">25000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">1xItems.CaesanOperatorCorvette;1xItems.SebillianOperatorCorvette;3xItems.WeaponKnowledge</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.f5&quot; );</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.f5</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">ManTech.lightning</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AlienShipyard</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:Formula="=70000*0.78"><Data ss:Type="Number">54600</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">1xItems.CaesanOperatorCorvette;1xItems.SebillianOperatorCorvette;3xItems.WeaponKnowledge</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.lightning&quot; );</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.lightning</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">ManTech.jaguar</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AlienShipyard</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">21700</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">1xItems.CaesanOperatorScout;1xItems.SebillianOperatorScout;2xItems.WeaponKnowledge</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.jaguar&quot; );</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.jaguar</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">ManTech.aj37</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AlienShipyard</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">74000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.CaesanOperatorCruiser;1xItems.SebillianOperatorCruiser;2xItems.WeaponKnowledge</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.aj37&quot; );</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.aj37</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">ManTech.f1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AlienShipyard</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">300000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">1xItems.CaesanOperatorScout;1xItems.SebillianOperatorScout;2xItems.WeaponKnowledge</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.f1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.f1</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">ManTech.mig21</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AlienShipyard</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">280000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.CaesanOperatorLightScout;1xItems.SebillianOperatorLightScout;1xItems.WeaponKnowledge</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.mig21&quot; );</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.mig21</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">ManTech.su15</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AlienShipyard</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">250000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">1xItems.CaesanOperatorScout;1xItems.SebillianOperatorScout;2xItems.WeaponKnowledge</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.su15&quot; );</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.su15</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell><Data ss:Type="String">ManTech.f12</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AlienShipyard</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">1750000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.CaesanOperatorCruiser;1xItems.SebillianOperatorCruiser;2xItems.WeaponKnowledge</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.f12&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.f12</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell><Data ss:Type="String">ManTech.su27</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AlienShipyard</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">300000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">1xItems.CaesanOperatorCorvette;1xItems.SebillianOperatorCorvette;3xItems.WeaponKnowledge</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.su27&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.su27</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s66">
+    <Cell><Data ss:Type="String">ManTech.su2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AlienShipyard</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">280000</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.CaesanOperatorCruiser;1xItems.SebillianOperatorCruiser;2xItems.WeaponKnowledge</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.su2&quot; );</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">airplane.human.su2</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>40</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>139</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C9:R8C10,R51C9:R117C10,R119C9:R469C10,R10C9:R49C10</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;Yes,No&quot;</Value>
+   <ErrorMessage>Please use the combo to enter the value.</ErrorMessage>
+   <ErrorTitle>Invalid value.</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R1349C2:R1048576C2,R1346C2,R127C2:R138C2,R51C2:R125C2,R1C2:R49C2</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;Extraterrestrial,SoldierWeapons,Ammunition,Equipment,Armour,Vehicles,VehicleWeapons,Aircraft,AircraftWeapons&quot;</Value>
+   <ErrorMessage>Use the list to select a dategory.</ErrorMessage>
+   <ErrorTitle>Invalid value!</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R1C9:R1C10</Range>
+   <ErrorMessage>Please use the combo to enter the value.</ErrorMessage>
+   <ErrorTitle>Invalid value.</ErrorTitle>
+  </DataValidation>
+ </Worksheet>
+</Workbook>

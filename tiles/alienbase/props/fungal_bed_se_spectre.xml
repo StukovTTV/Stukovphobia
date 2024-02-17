@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<spectre id="alienbase/props/fungal_bed_se" width="1" height="2" version="1">
+    <state id="damaged" name="" pivotX="72" pivotY="131" pathScore="1" objectTypePreset="3" visibilityScore="1.000" bulletScore="0.500" orientation="0" sortPoint="0.500" hp="120" isCover="1" coverAnimName="lean" wallType="crushing" destructionSound="Metal Prop">
+        <image src="tiles/alienbase/props/fungal_bed_se_damaged.png" />
+    </state>
+    <state id="default" name="" pivotX="72" pivotY="131" pathScore="1" objectTypePreset="3" visibilityScore="1.000" bulletScore="0.500" orientation="0" sortPoint="0.500" hp="120" isCover="1" coverAnimName="lean" wallType="crushing" destructionSound="Metal Prop">
+        <image src="tiles/alienbase/props/fungal_bed_se.png" />
+    </state>
+    <state id="destroyed" name="" pivotX="72" pivotY="131" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="1.000" orientation="0" sortPoint="0.500" hp="0" wallType="none">
+        <image src="tiles/alienbase/props/fungal_bed_se_destroyed.png" />
+    </state>
+</spectre>
