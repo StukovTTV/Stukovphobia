@@ -3,7 +3,7 @@
     <state id="damaged" name="" pivotX="171" pivotY="133" pathScore="0" objectTypePreset="2" visibilityScore="0.000" bulletScore="1.000" orientation="3" sortPoint="0.700" hp="0" wallType="tall" destructionSound="Metal Prop">
         <image src="tiles/alienbase/wall_command_screen_se_damaged.png" />
     </state>
-    <state id="default" name="" pivotX="74" pivotY="156" pathScore="0" objectTypePreset="2" visibilityScore="0.000" bulletScore="1.000" orientation="3" sortPoint="0.700" hp="50" wallType="tall" isLamp="1" lightRadius="6.000" destructionSound="Metal Prop">
+    <state id="default" name="" pivotX="74" pivotY="156" pathScore="0" objectTypePreset="2" visibilityScore="0.000" bulletScore="1.000" orientation="3" sortPoint="0.700" hp="50" wallType="tall" isLamp="1" lightRadius="6.000" isRecoverable="1" recoverItemString="Items.AlienScreen" recoverAlienium="1" recoverAlienAlloys="0" destructionSound="Metal Prop">
         <anim src="tiles/alienbase/animated/anim_wall_command_screen_se" anim="main" />
     </state>
     <state id="destroyed" name="" pivotX="74" pivotY="156" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="1.000" orientation="0" sortPoint="0.500" hp="0" wallType="none" />

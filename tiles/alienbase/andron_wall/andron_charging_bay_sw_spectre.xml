@@ -3,7 +3,7 @@
     <state id="damaged" name="" pivotX="93" pivotY="149" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="0.250" orientation="0" sortPoint="0.500" hp="120" wallType="tall" destructionSound="Metal Prop">
         <image src="tiles/alienbase/andron_wall/andron_charging_bay_sw_damaged.png" />
     </state>
-    <state id="default" name="" pivotX="93" pivotY="149" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="0.250" orientation="0" sortPoint="0.500" hp="120" wallType="tall" destructionSound="Metal Prop">
+    <state id="default" name="" pivotX="93" pivotY="149" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="0.250" orientation="0" sortPoint="0.500" hp="120" wallType="tall" isRecoverable="1" recoverItemString="Items.AndronChargingBay" recoverAlienium="0" recoverAlienAlloys="0" destructionSound="Metal Prop">
         <image src="tiles/alienbase/andron_wall/andron_charging_bay_sw.png" />
     </state>
     <state id="destroyed" name="" pivotX="93" pivotY="149" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="1.000" orientation="0" sortPoint="0.500" hp="0" wallType="none">

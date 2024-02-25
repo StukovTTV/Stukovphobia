@@ -297,6 +297,8 @@
 
 <!-- MINIMUM LAND TIME FOR ALIEN MISSIONS -->
   <minimumMissionsLandTime value="480" comment="The minimum landing time (in minutes) for the alien missions" />
+  <localDetectionLongerLandingTime value="24" comment="If a landed UFO is detected by local forces, it will stay landed for this many hours longer, but not more than the next variable" />
+  <localDetectionMaxLandingTime value="24" comment="If a landed UFO is detected by local forces, this is the cap on how many hours it will remain landed" />
 
 <!-- ALIEN BASE AUTOMATIC DISCOVERY -->
   <alienBaseDiscoveryChance value="25" comment="This is the percentage chance for an alien base to be discovered automatically whenever a check is performed using the value below." />
@@ -305,10 +307,10 @@
   <alienBaseDiscoveryCycle value="4" comment="This many days need to pass to have a chance to detect an alien base - Should this not be done on a monthly basis?" />
 
 <!-- GEOSCAPE AI VARIABLES -->
-  <minMissionCount value="4"     comment="This is the mininum number of mission for a wave." />
-  <maxMissionCount value="11"    comment="This is the maxinum number of mission for a wave. Numbers from the next two parameters will be added to it." />
-  <maxMissionAlienBaseModifier value = "20" comment = "Add this much to maxMissionCount for every alien base on the map" />
-  <maxMissionHumanBaseModifier value = "3" comment = "Add this much to maxMissionCount for every human base on the map" />
+  <minMissionCount value="3"     comment="This is the mininum number of mission for a wave." />
+  <maxMissionCount value="8"    comment="This is the maxinum number of mission for a wave. Numbers from the next two parameters will be added to it." />
+  <maxMissionAlienBaseModifier value = "10" comment = "Add this much to maxMissionCount for every alien base on the map" />
+  <maxMissionHumanBaseModifier value = "1" comment = "Add this much to maxMissionCount for every human base on the map" />
   <highBandTicker  value="1200" comment="This is the ticker value from where the maxMissionCount missions are going to be spawned." />
   <parabolicPower  value="0.5"   comment="The amount of missions to spawn is: Floor(( tickerRate ^ parabolicPower) * (Max - Min)) + Min. Where tickerRate is: Min ( currentTicker / highBandTicker, 1)," />
   
@@ -334,13 +336,13 @@
   <researchAbductionEventChance       value="20"	comment="An alien research mission has this percentage chance of generating an Abduction event each hour." />
 
 <!-- GROUND ATTACK MISSION (Passive) -->
-  <groundAttackTicksPerMinute         value="0.002315" 	comment="An alien ground attack mission generates this many alien ticker points per minute of the UFO being on the map." />
+  <groundAttackTicksPerMinute         value="0" 	comment="An alien ground attack mission generates this many alien ticker points per minute of the UFO being on the map." />
   <groundAttackGAEventChance          value="20"    comment="An alien ground attack mission has this percentage chance of generating a Minor Ground Attack event per hour." />
   <groundAttackAirlinerEventChance    value="5"     comment="An alien ground attack mission has this many percent chance of generating an Airliner Destroyed event per hour." />
 
   
 <!-- BOMBING RUN MISSION (Passive) -->
-  <bombingRunTicksPerMinute           value="0.001315" 	comment="An alien bombing run mission generates this many alien ticker points per minute of the UFO being on the map." />
+  <bombingRunTicksPerMinute           value="0" 	comment="An alien bombing run mission generates this many alien ticker points per minute of the UFO being on the map." />
   <bombingRunGAEventChance            value="10"    comment="An alien bombing run mission has this percentage chance of generating a Major Ground Attack event per hour." />
   <bombingRunAerialTerrorChance       value="05"     comment="An alien ground attack mission has this percentage chance of generating an Aerial Terror event per hour." />
   <aerialTerrorMissionDuration 	  min="12" max="24" comment="Aerial terror missions will last for a number of hours in this range"/>
@@ -351,7 +353,7 @@
   <alienBaseRelationsDamagePerDay     value="3.0" 	comment="An alien base damages relations in its continent by this much every day (24 hours)" />
 
 <!-- AIR SUPERIORITY MISSION (Aggressive) -->
-  <airSuperiorityTicksPerMinute       value="0.001315" 	comment="An alien air superiority mission generates this many ticker points per minute the UFO is on the map." />
+  <airSuperiorityTicksPerMinute       value="0" 	comment="An alien air superiority mission generates this many ticker points per minute the UFO is on the map." />
   <airSuperiorityAirlinerEventChance  value="20"    comment="An alien air superiority mission has this percentage chance per hour of generating an Airliner Destroyed event." />
   <airSuperiorityCooldownTime         value="1"     comment="After having engaged in air combat, an alien air superiority mission won't intercept Xenonauts airplanes for this many hours" />
 
@@ -359,11 +361,11 @@
   <baseAttackMissionDelay             value="40" 	comment="Minimum time elapsed between two base attack missions, in days" />
 
 <!-- TERROR MISSION (Passive) -->
-  <terrorMissionDelay            	  value="30" 	comment="Minimum time elapsed between two terror missions, in days" />
+  <terrorMissionDelay            	  value="0" 	comment="Minimum time elapsed between two terror missions, in days" />
   <terrorMissionDuration min="12" max="24" 			comment="Terror missions will last for a number of hours in this range"/>
   
 <!-- SCOUT MISSION (Aggressive) -->
-  <scoutTicksPerMinute                value="0.000315" 	comment="An alien scout mission generates this many alien ticker points per minute of the UFO being on the map." />
+  <scoutTicksPerMinute                value="0.000215" 	comment="An alien scout mission generates this many alien ticker points per minute of the UFO being on the map." />
 
 
 <!-- CONSTRUCTION MISSION PERAMETERS -->

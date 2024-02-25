@@ -9,8 +9,8 @@
  xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
-  <LastAuthor>user</LastAuthor>
-  <LastSaved>2023-01-31T20:09:07Z</LastSaved>
+  <LastAuthor>Robert Straif</LastAuthor>
+  <LastSaved>2024-02-24T09:47:29Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -26,8 +26,8 @@
   </Colors>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>13200</WindowHeight>
-  <WindowWidth>26910</WindowWidth>
+  <WindowHeight>13485</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
   <WindowTopX>32767</WindowTopX>
   <WindowTopY>32767</WindowTopY>
   <RefModeR1C1/>
@@ -49,21 +49,26 @@
   <Style ss:ID="s63" ss:Name="Normal_">
    <Font ss:FontName="Arial"/>
   </Style>
-  <Style ss:ID="s66" ss:Parent="s63">
+  <Style ss:ID="s64" ss:Name="Normal_Sheet1">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s63">
    <Font ss:FontName="Arial" ss:Bold="1"/>
   </Style>
-  <Style ss:ID="s68">
+  <Style ss:ID="s69">
    <NumberFormat ss:Format="@"/>
   </Style>
-  <Style ss:ID="s69" ss:Parent="s63">
-   <NumberFormat/>
-  </Style>
-  <Style ss:ID="s70">
-   <Font ss:FontName="Tahoma" x:Family="Swiss" ss:Color="#333333"/>
+  <Style ss:ID="s73" ss:Parent="s64">
+   <NumberFormat ss:Format="@"/>
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="6" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="30" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s62" ss:Width="171.75"/>
@@ -82,28 +87,28 @@
    <Column ss:StyleID="s62" ss:Width="100.5"/>
    <Column ss:StyleID="s62" ss:Width="60"/>
    <Row ss:AutoFitHeight="0" ss:Height="13.3125">
-    <Cell ss:StyleID="s66"><Data ss:Type="String">name</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">stockTextureName</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">dragTextureName</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">type</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">twoHanded</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">damage</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">range</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">clipsize</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">accuracy</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">weight</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">slotsizex</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">slotsizey</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">ammo</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">reloadCost</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">reloadSound</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">inventoryCategory</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">isBigGun</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">name</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">stockTextureName</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">dragTextureName</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">type</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">twoHanded</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">damage</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">range</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">clipsize</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">accuracy</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">weight</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">slotsizex</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">slotsizey</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ammo</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">reloadCost</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">reloadSound</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">inventoryCategory</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">isBigGun</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">weapon.gw_submachinegun</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/ballistic/eu/GW_Submachinegun</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/ballistic/eu/GW_Submachinegun</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/ballistic/GW_Submachinegun</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/ballistic/GW_Submachinegun</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="String">ballistic</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="Number">40</Data></Cell>
@@ -120,8 +125,8 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">weapon.gw_battlerifle</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/ballistic/eu/GW_Battlerifle</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/ballistic/eu/GW_Battlerifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/ballistic/GW_Battlerifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/ballistic/GW_Battlerifle</Data></Cell>
     <Cell><Data ss:Type="String">ballistic</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="Number">35</Data></Cell>
@@ -134,24 +139,6 @@
     <Cell ss:StyleID="Default"><Data ss:Type="String">ammo.ballistic.sniper</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="Number">30</Data></Cell>
     <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s68"><Data ss:Type="String">weapon.ak47</Data></Cell>
-    <Cell ss:StyleID="s68"><Data ss:Type="String">weapons/ballistic/soviet/AK47_colour</Data></Cell>
-    <Cell ss:StyleID="s68"><Data ss:Type="String">weapons/ballistic/soviet/AK47_colour</Data></Cell>
-    <Cell ss:StyleID="s68"><Data ss:Type="String">ballistic</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">35</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">16</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">20</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">0.8</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">6</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">5</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">2</Data></Cell>
-    <Cell ss:StyleID="s68"><Data ss:Type="String">ammo.ballistic.rifle</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">30</Data></Cell>
-    <Cell ss:StyleID="Default"/>
-    <Cell ss:StyleID="Default"><Data ss:Type="String">Ballistics</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">weapon.farmershotgun</Data></Cell>
@@ -170,23 +157,473 @@
     <Cell><Data ss:Type="Number">30</Data></Cell>
     <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="13.3125">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">weapon.combatshield</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">weapons/misc/combatshield</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">weapons/misc/combatshield</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">ballistic</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="Boolean">0</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">150</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">12</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">3</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">ammo.none</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s70"><Data ss:Type="String">EExtra1</Data></Cell>
-    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.gw_pistol</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/ballistic/GW_Pistol</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/ballistic/GW_Pistol</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.pistol</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.gw_machinegun</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/ballistic/GW_Machinegun</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/ballistic/GW_Machinegun</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.machinegun</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.makarov</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/makarov</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/makarov</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0.75</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.pistol</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.saiga</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/saiga</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/saiga</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">0.75</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.saiga</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell><Data ss:Type="String">weapon.ak47</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/ak47</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/ak47</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0.75</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.ak47</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.svd</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/svd</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/svd</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">1.3</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.svd</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.pkm</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/pkm</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/pkm</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.pk</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="String">weapon.rpg7</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">weapons/soviet/rpg7</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">weapons/soviet/rpg7</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0.65</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">ammo.rocket</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.ak74</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/ak74</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/ak74</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">0.85</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.ak74</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.ksvk</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/ksvk</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/ksvk</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">95</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">1.4</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.ksvk</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.ag043</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/ag043</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/ag043</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0.75</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.ak74</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.kiparis</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/kiparis</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/kiparis</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">0.75</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.kiparis</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.m1895</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/m1895</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/m1895</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">0.75</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.revolver</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.SKS</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/SKS</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/SKS</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.stripperclip</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.mosin</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/mosin</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/mosin</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">65</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.stripperclip</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.ppsh</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/ppsh</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/soviet/ppsh</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">0.75</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.ppsh</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.colt1911</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/colt1911</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/colt1911</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.pistol</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.m16</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/m16</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/m16</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.rifle</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.barrettm82a1</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/barrettm82a1</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/barrettm82a1</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">95</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">1.6</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.sniper</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.m15</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/m15</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/m15</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.revolver</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.mp5</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/mp5</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/mp5</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.mp5</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.p90</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/p90</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/p90</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.p90</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.m14</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/m14</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/m14</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.rifle</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.rifle</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/m4</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/m4</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.rifle</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.m21</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/m21</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/m21</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.rifle</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.hkg3</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/hkg3</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/nato/hkg3</Data></Cell>
+    <Cell><Data ss:Type="String">ballistic</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.rifle</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">Ballistics</Data></Cell>
+    <Cell ss:StyleID="s63"/>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -223,7 +660,7 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>5</ActiveRow>
+     <ActiveRow>4</ActiveRow>
      <ActiveCol>0</ActiveCol>
     </Pane>
    </Panes>
@@ -231,7 +668,7 @@
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
   <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C16,R4C16</Range>
+   <Range>R2C16,R7C16:R30C16</Range>
    <Type>List</Type>
    <UseBlank/>
    <CellRangeList/>

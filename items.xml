@@ -9,7 +9,7 @@
   <Author>Bernardo Rippe</Author>
   <LastAuthor>Robert Straif</LastAuthor>
   <Created>2014-03-28T23:31:23Z</Created>
-  <LastSaved>2024-02-17T10:21:43Z</LastSaved>
+  <LastSaved>2024-02-25T07:57:22Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -90,22 +90,19 @@
    </Borders>
    <Interior/>
   </Style>
-  <Style ss:ID="s72" ss:Parent="s63">
+  <Style ss:ID="s73" ss:Parent="s63">
    <Interior/>
    <NumberFormat ss:Format="@"/>
   </Style>
   <Style ss:ID="s74">
-   <NumberFormat ss:Format="@"/>
-  </Style>
-  <Style ss:ID="s75">
    <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss"/>
    <Interior/>
   </Style>
-  <Style ss:ID="s76">
+  <Style ss:ID="s75">
    <Interior/>
    <Protection ss:Protected="0"/>
   </Style>
-  <Style ss:ID="s77" ss:Parent="s62">
+  <Style ss:ID="s76" ss:Parent="s62">
    <Interior/>
   </Style>
  </Styles>
@@ -114,7 +111,7 @@
    <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=Sheet1!R1C1:R1C7"
     ss:Hidden="1"/>
   </Names>
-  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="389" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="496" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s64" ss:DefaultRowHeight="13.3125">
    <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="220.5"/>
    <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="150" ss:Span="1"/>
@@ -138,105 +135,6 @@
     <Cell ss:StyleID="s70"><Data ss:Type="String">Storage space</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s70"><Data ss:Type="String">Sort order</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.grenade.frag</Data></Cell>
-    <Cell><Data ss:Type="Number">550</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
-    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">-1</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.grenade.smoke</Data></Cell>
-    <Cell><Data ss:Type="Number">275</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
-    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">-1</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.grenade.flashbang</Data></Cell>
-    <Cell><Data ss:Type="Number">275</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
-    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">-1</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.explosive.C4</Data></Cell>
-    <Cell><Data ss:Type="Number">1250</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
-    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">-1</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.rocket.frag</Data></Cell>
-    <Cell><Data ss:Type="Number">625</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
-    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">-1</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">weapon.ak47</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
-    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="Default"><Data ss:Type="String">weapon.gw_submachinegun</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
-    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">weapon.gw_battlerifle</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
-    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">weapon.shotgun</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
-    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">weapon.sniper</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
-    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s74"><Data ss:Type="String">weapon.farmershotgun</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
-    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">weapon.alienminishield</Data></Cell>
@@ -288,12 +186,393 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.ak47</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.makarov</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.pkm</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.saiga</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.svd</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.rpg7</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.ak74</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.ksvk</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.ag043</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.kiparis</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.m1895</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.SKS</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.mosin</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.ppsh</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.m16</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.colt1911</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.barrettm82a1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.m15</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.mp5</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.p90</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.m14</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.m21</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">weapon.hkg3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ammo.ballistic.mp5</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ammo.ballistic.p90</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ammo.ballistic.ak47</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ammo.ballistic.ak74</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ammo.ballistic.kiparis</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ammo.ballistic.ksvk</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ammo.ballistic.pk</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ammo.ballistic.revolver</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ammo.ballistic.saiga</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ammo.ballistic.svd</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ammo.ballistic.stripperclip</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ammo.ballistic.ppsh</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ammo.ballistic.gw_submachinegun</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Unlimited</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">weapon.gw_submachinegun</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.gw_battlerifle</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.gw_pistol</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.gw_machinegun</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
+    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
+    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"/>
     <Cell ss:Index="6" ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.mig21</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.mig21</Data></Cell>
     <Cell><Data ss:Type="Number">350000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.mig21</Data></Cell>
@@ -302,7 +581,7 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.mig23</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.mig23</Data></Cell>
     <Cell><Data ss:Type="Number">312500</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.mig23</Data></Cell>
@@ -311,7 +590,7 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.su15</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.su15</Data></Cell>
     <Cell><Data ss:Type="Number">312500</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.su15</Data></Cell>
@@ -320,7 +599,7 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.miragef1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.miragef1</Data></Cell>
     <Cell><Data ss:Type="Number">525000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.miragef1</Data></Cell>
@@ -329,7 +608,7 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.kfirc2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.kfirc2</Data></Cell>
     <Cell><Data ss:Type="Number">275000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.kfirc2</Data></Cell>
@@ -338,7 +617,7 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.f4</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.f4</Data></Cell>
     <Cell><Data ss:Type="Number">312500</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.f4</Data></Cell>
@@ -347,7 +626,7 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.f5</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.f5</Data></Cell>
     <Cell><Data ss:Type="Number">312500</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.f5</Data></Cell>
@@ -356,7 +635,7 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.lightning</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.lightning</Data></Cell>
     <Cell><Data ss:Type="Number">312500</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.lightning</Data></Cell>
@@ -365,7 +644,7 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.jaguar</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.jaguar</Data></Cell>
     <Cell><Data ss:Type="Number">375000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.jaguar</Data></Cell>
@@ -374,7 +653,7 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.aj37</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.aj37</Data></Cell>
     <Cell><Data ss:Type="Number">375000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.aj37</Data></Cell>
@@ -383,7 +662,7 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.f1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.f1</Data></Cell>
     <Cell><Data ss:Type="Number">375000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.f1</Data></Cell>
@@ -392,25 +671,25 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.tu128</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.tu128</Data></Cell>
     <Cell><Data ss:Type="Number">625000</Data></Cell>
-    <Cell ss:Index="4" ss:StyleID="s76"><Data ss:Type="String">Airplane</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s75"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.tu128</Data></Cell>
     <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.f12</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.f12</Data></Cell>
     <Cell><Data ss:Type="Number">2625000</Data></Cell>
-    <Cell ss:Index="4" ss:StyleID="s76"><Data ss:Type="String">Airplane</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s75"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.f12</Data></Cell>
     <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.mig29</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.mig29</Data></Cell>
     <Cell><Data ss:Type="Number">550000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.mig29</Data></Cell>
@@ -419,7 +698,7 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.su27</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.su27</Data></Cell>
     <Cell><Data ss:Type="Number">375000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.su27</Data></Cell>
@@ -428,7 +707,7 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.f16</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.f16</Data></Cell>
     <Cell><Data ss:Type="Number">250000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.f16</Data></Cell>
@@ -437,7 +716,7 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.f15</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.f15</Data></Cell>
     <Cell><Data ss:Type="Number">350000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.f15</Data></Cell>
@@ -446,7 +725,7 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.f14</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.f14</Data></Cell>
     <Cell><Data ss:Type="Number">343750</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.f14</Data></Cell>
@@ -455,7 +734,7 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.mirage2000</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.mirage2000</Data></Cell>
     <Cell><Data ss:Type="Number">187500</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.mirage2000</Data></Cell>
@@ -464,7 +743,7 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.tornado</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.tornado</Data></Cell>
     <Cell><Data ss:Type="Number">312500</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.tornado</Data></Cell>
@@ -473,7 +752,7 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"><Data ss:Type="String">airplane.human.mirage4000</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">airplane.human.mirage4000</Data></Cell>
     <Cell><Data ss:Type="Number">350000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Airplane</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/airplane.human.mirage4000</Data></Cell>
@@ -482,16 +761,7 @@
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s75"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">ammo.ballistic.gw_submachinegun</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">UnlimitedOnResearch</Data></Cell>
-    <Cell><Data ss:Type="String">weapons/airplane/rocket</Data></Cell>
-    <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s74"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">ammo.Ballisticclip</Data></Cell>
@@ -709,7 +979,7 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
-   <Row ss:Index="67" ss:AutoFitHeight="0">
+   <Row ss:Index="95" ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">Items.CaesanOperatorAssault4</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="Number">40000</Data></Cell>
     <Cell ss:StyleID="Default"/>
@@ -1779,7 +2049,7 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
    </Row>
-   <Row ss:Index="175" ss:AutoFitHeight="0">
+   <Row ss:Index="203" ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">Items.SebillianChieftain</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="Number">40000</Data></Cell>
     <Cell ss:StyleID="Default"/>
@@ -2779,7 +3049,7 @@
     <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
    </Row>
-   <Row ss:Index="276" ss:AutoFitHeight="0">
+   <Row ss:Index="304" ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">Items.HarridanElite</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="Number">10000</Data></Cell>
     <Cell ss:StyleID="Default"/>
@@ -2945,7 +3215,7 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">-1</Data></Cell>
    </Row>
-   <Row ss:Index="294" ss:AutoFitHeight="0">
+   <Row ss:Index="322" ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">Items.WraithElite</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="Number">10000</Data></Cell>
     <Cell ss:StyleID="Default"/>
@@ -3095,7 +3365,7 @@
     <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
    </Row>
-   <Row ss:Index="310" ss:AutoFitHeight="0">
+   <Row ss:Index="338" ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">Items.PraetorBaseLeader</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="Number">10000</Data></Cell>
     <Cell ss:StyleID="Default"/>
@@ -3195,7 +3465,617 @@
     <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
    </Row>
-   <Row ss:Index="321" ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.ReaperCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.ReaperAlphaCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.ReaperOmegaCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.ReaperZetaCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.ReaperrhinoCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.ReaperbullCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.Reaper</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.ReaperAlpha</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.ReaperOmega</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.ReaperZeta</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.75">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.Reaperrhino</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.Reaperbull</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">15000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XFacehuggerCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XDroneCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XMarbleDroneCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XRedDroneCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XCrimsonDroneCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XAcidlingGuardCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XAcidlingSoldierCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XAcidlingWarriorCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XAcidlingEliteCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XWarriorCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XMarbleWarriorCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XRedWarriorCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XCrimsonWarriorCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XPraetorianCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XRedPraetorianCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XCrimsonPraetorianCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XRogueCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XStalkerCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XRavagerCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XQueenCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XRedQueenCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XCrimsonQueenCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XEmpressCorpse</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Uncapped</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XFacehugger</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XDrone</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XMarbleDrone</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XRedDrone</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XCrimsonDrone</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XAcidlingGuard</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XAcidlingSoldier</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XAcidlingWarrior</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XAcidlingElite</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XWarrior</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XMarbleWarrior</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XRedWarrior</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XCrimsonWarrior</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XRogue</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XPraetorian</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">4000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XRedPraetorian</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">4000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XCrimsonPraetorian</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">4000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XStalker</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">4000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XRavager</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XQueen</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">6000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XRedQueen</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">6000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XCrimsonQueen</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">6000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XEmpress</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">7000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Items.AlienDroneCarrierDatacore</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="Number">75000</Data></Cell>
     <Cell ss:StyleID="Default"/>
@@ -3215,7 +4095,7 @@
     <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
    </Row>
-   <Row ss:Index="324" ss:AutoFitHeight="0">
+   <Row ss:Index="412" ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Items.WeaponKnowledge</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Normal</Data></Cell>
@@ -3319,11 +4199,29 @@
     <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.ReaperGenes</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.XenomorphGenes</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="5" ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s77"><Data ss:Type="String">AV.AD_ASTRA</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">AV.AD_ASTRA</Data></Cell>
     <Cell><Data ss:Type="Number">10000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="String">weapons/vehicle/rocket</Data></Cell>
@@ -3332,7 +4230,7 @@
     <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s77"><Data ss:Type="String">AV.BELUGA</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">AV.BELUGA</Data></Cell>
     <Cell><Data ss:Type="Number">10000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="String">weapons/vehicle/rocket</Data></Cell>
@@ -3341,7 +4239,7 @@
     <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s77"><Data ss:Type="String">AV.MAMMOTH</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">AV.MAMMOTH</Data></Cell>
     <Cell><Data ss:Type="Number">10000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="String">weapons/vehicle/rocket</Data></Cell>
@@ -3450,7 +4348,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="12.75">
     <Cell ss:StyleID="Default"><Data ss:Type="String">AV.CONVSCOUTBEAM</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">5000</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="String">weapons/vehicle/rocket</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
@@ -3459,7 +4357,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="12.75">
     <Cell ss:StyleID="Default"><Data ss:Type="String">AV.CONVSCOUTMISSILE</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">5000</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="String">weapons/vehicle/rocket</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
@@ -3468,7 +4366,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="Default">
     <Cell><Data ss:Type="String">AV.CONVLIGHTSCOUTBEAM</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Normal</Data></Cell>
     <Cell ss:StyleID="s64"><Data ss:Type="String">weapons/vehicle/rocket</Data></Cell>
     <Cell><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
@@ -3477,7 +4375,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">AV.CONVCORVETTEBEAM</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">5000</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="String">weapons/vehicle/rocket</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
@@ -3486,7 +4384,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">AV.CONVCORVETTECANNON</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">5000</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="String">weapons/vehicle/rocket</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
@@ -3495,7 +4393,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">AV.CONVCORVETTEMISSILE</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">5000</Data></Cell>
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="String">weapons/vehicle/rocket</Data></Cell>
@@ -3503,7 +4401,37 @@
     <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
    </Row>
-   <Row ss:Index="358" ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">AV.SIDEWINDER</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">AV.AVALANCHE</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">Items.Aliencontrolsystem</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="Number">1000</Data></Cell>
     <Cell ss:StyleID="Default"/>
@@ -3791,8 +4719,158 @@
     <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
    </Row>
-   <Row ss:Index="389" ss:AutoFitHeight="0">
-    <Cell ss:StyleID="Default"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.AndronChargingBay</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">8000</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.AlienTable</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">4000</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.PraetorThrone</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.PsyCouch</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.HeatBed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">7600</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.Incubator</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">8100</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.ReaperEgg</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">750</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.AlienChair</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">4400</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.AutopsyTable</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">8900</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.AlienClipCharger</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1400</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.AlienCowTub</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">3300</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.FungalBed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">7600</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.AlienTube</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">9250</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.LaserLab</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">25000</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.MiniSingularity</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">75000</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.AlienObelisk</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">8800</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Items.SleepChamber</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">14000</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">items/assaultrifle</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Item.Dispose.Destroyed</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">-1</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -3807,7 +4885,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>341</TopRowBottomPane>
+   <TopRowBottomPane>1</TopRowBottomPane>
    <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
@@ -3815,21 +4893,22 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>380</ActiveRow>
+     <ActiveRow>13</ActiveRow>
+     <ActiveCol>1</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
   <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R309C4,R320C4,R293C4,R2C4:R275C4,R337C4:R350C4,R358C4:R377C4</Range>
+   <Range>R337C4,R321C4,R447C4:R469C4,R427C4:R440C4,R2C4:R303C4</Range>
    <Type>List</Type>
    <CellRangeList/>
    <Value>&quot;Normal,Capped,Uncapped,Airplane,Vehicle,Unlimited,UnlimitedOnResearch&quot;</Value>
    <ErrorMessage>Please use the combo box to select the type.</ErrorMessage>
    <ErrorTitle>Invalid value!</ErrorTitle>
   </DataValidation>
-  <AutoFilter x:Range="R1C1:R17C7"
+  <AutoFilter x:Range="R1C1:R46C7"
    xmlns="urn:schemas-microsoft-com:office:excel">
   </AutoFilter>
  </Worksheet>

@@ -3,7 +3,7 @@
     <state id="damaged" name="" pivotX="142" pivotY="144" pathScore="1" objectTypePreset="1" visibilityScore="1.000" bulletScore="0.500" orientation="3" sortPoint="0.700" hp="120" isCover="1" coverAnimName="lean" wallType="crushing" isVaultable="1" destructionSound="Destruction Dirt">
         <image src="tiles/alienbase/sebillian_wall/cover_wall_2_nw_damaged.png" />
     </state>
-    <state id="default" name="" pivotX="142" pivotY="144" pathScore="1" objectTypePreset="1" visibilityScore="1.000" bulletScore="0.500" orientation="3" sortPoint="0.700" hp="120" isCover="1" coverAnimName="lean" wallType="crushing" isVaultable="1" isLamp="1" lightRadius="6.000" destructionSound="Destruction Dirt">
+    <state id="default" name="" pivotX="142" pivotY="144" pathScore="1" objectTypePreset="1" visibilityScore="1.000" bulletScore="0.500" orientation="3" sortPoint="0.700" hp="120" isCover="1" coverAnimName="lean" wallType="crushing" isVaultable="1" isLamp="1" lightRadius="6.000" isRecoverable="1" recoverItemString="Items.AlienControlSeat" recoverAlienium="0" recoverAlienAlloys="1" destructionSound="Destruction Dirt">
         <image src="tiles/alienbase/sebillian_wall/cover_wall_2_nw.png" />
     </state>
     <state id="destroyed" name="" pivotX="142" pivotY="144" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="1.000" orientation="0" sortPoint="0.500" hp="0" wallType="none">

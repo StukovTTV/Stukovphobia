@@ -198,7 +198,7 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.division.minigunmk1" bulletType="normal" emptySound="Empty Click 1">
-		<props range="16" hands="2" recoil="90" weight="12" isHeavy="1" strengthLimited="1" clipSize="200" reloadAPCost="55" reloadSound="Weapon Minigun Reload" reactionModifier="0.2" disableShortRangeHitBonus="0" />
+		<props range="16" hands="2" recoil="90" weight="12" isHeavy="1" strengthLimited="1" clipSize="200" reloadAPCost="55" reloadSound="Weapon Minigun Reload" reactionModifier="0.2" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="8" sound="Weapon Minigun Burst 1" delay="0.5" burstdelay="0.05" shotCount="32" suppressionValue="91" suppressionRadius="2.5" />
 		<GUIImage name="gui/weapons/Division/DivisionMinigunMK1.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
@@ -330,7 +330,7 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.division.minigunmk2" bulletType="normal" emptySound="Empty Click 1">
-		<props range="16" hands="2" recoil="90" weight="15" isHeavy="1" strengthLimited="1" clipSize="200" reloadAPCost="55" reloadSound="Weapon Minigun Reload" reactionModifier="0.2" disableShortRangeHitBonus="0" />
+		<props range="16" hands="2" recoil="90" weight="15" isHeavy="1" strengthLimited="1" clipSize="200" reloadAPCost="55" reloadSound="Weapon Minigun Reload" reactionModifier="0.2" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="8" sound="Weapon Minigun Burst 1" delay="0.5" burstdelay="0.045" shotCount="40" suppressionValue="93" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/Division/DivisionMinigunMK2.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
@@ -461,7 +461,7 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.division.minigunmk3" bulletType="normal" emptySound="Empty Click 1">
-		<props range="16" hands="2" recoil="90" weight="18" isHeavy="1" strengthLimited="1" clipSize="200" reloadAPCost="55" reloadSound="Weapon Minigun Reload" reactionModifier="0.2" disableShortRangeHitBonus="0" />
+		<props range="16" hands="2" recoil="90" weight="18" isHeavy="1" strengthLimited="1" clipSize="200" reloadAPCost="55" reloadSound="Weapon Minigun Reload" reactionModifier="0.2" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="12" sound="Weapon Minigun Burst 1" delay="0.5" burstdelay="0.04" shotCount="80" suppressionValue="95" suppressionRadius="3" />
 		<GUIImage name="gui/weapons/Division/DivisionMinigunMK3.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
@@ -577,7 +577,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.laserminigunmk1" bulletType="normal" emptySound="Empty Click 1">
-		<props range="16" hands="2" recoil="90" weight="16" clipSize="200" reloadAPCost="55" reloadSound="Weapon Energycannon Reload" isHeavy="1" strengthLimited="1" reactionModifier="0.1" disableShortRangeHitBonus="0" />
+		<props range="16" hands="2" recoil="90" weight="16" clipSize="200" reloadAPCost="55" reloadSound="Weapon Energycannon Reload" isHeavy="1" strengthLimited="1" reactionModifier="0.1" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="10" sound="Weapon Laser Minigun Burst" delay="0.5" burstdelay="0.05" shotCount="40" suppressionValue="101" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/Laser/laserminigunMK1.png"/>
 		<GroundImage name="grounditemimages/laser_heavy.png"/>
@@ -676,7 +676,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.laserminigunmk2" bulletType="normal" emptySound="Empty Click 1">
-		<props range="16" hands="2" recoil="90" weight="20" clipSize="600" reloadAPCost="60" reloadSound="Weapon Energycannon Reload" isHeavy="1" strengthLimited="1" reactionModifier="0.1" disableShortRangeHitBonus="0" />
+		<props range="16" hands="2" recoil="90" weight="20" clipSize="600" reloadAPCost="60" reloadSound="Weapon Energycannon Reload" isHeavy="1" strengthLimited="1" reactionModifier="0.1" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="10" sound="Weapon Laser Minigun Burst" delay="0.5" burstdelay="0.045" shotCount="60" suppressionValue="103" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/Laser/laserminigunMK2.png"/>
 		<GroundImage name="grounditemimages/laser_heavy.png"/>
@@ -775,7 +775,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.laserminigunmk3" bulletType="normal" emptySound="Empty Click 1">
-		<props range="18" hands="2" recoil="90" weight="24" clipSize="800" reloadAPCost="55" reloadSound="Weapon Energycannon Reload" isHeavy="1" strengthLimited="1" reactionModifier="0.1" disableShortRangeHitBonus="0" />
+		<props range="18" hands="2" recoil="90" weight="24" clipSize="800" reloadAPCost="55" reloadSound="Weapon Energycannon Reload" isHeavy="1" strengthLimited="1" reactionModifier="0.1" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="12" sound="Weapon Laser Minigun Burst" delay="0.5" burstdelay="0.02" shotCount="80" suppressionValue="105" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/Laser/laserminigunMK3.png"/>
 		<GroundImage name="grounditemimages/laser_heavy.png"/>
@@ -871,7 +871,7 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.MAGminigun" bulletType="normal" emptySound="Empty Click 1">
-		<props range="16" hands="2" recoil="90" weight="20" isHeavy="1" strengthLimited="1" clipSize="240" reloadAPCost="40" reloadSound="Weapon Minigun Reload Long" reactionModifier="0.2" disableShortRangeHitBonus="0" />
+		<props range="16" hands="2" recoil="90" weight="20" isHeavy="1" strengthLimited="1" clipSize="240" reloadAPCost="40" reloadSound="Weapon Minigun Reload Long" reactionModifier="0.2" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="6" sound="Weapon Minigun Burst Long" delay="0.5" burstdelay="0.05" shotCount="60" suppressionValue="101" suppressionRadius="2.5" />
 		<GUIImage name="gui/weapons/MAG/MAGminigun.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
@@ -968,7 +968,7 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.MAGminigunmk2" bulletType="normal" emptySound="Empty Click 1">
-		<props range="16" hands="2" recoil="90" weight="20" isHeavy="1" strengthLimited="1" clipSize="240" reloadAPCost="40" reloadSound="Weapon Minigun Reload Long" reactionModifier="0.2" disableShortRangeHitBonus="0" />
+		<props range="16" hands="2" recoil="90" weight="20" isHeavy="1" strengthLimited="1" clipSize="240" reloadAPCost="40" reloadSound="Weapon Minigun Reload Long" reactionModifier="0.2" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="8" sound="Weapon Minigun Burst Long" delay="0.5" burstdelay="0.05" shotCount="60" suppressionValue="103" suppressionRadius="3" />
 		<GUIImage name="gui/weapons/MAG/MAGminigunMK2.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
@@ -1064,7 +1064,7 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.MAGminigunmk3" bulletType="normal" emptySound="Empty Click 1">
-		<props range="18" hands="2" recoil="90" weight="24" isHeavy="1" strengthLimited="1" clipSize="320" reloadAPCost="40" reloadSound="Weapon Minigun Reload Long" reactionModifier="0.2" disableShortRangeHitBonus="0" />
+		<props range="18" hands="2" recoil="90" weight="24" isHeavy="1" strengthLimited="1" clipSize="320" reloadAPCost="40" reloadSound="Weapon Minigun Reload Long" reactionModifier="0.2" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="8" sound="Weapon Minigun Burst Long" delay="0.5" burstdelay="0.05" shotCount="80" suppressionValue="105" suppressionRadius="3" />
 		<GUIImage name="gui/weapons/MAG/MAGminigunMK3.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
@@ -1441,7 +1441,7 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.gauss.minigunmk1" bulletType="normal" emptySound="Empty Click 1">
-		<props range="18" hands="2" recoil="90" weight="16" isHeavy="1" strengthLimited="1" clipSize="120" reloadAPCost="40" reloadSound="Weapon Minigun Reload" reactionModifier="0.8" disableShortRangeHitBonus="0" />
+		<props range="18" hands="2" recoil="90" weight="16" isHeavy="1" strengthLimited="1" clipSize="120" reloadAPCost="40" reloadSound="Weapon Minigun Reload" reactionModifier="0.8" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="4" sound="Weapon Gauss Minigun Burst" delay="0.5" burstdelay="0.09" shotCount="24" suppressionValue="91" suppressionRadius="2.5" />
 		<GUIImage name="gui/weapons/Gauss/GaussMinigunMK1.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
@@ -1555,7 +1555,7 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.gauss.minigunmk2" bulletType="normal" emptySound="Empty Click 1">
-		<props range="20" hands="2" recoil="90" weight="16" isHeavy="1" strengthLimited="1" clipSize="120" reloadAPCost="55" reloadSound="Weapon Minigun Reload" reactionModifier="0.8" disableShortRangeHitBonus="0" />
+		<props range="20" hands="2" recoil="90" weight="16" isHeavy="1" strengthLimited="1" clipSize="120" reloadAPCost="55" reloadSound="Weapon Minigun Reload" reactionModifier="0.8" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="6" sound="Weapon Gauss Minigun Burst" delay="0.5" burstdelay="0.09" shotCount="24" suppressionValue="93" suppressionRadius="2.5" />
 		<GUIImage name="gui/weapons/Gauss/GaussMinigunMK2.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
@@ -1669,7 +1669,7 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.gauss.minigunmk3" bulletType="normal" emptySound="Empty Click 1">
-		<props range="22" hands="2" recoil="90" weight="18" isHeavy="1" strengthLimited="1" clipSize="240" reloadAPCost="55" reloadSound="Weapon Minigun Reload" reactionModifier="0.8" disableShortRangeHitBonus="0" />
+		<props range="22" hands="2" recoil="90" weight="18" isHeavy="1" strengthLimited="1" clipSize="240" reloadAPCost="55" reloadSound="Weapon Minigun Reload" reactionModifier="0.8" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="11" sound="Weapon Gauss Minigun Burst" delay="0.5" burstdelay="0.09" shotCount="24" suppressionValue="95" suppressionRadius="3" />
 		<GUIImage name="gui/weapons/Gauss/GaussMinigunMK3.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
@@ -1768,7 +1768,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.pulseminigunmk1" bulletType="normal" emptySound="Empty Click 1">
-		<props range="16" hands="2" recoil="90" weight="16" clipSize="240" reloadAPCost="55" reloadSound="Weapon Energycannon Reload" isHeavy="1" strengthLimited="1" reactionModifier="0.1" disableShortRangeHitBonus="0" />
+		<props range="16" hands="2" recoil="90" weight="16" clipSize="240" reloadAPCost="55" reloadSound="Weapon Energycannon Reload" isHeavy="1" strengthLimited="1" reactionModifier="0.1" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="15" sound="Weapon Pulse Minigun Burst" delay="0.5" burstdelay="0.05" shotCount="30" suppressionValue="101" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/Pulse/pulseminigunMK1.png"/>
 		<GroundImage name="grounditemimages/laser_heavy.png"/>
@@ -1867,7 +1867,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.pulseminigunmk2" bulletType="normal" emptySound="Empty Click 1">
-		<props range="18" hands="2" recoil="90" weight="18" clipSize="400" reloadAPCost="55" reloadSound="Weapon Energycannon Reload" isHeavy="1" strengthLimited="1" reactionModifier="0.1" disableShortRangeHitBonus="0" />
+		<props range="18" hands="2" recoil="90" weight="18" clipSize="400" reloadAPCost="55" reloadSound="Weapon Energycannon Reload" isHeavy="1" strengthLimited="1" reactionModifier="0.1" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="15" sound="Weapon Pulse Minigun Burst" delay="0.5" burstdelay="0.035" shotCount="40" suppressionValue="103" suppressionRadius="2.5" />
 		<GUIImage name="gui/weapons/Pulse/pulseminigunMK2.png"/>
 		<GroundImage name="grounditemimages/laser_heavy.png"/>
@@ -1966,7 +1966,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.pulseminigunmk3" bulletType="normal" emptySound="Empty Click 1">
-		<props range="20" hands="2" recoil="90" weight="18" clipSize="600" reloadAPCost="55" reloadSound="Weapon Energycannon Reload" isHeavy="1" strengthLimited="1" reactionModifier="0.1" disableShortRangeHitBonus="0" />
+		<props range="20" hands="2" recoil="90" weight="18" clipSize="600" reloadAPCost="55" reloadSound="Weapon Energycannon Reload" isHeavy="1" strengthLimited="1" reactionModifier="0.1" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="20" sound="Weapon Pulse Minigun Burst" delay="0.5" burstdelay="0.02" shotCount="50" suppressionValue="105" suppressionRadius="3" />
 		<GUIImage name="gui/weapons/Pulse/pulseminigunMK3.png"/>
 		<GroundImage name="grounditemimages/laser_heavy.png"/>
@@ -2080,7 +2080,7 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.railminigunmk1" bulletType="normal" emptySound="Empty Click 1">
-		<props range="18" hands="2" recoil="90" weight="24" isHeavy="1" strengthLimited="1" clipSize="120" reloadAPCost="40" reloadSound="Weapon Rail Heavy Reload" reactionModifier="0.8" disableShortRangeHitBonus="0" />
+		<props range="18" hands="2" recoil="90" weight="24" isHeavy="1" strengthLimited="1" clipSize="120" reloadAPCost="40" reloadSound="Weapon Rail Heavy Reload" reactionModifier="0.8" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="10" sound="Weapon Rail Minigun Burst" delay="0.5" burstdelay="0.09" shotCount="24" suppressionValue="101" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/Rail/RailMinigunMK1.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
@@ -2194,7 +2194,7 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.railminigunmk2" bulletType="normal" emptySound="Empty Click 1">
-		<props range="22" hands="2" recoil="90" weight="24" isHeavy="1" strengthLimited="1" clipSize="240" reloadAPCost="40" reloadSound="Weapon Rail Heavy Reload" reactionModifier="0.8" disableShortRangeHitBonus="0" />
+		<props range="22" hands="2" recoil="90" weight="24" isHeavy="1" strengthLimited="1" clipSize="240" reloadAPCost="40" reloadSound="Weapon Rail Heavy Reload" reactionModifier="0.8" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="10" sound="Weapon Rail Minigun Burst" delay="0.5" burstdelay="0.06" shotCount="36" suppressionValue="93" suppressionRadius="2.5" />
 		<GUIImage name="gui/weapons/Rail/RailMinigunMK2.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
@@ -2308,7 +2308,7 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.railminigunmk3" bulletType="normal" emptySound="Empty Click 1">
-		<props range="26" hands="2" recoil="100" weight="30" isHeavy="1" strengthLimited="1" clipSize="360" reloadAPCost="40" reloadSound="Weapon Rail Heavy Reload" reactionModifier="0.8" disableShortRangeHitBonus="0" />
+		<props range="26" hands="2" recoil="100" weight="30" isHeavy="1" strengthLimited="1" clipSize="360" reloadAPCost="40" reloadSound="Weapon Rail Heavy Reload" reactionModifier="0.8" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="15" sound="Weapon Rail Minigun Burst" delay="0.5" burstdelay="0.04" shotCount="48" suppressionValue="95" suppressionRadius="3" />
 		<GUIImage name="gui/weapons/Rail/RailMinigunMK3.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
@@ -2632,7 +2632,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AntiMatterMinigunmk1" bulletType="normal" emptySound="Empty Click 1">
-		<props range="18" hands="2" recoil="0" weight="20" isHeavy="1" strengthLimited="1" clipSize="400" reloadAPCost="50" reloadSound="Weapon Antimatter Reload" reactionModifier="0.3" disableShortRangeHitBonus="0" />
+		<props range="18" hands="2" recoil="0" weight="20" isHeavy="1" strengthLimited="1" clipSize="400" reloadAPCost="50" reloadSound="Weapon Antimatter Reload" reactionModifier="0.3" disableShortRangeHitBonus="1" />
 		<BurstFire ap="65" accuracy="9" sound="Weapon Antimatter Minigun Burst" delay="0.5" burstdelay="0.05" shotCount="50" suppressionValue="10" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/Antimatter/AntiMatterMinigunmk1.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
@@ -2718,7 +2718,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AntiMatterMinigunmk2" bulletType="normal" emptySound="Empty Click 1">
-		<props range="22" hands="2" recoil="0" weight="18" isHeavy="1" strengthLimited="1" clipSize="600" reloadAPCost="50" reloadSound="Weapon Antimatter Reload" reactionModifier="0.9" disableShortRangeHitBonus="0" />
+		<props range="22" hands="2" recoil="0" weight="18" isHeavy="1" strengthLimited="1" clipSize="600" reloadAPCost="50" reloadSound="Weapon Antimatter Reload" reactionModifier="0.9" disableShortRangeHitBonus="1" />
 		<BurstFire ap="60" accuracy="20" sound="Weapon Antimatter Minigun Burst" delay="0.5" burstdelay="0.06" shotCount="50" suppressionValue="15" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/Antimatter/AntiMatterMinigunmk2.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
@@ -2804,7 +2804,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AntiMatterMinigunmk3" bulletType="normal" emptySound="Empty Click 1">
-		<props range="26" hands="2" recoil="0" weight="20" isHeavy="1" strengthLimited="1" clipSize="600" reloadAPCost="50" reloadSound="Weapon Antimatter Reload" reactionModifier="0.9" disableShortRangeHitBonus="0" />
+		<props range="26" hands="2" recoil="0" weight="20" isHeavy="1" strengthLimited="1" clipSize="600" reloadAPCost="50" reloadSound="Weapon Antimatter Reload" reactionModifier="0.9" disableShortRangeHitBonus="1" />
 		<BurstFire ap="60" accuracy="22" sound="Weapon Antimatter Minigun Burst" delay="0.5" burstdelay="0.06" shotCount="50" suppressionValue="18" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/Antimatter/AntiMatterMinigunmk3.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
@@ -2890,7 +2890,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AntiMatterMinigunmk4" bulletType="normal" emptySound="Empty Click 1">
-		<props range="26" hands="2" recoil="0" weight="20" isHeavy="1" strengthLimited="1" clipSize="600" reloadAPCost="50" reloadSound="Weapon Antimatter Reload" reactionModifier="0.9" disableShortRangeHitBonus="0" />
+		<props range="26" hands="2" recoil="0" weight="20" isHeavy="1" strengthLimited="1" clipSize="600" reloadAPCost="50" reloadSound="Weapon Antimatter Reload" reactionModifier="0.9" disableShortRangeHitBonus="1" />
 		<BurstFire ap="60" accuracy="22" sound="Weapon Antimatter Minigun Burst" delay="0.5" burstdelay="0.06" shotCount="50" suppressionValue="20" suppressionRadius="2.5" />
 		<GUIImage name="gui/weapons/Antimatter/AntiMatterMinigunmk4.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
@@ -8518,38 +8518,6 @@
 		</Ammos>
 	</Weapon>
 	
-	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.gw_submachinegun" bulletType="normal" emptySound="Empty Click 1">
-		<props range="6" hands="1" recoil="20" weight="4" isHeavy="0" clipSize="30" reloadAPCost="30" reloadSound="Weapon Pistol Reload" reactionModifier="1.5"/>
-		<SingleShot />
-		<BurstFire ap="40" accuracy="20" sound="Weapon SMG Burst" delay="0.7" burstdelay="0.07" shotCount="5" suppressionValue="30" suppressionRadius="1"/>
-		<GUIImage name="gui/weapons/GW_Submachinegun" />
-		<GroundImage name="grounditemimages/mag_carbine.png"/>
-		<Ammos>
-			<Ammo name="ammo.ballistic.gw_submachinegun" type="kinetic" damage="20" mitigation="0">
-				<Projectile spectre="projectiles/bullet/bullet" speed="1500" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bulletplume/bulletplume"/>
-			</Ammo>
-		</Ammos>
-	</Weapon>
-
-	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.gw_battlerifle" bulletType="normal" emptySound="Empty Click 1">
-		<props range="20" hands="2" recoil="45" weight="7" isHeavy="1" clipSize="20" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" reactionModifier="1.0" />
-		<SingleShot sound="Weapon Sniper Single" delay="0.6" suppressionValue="25" suppressionRadius="1">
-			<Set1 ap="30" accuracy="45" />
-			<Set2 ap="43" accuracy="65" />
-			<Set3 ap="58" accuracy="85" />
-		</SingleShot>
-		<BurstFire ap="64" accuracy="33" sound="Weapon Division Rifle Burst" delay="0.6" burstdelay="0.18" shotCount="3" suppressionValue="65" suppressionRadius="1.5" />
-		<GUIImage name="gui/weapons/GW_Battlerifle.png"/>
-		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
-		<Ammos>
-			<Ammo name="ammo.ballistic.sniper" type="kinetic" damage="30" mitigation="5" isHypervelocity="0">
-				<Projectile spectre="projectiles/bullet/bullet" speed="1500" delay="2.5" showAfterDistance="60.0" />
-				<Impact spectre="particles/bulletplume/bulletplume" />
-			</Ammo>
-		</Ammos>
-	</Weapon>
-	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="replace" name="weapon.farmershotgun" bulletType="normal" emptySound="Empty Click 1">
 		<props range="3" hands="2" recoil="10" weight="3" isHeavy="0" clipSize="8" reloadAPCost="40" reloadSound="Weapon Shotgun Reload" reactionModifier="1.5" />
 		<SingleShot sound="Weapon Shotgun Single" delay="0.6" suppressionValue="11" suppressionRadius="1">
@@ -8566,6 +8534,555 @@
 			</Ammo>
 		</Ammos>
 	</Weapon>
+	
+	
+	<!-- Europe -->
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.gw_pistol" bulletType="normal" emptySound="Empty Click 1">
+		<props range="10" hands="1" recoil="0" weight="2" isHeavy="0" clipSize="8" reloadAPCost="15" reloadSound="Weapon Pistol Reload" reactionModifier="1.5" />
+		<SingleShot sound="Weapon Pistol Single" delay="0.6" suppressionValue="20" suppressionRadius="1">
+			<Set1 ap="26" accuracy="45" />
+			<Set2 ap="37" accuracy="80" />
+		</SingleShot>
+		<BurstFire ap="56" accuracy="45" sound="Weapon Pistol Burst" delay="0.6" burstdelay="0.4" shotCount="3" suppressionValue="60" suppressionRadius="1.5"/>
+		<GUIImage name="gui/weapons/gw_pistol" />
+		<GroundImage name="grounditemimages/ballistic_pistol.png"/>
+		<Ammos>
+			<Ammo name="ammo.ballistic.pistol" type="kinetic" damage="30" mitigation="0">
+				<Projectile spectre="projectiles/bullet/bullet" speed="1500" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bulletplume/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.gw_submachinegun" bulletType="normal" emptySound="Empty Click 1">
+		<props range="10" hands="2" recoil="0" weight="4" isHeavy="0" clipSize="30" reloadAPCost="20" reloadSound="Weapon Pistol Reload" reactionModifier="1.5"/>
+		<SingleShot />
+		<BurstFire ap="28" accuracy="40" sound="Weapon GW Submachine Gun Burst" delay="0.6" burstdelay="0.07" shotCount="3" suppressionValue="40" suppressionRadius="1.5"/>
+		<GUIImage name="gui/weapons/GW_Submachinegun" />
+		<GroundImage name="grounditemimages/mag_carbine.png"/>
+		<Ammos>
+			<Ammo name="ammo.ballistic.gw_submachinegun" type="kinetic" damage="25" mitigation="0">
+				<Projectile spectre="projectiles/bullet/bullet" speed="1500" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bulletplume/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.gw_battlerifle" bulletType="normal" emptySound="Empty Click 1">
+		<props range="20" hands="2" recoil="0" weight="7" isHeavy="0" clipSize="20" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" reactionModifier="1.0" />
+		<SingleShot sound="Weapon Sniper Single" delay="0.6" suppressionValue="25" suppressionRadius="1">
+			<Set1 ap="30" accuracy="45" />
+			<Set2 ap="43" accuracy="80" />
+			<Set3 ap="58" accuracy="130" />
+		</SingleShot>
+		<BurstFire ap="64" accuracy="45" sound="Weapon GW Battle Rifle Burst" delay="0.6" burstdelay="0.18" shotCount="3" suppressionValue="65" suppressionRadius="1.5" />
+		<GUIImage name="gui/weapons/GW_Battlerifle.png"/>
+		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
+		<Ammos>
+			<Ammo name="ammo.ballistic.sniper" type="kinetic" damage="30" mitigation="10" isHypervelocity="0">
+				<Projectile spectre="projectiles/bullet/bullet" speed="1500" delay="2.5" showAfterDistance="60.0" />
+				<Impact spectre="particles/bulletplume/bulletplume" />
+			</Ammo>
+		</Ammos>
+	</Weapon>
+
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.gw_machinegun" bulletType="normal" emptySound="Empty Click 1">
+		<props range="25" hands="2" recoil="70" weight="8" isHeavy="0" clipSize="30" reloadAPCost="35" reloadSound="Weapon Machinegun Reload" strengthLimited="1" reactionModifier="0.5" />
+		<SingleShot />
+		<BurstFire ap="80" accuracy="35" sound="Weapon GW Machine Gun Burst 15" delay="0.7" burstdelay="0.078" shotCount="15" suppressionValue="120" suppressionRadius="2" />
+		<GUIImage name="gui/weapons/GW_Machinegun.png"/>
+		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
+		<Ammos>
+			<Ammo name="ammo.ballistic.machinegun" type="kinetic" damage="20" mitigation="5">
+				<Projectile spectre="projectiles/bullet/bullet" speed="1500" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bulletplume/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+	
+	<!-- Jaz0 Weapons Balanced using XDIV VALUES -->
+	<!-- 	SOVIET -->
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="replace" name="weapon.ak47" bulletType="normal" emptySound="Empty Click 1">
+		<props range="11" hands="2" recoil="30" weight="6" isHeavy="0" clipSize="16" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" strengthLimited="0" reactionModifier="1" />
+		<SingleShot sound="Weapon AK47 Single" delay="0.7" suppressionValue="5" suppressionRadius="1">
+			<Set1 ap="22" accuracy="27" />
+			<Set2 ap="35" accuracy="47" />
+		</SingleShot>
+		<BurstFire ap="45" accuracy="35" sound="Weapon AK47 Burst" delay="0.7" burstdelay="0.1" shotCount="3" suppressionValue="21" suppressionRadius="1" />
+		<GUIImage name="gui/weapons/soviet/ak47.png"/>
+		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
+		<Ammos>
+			<Ammo  name="ammo.ballistic.ak47" type="kinetic" damage="30" stunDamage="0" mitigation="3">
+				<Projectile spectre="projectiles/556/556_e" speed="3150" showAfterDistance="60.0" />
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+	
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.ak74" bulletType="normal" emptySound="Empty Click 1">
+		<props range="10" hands="2" recoil="30" weight="5" isHeavy="0" clipSize="18" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" strengthLimited="0" reactionModifier="1" />
+		<SingleShot sound="Weapon AK74 Single" delay="0.7" suppressionValue="5" suppressionRadius="1">
+			<Set1 ap="22" accuracy="35" />
+			<Set2 ap="35" accuracy="55" />
+		</SingleShot>
+		<BurstFire ap="45" accuracy="35" sound="Weapon AK74 Burst" delay="0.7" burstdelay="0.1" shotCount="3" suppressionValue="21" suppressionRadius="1" />
+		<GUIImage name="gui/weapons/soviet/ak74.png"/>
+		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
+		<Ammos>
+			<Ammo  name="ammo.ballistic.ak74" type="kinetic" damage="28" stunDamage="0" mitigation="3">
+				<Projectile spectre="projectiles/556/556_e" speed="3150" showAfterDistance="60.0" />
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.makarov" bulletType="normal" emptySound="Empty Click 1">
+		<props range="8" hands="1" recoil="0" weight="2" isHeavy="0" clipSize="8" reloadAPCost="20" reloadSound="Weapon Pistol Reload" reactionModifier="2" />
+		<SingleShot sound="Weapon Makarov Single" delay="0.6" suppressionValue="2" suppressionRadius="1">
+			<Set1 ap="17" accuracy="25" />
+			<Set2 ap="23" accuracy="40" />
+		</SingleShot>
+		<GUIImage name="gui/weapons/soviet/makarov.png" />
+		<GroundImage name="grounditemimages/ballistic_pistol.png"/>
+		<Ammos>
+			<Ammo name="ammo.ballistic.pistol" type="kinetic" damage="30" stunDamage="0" mitigation="0">
+				<Projectile spectre="projectiles/9/9" speed="1250" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>	
+
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.saiga" bulletType="normal" emptySound="Empty Click 1">
+		<props range="3" hands="2" recoil="0" weight="6" isHeavy="0" clipSize="6" reloadAPCost="40" reloadSound="Weapon Shotgun Reload" reactionModifier="1.5" />
+		<SingleShot sound="Weapon Saiga Single" delay="0.6" suppressionValue="11" suppressionRadius="1">
+			<Set1 ap="18" accuracy="25" />
+			<Set2 ap="25" accuracy="35" />
+		</SingleShot>
+		<BurstFire ap="45" accuracy="10" sound="Weapon Saiga Burst" delay="0.7" burstdelay="0.1" shotCount="3" suppressionValue="21" suppressionRadius="1" />
+		<GUIImage name="gui/weapons/soviet/saiga.png"/>
+		<GroundImage name="grounditemimages/ballistic_shotgun.png"/>
+		<Ammos>
+			<Ammo name="ammo.ballistic.saiga" type="kinetic" damage="6" stunDamage="3" mitigation="0" apDamage="25" pelletCount="8">
+				<Projectile spectre="projectiles/12/12" speed="1325" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+	
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.svd" bulletType="normal" emptySound="Empty Click 1" >
+		<props range="20" hands="2" recoil="0" weight="10" isHeavy="0" clipSize="6" reloadAPCost="45" reloadSound="Weapon Precision Rifle Reload" reactionModifier="0.7" disableShortRangeHitBonus="1" disableDamageScaling="0"/>
+		<SingleShot sound="Weapon SVD Single" delay="0.6" suppressionValue="11" suppressionRadius="1">
+			<Set1 ap="50" accuracy="25" />
+			<Set2 ap="80" accuracy="60" />
+			<Set3 ap="95" accuracy="85" />
+		</SingleShot>
+		<BurstFire/>
+		<GUIImage name="gui/weapons/soviet/svd.png"/>
+		<GroundImage name="grounditemimages/ballistic_precisionrifle.png"/>
+		<Ammos>
+			<Ammo  name="ammo.ballistic.svd" type="kinetic" damage="70" stunDamage="0" mitigation="12" isHypervelocity="0">
+				<Projectile spectre="projectiles/308/308" speed="2848" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+	
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.pkm" bulletType="normal" emptySound="Empty Click 1">
+		<props range="10" hands="2" recoil="60" weight="12" isHeavy="1" strengthLimited="1" clipSize="36" reloadAPCost="50" reloadSound="Weapon Machinegun Reload" reactionModifier="0.5" disableShortRangeHitBonus="0" />
+		<BurstFire ap="55" accuracy="15" sound="Weapon PKM Burst" delay="0.7" burstdelay="0.1" shotCount="6" suppressionValue="56" suppressionRadius="1.5" />
+		<GUIImage name="gui/weapons/soviet/pkm.png"/>
+		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
+		<Ammos>
+			<Ammo name="ammo.ballistic.pk" type="kinetic" damage="28" stunDamage="0" mitigation="3">
+				<Projectile spectre="projectiles/tracer/tracer_e" speed="2756" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+	
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.ksvk" bulletType="normal" emptySound="Empty Click 1" >
+		<props range="15" hands="2" recoil="70" weight="14" isHeavy="1" clipSize="4" reloadAPCost="45" reloadSound="Weapon Precision Rifle Reload" reactionModifier="0.7" disableShortRangeHitBonus="1" disableDamageScaling="0"/>
+		<SingleShot sound="Weapon KSVK Single" delay="0.6" suppressionValue="11" suppressionRadius="1">
+			<Set1 ap="60" accuracy="40" />
+			<Set2 ap="95" accuracy="85" />
+		</SingleShot>
+		<BurstFire/>
+		<GUIImage name="gui/weapons/soviet/ksvk.png"/>
+		<GroundImage name="grounditemimages/ballistic_precisionrifle.png"/>
+		<Ammos>
+			<Ammo  name="ammo.ballistic.ksvk" type="kinetic" damage="110" stunDamage="0" mitigation="20" isHypervelocity="0">
+				<Projectile spectre="projectiles/tracer/tracer_e" speed="2756" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.ag043" bulletType="normal" emptySound="Empty Click 1">
+		<props range="9" hands="2" recoil="35" weight="4" isHeavy="0" clipSize="16" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" strengthLimited="0" reactionModifier="1" />
+		<SingleShot sound="Weapon AK74 Single" delay="0.7" suppressionValue="5" suppressionRadius="1">
+			<Set1 ap="22" accuracy="22" />
+			<Set2 ap="35" accuracy="42" />
+		</SingleShot>
+		<BurstFire ap="45" accuracy="30" sound="Weapon AK74 Burst" delay="0.7" burstdelay="0.1" shotCount="3" suppressionValue="21" suppressionRadius="1" />
+		<GUIImage name="gui/weapons/soviet/ag043.png"/>
+		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
+		<Ammos>
+			<Ammo  name="ammo.ballistic.ak74" type="kinetic" damage="25" stunDamage="0" mitigation="3">
+				<Projectile spectre="projectiles/556/556_e" speed="3150" showAfterDistance="60.0" />
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+	
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.mosin" bulletType="normal" emptySound="Empty Click 1" >
+		<props range="25" hands="2" recoil="70" weight="8" isHeavy="1" clipSize="4" reloadAPCost="55" reloadSound="Weapon Precision Rifle Reload" reactionModifier="1" disableShortRangeHitBonus="1" disableDamageScaling="0"/>
+		<SingleShot sound="Weapon Mosin Single" delay="0.6" suppressionValue="11" suppressionRadius="1">
+			<Set1 ap="45" accuracy="20" />
+			<Set2 ap="75" accuracy="55" />
+			<Set3 ap="80" accuracy="75" />
+		</SingleShot>
+		<BurstFire/>
+		<GUIImage name="gui/weapons/soviet/mosin.png"/>
+		<GroundImage name="grounditemimages/ballistic_precisionrifle.png"/>
+		<Ammos>
+			<Ammo  name="ammo.ballistic.stripperclip" type="kinetic" damage="65" stunDamage="0" mitigation="15" isHypervelocity="0">
+				<Projectile spectre="projectiles/308/308" speed="2856" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+	
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.kiparis" bulletType="normal" emptySound="Empty Click 1">
+		<props range="8" hands="2" recoil="40" weight="3" isHeavy="0" clipSize="6" reloadAPCost="20" reloadSound="Weapon Assault Rifle Reload" strengthLimited="0" reactionModifier="2" />
+		<SingleShot sound="Weapon Kiparis Single" delay="0.7" suppressionValue="2" suppressionRadius="1">
+			<Set1 ap="17" accuracy="27" />
+			<Set2 ap="23" accuracy="42" />
+		</SingleShot>
+		<BurstFire ap="45" accuracy="30" sound="Weapon Kiparis Burst" delay="0.7" burstdelay="0.1" shotCount="3" suppressionValue="21" suppressionRadius="1" />
+		<GUIImage name="gui/weapons/soviet/kiparis.png"/>
+		<GroundImage name="grounditemimages/mag_carbine.png"/>
+		<Ammos>
+			<Ammo  name="ammo.ballistic.kiparis" type="kinetic" damage="25" stunDamage="0" mitigation="0">
+				<Projectile spectre="projectiles/9/9" speed="3150" showAfterDistance="60.0" />
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.ppsh" bulletType="normal" emptySound="Empty Click 1">
+		<props range="10" hands="2" recoil="30" weight="6" isHeavy="0" clipSize="12" reloadAPCost="23" reloadSound="Weapon Assault Rifle Reload" strengthLimited="0" reactionModifier="2" />
+		<SingleShot sound="Weapon PPSH Single" delay="0.7" suppressionValue="2" suppressionRadius="1">
+			<Set1 ap="17" accuracy="27" />
+			<Set2 ap="23" accuracy="42" />
+		</SingleShot>
+		<BurstFire ap="45" accuracy="30" sound="Weapon PPSH Burst" delay="0.7" burstdelay="0.1" shotCount="3" suppressionValue="21" suppressionRadius="1" />
+		<GUIImage name="gui/weapons/soviet/ppsh.png"/>
+		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
+		<Ammos>
+			<Ammo  name="ammo.ballistic.rifle" type="kinetic" damage="28" stunDamage="0" mitigation="0">
+				<Projectile spectre="projectiles/9/9" speed="3150" showAfterDistance="60.0" />
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+	
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.SKS" bulletType="normal" emptySound="Empty Click 1" >
+		<props range="12" hands="2" recoil="70" weight="6" isHeavy="1" clipSize="4" reloadAPCost="45" reloadSound="Weapon Assault Rifle Reload" reactionModifier="1" disableShortRangeHitBonus="0" disableDamageScaling="0"/>
+		<SingleShot sound="Weapon AK74 Single" delay="0.6" suppressionValue="11" suppressionRadius="1">
+			<Set1 ap="18" accuracy="35" />
+			<Set2 ap="25" accuracy="45" />
+		</SingleShot>
+		<BurstFire/>
+		<GUIImage name="gui/weapons/soviet/SKS.png"/>
+		<GroundImage name="grounditemimages/ballistic_precisionrifle.png"/>
+		<Ammos>
+			<Ammo  name="ammo.ballistic.stripp" type="kinetic" damage="30" stunDamage="0" mitigation="3" isHypervelocity="0">
+				<Projectile spectre="projectiles/308/308" speed="2856" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+	
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.m1895" bulletType="normal" emptySound="Empty Click 1">
+		<props range="10" hands="2" recoil="40" weight="4" isHeavy="0" clipSize="6" reloadAPCost="30" reloadSound="Weapon Pistol Reload" strengthLimited="0" reactionModifier="2" />
+		<SingleShot sound="Weapon Revolver Single" delay="0.7" suppressionValue="2" suppressionRadius="1">
+			<Set1 ap="17" accuracy="27" />
+			<Set2 ap="23" accuracy="42" />
+		</SingleShot>
+		<BurstFire/>
+		<GUIImage name="gui/weapons/soviet/m1895.png"/>
+		<GroundImage name="grounditemimages/ballistic_pistolpng"/>
+		<Ammos>
+			<Ammo  name="ammo.ballistic.rifle" type="kinetic" damage="30" stunDamage="0" mitigation="3">
+				<Projectile spectre="projectiles/9/9" speed="1150" showAfterDistance="60.0" />
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rpg7" bulletType="rocket" emptySound="Empty Click 1">
+		<props MODMERGE="update" range="30" hands="2" recoil="70" weight="10" isHeavy="1" clipSize="1" reloadAPCost="35" reloadSound="Weapon Rocket Launcher Reload" strengthLimited="1" reactionModifier="0.5"  disableReactionFire="1" disableDamageScaling="1" disableShortRangeHitBonus="1" />
+		<SingleShot MODMERGE="update" sound="Weapon RPG7 Single" delay="0.7" suppressionValue="0" suppressionRadius="3">
+			<Set1 ap="60" accuracy="100" />
+			<Set2 ap="85" accuracy="250" />
+		</SingleShot>
+		<GUIImage name="gui/weapons/soviet/rpg7.png"/>
+		<GroundImage name="grounditemimages/ballistic_rocketlauncher.png"/>
+		<Ammos>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="update" name="weapon.rocket.frag" type="kinetic" damage="110" stunDamage="0" mitigation="10" isOverdamage="1" disableDamageScaling="1">
+				<Projectile spectre="projectiles/rocket" speed="1000" showAfterDistance="60.0"/>
+				<Impact spectre="particles/explosion/explosion" radius="3" sound="Weapon Rocketlauncher Explosion" fireChance="5" smokeChance="15" gasType="GrenadeFragSmoke" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="replace" name="weapon.rocket.incendiary" type="incendiary" damage="100" stunDamage="0" mitigation="10" isOverdamage="1">
+				<Projectile spectre="projectiles/rocket" speed="1000"/>
+				<Impact spectre="particles/aleniumexplosion/aleniumexplosion" radius="4" sound="Weapon Rocketlauncher Explosion" fireChance="95" smokeChance="85" gasType="GrenadeFragSmoke" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="update" name="weapon.rocket.alenium" type="incendiary" damage="180" stunDamage="0" mitigation="10" isOverdamage="1" disableDamageScaling="1">
+				<Projectile spectre="projectiles/rocket" speed="1000" showAfterDistance="60.0"/>
+				<Impact spectre="particles/aleniumexplosion/aleniumexplosion" radius="3.5" sound="Weapon Rocketlauncher Explosion" fireChance="35" smokeChance="50" gasType="GrenadeFragSmoke" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.aleniumupg" type="incendiary" damage="300" stunDamage="0" mitigation="30" isOverdamage="1" disableDamageScaling="1">
+				<Projectile spectre="projectiles/rocket" speed="1000" showAfterDistance="60.0"/>
+				<Impact spectre="particles/aleniumexplosion/aleniumexplosion" radius="1" sound="Weapon Rocketlauncher Explosion" fireChance="35" smokeChance="50" gasType="GrenadeFragSmoke" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="update" name="weapon.rocket.plasma" type="incendiary" damage="250" stunDamage="0" mitigation="15" isOverdamage="1" disableDamageScaling="1">
+				<Projectile spectre="projectiles/rocket" speed="1000" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmaexplosion/plasmaexplosion" radius="3.5" sound="Weapon Heavy Explosion" fireChance="35" smokeChance="50" gasType="GrenadeFragSmoke" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="update" name="weapon.rocket.plasmaupg" type="incendiary" damage="470" stunDamage="0" mitigation="50" isOverdamage="1" disableDamageScaling="1">
+				<Projectile spectre="projectiles/rocket" speed="1000" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmaexplosion/plasmaexplosion" radius="1" sound="Weapon Heavy Explosion" fireChance="35" smokeChance="50" gasType="GrenadeFragSmoke" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="update" name="weapon.rocket.fusion" type="incendiary" damage="330" stunDamage="0" mitigation="20" isOverdamage="1" disableDamageScaling="1">
+				<Projectile spectre="projectiles/rocket" speed="1000" showAfterDistance="60.0"/>
+				<Impact spectre="particles/fusionexplosion/fusionexplosion" radius="4" sound="Weapon Heavy Explosion" fireChance="35" smokeChance="50" gasType="GrenadeFragSmoke" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="update" name="weapon.rocket.fusionupg" type="incendiary" damage="620" stunDamage="0" mitigation="70" isOverdamage="1" disableDamageScaling="1">
+				<Projectile spectre="projectiles/rocket" speed="1000" showAfterDistance="60.0"/>
+				<Impact spectre="particles/fusionexplosion/fusionexplosion" radius="1" sound="Weapon Heavy Explosion" fireChance="35" smokeChance="50" gasType="GrenadeFragSmoke" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.singular" type="incendiary" damage="440" stunDamage="0" mitigation="25" isOverdamage="1" disableDamageScaling="1">
+				<Projectile spectre="projectiles/rocket" speed="1000" showAfterDistance="60.0"/>
+				<Impact spectre="particles/singulargrenade3/plasmacannonexplosion" radius="4" sound="Weapon Huge Explosion" fireChance="35" smokeChance="50" gasType="GrenadeFragSmoke" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.singularupg" type="incendiary" damage="850" stunDamage="0" mitigation="100" isOverdamage="1" disableDamageScaling="1">
+				<Projectile spectre="projectiles/rocket" speed="1000" showAfterDistance="60.0"/>
+				<Impact spectre="particles/singularexplosion4/plasmacannonexplosion" radius="1" sound="Weapon Huge Explosion" fireChance="35" smokeChance="50" gasType="GrenadeFragSmoke" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="update" name="weapon.rocket.stun" type="chemical" damage="5" stunDamage="60" mitigation="10" disableDamageScaling="1">
+				<Projectile spectre="projectiles/rocket" speed="1000" showAfterDistance="60.0"/>
+				<Impact spectre="particles/stungrenade/stun_explosion" radius="4.5" sound="Weapon Gas Grenade" fireChance="0" smokeChance="75" gasType="HmnStunGas" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.advstun" type="chemical" damage="5" stunDamage="90" mitigation="30" isOverdamage="0">
+				<Projectile spectre="projectiles/rocket" speed="1000"/>
+				<Impact spectre="particles/stungrenade/stun_explosion" radius="4.5" sound="Weapon Gas Grenade" fireChance="0" smokeChance="85" gasType="HmnAdvStunGas" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.hvystun" type="chemical" damage="5" stunDamage="130" mitigation="40" isOverdamage="0">
+				<Projectile spectre="projectiles/rocket" speed="1000"/>
+				<Impact spectre="particles/stungrenade/stun_explosion" radius="5" sound="Weapon Gas Grenade" fireChance="0" smokeChance="85" gasType="HmnHvyStunGas" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.exstun" type="chemical" damage="5" stunDamage="175" mitigation="50" isOverdamage="0">
+				<Projectile spectre="projectiles/rocket" speed="1000"/>
+				<Impact spectre="particles/stungrenade/stun_explosion" radius="5" sound="Weapon Gas Grenade" fireChance="0" smokeChance="90" gasType="HmnExStunGas" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.chemical" type="chemical" damage="100" stunDamage="5" mitigation="20" isOverdamage="1">
+				<Projectile spectre="projectiles/rocket" speed="1000"/>
+				<Impact spectre="particles/chemicalrocketexplosion/xplasmacannonexplosion" radius="3.5" sound="Weapon Gas Grenade" fireChance="20" smokeChance="75" gasType="ChemicalGas" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.advchemical" type="chemical" damage="140" stunDamage="0" mitigation="30" isOverdamage="1">
+				<Projectile spectre="projectiles/rocket" speed="1000"/>
+				<Impact spectre="particles/chemicalrocketexplosion/xplasmacannonexplosion" radius="3.5" sound="Weapon Gas Grenade" fireChance="25" smokeChance="85" gasType="AdvChemicalGas" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.hvychemical" type="chemical" damage="190" stunDamage="0" mitigation="45" isOverdamage="1">
+				<Projectile spectre="projectiles/rocket" speed="1000"/>
+				<Impact spectre="particles/chemicalrocketexplosion/xplasmacannonexplosion" radius="4" sound="Weapon Gas Grenade" fireChance="10" smokeChance="95" gasType="HvyChemicalGas" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.exchemical" type="chemical" damage="250" stunDamage="0" mitigation="60" isOverdamage="1">
+				<Projectile spectre="projectiles/rocket" speed="1000"/>
+				<Impact spectre="particles/chemicalrocketexplosion/xplasmacannonexplosion" radius="4.5" sound="Weapon Gas Grenade" fireChance="10" smokeChance="95" gasType="ExChemicalGas" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.shock" type="energy" damage="5" stunDamage="160" empDamage="200" mitigation="15" isOverdamage="0">
+				<Projectile spectre="projectiles/rocket" speed="1000"/>
+				<Impact spectre="particles/empexplosion/empexplosion" radius="4" sound="Weapon Energy Explosion" fireChance="0" smokeChance="75" gasType="ShockGas" />
+			</Ammo>
+			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.EMP" type="energy" damage="5" stunDamage="0" empDamage="400" mitigation="20" isOverdamage="0">
+				<Projectile spectre="projectiles/rocket" speed="1000"/>
+				<Impact spectre="particles/empexplosion/empexplosion" radius="4.5" sound="Weapon Energy Explosion" fireChance="0" smokeChance="90" gasType="EMPGas" />
+			</Ammo>
+		</Ammos>
+	</Weapon>
+	
+	<!-- NATO -->
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="replace" name="weapon.rifle" bulletType="normal" emptySound="Empty Click 1">
+		<props range="11" hands="2" recoil="30" weight="5" isHeavy="0" clipSize="18" reloadAPCost="23" reloadSound="Weapon Assault Rifle Reload" strengthLimited="0" reactionModifier="1" />
+		<SingleShot sound="Weapon Assault Rifle Single" delay="0.7" suppressionValue="5" suppressionRadius="1">
+			<Set1 ap="22" accuracy="35" />
+			<Set2 ap="35" accuracy="55" />
+		</SingleShot>
+		<BurstFire ap="45" accuracy="45" sound="Weapon Assault Rifle Burst" delay="0.7" burstdelay="0.1" shotCount="3" suppressionValue="21" suppressionRadius="1" />
+		<GUIImage name="gui/weapons/nato/m4.png"/>
+		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
+		<Ammos>
+			<Ammo  name="ammo.ballistic.rifle" type="kinetic" damage="25" stunDamage="0" mitigation="0">
+				<Projectile spectre="projectiles/556/556_e" speed="3150" showAfterDistance="60.0" />
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+	
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.m16" bulletType="normal" emptySound="Empty Click 1">
+		<props range="13" hands="2" recoil="25" weight="8" isHeavy="0" clipSize="16" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" strengthLimited="0" reactionModifier="1" />
+		<SingleShot sound="Weapon Assault Rifle Single" delay="0.7" suppressionValue="5" suppressionRadius="1">
+			<Set1 ap="22" accuracy="40" />
+			<Set2 ap="35" accuracy="60" />
+		</SingleShot>
+		<BurstFire ap="45" accuracy="50" sound="Weapon Assault Rifle Burst" delay="0.7" burstdelay="0.1" shotCount="3" suppressionValue="21" suppressionRadius="1" />
+		<GUIImage name="gui/weapons/nato/m16.png"/>
+		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
+		<Ammos>
+			<Ammo  name="ammo.ballistic.rifle" type="kinetic" damage="28" stunDamage="0" mitigation="0">
+				<Projectile spectre="projectiles/556/556_e" speed="3150" showAfterDistance="60.0" />
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+	
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.m14" bulletType="normal" emptySound="Empty Click 1">
+		<props range="14" hands="2" recoil="30" weight="8" isHeavy="0" clipSize="18" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" strengthLimited="0" reactionModifier="1" />
+		<SingleShot sound="Weapon Assault Rifle Single" delay="0.7" suppressionValue="5" suppressionRadius="1">
+			<Set1 ap="24" accuracy="45" />
+			<Set2 ap="28" accuracy="65" />
+		</SingleShot>
+		<BurstFire ap="45" accuracy="50" sound="Weapon Assault Rifle Burst" delay="0.7" burstdelay="0.08" shotCount="3" suppressionValue="21" suppressionRadius="1" />
+		<GUIImage name="gui/weapons/nato/m14.png"/>
+		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
+		<Ammos>
+			<Ammo  name="ammo.ballistic.rifle" type="kinetic" damage="28" stunDamage="0" mitigation="0">
+				<Projectile spectre="projectiles/556/556_e" speed="3150" showAfterDistance="60.0" />
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+	
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.colt1911" bulletType="normal" emptySound="Empty Click 1">
+		<props range="8" hands="1" recoil="0" weight="3" isHeavy="0" clipSize="7" reloadAPCost="20" reloadSound="Weapon Pistol Reload" reactionModifier="2" />
+		<SingleShot sound="Weapon Pistol Single" delay="0.6" suppressionValue="2" suppressionRadius="1">
+			<Set1 ap="17" accuracy="32" />
+			<Set2 ap="23" accuracy="47" />
+		</SingleShot>
+		<GUIImage name="gui/weapons/nato/colt1911.png" />
+		<GroundImage name="grounditemimages/ballistic_pistol.png"/>
+		<Ammos>
+			<Ammo name="ammo.ballistic.pistol" type="kinetic" damage="30" stunDamage="0" mitigation="0">
+				<Projectile spectre="projectiles/9/9" speed="1250" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+	
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.m15" bulletType="normal" emptySound="Empty Click 1">
+		<props range="10" hands="1" recoil="0" weight="4" isHeavy="0" clipSize="6" reloadAPCost="30" reloadSound="Weapon Pistol Reload" reactionModifier="2" />
+		<SingleShot sound="Weapon Revolver Single" delay="0.6" suppressionValue="2" suppressionRadius="1">
+			<Set1 ap="17" accuracy="32" />
+			<Set2 ap="23" accuracy="47" />
+		</SingleShot>
+		<GUIImage name="gui/weapons/nato/m15.png" />
+		<GroundImage name="grounditemimages/ballistic_pistol.png"/>
+		<Ammos>
+			<Ammo name="ammo.ballistic.revolver" type="kinetic" damage="30" stunDamage="0" mitigation="0">
+				<Projectile spectre="projectiles/9/9" speed="1250" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+	
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.mp5" bulletType="normal" emptySound="Empty Click 1">
+		<props range="7" hands="2" recoil="30" weight="5" isHeavy="0" clipSize="8" reloadAPCost="23" reloadSound="Weapon Assault Rifle Reload" strengthLimited="0" reactionModifier="2" />
+		<SingleShot sound="Weapon MP5 Single" delay="0.7" suppressionValue="5" suppressionRadius="1">
+			<Set1 ap="17" accuracy="37" />
+			<Set2 ap="23" accuracy="52" />
+		</SingleShot>
+		<BurstFire ap="45" accuracy="30" sound="Weapon MP5 Burst" delay="0.7" burstdelay="0.07" shotCount="3" suppressionValue="21" suppressionRadius="1" />
+		<GUIImage name="gui/weapons/nato/mp5.png"/>
+		<GroundImage name="grounditemimages/mag_carbine.png"/>
+		<Ammos>
+			<Ammo  name="ammo.ballistic.mp5" type="kinetic" damage="25" stunDamage="0" mitigation="0">
+				<Projectile spectre="projectiles/556/556_e" speed="3150" showAfterDistance="60.0" />
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+	
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.p90" bulletType="normal" emptySound="Empty Click 1">
+		<props range="11" hands="2" recoil="40" weight="6" isHeavy="0" clipSize="6" reloadAPCost="28" reloadSound="Weapon Assault Rifle Reload" strengthLimited="0" reactionModifier="2" />
+		<SingleShot sound="Weapon P90 Single" delay="0.7" suppressionValue="5" suppressionRadius="1">
+			<Set1 ap="17" accuracy="37" />
+			<Set2 ap="23" accuracy="52" />
+		</SingleShot>
+		<BurstFire ap="45" accuracy="35" sound="Weapon P90 Burst" delay="0.7" burstdelay="0.06" shotCount="3" suppressionValue="21" suppressionRadius="1" />
+		<GUIImage name="gui/weapons/nato/p90.png"/>
+		<GroundImage name="grounditemimages/mag_carbine.png"/>
+		<Ammos>
+			<Ammo  name="ammo.ballistic.p90" type="kinetic" damage="30" stunDamage="0" mitigation="0">
+				<Projectile spectre="projectiles/556/556_e" speed="3150" showAfterDistance="60.0" />
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+	
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.barrettm82a1" bulletType="normal" emptySound="Empty Click 1" >
+		<props range="22" hands="2" recoil="65" weight="12" isHeavy="1" clipSize="4" reloadAPCost="45" reloadSound="Weapon Precision Rifle Reload" reactionModifier="0.7" disableShortRangeHitBonus="1" disableDamageScaling="0"/>
+		<SingleShot sound="Weapon Barrett Single" delay="0.6" suppressionValue="11" suppressionRadius="1">
+			<Set1 ap="50" accuracy="30" />
+			<Set2 ap="80" accuracy="65" />
+			<Set3 ap="95" accuracy="90" />
+		</SingleShot>
+		<BurstFire/>
+		<GUIImage name="gui/weapons/nato/barrettm82a1.png"/>
+		<GroundImage name="grounditemimages/ballistic_precisionrifle.png"/>
+		<Ammos>
+			<Ammo  name="ammo.ballistic.sniper" type="kinetic" damage="95" stunDamage="0" mitigation="15" isHypervelocity="0">
+				<Projectile spectre="projectiles/tracer/tracer_e" speed="2756" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>	
+	
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.m21" bulletType="normal" emptySound="Empty Click 1" >
+		<props range="16" hands="2" recoil="50" weight="8" isHeavy="1" clipSize="8" reloadAPCost="40" reloadSound="Weapon Assault Rifle Reload" reactionModifier="0.7" disableShortRangeHitBonus="1" disableDamageScaling="0"/>
+		<SingleShot sound="Weapon Mosin Single" delay="0.6" suppressionValue="11" suppressionRadius="1">
+			<Set1 ap="40" accuracy="20" />
+			<Set2 ap="60" accuracy="45" />
+			<Set3 ap="75" accuracy="65" />
+		</SingleShot>
+		<BurstFire/>
+		<GUIImage name="gui/weapons/nato/m21.png"/>
+		<GroundImage name="grounditemimages/ballistic_precisionrifle.png"/>
+		<Ammos>
+			<Ammo  name="ammo.ballistic.rifle" type="kinetic" damage="28" stunDamage="0" mitigation="0" isHypervelocity="0">
+				<Projectile spectre="projectiles/556/556_e" speed="2450" showAfterDistance="60.0" />
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+	
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.hkg3" bulletType="normal" emptySound="Empty Click 1" >
+		<props range="16" hands="2" recoil="35" weight="6" isHeavy="1" clipSize="14" reloadAPCost="35" reloadSound="Weapon Assault Rifle Reload" reactionModifier="0.7" disableShortRangeHitBonus="1" disableDamageScaling="0"/>
+		<SingleShot sound="Weapon AK47 Single" delay="0.6" suppressionValue="11" suppressionRadius="1">
+			<Set1 ap="22" accuracy="35" />
+			<Set2 ap="35" accuracy="55" />
+		</SingleShot>
+		<BurstFire ap="45" accuracy="40" sound="Weapon AK47 Burst" delay="0.7" burstdelay="0.1" shotCount="3" suppressionValue="21" suppressionRadius="1" />
+		<GUIImage name="gui/weapons/nato/hkg3.png"/>
+		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
+		<Ammos>
+			<Ammo  name="ammo.ballistic.rifle" type="kinetic" damage="25" stunDamage="0" mitigation="0">
+				<Projectile spectre="projectiles/556/556_e" speed="3150" showAfterDistance="60.0" />
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+
 
 
 </Weapons>

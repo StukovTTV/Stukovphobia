@@ -7,11 +7,107 @@
         <slotsizey>1</slotsizey>
         <weight>1</weight>
     </Ammo>
-	<Ammo name="ammo.ballistic.rifleAK">
+	<Ammo  MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.rifleAK">
         <stockTextureName>weapons/ballistic/assaultrifle_ammo</stockTextureName>
         <dragTextureName>weapons/ballistic/assaultrifle_ammo</dragTextureName>
         <slotsizex>1</slotsizex>
         <slotsizey>1</slotsizey>
         <weight>1</weight>
     </Ammo>
+	 
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.mp5">
+		<stockTextureName>weapons/nato/mp5mag</stockTextureName>
+		<dragTextureName>weapons/nato/mp5mag</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>1</weight>
+	</Ammo>	
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.p90">
+		<stockTextureName>weapons/nato/p90mag</stockTextureName>
+		<dragTextureName>weapons/nato/p90mag</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.ak47">
+		<stockTextureName>weapons/soviet/ak47mag</stockTextureName>
+		<dragTextureName>weapons/soviet/ak47mag</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>1</weight>
+	</Ammo>	
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.ak74">
+		<stockTextureName>weapons/soviet/ak74mag</stockTextureName>
+		<dragTextureName>weapons/soviet/ak74mag</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>1</weight>
+	</Ammo>	
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.kiparis">
+		<stockTextureName>weapons/soviet/kiparismag</stockTextureName>
+		<dragTextureName>weapons/soviet/kiparismag</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.ksvk">
+		<stockTextureName>weapons/soviet/ksvkmag</stockTextureName>
+		<dragTextureName>weapons/soviet/ksvkmag</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.pk">
+		<stockTextureName>weapons/soviet/pkmag</stockTextureName>
+		<dragTextureName>weapons/soviet/pkmag</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>6</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.revolver">
+		<stockTextureName>weapons/soviet/revolverclip</stockTextureName>
+		<dragTextureName>weapons/soviet/revolverclip</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.saiga">
+		<stockTextureName>weapons/soviet/saigamag</stockTextureName>
+		<dragTextureName>weapons/soviet/saigamag</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.svd">
+		<stockTextureName>weapons/soviet/svdmag</stockTextureName>
+		<dragTextureName>weapons/soviet/svdmag</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.stripperclip">
+		<stockTextureName>weapons/soviet/stripperclip</stockTextureName>
+		<dragTextureName>weapons/soviet/stripperclip</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.ppsh">
+		<stockTextureName>weapons/soviet/ppshmag</stockTextureName>
+		<dragTextureName>weapons/soviet/ppshmag</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>3</weight>
+	</Ammo>
 </Ammos>

@@ -3,7 +3,7 @@
     <state id="damaged" name="" pivotX="129" pivotY="280" pathScore="1" objectTypePreset="0" visibilityScore="0.000" bulletScore="0.000" orientation="0" sortPoint="0.500" hp="120" wallType="crushing" destructionSound="Metal Prop">
         <image src="tiles/alienbase/props/obelisk_damaged.png" />
     </state>
-    <state id="default" name="" pivotX="129" pivotY="280" pathScore="1" objectTypePreset="0" visibilityScore="0.000" bulletScore="0.000" orientation="0" sortPoint="0.500" hp="30" wallType="crushing" isLamp="1" lightRadius="6.000" destructionSound="Metal Prop">
+    <state id="default" name="" pivotX="129" pivotY="280" pathScore="1" objectTypePreset="0" visibilityScore="0.000" bulletScore="0.000" orientation="0" sortPoint="0.500" hp="30" wallType="crushing" isLamp="1" lightRadius="6.000" isRecoverable="1" recoverItemString="Items.AlienObelisk" recoverAlienium="0" recoverAlienAlloys="0" destructionSound="Metal Prop">
         <image src="tiles/alienbase/props/obelisk.png" />
     </state>
     <state id="destroyed" name="" pivotX="129" pivotY="280" pathScore="1" objectTypePreset="0" visibilityScore="1.000" bulletScore="1.000" orientation="0" sortPoint="0.500" hp="0" wallType="none">

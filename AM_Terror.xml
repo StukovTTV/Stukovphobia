@@ -110,12 +110,12 @@
    <Font ss:FontName="Arial" x:CharSet="238" x:Family="Swiss"/>
    <Interior/>
   </Style>
-  <Style ss:ID="s79">
-   <Font ss:FontName="Arial" x:CharSet="238" x:Family="Swiss"/>
-  </Style>
-  <Style ss:ID="s80" ss:Parent="s62">
+  <Style ss:ID="s79" ss:Parent="s62">
    <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
    <Interior/>
+  </Style>
+  <Style ss:ID="s81">
+   <Font ss:FontName="Arial" x:CharSet="238" x:Family="Swiss"/>
   </Style>
   <Style ss:ID="s82">
    <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
@@ -135,7 +135,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ticker</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">200</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Chance</Data></Cell>
@@ -147,7 +147,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Once per wave</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Boolean">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s69"><Data ss:Type="String">m:airplane.alien.corvette</Data></Cell>
@@ -271,199 +271,199 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s77"/>
-    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s79"/>
     <Cell ss:StyleID="s62"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s77"/>
-    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s79"/>
     <Cell ss:StyleID="s62"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s77"/>
-    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s79"/>
     <Cell ss:StyleID="s62"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s77"/>
-    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s79"/>
     <Cell ss:StyleID="s62"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s77"/>
-    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s79"/>
     <Cell ss:StyleID="s62"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s82"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s82"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s82"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s82"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s82"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s82"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s82"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s82"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s82"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s82"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s82"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s82"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s82"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s82"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s82"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s82"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s81"/>
     <Cell ss:StyleID="s67"/>
    </Row>
   </Table>
@@ -493,8 +493,8 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>16</ActiveRow>
-     <ActiveCol>8</ActiveCol>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>1</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

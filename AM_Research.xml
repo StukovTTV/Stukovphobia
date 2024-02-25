@@ -15,8 +15,8 @@
   <LocationOfComponents HRef="/"/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>13200</WindowHeight>
-  <WindowWidth>26910</WindowWidth>
+  <WindowHeight>13485</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
   <WindowTopX>32767</WindowTopX>
   <WindowTopY>32767</WindowTopY>
   <RefModeR1C1/>
@@ -81,9 +81,12 @@
    <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
    <Interior/>
   </Style>
+  <Style ss:ID="s75" ss:Parent="s62">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+  </Style>
  </Styles>
  <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="100" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="124" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="13.3125">
    <Column ss:AutoFitWidth="0" ss:Width="220.5"/>
    <Column ss:AutoFitWidth="0" ss:Width="150"/>
@@ -517,6 +520,16 @@
     <Cell ss:StyleID="s62"><Data ss:Type="Number">50</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="String">e:airplane.alien.heavyfighter/500</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">70</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="String">e:airplane.alien.lightshuttle</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s69"><Data ss:Type="String">e:airplane.alien.hunter</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="Number">700</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="Number">50</Data></Cell>
@@ -537,6 +550,16 @@
     <Cell ss:StyleID="s62"><Data ss:Type="Number">50</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="String">e:airplane.alien.interceptor/1000</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">70</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="String">e:airplane.alien.mediumshuttle</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s69"><Data ss:Type="String">e:airplane.alien.heavyinterceptor</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="Number">1100</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="Number">50</Data></Cell>
@@ -550,6 +573,21 @@
     <Cell><Data ss:Type="String">e:airplane.alien.attackfrigate</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="Number">1300</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"><Data ss:Type="String">e:airplane.alien.heavyinterceptor/1400</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1400</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">35</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">e:airplane.alien.attackfrigate/1400</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1400</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">35</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">e:airplane.alien.heavyshuttle</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1400</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">30</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">e:airplane.alien.attackfrigate/1600</Data></Cell>
@@ -571,12 +609,83 @@
     <Cell ss:StyleID="s62"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s69"><Data ss:Type="String">m:airplane.alien.landingship</Data></Cell>
+    <Cell ss:StyleID="s69"/>
     <Cell ss:StyleID="s66"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s69"><Data ss:Type="String">m:airplane.alien.carrier</Data></Cell>
+    <Cell ss:StyleID="s69"/>
     <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Index="110" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s75"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s75"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s75"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s75"/>
+    <Cell ss:StyleID="s62"/>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -597,7 +706,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>67</TopRowBottomPane>
+   <TopRowBottomPane>1</TopRowBottomPane>
    <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
@@ -605,7 +714,7 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>97</ActiveRow>
+     <ActiveRow>105</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

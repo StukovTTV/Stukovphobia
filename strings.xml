@@ -295,27 +295,27 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">Researches.CooperationWithEU</Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="String">Aircraft - Cooperation With European Nations</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Cooperation With European Nations</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.CooperationWithEUDesc</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">&lt;left&gt;Unlocks European anti-aircraft missiles&lt;/left&gt;</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&lt;left&gt;The European Countries will Cooperate with us more closely.&lt;/left&gt;</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">Researches.CooperationWithUSA</Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="String">Aircraft - Cooperation With USA</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Cooperation With USA</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.CooperationWithUSADesc</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">&lt;left&gt;Unlocks American anti-aircraft missiles&lt;/left&gt;</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&lt;left&gt;The American Nations will cooperate with us more closely&lt;/left&gt;</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">Researches.CooperationWithUSSR</Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="String">Aircraft - Cooperation With USSR</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Cooperation With USSR</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.CooperationWithUSSRDesc</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">&lt;left&gt;Unlocks Soviet anti-aircraft missiles&lt;/left&gt;</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&lt;left&gt;The Soviet Union will cooperate with us more closely&lt;/left&gt;</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">SoldierRoles.Assault</Data></Cell>
@@ -375,7 +375,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">weapon.ak47</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Soviet AK47 Assault Rifle</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">a civilian AK47 Assault Rifle</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">weapon.ak47.desc</Data></Cell>
@@ -3149,45 +3149,53 @@
     <Cell><Data ss:Type="String">Zambia</Data></Cell>
     <Cell><Data ss:Type="String">Zambia</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+      <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AWC1</Data></Cell>
+    <Cell><Data ss:Type="String">Civilian Weapons</Data></Cell>
+   </Row>   
+   <Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.gw_pistol</Data></Cell><Cell><Data ss:Type="String">Ballistic Pistol (P7)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="270"><Cell><Data ss:Type="String">weapon.gw_pistol.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Ballistic Pistol (P7):&lt;/b&gt;
+
+Pistols are single-handed weapons with the same damage output and fire costs as rifles, but with shorter range. They are primarily useful as a sidearm for units equipped with precision rifles or heavy weapons, or when a unit has only one hand free (e.g. if they are carrying a combat shield in the other hand).
+
+Their 1.5x reaction fire modifier also makes them useful for scouting - they are more likely to perform reaction fire and less likely to receive it.
+
+Range:                                                     10
+Damage:                                                  30 Kinetic
+Suppression:                                            20 Single / 60 Burst
+Mitigation:                                                 0
+Ammo Capacity:                                       8 shots
+Reaction Modifier:                                    1.5x
+Reload Cost:                                            15 TU
+
+Fire Modes:
+- 26%% TU                                                  45 Acc x 1 shot
+- 37%% TU                                                  80 Acc x 1 shot&#10;&#10;- 56%% TU                                                  45 Acc x 3 shot</Data></Cell></Row><Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">weapon.gw_submachinegun</Data></Cell>
     <Cell><Data ss:Type="String">Ballistic SMG (MP5 AX)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:Height="261">
     <Cell><Data ss:Type="String">weapon.gw_submachinegun.desc</Data></Cell>
-    <Cell><Data ss:Type="String">Ballistic SMG (MP5 AX): Submachine guns are short range assault weapons capable of impressive burst fire.</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Ballistic SMG (MP5 AX):&lt;/b&gt;&#10;&#10;Submachine guns are short range assault weapons capable of impressive burst fire.&#10;&#10;The 1.5x reaction modifier makes your soldiers more likely to perform reaction fire and less likely to receive it.&#10;&#10;Range:                                                    10&#10;Damage:                                                 25 Kinetic&#10;Suppression:                                           40 Burst&#10;Mitigation:                                                0&#10;Ammo Capacity:                                     30 shots&#10;Reaction Modifier:                                   1.5x&#10;Reload Cost:                                           20 TU&#10;&#10;Fire Modes:&#10;- 28%% TU                                                 40 Acc x 3 shots</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">weapon.gw_battlerifle</Data></Cell>
-    <Cell><Data ss:Type="String">Ballistic Rifle (G3 AX)</Data></Cell>
+    <Cell><Data ss:Type="String">Heckler & Koch MSG90</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:Height="228.75">
     <Cell><Data ss:Type="String">weapon.gw_battlerifle.desc</Data></Cell>
-    <Cell><Data ss:Type="String">Rifles are versatile weapons with average damage output. They are effective at long range using single shots, but can also burst fire to suppress enemies or inflict heavy close-quarters damage. This makes them reliable weapons that do not excel at any particular role. Due to the use of the same type of ammunition as the precision rifle (G3 SG/1) the German G3 AX battle rifle is able to inflict more damage to the enemies than the other available assault rifles, but it is however somewhat harder to handle.</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">The Heckler & Koch MSG90 is a semi-automatic military sniper rifle. It is based on the PSG-1 from Heckler & Koch. The MSG90 shoots 7.62×51mm NATO ammunition. MSG90 stands for Militärisches Scharfschützengewehr.&#10;&#10;Range:                                                    20&#10;Damage:                                                 30 Kinetic&#10;Suppression:                                           25 Single / 65 Burst&#10;Mitigation:                                                10&#10;Ammo Capacity:                                     20 shots&#10;Reaction Modifier:                                   1.0x&#10;Reload Cost:                                           25 TU&#10;&#10;Fire Modes:&#10;- 30%% TU                                                 45 Acc x 1 shot&#10;- 43%% TU                                                 80 Acc x 1 shot&#10;- 58%% TU                                               130 Acc x 1 shot&#10;&#10;- 64%% TU                                                45 Acc x 3 shots</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="Default"><Data ss:Type="String">Researches.EURockets</Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="String">European Missiles</Data></Cell>
+    <Cell><Data ss:Type="String">weapon.gw_machinegun</Data></Cell>
+    <Cell><Data ss:Type="String">Ballistic Machinegun (MG3)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="252.75">
+    <Cell><Data ss:Type="String">weapon.gw_machinegun.desc</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">&lt;font face=&quot;fonts/arial.mvec&quot;\&gt;&lt;b&gt;Ballistic Machinegun (MG3):&lt;/b&gt;&#10;&#10;Machineguns fire long bursts that can inflict heavy damage and are excellent for suppressing enemies. However, a burst consumes 80%% of the soldier's TU to fire - limiting the mobility of the weapon.&#10;&#10;The machineguns are also Heavy weapons, meaning a strong soldier is needed to use them effectively. They use the lower of ACC and STR to determine accuracy and an additional penalty is incurred if the soldier has less than 70 STR (due to the 70 Recoil). &#10;&#10;Range:                                                    25&#10;Damage:                                                 20 Kinetic&#10;Suppression:                                           120 Burst&#10;Mitigation:                                                5&#10;Ammo Capacity:                                     30 shots&#10;Reaction Modifier:                                   0.5x&#10;Recoil:                                                     70 Recoil&#10;Reload Cost:                                           35 TU&#10;&#10;Fire Modes:&#10;- 80%% TU                                                35 Acc x 15 shots</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.EURocketsDesc</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">Unlocks European anti-aircraft missiles</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="Default"><Data ss:Type="String">Researches.USARockets</Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="String">USA Missiles</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.USARocketsDesc</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">Unlocks American anti-aircraft missiles</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="Default"><Data ss:Type="String">Researches.USSRRockets</Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="String">USSR Missiles</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.USSRRocketsDesc</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">Unlocks Soviet anti-aircraft missiles</Data></Cell>
+    <Cell><Data ss:Type="String">ammo.ballistic.gw_submachinegun</Data></Cell>
+    <Cell><Data ss:Type="String">Submachine Gun Ammo (MP5)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">weapon.farmershotgun.desc</Data></Cell>
@@ -3304,7 +3312,15 @@
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">Items.HarridanGenes</Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String">Harridan Genes</Data></Cell>
-   </Row>   
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.ReaperGenes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Reaper Genes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.XenomorphGenes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Xenomorph Genes</Data></Cell>
+   </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">Items.WeaponKnowledge</Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String">Weapon Expert Knowledge</Data></Cell>
@@ -3886,6 +3902,74 @@
     <Cell ss:StyleID="s87"><Data ss:Type="String">Alien Torpedo</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Items.AndronChargingBay</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Andron Charging Bay</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Items.AlienTable</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Alien Table</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Items.PraetorThrone</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Praetor Throne</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Items.PsyCouch</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Psy Couch</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Items.HeatBed</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Alien Heat Bed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Items.FungalBed</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Alien Fungal Bed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Items.AlienTube</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Alien Tube</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Items.Incubator</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Alien Incubator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Items.ReaperEgg</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Reaper Egg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Items.AlienChair</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Alien Chair</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Items.AutopsyTable</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Alien AutopsyTable</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Items.AlienClipCharger</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Alien Clip Charger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Items.AlienCowTub</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Alien Cow Tub</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Items.MiniSingularity</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Mini Singularity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Items.AlienObelisk</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Alien Obelisk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Items.SleepChamber</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Alien Sleep Chamber</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Items.LaserLab</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Alien Laser Lab</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.AlienLightWeaponSystem</Data></Cell>
     <Cell><Data ss:Type="String">Craft Light Weapon Systems</Data></Cell>
    </Row>
@@ -4068,6 +4152,791 @@
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKVAlienComputers.Description</Data></Cell>
     <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  produce 1 Alien Computer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_ImpWorkshop</Data></Cell>
+    <Cell><Data ss:Type="String">Improve Workshop</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_ImpWorkshop.Description</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  increases Workshop Efficiency by 8 Percent</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">SKV_ImprovedLaser</Data></Cell>
+    <Cell><Data ss:Type="String">Improve Laser Weaponry</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">SKV_ImprovedLaser.Description</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  increases Accuracy of one Laser Weapon by 7</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_PsiDefense</Data></Cell>
+    <Cell><Data ss:Type="String">Improve Armour (Psi)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_PsiDefense.Description</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  Increases Psi Defense of an Armour</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_CreateReaper</Data></Cell>
+    <Cell><Data ss:Type="String">Reaper Creation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_CreateReaper.Description</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  a Reaper Captive hatches</Data></Cell>
+   </Row>   
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_ExtractReaperGenes</Data></Cell>
+    <Cell><Data ss:Type="String">Extract Reaper Genes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_ExtractReaperGenes.Description</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  extract a Reaper Gene Sample</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_ExtractXenomorphGenes</Data></Cell>
+    <Cell><Data ss:Type="String">Extract Xenomorph Genes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_ExtractXenomorphGenes.Description</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  extract a Xenomorph Gene Sample</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_MedikitUpg</Data></Cell>
+    <Cell><Data ss:Type="String">Medikit Upgrade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_MedikitUpg.Description</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  increase Medikit loads by 4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_ChemResUpg</Data></Cell>
+    <Cell><Data ss:Type="String">Reaper Creation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_ChemResUpg.Description</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  increase Chemical Resistance of an Armour by 4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_AmmoClip</Data></Cell>
+    <Cell><Data ss:Type="String">Alien Ammo Conservation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_AmmoClip.Description</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  increase Ammo Capacity of a weapon by 50 percent, but increase reload cost by 10 percent</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_BreedAliens</Data></Cell>
+    <Cell><Data ss:Type="String">Alien Breeding</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKV_BreedAliens.Description</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  a Wraith Elite is created;&#10;•  a Harridan Elite is created;&#10;•  a Caesan Elite is created;&#10;•  a Sebillian Elite is created</Data></Cell>
+   </Row> 
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKVSingularity</Data></Cell>
+    <Cell><Data ss:Type="String">Craft Singularity Core</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ManTech.SKVSingularity.Description</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-        Effects        &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;•  produce 1 Singularity Core</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.ak47.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    AK-47:&#10;
+     •RANGE:__________________________9
+     •DAMAGE:_______________KINETIC 30
+     •MITIGATION:_____________________3
+     •SUPPRESSION:_______________4/20
+     •REACTION MODIFIER:____________1.0
+     •AMMO CAPACITY:_______________16
+     •WEIGHT:________________________6
+     •HANDS:_________________________2
+     •HEAVY:________________________NO
+     •RECOIL:_______________________30
+     •RELOAD COST:______________TU 25&#10;
+      FIRE MODES:        
+    - 22%% TU_____________27 ACC X 1 SHOT        
+    - 35%% TU_____________47 ACC X 1 SHOT        
+    - 45%% TU_____________35 ACC X 3 SHOTS   &#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.makarov</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Makarov</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.makarov.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    Makarov:&#10;
+     •RANGE:__________________________8
+     •DAMAGE:_______________KINETIC 30
+     •MITIGATION:_____________________0
+     •SUPPRESSION:___________________1
+     •REACTION MODIFIER:___________2.0
+     •AMMO CAPACITY:_______________8
+     •WEIGHT:________________________2
+     •HANDS:_________________________1
+     •HEAVY:________________________NO
+     •RELOAD COST:______________TU 20&#10;
+      FIRE MODES:        
+    - 17%% TU______________25 ACC X 1 SHOT    
+    - 23%% TU_____________40 ACC X 1 SHOT   &#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.pkm</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PKM</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.pkm.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;   PKM:&#10;
+     •RANGE:__________________________10
+     •DAMAGE:________________KINETIC 28
+     •MITIGATION:______________________3
+     •SUPPRESSION:___________________55
+     •REACTION MODIFIER:_____________0.5
+     •AMMO CAPACITY:________________36
+     •WEIGHT:__________________________12
+     •HANDS:___________________________2
+     •HEAVY:___________________________YES
+     •LOWEST OF STR OR ACC AT AIM:____YES
+     •RECOIL:__________________________60
+     •RELOAD COST:_________________TU 50&#10;
+      FIRE MODES:   
+    - 55%% TU_____________15 ACC X 6 SHOTS   &#10;    </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.svd</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">SVD</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.svd.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    SVD:&#10;
+     •RANGE:________________________18
+     •DAMAGE:_______________KINETIC 70
+     •MITIGATION:____________________12
+     •SUPPRESSION:__________________10
+     •REACTION MODIFIER:___________0.7
+     •AMMO CAPACITY:________________4
+     •WEIGHT:________________________10
+     •HANDS:_________________________2
+     •HEAVY:_______________________YES
+     •RECOIL:________________________40
+     •RELOAD COST:_______________TU 45&#10;
+      FIRE MODES:    
+    - 50%% TU_____________25 ACC X 1 SHOT      
+    - 80%% TU_____________60 ACC X 1 SHOT      
+    - 95%% TU_____________85 ACC X 1 SHOT   &#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.saiga</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Saiga</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.saiga.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    Saiga:&#10;
+     •RANGE:__________________________3
+     •DAMAGE:______KINETIC 6(stun 3)*8
+     •SHOCK:_________________________25
+     •MITIGATION:_____________________0
+     •SUPPRESSION:__________________10
+     •REACTION MODIFIER:____________1.5
+     •AMMO CAPACITY:________________6
+     •WEIGHT:________________________6
+     •HANDS:_________________________2
+     •HEAVY:________________________NO
+     •RELOAD COST:______________TU 40&#10;
+      FIRE MODES:      
+    - 18%% TU______________25 ACC X 1 SHOT    
+    - 25%% TU_____________35 ACC X 1 SHOT   
+    - 45%% TU_____________10 ACC X 1 SHOT  &#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.rpg7</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">RPG-7</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.rpg7.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    RPG-7 :&#10;
+     •RANGE:__________________________30
+     •REACTION MODIFIER:____________0
+     •AMMO CAPACITY:________________1
+     •WEIGHT:________________________10
+     •HANDS:_________________________2
+     •HEAVY:________________________YES
+     •RELOAD COST:______________TU 35&#10;
+      FIRE MODES:    
+    - 60%% TU______________100 ACC X 1 SHOT      
+    - 85%% TU_____________250 ACC X 1 SHOT   &#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.ak74</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">AK-74</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.ak74.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    AK-74:&#10;
+     •RANGE:__________________________10
+     •DAMAGE:_______________KINETIC 28
+     •MITIGATION:_____________________3
+     •SUPPRESSION:_______________4/20
+     •REACTION MODIFIER:____________1.0
+     •AMMO CAPACITY:_______________18
+     •WEIGHT:________________________5
+     •HANDS:_________________________2
+     •HEAVY:________________________NO
+     •RECOIL:_______________________30
+     •RELOAD COST:______________TU 25&#10;
+      FIRE MODES:       
+    - 22%% TU_____________35 ACC X 1 SHOT      
+    - 35%% TU_____________55 ACC X 1 SHOT      
+    - 45%% TU_____________45 ACC X 3 SHOTS   &#10; </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.ksvk</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">KSVK</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.ksvk.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    Degtyarev:&#10;
+     •RANGE:________________________16
+     •DAMAGE:_______________KINETIC 95
+     •MITIGATION:____________________20
+     •SUPPRESSION:__________________10
+     •REACTION MODIFIER:___________0.7
+     •AMMO CAPACITY:________________4
+     •WEIGHT:________________________10
+     •HANDS:_________________________2
+     •HEAVY:_______________________YES
+     •RECOIL:________________________40
+     •RELOAD COST:_______________TU 45&#10;
+      FIRE MODES:      
+    - 60%% TU_____________40 ACC X 1 SHOT    
+    - 95%% TU_____________85 ACC X 1 SHOT &#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.rifle</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">M4</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.rifle.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    M4:&#10;
+     •RANGE:__________________________11
+     •DAMAGE:_______________KINETIC 25
+     •MITIGATION:_____________________0
+     •SUPPRESSION:_______________4/20
+     •REACTION MODIFIER:____________1.0
+     •AMMO CAPACITY:_______________18
+     •WEIGHT:________________________5
+     •HANDS:_________________________2
+     •HEAVY:________________________NO
+     •RECOIL:_______________________30
+     •RELOAD COST:______________TU 25&#10;
+      FIRE MODES:       
+    - 22%% TU_____________35 ACC X 1 SHOT      
+    - 35%% TU_____________55 ACC X 1 SHOT      
+    - 45%% TU_____________45 ACC X 3 SHOTS   &#10; </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.m16</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">M16</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.m16.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    M16:&#10;
+     •RANGE:__________________________13
+     •DAMAGE:_______________KINETIC 25
+     •MITIGATION:_____________________0
+     •SUPPRESSION:_______________4/20
+     •REACTION MODIFIER:____________1.0
+     •AMMO CAPACITY:_______________16
+     •WEIGHT:________________________8
+     •HANDS:_________________________2
+     •HEAVY:________________________NO
+     •RECOIL:_______________________25
+     •RELOAD COST:______________TU 25&#10;
+      FIRE MODES:       
+    - 22%% TU_____________40 ACC X 1 SHOT      
+    - 35%% TU_____________60 ACC X 1 SHOT      
+    - 45%% TU_____________50 ACC X 3 SHOTS   &#10; </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.colt1911</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">COLT 1911</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.colt1911.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    Colt 1911:&#10;
+     •RANGE:__________________________8
+     •DAMAGE:_______________KINETIC 28
+     •MITIGATION:_____________________0
+     •SUPPRESSION:___________________1
+     •REACTION MODIFIER:___________2.0
+     •AMMO CAPACITY:_______________7
+     •WEIGHT:________________________3
+     •HANDS:_________________________1
+     •HEAVY:________________________NO
+     •RELOAD COST:______________TU 20&#10;
+      FIRE MODES:        
+    - 17%% TU______________32 ACC X 1 SHOT    
+    - 23%% TU_____________47 ACC X 1 SHOT   &#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.barrettm82a1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Barrett M82A1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.barrettm82a1.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    Barrett M82A1:&#10;
+     •RANGE:________________________22
+     •DAMAGE:_______________KINETIC 95
+     •MITIGATION:____________________15
+     •SUPPRESSION:__________________11
+     •REACTION MODIFIER:___________0.7
+     •AMMO CAPACITY:________________4
+     •WEIGHT:________________________10
+     •HANDS:_________________________2
+     •HEAVY:_______________________YES
+     •RECOIL:________________________65
+     •RELOAD COST:_______________TU 45&#10;
+      FIRE MODES:      
+    - 50%% TU_____________30 ACC X 1 SHOT    
+    - 80%% TU_____________65 ACC X 1 SHOT
+	- 95%% TU_____________90 ACC X 1 SHOT	&#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+      <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.ag043</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">AG-043</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+<Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.ag043.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    AK-47:&#10;
+     •RANGE:__________________________8
+     •DAMAGE:_______________KINETIC 25
+     •MITIGATION:_____________________3
+     •SUPPRESSION:_______________5/20
+     •REACTION MODIFIER:____________1.0
+     •AMMO CAPACITY:_______________16
+     •WEIGHT:________________________4
+     •HANDS:_________________________2
+     •HEAVY:________________________NO
+     •RECOIL:_______________________35
+     •RELOAD COST:______________TU 25&#10;
+      FIRE MODES:        
+    - 22%% TU_____________22 ACC X 1 SHOT        
+    - 35%% TU_____________45 ACC X 1 SHOT        
+    - 45%% TU_____________30 ACC X 3 SHOTS   &#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.mosin</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Mosin Nagant</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.mosin.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    Mosin Nagant:&#10;
+     •RANGE:__________________________12
+     •DAMAGE:_______________KINETIC 65
+     •MITIGATION:_____________________15
+     •SUPPRESSION:_______________11/20
+     •REACTION MODIFIER:____________1.0
+     •AMMO CAPACITY:_______________4
+     •WEIGHT:________________________12
+     •HANDS:_________________________2
+     •HEAVY:________________________NO
+     •RECOIL:_______________________70
+     •RELOAD COST:______________TU 55&#10;
+      FIRE MODES:        
+    - 45%% TU_____________20 ACC X 1 SHOT        
+    - 75%% TU_____________55 ACC X 1 SHOT        
+    - 80%% TU_____________75 ACC X 3 SHOTS   &#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.kiparis</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">OTs-02 Kiparis</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.kiparis.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    OTs-02 Kiparis:&#10;
+     •RANGE:__________________________4
+     •DAMAGE:_______________KINETIC 25
+     •MITIGATION:_____________________0
+     •SUPPRESSION:_______________2/20
+     •REACTION MODIFIER:____________2.0
+     •AMMO CAPACITY:_______________6
+     •WEIGHT:________________________4
+     •HANDS:_________________________2
+     •HEAVY:________________________NO
+     •RECOIL:_______________________40
+     •RELOAD COST:______________TU 20&#10;
+      FIRE MODES:        
+    - 17%% TU_____________23 ACC X 1 SHOT        
+    - 23%% TU_____________42 ACC X 1 SHOT        
+    - 45%% TU_____________30 ACC X 3 SHOTS   &#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.ppsh</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">PPSH 41</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.ppsh.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    PPSH 41:&#10;
+     •RANGE:__________________________5
+     •DAMAGE:_______________KINETIC 28
+     •MITIGATION:_____________________0
+     •SUPPRESSION:_______________2/20
+     •REACTION MODIFIER:____________2.0
+     •AMMO CAPACITY:_______________8
+     •WEIGHT:________________________6
+     •HANDS:_________________________2
+     •HEAVY:________________________NO
+     •RECOIL:_______________________30
+     •RELOAD COST:______________TU 23&#10;
+      FIRE MODES:        
+    - 17%% TU_____________27 ACC X 1 SHOT        
+    - 23%% TU_____________42 ACC X 1 SHOT        
+    - 45%% TU_____________30 ACC X 3 SHOTS   &#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.SKS</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">SKS</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.SKS.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    SKS:&#10;
+     •RANGE:__________________________11
+     •DAMAGE:_______________KINETIC 30
+     •MITIGATION:_____________________3
+     •SUPPRESSION:_______________11/20
+     •REACTION MODIFIER:____________1.0
+     •AMMO CAPACITY:_______________4
+     •WEIGHT:________________________12
+     •HANDS:_________________________2
+     •HEAVY:________________________NO
+     •RECOIL:_______________________40
+     •RELOAD COST:______________TU 20&#10;
+      FIRE MODES:        
+    - 17%% TU_____________23 ACC X 1 SHOT        
+    - 23%% TU_____________42 ACC X 1 SHOT        
+    - 45%% TU_____________30 ACC X 3 SHOTS   &#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.m1895</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">M1895</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.m1895.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    Nagant M1895:&#10;
+     •RANGE:__________________________5
+     •DAMAGE:_______________KINETIC 30
+     •MITIGATION:_____________________3
+     •SUPPRESSION:_______________2/20
+     •REACTION MODIFIER:____________2.0
+     •AMMO CAPACITY:_______________6
+     •WEIGHT:________________________4
+     •HANDS:_________________________1
+     •HEAVY:________________________NO
+     •RECOIL:_______________________40
+     •RELOAD COST:______________TU 30&#10;
+      FIRE MODES:        
+    - 17%% TU_____________27 ACC X 1 SHOT        
+    - 23%% TU_____________42 ACC X 1 SHOT&#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.m14</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">M14</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.m14.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    M14:&#10;
+     •RANGE:__________________________14
+     •DAMAGE:_______________KINETIC 28
+     •MITIGATION:_____________________0
+     •SUPPRESSION:_______________5/20
+     •REACTION MODIFIER:____________1.0
+     •AMMO CAPACITY:_______________14
+     •WEIGHT:________________________6
+     •HANDS:_________________________2
+     •HEAVY:________________________NO
+     •RECOIL:_______________________30
+     •RELOAD COST:______________TU 25&#10;
+      FIRE MODES:        
+    - 24%% TU_____________45 ACC X 1 SHOT        
+    - 28%% TU_____________65 ACC X 1 SHOT        
+    - 45%% TU_____________50 ACC X 3 SHOTS   &#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.m15</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">SW Model 15</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.m15.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    SW Model 15:&#10;
+     •RANGE:__________________________10
+     •DAMAGE:_______________KINETIC 25
+     •MITIGATION:_____________________0
+     •SUPPRESSION:_______________2/20
+     •REACTION MODIFIER:____________2.0
+     •AMMO CAPACITY:_______________6
+     •WEIGHT:________________________4
+     •HANDS:_________________________1
+     •HEAVY:________________________NO
+     •RECOIL:_______________________0
+     •RELOAD COST:______________TU 30&#10;
+      FIRE MODES:        
+    - 17%% TU_____________32 ACC X 1 SHOT        
+    - 23%% TU_____________47 ACC X 1 SHOT10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.mp5</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">HK MP5</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.mp5.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    HK MP5:&#10;
+     •RANGE:__________________________8
+     •DAMAGE:_______________KINETIC 25
+     •MITIGATION:_____________________0
+     •SUPPRESSION:_______________2/20
+     •REACTION MODIFIER:____________2.0
+     •AMMO CAPACITY:_______________8
+     •WEIGHT:________________________4
+     •HANDS:_________________________2
+     •HEAVY:________________________NO
+     •RECOIL:_______________________40
+     •RELOAD COST:______________TU 20&#10;
+      FIRE MODES:        
+    - 17%% TU_____________23 ACC X 1 SHOT        
+    - 23%% TU_____________42 ACC X 1 SHOT        
+    - 45%% TU_____________30 ACC X 3 SHOTS   &#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.p90</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">FN P90</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.p90.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    FN P90:&#10;
+     •RANGE:__________________________10
+     •DAMAGE:_______________KINETIC 30
+     •MITIGATION:_____________________3
+     •SUPPRESSION:_______________2/20
+     •REACTION MODIFIER:____________2.0
+     •AMMO CAPACITY:_______________6
+     •WEIGHT:________________________6
+     •HANDS:_________________________2
+     •HEAVY:________________________NO
+     •RECOIL:_______________________40
+     •RELOAD COST:______________TU 20&#10;
+      FIRE MODES:        
+    - 17%% TU_____________37 ACC X 1 SHOT        
+    - 23%% TU_____________52 ACC X 1 SHOT        
+    - 45%% TU_____________30 ACC X 3 SHOTS   &#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+      </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.m21</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">M-21</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.m21.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    M-21:&#10;
+     •RANGE:__________________________16
+     •DAMAGE:_______________KINETIC 28
+     •MITIGATION:_____________________0
+     •SUPPRESSION:_______________2/20
+     •REACTION MODIFIER:____________2.0
+     •AMMO CAPACITY:_______________8
+     •WEIGHT:________________________8
+     •HANDS:_________________________2
+     •HEAVY:________________________NO
+     •RECOIL:_______________________50
+     •RELOAD COST:______________TU 40&#10;
+      FIRE MODES:        
+    - 40%% TU_____________20ACC X 1 SHOT        
+    - 60%% TU_____________45 ACC X 1 SHOT        
+    - 75%% TU_____________65 ACC X 1 SHOT   &#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+      </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.hkg3</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">HK G3</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">weapon.hkg3.desc</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    HK G3:&#10;
+     •RANGE:__________________________11
+     •DAMAGE:_______________KINETIC 28
+     •MITIGATION:_____________________0
+     •SUPPRESSION:_______________2/20
+     •REACTION MODIFIER:____________2.0
+     •AMMO CAPACITY:_______________14
+     •WEIGHT:________________________6
+     •HANDS:_________________________2
+     •HEAVY:________________________NO
+     •RECOIL:_______________________35
+     •RELOAD COST:______________TU 35&#10;
+      FIRE MODES:        
+    - 22%% TU_____________35 ACC X 1 SHOT        
+    - 35%% TU_____________55 ACC X 1 SHOT        
+    - 45%% TU_____________40 ACC X 3 SHOTS   &#10;  </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ammo.ballistic.mp5</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    MP5 Magazine:&#10;
+     • HK MP5; </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ammo.ballistic.p90</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    P90 Magazine:&#10;
+     • FN P90; </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ammo.ballistic.ak47</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    AK-47 Magazine:&#10;
+     • AK-47; </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ammo.ballistic.ak74</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    AK-74 Magazine:&#10;
+     • AK-74
+	 • AG-043; </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ammo.ballistic.kiparis</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    OTs-02 Kiparis Magazine:&#10;
+     • OTs-02 Kiparis; </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ammo.ballistic.ksvk</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    Degtyarev Magazine:&#10;
+     • KSVK; </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ammo.ballistic.pk</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    PKM Magazine:&#10;
+     • PKM; </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ammo.ballistic.revolver</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    Revolver Magazine:&#10;
+     • Nagant M1895
+	 • SW M15; </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ammo.ballistic.saiga</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    Saiga Magazine:&#10;
+     • Saiga; </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ammo.ballistic.svd</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    SVD Magazine:&#10;
+     • SVD; </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ammo.ballistic.stripperclip</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    Stripper Clip:&#10;
+     • Mosin Nagant
+	 • SKS; </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+       <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ammo.ballistic.ppsh</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">&#10;    PPSH Drum Magazine:&#10;
+     • PPSH; </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">

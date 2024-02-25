@@ -9,7 +9,7 @@
   <Author>Computer 2</Author>
   <LastAuthor>Robert Straif</LastAuthor>
   <Created>2012-03-29T13:18:51Z</Created>
-  <LastSaved>2024-02-11T13:55:08Z</LastSaved>
+  <LastSaved>2024-02-25T08:08:46Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -116,13 +116,13 @@
   <NamedRange ss:Name="Categories" ss:RefersTo="=Sheet1!#REF!"/>
  </Names>
  <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="311" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="292" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="60">
    <Column ss:AutoFitWidth="0" ss:Width="232.5"/>
    <Column ss:AutoFitWidth="0" ss:Width="65.25"/>
    <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="118.5"/>
    <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="394.5"/>
-   <Column ss:AutoFitWidth="0" ss:Width="83.25"/>
+   <Column ss:Width="267"/>
    <Column ss:AutoFitWidth="0" ss:Width="306"/>
    <Column ss:AutoFitWidth="0" ss:Width="175.5"/>
    <Column ss:AutoFitWidth="0" ss:Width="99"/>
@@ -141,7 +141,7 @@
     <Cell ss:StyleID="s73"><Data ss:Type="String">Aircraft</Data></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AlienInvasion</Data></Cell>
     <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.CooperationWithUSSR&quot;);&#10;UnlockKnowledge( &quot;airplane.human.mig29&quot;);&#10;UnlockManufacture( &quot;ManTech.mig29&quot;);&#10;UnlockItem(&quot;weapon.ak47&quot;);&#10;UnlockItem(&quot;ammo.ballistic.rifleAK&quot;);&#10;LockResearch(&quot;Researches.CooperationWithUSA&quot;);&#10;LockResearch(&quot;Researches.CooperationWithEU&quot;);</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.CooperationWithUSSR&quot;);&#10;UnlockKnowledge( &quot;airplane.human.mig29&quot;);&#10;UnlockKnowledge( &quot;AV.K13M&quot;);&#10;UnlockKnowledge( &quot;AV.R98&quot;);&#10;UnlockKnowledge( &quot;AV.R73&quot;);&#10;LockResearch(&quot;Researches.CooperationWithUSA&quot;);&#10;LockResearch(&quot;Researches.CooperationWithEU&quot;);&#10;UnlockManufacture( &quot;ManTech.mig29&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.K13M&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.R98&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.R73&quot;);&#10;UnlockItem(&quot;weapon.svd&quot;);&#10;UnlockItem(&quot;weapon.ksvk&quot;);&#10;UnlockItem(&quot;weapon.ag043&quot;);&#10;UnlockItem(&quot;weapon.kiparis&quot;);&#10;UnlockItem(&quot;weapon.m1895&quot;);&#10;UnlockItem(&quot;weapon.SKS&quot;);&#10;UnlockItem(&quot;weapon.ppsh&quot;);&#10;ReplaceItem(&quot;weapon.rifle&quot;,&quot;weapon.ak74&quot;);&#10;ReplaceItem(&quot;weapon.pistol&quot;,&quot;weapon.makarov&quot;);&#10;ReplaceItem(&quot;weapon.machinegun&quot;,&quot;weapon.pkm&quot;);&#10;ReplaceItem(&quot;weapon.shotgun&quot;,&quot;weapon.saiga&quot;);&#10;ReplaceItem(&quot;weapon.rocketlauncher&quot;,&quot;weapon.rpg7&quot;);&#10;ReplaceItem(&quot;weapon.sniper&quot;,&quot;weapon.mosin&quot;);</Data></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.CooperationWithUSSR</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="89.25">
@@ -150,48 +150,21 @@
     <Cell ss:StyleID="s73"><Data ss:Type="String">Aircraft</Data></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AlienInvasion</Data></Cell>
     <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.CooperationWithUSA&quot;);&#10;UnlockKnowledge( &quot;airplane.human.f16&quot;);&#10;UnlockManufacture( &quot;ManTech.f16&quot;);&#10;LockResearch( &quot;Researches.CooperationWithUSSR&quot;);&#10;LockResearch( &quot;Researches.CooperationWithEU&quot;);&#10;UnlockItem(&quot;weapon.shotgun&quot;);&#10;UnlockItem(&quot;ammo.ballistic.shotgun&quot;);</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">LockResearch( &quot;Researches.CooperationWithUSSR&quot;);&#10;LockResearch( &quot;Researches.CooperationWithEU&quot;);&#10;UnlockKnowledge( &quot;Researches.CooperationWithUSA&quot;);&#10;UnlockKnowledge( &quot;airplane.human.f16&quot;);&#10;UnlockKnowledge( &quot;Researches.CooperationWithUSA&quot;);&#10;UnlockKnowledge( &quot;AV.AIM9D&quot;);&#10;UnlockKnowledge( &quot;AV.AIM7E&quot;);&#10;UnlockKnowledge( &quot;AV.PYTHON&quot;); &#10;UnlockManufacture( &quot;ManTech.f16&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.AIM9D&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.AIM7E&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.PYTHON&quot;);&#10;LockResearch( &quot;Researches.CooperationWithUSSR&quot;);&#10;LockResearch( &quot;Researches.CooperationWithEU&quot;);&#10;UnlockKnowledge( &quot;Researches.CooperationWithUSA&quot;);&#10;UnlockKnowledge( &quot;airplane.human.f16&quot;);&#10;UnlockKnowledge( &quot;Researches.CooperationWithUSA&quot;);&#10;UnlockKnowledge( &quot;AV.AIM9D&quot;);&#10;UnlockKnowledge( &quot;AV.AIM7E&quot;);&#10;UnlockKnowledge( &quot;AV.PYTHON&quot;); &#10;UnlockManufacture( &quot;ManTech.f16&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.AIM9D&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.AIM7E&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.PYTHON&quot;);&#10;UnlockItem(&quot;weapon.barrettm82a1&quot;);&#10;UnlockItem(&quot;weapon.colt1911&quot;);&#10;UnlockItem(&quot;weapon.m16&quot;);&#10;UnlockItem(&quot;weapon.m15&quot;);&#10;UnlockItem(&quot;weapon.p90&quot;);&#10;UnlockItem(&quot;weapon.m14&quot;);&#10;UnlockItem(&quot;weapon.rifle&quot;);&#10;UnlockItem(&quot;weapon.m21&quot;);&#10;ReplaceItem(&quot;weapon.pistol&quot;,&quot;weapon.colt1911&quot;);&#10;ReplaceItem(&quot;weapon.sniper&quot;,&quot;weapon.barrettm82a1&quot;);</Data></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.CooperationWithUSA</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="153">
+   <Row ss:AutoFitHeight="0" ss:Height="178.5">
     <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.CooperationWithEU</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="String">Aircraft</Data></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AlienInvasion</Data></Cell>
     <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.CooperationWithEU&quot;);&#10;UnlockKnowledge( &quot;airplane.human.mirage2000&quot;);&#10;UnlockManufacture( &quot;ManTech.mirage2000&quot;);&#10;LockResearch( &quot;Researches.CooperationWithUSA&quot;);&#10;LockResearch( &quot;Researches.CooperationWithUSSR&quot;);&#10;UnlockItem(&quot;weapon.gw_submachinegun&quot;);&#10;UnlockItem(&quot;weapon.gw_battlerifle&quot;);&#10;UnlockItem(&quot;ammo.ballistic.gw_submachinegun&quot;);</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.CooperationWithEU&quot;);&#10;UnlockKnowledge( &quot;AV.SHAFRIR&quot;);&#10;UnlockKnowledge( &quot;AV.ASPIDE&quot;); &#10;UnlockKnowledge( &quot;airplane.human.mirage2000&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.SHAFRIR&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.ASPIDE&quot;); &#10;UnlockManufacture( &quot;ManTech.mirage2000&quot;);&#10;LockResearch( &quot;Researches.CooperationWithUSA&quot;);&#10;LockResearch( &quot;Researches.CooperationWithUSSR&quot;);&#10;UnlockItem(&quot;weapon.mp5&quot;);&#10;ReplaceItem(&quot;weapon.pistol&quot;,&quot;weapon.gw_pistol&quot;);&#10;ReplaceItem(&quot;weapon.machinegun&quot;,&quot;weapon.gw_machinegun&quot;);&#10;ReplaceItem(&quot;weapon.sniper&quot;,&quot;weapon.gw_battlerifle&quot;);&#10;ReplaceItem(&quot;weapon.rifle&quot;,&quot;weapon.hkg3&quot;);</Data></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.CooperationWithEU</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="153">
-    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.USSRRockets</Data></Cell>
-    <Cell ss:StyleID="s72"><Data ss:Type="Number">120</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="String">Weaponary</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.CooperationWithUSSR</Data></Cell>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.CooperationWithUSSR&quot;);&#10;UnlockKnowledge( &quot;AV.K13M&quot;);&#10;UnlockKnowledge( &quot;AV.R98&quot;);&#10;UnlockKnowledge( &quot;AV.R73&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.K13M&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.R98&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.R73&quot;);</Data></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AdvancedUSSRRockets</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="153">
-    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.USARockets</Data></Cell>
-    <Cell ss:StyleID="s72"><Data ss:Type="Number">120</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="String">Weaponary</Data></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.CooperationWithUSA</Data></Cell>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.CooperationWithUSA&quot;);&#10;UnlockKnowledge( &quot;AV.AIM9D&quot;);&#10;UnlockKnowledge( &quot;AV.AIM7E&quot;);&#10;UnlockKnowledge( &quot;AV.PYTHON&quot;); &#10;UnlockManufacture( &quot;ManTech.AV.AIM9D&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.AIM7E&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.PYTHON&quot;);&#10;</Data></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AdvancedUSARockets</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="153">
-    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.EURockets</Data></Cell>
-    <Cell ss:StyleID="s72"><Data ss:Type="Number">120</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="String">Weaponary</Data></Cell>
-    <Cell ss:StyleID="s76"><Data ss:Type="String">Researches.CooperationWithEU</Data></Cell>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.CooperationWithEU&quot;);&#10;UnlockKnowledge( &quot;AV.SHAFRIR&quot;);&#10;UnlockKnowledge( &quot;AV.ASPIDE&quot;); &#10;UnlockManufacture( &quot;ManTech.AV.SHAFRIR&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.ASPIDE&quot;); &#10;</Data></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AdvancedEURockets</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="63.75">
     <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.AdvancedUSSRRockets</Data></Cell>
-    <Cell ss:StyleID="s72"><Data ss:Type="Number">240</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="String">Weaponary</Data></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.USSRRockets(AND)Researches.AV.ALENIUMMISSILE</Data></Cell>
     <Cell ss:StyleID="s72"/>
@@ -200,7 +173,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="63.75">
     <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.AdvancedUSARockets</Data></Cell>
-    <Cell ss:StyleID="s72"><Data ss:Type="Number">240</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="String">Weaponary</Data></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.USARockets(AND)Researches.AV.ALENIUMMISSILE</Data></Cell>
     <Cell ss:StyleID="s72"/>
@@ -209,11 +182,11 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="63.75">
     <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.AdvancedEURockets</Data></Cell>
-    <Cell ss:StyleID="s72"><Data ss:Type="Number">240</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="String">Weaponary</Data></Cell>
-    <Cell ss:StyleID="s76"><Data ss:Type="String">Researches.EURockets(AND)Researches.AV.ALENIUMMISSILE</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Researches.CooperationWithEU(AND)Researches.AV.ALENIUMMISSILE</Data></Cell>
     <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.AdvancedEURockets&quot;);&#10;UnlockKnowledge( &quot;AV.AIM9P&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.AIM9P&quot;);&#10;UnlockKnowledge( &quot;AV.R530&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.R530&quot;);</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.AdvancedEURockets&quot;);&#10;UnlockKnowledge( &quot;AV.AIM9P&quot;);&#10;UnlockKnowledge( &quot;AV.R530&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.AIM9P&quot;);&#10;UnlockManufacture( &quot;ManTech.AV.R530&quot;);</Data></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="String">Researches.AdvancedEURockets</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
@@ -272,7 +245,7 @@
     <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKV_EngineExpert1Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_EngineExpert1Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_EngineExpert2Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_EngineExpert2Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_EngineExpert3Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_EngineExpert3Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_EngineExpert4Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_EngineExpert4Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_FlightExpert1Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_FlightExpert1Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_FlightExpert2Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_FlightExpert2Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_FlightExpert3Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_FlightExpert3Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_FlightExpert4Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_FlightExpert4Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneticExpert1Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneticExpert1Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneticExpert2Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneticExpert2Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneticExpert3Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneticExpert3Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneticExpert4Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_GeneticExpert4Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_PsionicExpert1Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_PsionicExpert2Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_PsionicExpert3Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_PsionicExpert4Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_WeaponExpert1Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_WeaponExpert1Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_WeaponExpert2Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_WeaponExpert2Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_WeaponExpert3Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_WeaponExpert3Sebillian&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_WeaponExpert4Caesan&quot; );&#10;UnlockManufacture( &quot;ManTech.SKV_WeaponExpert4Sebillian&quot; );&#10;UnlockKnowledge( &quot;Researches.SKV_Interrogations&quot; );</Data></Cell>
     <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
    </Row>
-   <Row ss:Index="21" ss:AutoFitHeight="0" ss:Height="38.25">
+   <Row ss:Index="18" ss:AutoFitHeight="0" ss:Height="38.25">
     <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Base</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
@@ -366,7 +339,7 @@
     <Cell ss:Index="6" ss:StyleID="s77"><Data ss:Type="String">UnlockKnowledge( &quot;AV.CONVSCOUTBEAM&quot; );&#10;UnlockKnowledge( &quot;AV.CONVSCOUTMISSILE&quot; );&#10;UnlockManufacture( &quot;ManTech.jaguar&quot;);</Data></Cell>
     <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
    </Row>
-   <Row ss:Index="34" ss:AutoFitHeight="0" ss:Height="63.75">
+   <Row ss:Index="31" ss:AutoFitHeight="0" ss:Height="63.75">
     <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_CorvetteCCCP</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
@@ -390,7 +363,7 @@
     <Cell ss:Index="6" ss:StyleID="s77"><Data ss:Type="String">UnlockKnowledge( &quot;AV.CONVCORVETTEBEAM&quot; );&#10;UnlockKnowledge( &quot;AV.CONVCORVETTECANNON&quot; );&#10;UnlockKnowledge( &quot;AV.CONVCORVETTEMISSILE&quot; );&#10;UnlockKnowledge( &quot;airplane.human.lightning&quot;);&#10;UnlockManufacture( &quot;ManTech.lightning&quot;);</Data></Cell>
     <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Interrogations</Data></Cell>
    </Row>
-   <Row ss:Index="38" ss:AutoFitHeight="0" ss:Height="51">
+   <Row ss:Index="35" ss:AutoFitHeight="0" ss:Height="51">
     <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_CruiserCCCP</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
@@ -486,617 +459,1671 @@
     <Cell ss:Index="6"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKVAlienComputers&quot; );</Data></Cell>
     <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
    </Row>
-   <Row ss:Index="55">
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
-   </Row>
    <Row>
-    <Cell ss:Index="2" ss:StyleID="s72"/>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_AndronChargingBay</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Items.AndronChargingBay</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKV_ImpWorkshop&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_LaserLab</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell><Data ss:Type="String">Items.LaserLab</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKV_ImprovedLaser&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_PsyCouch</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell><Data ss:Type="String">Items.PsyCouch</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKV_PsiDefense&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_ReaperBreed</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell><Data ss:Type="String">Items.ReaperEgg</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKV_CreateReaper&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_ReaperGenes</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell><Data ss:Type="String">Items.AutopsyTable</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKV_ExtractReaperGenes&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_MorphGenes</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell><Data ss:Type="String">Items.AutopsyTable</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKV_ExtractXenomorphGenes&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_MedikitUpg</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell><Data ss:Type="String">Items.AutopsyTable</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKV_MedikitUpg&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_ChemResUpg</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell><Data ss:Type="String">Items.AutopsyTable</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKV_ChemResUpg&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_AmmoClip</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell><Data ss:Type="String">Items.AlienClipCharger</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKV_AmmoClip&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_AlienBreed</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell><Data ss:Type="String">Items.AlienTube</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKV_BreedAliens&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.SKV_Singularity</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Items.MiniSingularity</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.SKVSingularity&quot; );</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Knowledge.Manufacture</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="102">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.DivisionTechnology</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AlienBallisticTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.DivisionTechnology&quot; );</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.division.pistolmk1&quot; );&#10;UnlockManufacture( &quot;ManTech.division.smgmk1&quot; );&#10;UnlockManufacture( &quot;ManTech.division.riflemk1&quot; );&#10;UnlockManufacture( &quot;ManTech.division.shotgunmk1&quot; );&#10;UnlockManufacture( &quot;ManTech.division.snipermk1&quot; );&#10;UnlockManufacture( &quot;ManTech.division.heavymk1&quot; );&#10;UnlockManufacture( &quot;ManTech.division.minigunmk1&quot; );&#10;UnlockManufacture( &quot;ManTech.division.cannonmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.DivisionTechnology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="102">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvDivisionTechnology</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.DivisionTechnology(AND)Researches.AdvAlienBallisticTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.AdvDivisionTechnology&quot; );</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.division.pistolmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.division.smgmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.division.riflemk2&quot; );&#10;UnlockManufacture( &quot;ManTech.division.shotgunmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.division.snipermk2&quot; );&#10;UnlockManufacture( &quot;ManTech.division.heavymk2&quot; );&#10;UnlockManufacture( &quot;ManTech.division.minigunmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.division.cannonmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvDivisionTechnology</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.pistolmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.DivisionTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.pistolmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.pistolmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.smgmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.DivisionTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.smgmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.smgmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.riflemk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.DivisionTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.riflemk1&quot; ); </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.riflemk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.shotgunmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.DivisionTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.shotgunmk1&quot; ); </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.shotgunmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.snipermk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.DivisionTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.snipermk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.snipermk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.heavymk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.DivisionTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.heavymk1&quot; ); </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.heavymk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.minigunmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.DivisionTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.minigunmk1&quot; ); </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.minigunmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.cannonmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.DivisionTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.cannonmk1&quot; ); </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.cannonmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.pistolmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvDivisionTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.pistolmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.pistolmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.smgmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvDivisionTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.smgmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.smgmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.riflemk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvDivisionTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.riflemk2&quot; ); </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.riflemk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.shotgunmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvDivisionTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.shotgunmk2&quot; ); </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.shotgunmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.snipermk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvDivisionTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.snipermk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.snipermk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.heavymk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvDivisionTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.heavymk2&quot; ); </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.heavymk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.minigunmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvDivisionTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.minigunmk2&quot; ); </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.minigunmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.cannonmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvDivisionTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.cannonmk2&quot; ); </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.cannonmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="89.25">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.LaserWeaponry</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AlienPhaserTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.LaserWeaponry&quot; );&#10;UnlockManufacture( &quot;ManTech.laserpistolmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.lasercarbinemk2&quot; );&#10;UnlockManufacture( &quot;ManTech.laserriflemk2&quot; );&#10;UnlockManufacture( &quot;ManTech.laserprecisionmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.scatterlasermk2&quot; );&#10;UnlockManufacture( &quot;ManTech.laserminigunmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.LaserWeaponry</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="127.5">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvancedLasers</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.LaserWeaponry(AND)Researches.AdvAlienPhaserTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.AdvancedLasers&quot; ); UnlockBuilding( &quot;LaserTurret&quot; ); UpgradeBuilding(&quot;MissileTurret&quot;, &quot;LaserTurret&quot;);&#10;UnlockManufacture( &quot;ManTech.laserpistol&quot; );&#10;UnlockManufacture( &quot;ManTech.lasercarbine&quot; );&#10;UnlockManufacture( &quot;ManTech.laserrifle&quot; );&#10;UnlockManufacture( &quot;ManTech.laserprecision&quot; );&#10;UnlockManufacture( &quot;ManTech.scatterlaser&quot; );&#10;UnlockManufacture( &quot;ManTech.laserminigunmk2&quot; );&#10;</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvancedLasers</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.laserpistol</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.LaserWeaponry</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.laserpistol&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.laserpistol</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.lasercarbine</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.LaserWeaponry</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String"> UnlockManufacture( &quot;ManTech.lasercarbine&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.lasercarbine</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.laserrifle</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.LaserWeaponry</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.laserrifle&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.laserrifle</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.laserprecision</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.LaserWeaponry</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.laserprecision&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.laserprecision</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.scatterlaser</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.LaserWeaponry</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.scatterlaser&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.scatterlaser</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.laserminigunmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Researches.LaserWeaponry</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.laserminigunmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.laserminigunmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.laserpistolmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvancedLasers</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.laserpistolmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.laserpistolmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.lasercarbinemk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvancedLasers</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.lasercarbinemk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.lasercarbinemk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.laserriflemk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvancedLasers</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.laserriflemk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.laserriflemk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.laserprecisionmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvancedLasers</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.laserprecisionmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.laserprecisionmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.scatterlasermk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvancedLasers</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.scatterlasermk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.scatterlasermk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.laserminigunmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvancedLasers</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.laserminigunmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.laserminigunmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PlasmaTechnology</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">88</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AlienPlasmaTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.PlasmaTechnology&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.plasmapistol&quot; );&#10;UnlockManufacture( &quot;ManTech.plasmarifle&quot; );&#10;UnlockManufacture( &quot;ManTech.plasmaprecision&quot; );&#10;UnlockManufacture( &quot;ManTech.plasmacaster&quot; );&#10;UnlockManufacture( &quot;ManTech.plasmacannon&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PlasmaTechnology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="89.25">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvPlasmaTechnology</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">142</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PlasmaTechnology(AND)Researches.AdvAlienPlasmaTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.AdvPlasmaTechnology&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockBuilding( &quot;PlasmaTurret&quot; ); UpgradeBuilding(&quot;LaserTurret&quot;, &quot;PlasmaTurret&quot;); UpgradeBuilding(&quot;MissileTurret&quot;, &quot;PlasmaTurret&quot;);&#10;UnlockManufacture( &quot;ManTech.plasmapistolmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.plasmariflemk2&quot; );&#10;UnlockManufacture( &quot;ManTech.plasmaprecisionmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.plasmacastermk2&quot; );&#10;UnlockManufacture( &quot;ManTech.plasmacannonmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvPlasmaTechnology</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmapistol</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PlasmaTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.plasmapistol&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.plasmapistol</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmarifle</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PlasmaTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.plasmarifle&quot; ); </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.plasmarifle</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmaprecision</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PlasmaTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.plasmaprecision&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.plasmaprecision</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmacaster</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PlasmaTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.plasmacaster&quot; ); </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.plasmacaster</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmacannon</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PlasmaTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.plasmacannon&quot; ); </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.plasmacannon</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmapistolmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvPlasmaTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.plasmapistolmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.plasmapistolmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmariflemk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvPlasmaTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.plasmariflemk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.plasmariflemk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmaprecisionmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvPlasmaTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.plasmaprecisionmk2&quot; ); </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.plasmaprecisionmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmacastermk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvPlasmaTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.plasmacastermk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.plasmacastermk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmacannonmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvPlasmaTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.plasmacannonmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.plasmacannonmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="89.25">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGTechnology</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AlienMatergyTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.MAGTechnology&quot; );&#10;UnlockManufacture( &quot;ManTech.MAGpistol&quot; );&#10;UnlockManufacture( &quot;ManTech.MAGrifle&quot; );&#10;UnlockManufacture( &quot;ManTech.MAGcarbine&quot; );&#10;UnlockManufacture( &quot;ManTech.MAGprecision&quot; );&#10;UnlockManufacture( &quot;ManTech.MAGSTORM&quot; );&#10;UnlockManufacture( &quot;ManTech.MAGminigunmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGTechnology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="89.25">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvMAGTechnology</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">142</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGTechnology(AND)Researches.AdvAlienMatergyTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.AdvMAGTechnology&quot; );&#10;UnlockManufacture( &quot;ManTech.MAGpistolmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.MAGriflemk2&quot; );&#10;UnlockManufacture( &quot;ManTech.MAGcarbinemk2&quot; );&#10;UnlockManufacture( &quot;ManTech.MAGprecisionmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.MAGSTORMmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.MAGminigunmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvMAGTechnology</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGpistol</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.MAGpistol&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.MAGpistol</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGrifle</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.MAGrifle&quot; ); </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.MAGrifle</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGcarbine</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.MAGcarbine&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.MAGcarbine</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGprecision</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.MAGprecision&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.MAGprecision</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGSTORM</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.MAGSTORM&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.MAGSTORM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGminigun</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.MAGminigunmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.MAGminigunmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGpistolmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvMAGTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.MAGpistolmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.MAGpistolmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGriflemk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvMAGTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.MAGriflemk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.MAGriflemk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGcarbinemk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvMAGTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.MAGcarbinemk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.MAGcarbinemk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGprecisionmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvMAGTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.MAGprecisionmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.MAGprecisionmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGSTORMmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvMAGTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.MAGSTORMmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.MAGSTORMmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGminigunmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvMAGTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.MAGminigunmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.MAGminigunmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="89.25">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.GAUSSTechnology</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">132</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AlienVindicatorTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.GAUSSTechnology&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.gauss.heavymk1&quot; );&#10;UnlockManufacture( &quot;ManTech.gauss.minigunmk1&quot; );&#10;UnlockManufacture( &quot;ManTech.gauss.pistolmk1&quot; );&#10;UnlockManufacture( &quot;ManTech.gauss.riflemk1&quot; );&#10;UnlockManufacture( &quot;ManTech.gauss.shotgunmk1&quot; );&#10;UnlockManufacture( &quot;ManTech.gauss.smgmk1&quot; );&#10;UnlockManufacture( &quot;ManTech.gauss.snipermk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.GAUSSTechnology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="127.5">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvGAUSSTechnology</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">216</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.GAUSSTechnology(AND)Researches.AdvAlienVindicatorTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.AdvGAUSSTechnology&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockBuilding( &quot;MAGTurret&quot; ); UpgradeBuilding(&quot;PlasmaTurret&quot;, &quot;MAGTurret&quot;); UpgradeBuilding(&quot;LaserTurret&quot;, &quot;MAGTurret&quot;); UpgradeBuilding(&quot;MissileTurret&quot;, &quot;MAGTurret&quot;);&#10;UnlockManufacture( &quot;ManTech.gauss.heavymk2&quot; );&#10;UnlockManufacture( &quot;ManTech.gauss.minigunmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.gauss.pistolmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.gauss.riflemk2&quot; );&#10;UnlockManufacture( &quot;ManTech.gauss.shotgunmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.gauss.smgmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.gauss.snipermk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvGAUSSTechnology</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.pistolmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.GAUSSTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.pistolmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.pistolmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.smgmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.GAUSSTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.smgmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.smgmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.riflemk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.GAUSSTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.riflemk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.riflemk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.shotgunmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.GAUSSTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.shotgunmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.shotgunmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.snipermk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.GAUSSTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.snipermk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.snipermk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.heavymk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.GAUSSTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.heavymk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.heavymk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.minigunmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.GAUSSTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.minigunmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.minigunmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.pistolmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvGAUSSTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.pistolmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.pistolmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.smgmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvGAUSSTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.smgmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.smgmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.riflemk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvGAUSSTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.riflemk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.riflemk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.shotgunmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvGAUSSTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.shotgunmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.shotgunmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.snipermk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvGAUSSTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.snipermk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.snipermk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.heavymk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvGAUSSTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.heavymk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.heavymk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.minigunmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvGAUSSTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.minigunmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.minigunmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="76.5">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PulseTechnology</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AlienWaveTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.PulseTechnology&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.pulsepistolmk1&quot; );&#10;UnlockManufacture( &quot;ManTech.pulsecarbinemk1&quot; );&#10;UnlockManufacture( &quot;ManTech.pulseriflemk1&quot; );&#10;UnlockManufacture( &quot;ManTech.pulseprecisionmk1&quot; );&#10;UnlockManufacture( &quot;ManTech.pulseheavymk1&quot; );&#10;UnlockManufacture( &quot;ManTech.pulseminigunmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PulseTechnology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="76.5">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvPulseTechnology</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">192</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PulseTechnology(AND)Researches.AdvAlienWaveTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.AdvPulseTechnology&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockManufacture( &quot;ManTech.pulsepistolmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.pulsecarbinemk2&quot; );&#10;UnlockManufacture( &quot;ManTech.pulseriflemk2&quot; );&#10;UnlockManufacture( &quot;ManTech.pulseprecisionmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.pulseheavymk2&quot; );&#10;UnlockManufacture( &quot;ManTech.pulseminigunmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvPulseTechnology</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulsepistolmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PulseTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.pulsepistolmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.pulsepistolmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulsecarbinemk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PulseTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.pulsecarbinemk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.pulsecarbinemk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulseriflemk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PulseTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.pulseriflemk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.pulseriflemk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulseprecisionmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PulseTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.pulseprecisionmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.pulseprecisionmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulseheavymk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PulseTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.pulseheavymk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.pulseheavymk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulseminigunmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PulseTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.pulseminigunmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.pulseminigunmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulsepistolmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvPulseTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.pulsepistolmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.pulsepistolmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulsecarbinemk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvPulseTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.pulsecarbinemk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.pulsecarbinemk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulseriflemk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvPulseTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.pulseriflemk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.pulseriflemk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulseprecisionmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvPulseTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.pulseprecisionmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.pulseprecisionmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulseheavymk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvPulseTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.pulseheavymk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.pulseheavymk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulseminigunmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvPulseTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.pulseminigunmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.pulseminigunmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="102">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.RailTechnology</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">174</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AlienMassTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.RailTechnology&quot; );&#10;UnlockManufacture( &quot;ManTech.railpistolmk1&quot; );&#10;UnlockManufacture( &quot;ManTech.railsmgmk1&quot; );&#10;UnlockManufacture( &quot;ManTech.railriflemk1&quot; );&#10;UnlockManufacture( &quot;ManTech.railcarbinemk1&quot; );&#10;UnlockManufacture( &quot;ManTech.railsnipermk1&quot; );&#10;UnlockManufacture( &quot;ManTech.railheavymk1&quot; );&#10;UnlockManufacture( &quot;ManTech.railminigunmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.RailTechnology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="153">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvRailTechnology</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">286</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.RailTechnology(AND)Researches.AdvAlienMassTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.AdvRailTechnology&quot; ); UnlockBuilding( &quot;ParticleTurret&quot; ); UpgradeBuilding(&quot;MAGTurret&quot;, &quot;ParticleTurret&quot;); UpgradeBuilding(&quot;PlasmaTurret&quot;, &quot;ParticleTurret&quot;); UpgradeBuilding(&quot;LaserTurret&quot;, &quot;ParticleTurret&quot;); UpgradeBuilding(&quot;MissileTurret&quot;, &quot;ParticleTurret&quot;); &#10;UnlockManufacture( &quot;ManTech.railpistolmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.railsmgmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.railriflemk2&quot; );&#10;UnlockManufacture( &quot;ManTech.railcarbinemk2&quot; );&#10;UnlockManufacture( &quot;ManTech.railsnipermk2&quot; );&#10;UnlockManufacture( &quot;ManTech.railheavymk2&quot; );&#10;UnlockManufacture( &quot;ManTech.railminigunmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvRailTechnology</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railpistolmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.RailTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railpistolmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railpistolmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railsmgmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.RailTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railsmgmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railsmgmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railriflemk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.RailTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railriflemk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railriflemk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railcarbinemk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.RailTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railcarbinemk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railcarbinemk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railsnipermk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.RailTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railsnipermk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railsnipermk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railheavymk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.RailTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railheavymk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railheavymk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railminigunmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.RailTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railminigunmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railminigunmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railpistolmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvRailTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railpistolmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railpistolmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railsmgmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvRailTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railsmgmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railsmgmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railriflemk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvRailTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railriflemk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railriflemk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railcarbinemk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvRailTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railcarbinemk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railcarbinemk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railsnipermk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvRailTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railsnipermk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railsnipermk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railheavymk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvRailTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railheavymk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railheavymk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railminigunmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvRailTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railminigunmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railminigunmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="76.5">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.SonicTechnology</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">142</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AlienIonTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.SonicTechnology&quot; );&#10;UnlockManufacture( &quot;ManTech.sonicpistolmk1&quot; );&#10;UnlockManufacture( &quot;ManTech.sonicriflemk1&quot; );&#10;UnlockManufacture( &quot;ManTech.sonicprecisionmk1&quot; );&#10;UnlockManufacture( &quot;ManTech.soniccannonmk1&quot; );&#10;UnlockManufacture( &quot;ManTech.sonicheavymk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.SonicTechnology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="76.5">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvSonicTechnology</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">222</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.SonicTechnology(AND)Researches.AdvAlienIonTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.AdvSonicTechnology&quot; );&#10;UnlockManufacture( &quot;ManTech.sonicpistolmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.sonicriflemk2&quot; );&#10;UnlockManufacture( &quot;ManTech.sonicprecisionmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.soniccannonmk2&quot; );&#10;UnlockManufacture( &quot;ManTech.sonicheavymk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvSonicTechnology</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.sonicpistolmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.SonicTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.sonicpistolmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.sonicpistolmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.sonicriflemk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.SonicTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.sonicriflemk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.sonicriflemk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.sonicprecisionmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.SonicTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.sonicprecisionmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.sonicprecisionmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.soniccannonmk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.SonicTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.soniccannonmk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.soniccannonmk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.sonicheavymk1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.SonicTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.sonicheavymk1&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.sonicheavymk1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.sonicpistolmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvSonicTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.sonicpistolmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.sonicpistolmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.sonicriflemk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvSonicTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.sonicriflemk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.sonicriflemk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.sonicprecisionmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvSonicTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.sonicprecisionmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.sonicprecisionmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.soniccannonmk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvSonicTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.soniccannonmk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.soniccannonmk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.sonicheavymk2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvSonicTechnology</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.sonicheavymk2&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.sonicheavymk2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="76.5">
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Researches.ShockTechnology</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Researches.AlienElectronics(AND)Researches.CaesanengineerInterrogation(OR)Researches.AlienLightningTechnology(AND)Researches.SebillianengineerInterrogation</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.ShockTechnology&quot; );&#10;UnlockKnowledge( &quot;weapon.shockpistol&quot; ); UnlockManufacture( &quot;ManTech.shockpistol&quot; );&#10;UnlockKnowledge( &quot;weapon.shockrifle&quot; ); UnlockManufacture( &quot;ManTech.shockrifle&quot; );&#10;</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.ShockTechnology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="76.5">
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Researches.AdvShockTechnology</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Researches.ShockTechnology</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.AdvShockTechnology&quot; );&#10;UnlockKnowledge( &quot;weapon.shockcannon&quot; ); UnlockManufacture( &quot;ManTech.shockcannon&quot; );&#10;UnlockKnowledge( &quot;weapon.shockgun&quot; ); UnlockManufacture( &quot;ManTech.shockgun&quot; );&#10;</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AdvShockTechnology</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Researches.shockpistol</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Researches.shockgun</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Researches.shockrifle</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Researches.shockcannon</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"/>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.pistolmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.pistolmk2(AND)Researches.SebillianDataHack1(AND)Function.Chance(dpismk3ChanceName,1,50)(OR)Researches.division.pistolmk2(AND)Researches.SebillianDataHack3(AND)Function.Chance(dpismk3ChanceName,51,85)(OR)Researches.division.pistolmk2(AND)Researches.SebillianDataHack2(AND)Function.Chance(dpismk3ChanceName,86,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.pistolmk3&quot; ); UnlockManufacture( &quot;ManTech.division.pistolmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.pistolmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.smgmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.smgmk2(AND)Researches.SebillianDataHack1(AND)Function.Chance(dsmgmk3ChanceName,1,40)(OR)Researches.division.smgmk2(AND)Researches.SebillianDataHack3(AND)Function.Chance(dsmgmk3ChanceName,41,80)(OR)Researches.division.smgmk2(AND)Researches.SebillianDataHack2(AND)Function.Chance(dsmgmk3ChanceName,81,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.smgmk3&quot; ); UnlockManufacture( &quot;ManTech.division.smgmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.smgmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.riflemk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.riflemk2(AND)Researches.SebillianDataHack1(AND)Function.Chance(drifmk3ChanceName,1,35)(OR)Researches.division.riflemk2(AND)Researches.SebillianDataHack3(AND)Function.Chance(drifmk3ChanceName,36,75)(OR)Researches.division.riflemk2(AND)Researches.SebillianDataHack2(AND)Function.Chance(drifmk3ChanceName,76,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.riflemk3&quot; ); UnlockManufacture( &quot;ManTech.division.riflemk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.riflemk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.shotgunmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.shotgunmk2(AND)Researches.SebillianDataHack1(AND)Function.Chance(dshomk3ChanceName,1,35)(OR)Researches.division.shotgunmk2(AND)Researches.SebillianDataHack3(AND)Function.Chance(dshomk3ChanceName,36,75)(OR)Researches.division.shotgunmk2(AND)Researches.SebillianDataHack2(AND)Function.Chance(dshomk3ChanceName,76,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.shotgunmk3&quot; ); UnlockManufacture( &quot;ManTech.division.shotgunmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.shotgunmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.snipermk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.snipermk2(AND)Researches.SebillianDataHack1(AND)Function.Chance(dsnimk3ChanceName,1,25)(OR)Researches.division.snipermk2(AND)Researches.SebillianDataHack3(AND)Function.Chance(dsnimk3ChanceName,26,55)(OR)Researches.division.snipermk2(AND)Researches.SebillianDataHack2(AND)Function.Chance(dsnimk3ChanceName,56,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.snipermk3&quot; ); UnlockManufacture( &quot;ManTech.division.snipermk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.snipermk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.heavymk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.heavymk2(AND)Researches.SebillianDataHack1(AND)Function.Chance(dheamk3ChanceName,1,30)(OR)Researches.division.heavymk2(AND)Researches.SebillianDataHack3(AND)Function.Chance(dheamk3ChanceName,31,60)(OR)Researches.division.heavymk2(AND)Researches.SebillianDataHack2(AND)Function.Chance(dheamk3ChanceName,61,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.heavymk3&quot; ); UnlockManufacture( &quot;ManTech.division.heavymk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.heavymk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.minigunmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.minigunmk2(AND)Researches.SebillianDataHack1(AND)Function.Chance(DMinMk3ChanceName,1,25)(OR)Researches.division.minigunmk2(AND)Researches.SebillianDataHack3(AND)Function.Chance(DMinMk3ChanceName,26,55)(OR)Researches.division.minigunmk2(AND)Researches.SebillianDataHack2(AND)Function.Chance(DMinMk3ChanceName,56,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.minigunmk3&quot; ); UnlockManufacture( &quot;ManTech.division.minigunmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.minigunmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.cannonmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.division.cannonmk2(AND)Researches.SebillianDataHack1(AND)Function.Chance(DCanMk3ChanceName,1,30)(OR)Researches.division.cannonmk2(AND)Researches.SebillianDataHack3(AND)Function.Chance(DCanMk3ChanceName,31,60)(OR)Researches.division.cannonmk2(AND)Researches.SebillianDataHack2(AND)Function.Chance(DCanMk3ChanceName,61,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.division.cannonmk3&quot; ); UnlockManufacture( &quot;ManTech.division.cannonmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.division.cannonmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.laserpistolmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.laserpistolmk2(AND)Researches.CaesanDataHack1(AND)Function.Chance(LPisMk3ChanceName,1,50)(OR)Researches.laserpistolmk2(AND)Researches.CaesanDataHack3(AND)Function.Chance(LPisMk3ChanceName,51,85)(OR)Researches.laserpistolmk2(AND)Researches.CaesanDataHack2(AND)Function.Chance(LPisMk3ChanceName,86,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.laserpistolmk3&quot; ); UnlockManufacture( &quot;ManTech.laserpistolmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.laserpistolmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.lasercarbinemk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.lasercarbinemk2(AND)Researches.CaesanDataHack1(AND)Function.Chance(LCarMk3ChanceName,1,35)(OR)Researches.lasercarbinemk2(AND)Researches.CaesanDataHack3(AND)Function.Chance(LCarMk3ChanceName,36,75)(OR)Researches.lasercarbinemk2(AND)Researches.CaesanDataHack2(AND)Function.Chance(LCarMk3ChanceName,76,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.lasercarbinemk3&quot; ); UnlockManufacture( &quot;ManTech.lasercarbinemk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.lasercarbinemk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.laserriflemk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.laserriflemk2(AND)Researches.CaesanDataHack1(AND)Function.Chance(LRifMk3ChanceName,1,35)(OR)Researches.laserriflemk2(AND)Researches.CaesanDataHack3(AND)Function.Chance(LRifMk3ChanceName,36,75)(OR)Researches.laserriflemk2(AND)Researches.CaesanDataHack2(AND)Function.Chance(LRifMk3ChanceName,76,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.laserriflemk3&quot; ); UnlockManufacture( &quot;ManTech.laserriflemk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.laserriflemk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.laserprecisionmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.laserprecisionmk2(AND)Researches.CaesanDataHack1(AND)Function.Chance(LPreMk3ChanceName,1,25)(OR)Researches.laserprecisionmk2(AND)Researches.CaesanDataHack3(AND)Function.Chance(LPreMk3ChanceName,26,55)(OR)Researches.laserprecisionmk2(AND)Researches.CaesanDataHack2(AND)Function.Chance(LPreMk3ChanceName,56,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.laserprecisionmk3&quot; ); UnlockManufacture( &quot;ManTech.laserprecisionmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.laserprecisionmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.scatterlasermk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.scatterlasermk2(AND)Researches.CaesanDataHack1(AND)Function.Chance(LScaMk3ChanceName,1,30)(OR)Researches.scatterlasermk2(AND)Researches.CaesanDataHack3(AND)Function.Chance(LScaMk3ChanceName,31,60)(OR)Researches.scatterlasermk2(AND)Researches.CaesanDataHack2(AND)Function.Chance(LScaMk3ChanceName,61,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.scatterlasermk3&quot; ); UnlockManufacture( &quot;ManTech.scatterlasermk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.scatterlasermk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.laserminigunmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.laserminigunmk2(AND)Researches.CaesanDataHack1(AND)Function.Chance(LMinMk3ChanceName,1,25)(OR)Researches.laserminigunmk2(AND)Researches.CaesanDataHack3(AND)Function.Chance(LMinMk3ChanceName,26,55)(OR)Researches.laserminigunmk2(AND)Researches.CaesanDataHack2(AND)Function.Chance(LMinMk3ChanceName,56,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.laserminigunmk3&quot; ); UnlockManufacture( &quot;ManTech.laserminigunmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.laserminigunmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmapistolmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmapistolmk2(AND)Researches.CaesanDataHack4(AND)Function.Chance(PPisMk3ChanceName,1,50)(OR)Researches.plasmapistolmk2(AND)Researches.CaesanDataHack6(AND)Function.Chance(PPisMk3ChanceName,51,80)(OR)Researches.plasmapistolmk2(AND)Researches.CaesanDataHack5(AND)Function.Chance(PPisMk3ChanceName,81,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.plasmapistolmk3&quot; ); UnlockManufacture( &quot;ManTech.plasmapistolmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.plasmapistolmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmariflemk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmariflemk2(AND)Researches.CaesanDataHack4(AND)Function.Chance(PRifMk3ChanceName,1,35)(OR)Researches.plasmariflemk2(AND)Researches.CaesanDataHack6(AND)Function.Chance(PRifMk3ChanceName,36,75)(OR)Researches.plasmariflemk2(AND)Researches.CaesanDataHack5(AND)Function.Chance(PRifMk3ChanceName,76,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.plasmariflemk3&quot; ); UnlockManufacture( &quot;ManTech.plasmariflemk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.plasmariflemk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmaprecisionmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmaprecisionmk2(AND)Researches.CaesanDataHack4(AND)Function.Chance(PPreMk3ChanceName,1,25)(OR)Researches.plasmaprecisionmk2(AND)Researches.CaesanDataHack6(AND)Function.Chance(PPreMk3ChanceName,26,55)(OR)Researches.plasmaprecisionmk2(AND)Researches.CaesanDataHack5(AND)Function.Chance(PPreMk3ChanceName,56,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.plasmaprecisionmk3&quot; ); UnlockManufacture( &quot;ManTech.plasmaprecisionmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.plasmaprecisionmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmacastermk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmacastermk2(AND)Researches.CaesanDataHack4(AND)Function.Chance(PCasMk3ChanceName,1,40)(OR)Researches.plasmacastermk2(AND)Researches.CaesanDataHack6(AND)Function.Chance(PCasMk3ChanceName,41,80)(OR)Researches.plasmacastermk2(AND)Researches.CaesanDataHack5(AND)Function.Chance(PCasMk3ChanceName,81,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.plasmacastermk3&quot; ); UnlockManufacture( &quot;ManTech.plasmacastermk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.plasmacastermk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmacannonmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.plasmacannonmk2(AND)Researches.CaesanDataHack4(AND)Function.Chance(PCanMk3ChanceName,1,30)(OR)Researches.plasmacannonmk2(AND)Researches.CaesanDataHack6(AND)Function.Chance(PCanMk3ChanceName,31,60)(OR)Researches.plasmacannonmk2(AND)Researches.CaesanDataHack5(AND)Function.Chance(PCanMk3ChanceName,61,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.plasmacannonmk3&quot; ); UnlockManufacture( &quot;ManTech.plasmacannonmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.plasmacannonmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGpistolmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGpistolmk2(AND)Researches.SebillianDataHack4(AND)Function.Chance(MPisMk3ChanceName,1,50)(OR)Researches.MAGpistolmk2(AND)Researches.SebillianDataHack6(AND)Function.Chance(MPisMk3ChanceName,51,80)(OR)Researches.MAGpistolmk2(AND)Researches.SebillianDataHack5(AND)Function.Chance(MPisMk3ChanceName,81,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.MAGpistolmk3&quot; ); UnlockManufacture( &quot;ManTech.MAGpistolmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.MAGpistolmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGriflemk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGriflemk2(AND)Researches.SebillianDataHack4(AND)Function.Chance(MRifMk3ChanceName,1,35)(OR)Researches.MAGriflemk2(AND)Researches.SebillianDataHack6(AND)Function.Chance(MRifMk3ChanceName,36,75)(OR)Researches.MAGriflemk2(AND)Researches.SebillianDataHack5(AND)Function.Chance(MRifMk3ChanceName,76,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.MAGriflemk3&quot; ); UnlockManufacture( &quot;ManTech.MAGriflemk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.MAGriflemk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGcarbinemk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGcarbinemk2(AND)Researches.SebillianDataHack4(AND)Function.Chance(MCarMk3ChanceName,1,35)(OR)Researches.MAGcarbinemk2(AND)Researches.SebillianDataHack6(AND)Function.Chance(MCarMk3ChanceName,36,75)(OR)Researches.MAGcarbinemk2(AND)Researches.SebillianDataHack5(AND)Function.Chance(MCarMk3ChanceName,76,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.MAGcarbinemk3&quot; ); UnlockManufacture( &quot;ManTech.MAGcarbinemk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.MAGcarbinemk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGprecisionmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGprecisionmk2(AND)Researches.SebillianDataHack4(AND)Function.Chance(MPreMk3ChanceName,1,25)(OR)Researches.MAGprecisionmk2(AND)Researches.SebillianDataHack6(AND)Function.Chance(MPreMk3ChanceName,26,55)(OR)Researches.MAGprecisionmk2(AND)Researches.SebillianDataHack5(AND)Function.Chance(MPreMk3ChanceName,56,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.MAGprecisionmk3&quot; ); UnlockManufacture( &quot;ManTech.MAGprecisionmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.MAGprecisionmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGSTORMmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGSTORMmk2(AND)Researches.SebillianDataHack4(AND)Function.Chance(MStoMk3ChanceName,1,40)(OR)Researches.MAGSTORMmk2(AND)Researches.SebillianDataHack6(AND)Function.Chance(MStoMk3ChanceName,41,80)(OR)Researches.MAGSTORMmk2(AND)Researches.SebillianDataHack5(AND)Function.Chance(MStoMk3ChanceName,81,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.MAGSTORMmk3&quot; ); UnlockManufacture( &quot;ManTech.MAGSTORMmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.MAGSTORMmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGminigunmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.MAGminigunmk2(AND)Researches.SebillianDataHack4(AND)Function.Chance(MMinMk3ChanceName,1,25)(OR)Researches.MAGminigunmk2(AND)Researches.SebillianDataHack6(AND)Function.Chance(MMinMk3ChanceName,26,55)(OR)Researches.MAGminigunmk2(AND)Researches.SebillianDataHack5(AND)Function.Chance(MMinMk3ChanceName,56,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.MAGminigunmk3&quot; ); UnlockManufacture( &quot;ManTech.MAGminigunmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.MAGminigunmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.pistolmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.pistolmk2(AND)Researches.SebillianDataHack7(AND)Function.Chance(GPisMk3ChanceName,1,50)(OR)Researches.gauss.pistolmk2(AND)Researches.SebillianDataHack9(AND)Function.Chance(GPisMk3ChanceName,51,80)(OR)Researches.gauss.pistolmk2(AND)Researches.SebillianDataHack8(AND)Function.Chance(GPisMk3ChanceName,81,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.pistolmk3&quot; ); UnlockManufacture( &quot;ManTech.gauss.pistolmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.pistolmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.smgmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.smgmk2(AND)Researches.SebillianDataHack7(AND)Function.Chance(GSmgMk3ChanceName,1,40)(OR)Researches.gauss.smgmk2(AND)Researches.SebillianDataHack9(AND)Function.Chance(GSmgMk3ChanceName,41,80)(OR)Researches.gauss.smgmk2(AND)Researches.SebillianDataHack8(AND)Function.Chance(GSmgMk3ChanceName,81,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.smgmk3&quot; ); UnlockManufacture( &quot;ManTech.gauss.smgmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.smgmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.riflemk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.riflemk2(AND)Researches.SebillianDataHack7(AND)Function.Chance(GRifMk3ChanceName,1,35)(OR)Researches.gauss.riflemk2(AND)Researches.SebillianDataHack9(AND)Function.Chance(GRifMk3ChanceName,36,75)(OR)Researches.gauss.riflemk2(AND)Researches.SebillianDataHack8(AND)Function.Chance(GRifMk3ChanceName,76,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.riflemk3&quot; ); UnlockManufacture( &quot;ManTech.gauss.riflemk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.riflemk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.shotgunmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.shotgunmk2(AND)Researches.SebillianDataHack7(AND)Function.Chance(GShoMk3ChanceName,1,35)(OR)Researches.gauss.shotgunmk2(AND)Researches.SebillianDataHack9(AND)Function.Chance(GShoMk3ChanceName,36,75)(OR)Researches.gauss.shotgunmk2(AND)Researches.SebillianDataHack8(AND)Function.Chance(GShoMk3ChanceName,76,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.shotgunmk3&quot; ); UnlockManufacture( &quot;ManTech.gauss.shotgunmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.shotgunmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.snipermk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.snipermk2(AND)Researches.SebillianDataHack7(AND)Function.Chance(GSniMk3ChanceName,1,25)(OR)Researches.gauss.snipermk2(AND)Researches.SebillianDataHack9(AND)Function.Chance(GSniMk3ChanceName,26,55)(OR)Researches.gauss.snipermk2(AND)Researches.SebillianDataHack8(AND)Function.Chance(GSniMk3ChanceName,56,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.snipermk3&quot; ); UnlockManufacture( &quot;ManTech.gauss.snipermk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.snipermk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.heavymk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.heavymk2(AND)Researches.SebillianDataHack7(AND)Function.Chance(GHeaMk3ChanceName,1,30)(OR)Researches.gauss.heavymk2(AND)Researches.SebillianDataHack9(AND)Function.Chance(GHeaMk3ChanceName,31,60)(OR)Researches.gauss.heavymk2(AND)Researches.SebillianDataHack8(AND)Function.Chance(GHeaMk3ChanceName,61,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.heavymk3&quot; ); UnlockManufacture( &quot;ManTech.gauss.heavymk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.heavymk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.minigunmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.gauss.minigunmk2(AND)Researches.SebillianDataHack7(AND)Function.Chance(GMinMk3ChanceName,1,25)(OR)Researches.gauss.minigunmk2(AND)Researches.SebillianDataHack9(AND)Function.Chance(GMinMk3ChanceName,26,55)(OR)Researches.gauss.minigunmk2(AND)Researches.SebillianDataHack8(AND)Function.Chance(GMinMk3ChanceName,56,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.gauss.minigunmk3&quot; ); UnlockManufacture( &quot;ManTech.gauss.minigunmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.gauss.minigunmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulsepistolmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulsepistolmk2(AND)Researches.CaesanDataHack7(AND)Function.Chance(PuPisMk3ChanceName,1,50)(OR)Researches.pulsepistolmk2(AND)Researches.CaesanDataHack9(AND)Function.Chance(PuPisMk3ChanceName,51,80)(OR)Researches.pulsepistolmk2(AND)Researches.CaesanDataHack8(AND)Function.Chance(PuPisMk3ChanceName,81,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.pulsepistolmk3&quot; ); UnlockManufacture( &quot;ManTech.pulsepistolmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.pulsepistolmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulsecarbinemk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulsecarbinemk2(AND)Researches.CaesanDataHack7(AND)Function.Chance(PuCarMk3ChanceName,1,35)(OR)Researches.pulsecarbinemk2(AND)Researches.CaesanDataHack9(AND)Function.Chance(PuCarMk3ChanceName,36,75)(OR)Researches.pulsecarbinemk2(AND)Researches.CaesanDataHack8(AND)Function.Chance(PuCarMk3ChanceName,76,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.pulsecarbinemk3&quot; ); UnlockManufacture( &quot;ManTech.pulsecarbinemk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.pulsecarbinemk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulseriflemk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulseriflemk2(AND)Researches.CaesanDataHack7(AND)Function.Chance(PuRifMk3ChanceName,1,35)(OR)Researches.pulseriflemk2(AND)Researches.CaesanDataHack9(AND)Function.Chance(PuRifMk3ChanceName,36,75)(OR)Researches.pulseriflemk2(AND)Researches.CaesanDataHack8(AND)Function.Chance(PuRifMk3ChanceName,76,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.pulseriflemk3&quot; ); UnlockManufacture( &quot;ManTech.pulseriflemk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.pulseriflemk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulseprecisionmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulseprecisionmk2(AND)Researches.CaesanDataHack7(AND)Function.Chance(PuPreMk3ChanceName,1,25)(OR)Researches.pulseprecisionmk2(AND)Researches.CaesanDataHack9(AND)Function.Chance(PuPreMk3ChanceName,26,55)(OR)Researches.pulseprecisionmk2(AND)Researches.CaesanDataHack8(AND)Function.Chance(PuPreMk3ChanceName,56,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.pulseprecisionmk3&quot; ); UnlockManufacture( &quot;ManTech.pulseprecisionmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.pulseprecisionmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulseheavymk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulseheavymk2(AND)Researches.CaesanDataHack7(AND)Function.Chance(PuHeaMk3ChanceName,1,30)(OR)Researches.pulseheavymk2(AND)Researches.CaesanDataHack9(AND)Function.Chance(PuHeaMk3ChanceName,31,60)(OR)Researches.pulseheavymk2(AND)Researches.CaesanDataHack8(AND)Function.Chance(PuHeaMk3ChanceName,61,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.pulseheavymk3&quot; ); UnlockManufacture( &quot;ManTech.pulseheavymk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.pulseheavymk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulseminigunmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.pulseminigunmk2(AND)Researches.CaesanDataHack7(AND)Function.Chance(PuMinMk3ChanceName,1,25)(OR)Researches.pulseminigunmk2(AND)Researches.CaesanDataHack9(AND)Function.Chance(PuMinMk3ChanceName,26,55)(OR)Researches.pulseminigunmk2(AND)Researches.CaesanDataHack8(AND)Function.Chance(PuMinMk3ChanceName,56,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.pulseminigunmk3&quot; ); UnlockManufacture( &quot;ManTech.pulseminigunmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.pulseminigunmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railpistolmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railpistolmk2(AND)Researches.SebillianDataHack10(AND)Function.Chance(RPisMk3ChanceName,1,50)(OR)Researches.railpistolmk2(AND)Researches.SebillianDataHack12(AND)Function.Chance(RPisMk3ChanceName,51,80)(OR)Researches.railpistolmk2(AND)Researches.SebillianDataHack11(AND)Function.Chance(RPisMk3ChanceName,81,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railpistolmk3&quot; ); UnlockManufacture( &quot;ManTech.railpistolmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railpistolmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railsmgmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railsmgmk2(AND)Researches.SebillianDataHack10(AND)Function.Chance(RSmgMk3ChanceName,1,40)(OR)Researches.railsmgmk2(AND)Researches.SebillianDataHack12(AND)Function.Chance(RSmgMk3ChanceName,41,80)(OR)Researches.railsmgmk2(AND)Researches.SebillianDataHack11(AND)Function.Chance(RSmgMk3ChanceName,81,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railsmgmk3&quot; ); UnlockManufacture( &quot;ManTech.railsmgmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railsmgmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railriflemk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railriflemk2(AND)Researches.SebillianDataHack10(AND)Function.Chance(RRifMk3ChanceName,1,35)(OR)Researches.railriflemk2(AND)Researches.SebillianDataHack12(AND)Function.Chance(RRifMk3ChanceName,36,75)(OR)Researches.railriflemk2(AND)Researches.SebillianDataHack11(AND)Function.Chance(RRifMk3ChanceName,76,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railriflemk3&quot; ); UnlockManufacture( &quot;ManTech.railriflemk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railriflemk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railcarbinemk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railcarbinemk2(AND)Researches.SebillianDataHack10(AND)Function.Chance(RCarMk3ChanceName,1,35)(OR)Researches.railcarbinemk2(AND)Researches.SebillianDataHack12(AND)Function.Chance(RCarMk3ChanceName,36,75)(OR)Researches.railcarbinemk2(AND)Researches.SebillianDataHack11(AND)Function.Chance(RCarMk3ChanceName,76,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railcarbinemk3&quot; ); UnlockManufacture( &quot;ManTech.railcarbinemk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railcarbinemk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railsnipermk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railsnipermk2(AND)Researches.SebillianDataHack10(AND)Function.Chance(RSniMk3ChanceName,1,25)(OR)Researches.railsnipermk2(AND)Researches.SebillianDataHack12(AND)Function.Chance(RSniMk3ChanceName,26,55)(OR)Researches.railsnipermk2(AND)Researches.SebillianDataHack11(AND)Function.Chance(RSniMk3ChanceName,56,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railsnipermk3&quot; ); UnlockManufacture( &quot;ManTech.railsnipermk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railsnipermk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railheavymk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railheavymk2(AND)Researches.SebillianDataHack10(AND)Function.Chance(RHeaMk3ChanceName,1,30)(OR)Researches.railheavymk2(AND)Researches.SebillianDataHack12(AND)Function.Chance(RHeaMk3ChanceName,31,60)(OR)Researches.railheavymk2(AND)Researches.SebillianDataHack11(AND)Function.Chance(RHeaMk3ChanceName,61,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railheavymk3&quot; ); UnlockManufacture( &quot;ManTech.railheavymk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railheavymk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railminigunmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.railminigunmk2(AND)Researches.SebillianDataHack1(AND)Function.Chance(RMinMk3ChanceName,1,25)(OR)Researches.railminigunmk2(AND)Researches.SebillianDataHack12(AND)Function.Chance(RMinMk3ChanceName,26,55)(OR)Researches.railminigunmk2(AND)Researches.SebillianDataHack11(AND)Function.Chance(RMinMk3ChanceName,56,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.railminigunmk3&quot; ); UnlockManufacture( &quot;ManTech.railminigunmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.railminigunmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.sonicpistolmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.sonicpistolmk2(AND)Researches.CaesanDataHack10(AND)Function.Chance(SPisMk3ChanceName,1,50)(OR)Researches.sonicpistolmk2(AND)Researches.CaesanDataHack12(AND)Function.Chance(SPisMk3ChanceName,51,80)(OR)Researches.sonicpistolmk2(AND)Researches.CaesanDataHack11(AND)Function.Chance(SPisMk3ChanceName,81,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.sonicpistolmk3&quot; ); UnlockManufacture( &quot;ManTech.sonicpistolmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.sonicpistolmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.sonicriflemk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.sonicriflemk2(AND)Researches.CaesanDataHack10(AND)Function.Chance(SRifMk3ChanceName,1,35)(OR)Researches.sonicriflemk2(AND)Researches.CaesanDataHack12(AND)Function.Chance(SRifMk3ChanceName,36,75)(OR)Researches.sonicriflemk2(AND)Researches.CaesanDataHack11(AND)Function.Chance(SRifMk3ChanceName,76,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.sonicriflemk3&quot; ); UnlockManufacture( &quot;ManTech.sonicriflemk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.sonicriflemk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.sonicprecisionmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.sonicprecisionmk2(AND)Researches.CaesanDataHack10(AND)Function.Chance(SPreMk3ChanceName,1,25)(OR)Researches.sonicprecisionmk2(AND)Researches.CaesanDataHack12(AND)Function.Chance(SPreMk3ChanceName,26,55)(OR)Researches.sonicprecisionmk2(AND)Researches.CaesanDataHack11(AND)Function.Chance(SPreMk3ChanceName,56,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.sonicprecisionmk3&quot; ); UnlockManufacture( &quot;ManTech.sonicprecisionmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.sonicprecisionmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.soniccannonmk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.soniccannonmk2(AND)Researches.CaesanDataHack10(AND)Function.Chance(SCanMk3ChanceName,1,30)(OR)Researches.soniccannonmk2(AND)Researches.CaesanDataHack12(AND)Function.Chance(SCanMk3ChanceName,31,60)(OR)Researches.soniccannonmk2(AND)Researches.CaesanDataHack11(AND)Function.Chance(SCanMk3ChanceName,61,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.soniccannonmk3&quot; ); UnlockManufacture( &quot;ManTech.soniccannonmk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.soniccannonmk3</Data></Cell>
+   </Row>
+   <Row ss:Height="63.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.sonicheavymk3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Weaponary</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.sonicheavymk2(AND)Researches.CaesanDataHack10(AND)Function.Chance(SHeaMk3ChanceName,1,30)(OR)Researches.sonicheavymk2(AND)Researches.CaesanDataHack12(AND)Function.Chance(SHeaMk3ChanceName,31,60)(OR)Researches.sonicheavymk2(AND)Researches.CaesanDataHack11(AND)Function.Chance(SHeaMk3ChanceName,61,100)</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;weapon.sonicheavymk3&quot; ); UnlockManufacture( &quot;ManTech.sonicheavymk3&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.sonicheavymk3</Data></Cell>
    </Row>
    <Row>
     <Cell ss:Index="2" ss:StyleID="s72"/>
@@ -1276,7 +2303,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>34</TopRowBottomPane>
+   <TopRowBottomPane>1</TopRowBottomPane>
    <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
@@ -1284,7 +2311,7 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>48</ActiveRow>
+     <ActiveRow>2</ActiveRow>
      <ActiveCol>5</ActiveCol>
     </Pane>
    </Panes>
@@ -1292,7 +2319,7 @@
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
   <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R1050C3:R65497C3,R353C3:R1047C3,R168C3:R169C3,R117C3:R123C3,R106C3:R115C3,R68C3:R80C3,R338C3,R2C3,R133C3:R161C3,R52C3:R54C3,R34C3:R36C3,R325C3:R326C3,R56C3:R66C3,R297C3:R298C3,R311C3:R322C3,R308C3:R309C3,R187C3:R188C3,R270C3:R279C3,R217C3:R219C3,R233C3,R221C3,R223C3:R230C3,R198C3,R215C3,R200C3:R203C3,R292C3,R267C3:R268C3,R281C3,R192C3,R195C3:R196C3,R171C3,R175C3:R184C3,R163C3:R165C3,R6C3:R7C3,R21C3:R32C3,R9C3:R17C3,R38C3:R50C3</Range>
+   <Range>R1031C3:R65478C3,R334C3:R1028C3,R131C3:R133C3,R78C3:R83C3,R319C3,R2C3,R31C3:R33C3,R306C3:R307C3,R278C3:R279C3,R292C3:R303C3,R289C3:R290C3,R106C3:R129C3,R251C3:R260C3,R172C3:R182C3,R194C3:R215C3,R190C3:R192C3,R6C3:R14C3,R184C3:R188C3,R35C3:R76C3,R273C3,R248C3:R249C3,R262C3,R85C3:R104C3,R155C3:R170C3,R136C3:R153C3,R18C3:R29C3,R217C3,R221C3,R224C3,R227C3,R233C3:R234C3,R231C3,R237C3</Range>
    <Type>List</Type>
    <CellRangeList/>
    <Value>&quot;Extraterrestrials,ExtraterrestrialTech,UFOs,Weaponary,Armour,Equipment,Vehicles,Aircraft,BaseStructures&quot;</Value>

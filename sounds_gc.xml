@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Sounds>
+  <!-- The list of sounds & waves which aren't footsteps, destruction and doors. -->
+  <General>
+    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon GW Submachine Gun Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/weapon_gw_submachine_burst.ogg</Wave>
+    </Sound>
+    
+    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon GW Machine Gun Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/weapon_gw_machinegun_10burst.ogg</Wave>
+    </Sound>
+
+    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon GW Machine Gun Burst 15" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/weapon_gw_machinegun_15burst.ogg</Wave>
+    </Sound>
+    
+    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon GW Battle Rifle Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/weapon_gw_battlerifle_burst.ogg</Wave>
+    </Sound>
+    
+    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon GW Submachine Gun Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/weapon_gw_submachine_single.ogg</Wave>
+    </Sound>
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon AK47 Single" volume="1.0" group="1" comment="" >
+      <Wave>audio/sfx/weapons/ak47single1.ogg</Wave>
+      <Wave>audio/sfx/weapons/ak47single2.ogg</Wave>
+    </Sound>
+    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon AK47 Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/ak47burst.ogg</Wave>
+    </Sound>	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon PKM Burst" volume="1.0" group="1" comment="" >
+      <Wave>audio/sfx/weapons/pkm10burst1.ogg</Wave>
+      <Wave>audio/sfx/weapons/pkm10burst2.ogg</Wave>
+      <Wave>audio/sfx/weapons/pkm10burst3.ogg</Wave>
+    </Sound>	
+    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon SVD Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/svdsingle1.ogg</Wave>
+    </Sound>		
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Saiga Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/saigasingle.ogg</Wave>
+    </Sound>	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Saiga Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/saigaburst.ogg</Wave>
+    </Sound>
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Makarov Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/makarovsingle1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/makarovsingle2.ogg</Wave>
+    </Sound>	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon RPG7 Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/rpg7single1.ogg</Wave>
+      <Wave>audio/sfx/weapons/rpg7single2.ogg</Wave>
+    </Sound>
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon AK74 Single" volume="1.0" group="1" comment="" >
+      <Wave>audio/sfx/weapons/ak74single1.ogg</Wave>
+      <Wave>audio/sfx/weapons/ak74single2.ogg</Wave>
+    </Sound>
+    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon AK74 Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/ak47burst.ogg</Wave>
+    </Sound>	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon KSVK Single" volume="1.0" group="1" comment="" >
+      <Wave>audio/sfx/weapons/ksvksingle1.ogg</Wave>
+      <Wave>audio/sfx/weapons/ksvksingle2.ogg</Wave>
+    </Sound>
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Barrett Single" volume="1.0" group="1" comment="" >
+      <Wave>audio/sfx/weapons/barretm82single1.ogg</Wave>
+      <Wave>audio/sfx/weapons/barretm82single2.ogg</Wave>
+    </Sound>	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon P90 Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/p90single1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/p90single2.ogg</Wave>
+    </Sound>	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon P90 Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/p90burst1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/p90burst2.ogg</Wave>
+    </Sound>	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon MP5 Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/mp5single1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/mp5single2.ogg</Wave>
+    </Sound>	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon MP5 Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/mp5burst1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/mp5burst2.ogg</Wave>
+    </Sound>	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Revolver Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/revolversingle1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/revolversingle2.ogg</Wave>
+    </Sound>	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon PPSH Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/ppshsingle1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/ppshsingle2.ogg</Wave>
+    </Sound>	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon PPSH Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/ppshburst1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/ppshburst2.ogg</Wave>
+    </Sound>	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Kiparis Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/kiparissingle1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/kiparissingle2.ogg</Wave>
+    </Sound>	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Kiparis Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/kiparisburst1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/kiparisburst2.ogg</Wave>
+    </Sound>	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Mosin Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/mosinsingle1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/mosinsingle2.ogg</Wave>
+    </Sound>	
+  </General>
+</Sounds>
