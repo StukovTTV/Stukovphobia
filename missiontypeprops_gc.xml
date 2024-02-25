@@ -1,0 +1,301 @@
+<?xml version="1.0" ?>
+<MissionTypeProps>
+
+
+  <Tileset MODMERGEATTRIBUTE="name" MODMERGE="replace" name="farm">
+    <MissionType name="Common" civilianCount="3" friendlyAICount="1">
+      <FriendlyAI>
+         <Ticker value="300">
+          <Weapon percent="100" name="weapon.farmershotgun" />
+        </Ticker>
+         <Ticker value="600">
+          <Weapon percent="98" name="weapon.division.shotgunmk1" />
+          <Weapon percent="02" name="weapon.division.minigunmk1" />
+        </Ticker>
+        <Ticker value="900">
+          <Weapon percent="98" name="weapon.MAGcarbine" />
+          <Weapon percent="02" name="weapon.MAGminigunmk1" />
+        </Ticker>
+        <Ticker value="1200">
+          <Weapon percent="98" name="weapon.gauss.shotgunmk1" />
+          <Weapon percent="02" name="weapon.pulseminigunmk1" />
+        </Ticker>
+        <Ticker value="inf">
+          <Weapon percent="98" name="weapon.railcarbinemk1" />
+          <Weapon percent="02" name="weapon.railminigunmk1" />
+        </Ticker>
+      </FriendlyAI>
+    </MissionType>
+  </Tileset>
+  
+  
+  <Tileset MODMERGEATTRIBUTE="name" MODMERGE="replace" name="industrial">
+    <MissionType name="Common" civilianCount="5" friendlyAICount="2">
+      <FriendlyAI>
+         <Ticker value="300">
+	     <Weapon percent="50" name="weapon.gw_pistol" />
+         <Weapon percent="25" name="weapon.p90" />
+		 <Weapon percent="25" name="weapon.mp5" />
+        </Ticker>
+         <Ticker value="600">
+          <Weapon percent="40" name="weapon.lasercarbine" />
+          <Weapon percent="58" name="weapon.laserpistol" />
+          <Weapon percent="02" name="weapon.division.minigunmk1" />
+        </Ticker>
+        <Ticker value="900">
+          <Weapon percent="40" name="weapon.plasmarifle" />
+          <Weapon percent="58" name="weapon.plasmapistolmk1" />
+          <Weapon percent="02" name="weapon.MAGminigunmk1" />
+        </Ticker>
+        <Ticker value="1200">
+          <Weapon percent="40" name="weapon.pulsecarbinemk1" />
+          <Weapon percent="58" name="weapon.pulsepistolmk1" />
+          <Weapon percent="02" name="weapon.pulseminigunmk1" />
+        </Ticker>
+        <Ticker value="inf">
+          <Weapon percent="40" name="weapon.sonicriflemk1" />
+          <Weapon percent="58" name="weapon.sonicpistolmk1" />
+          <Weapon percent="02" name="weapon.railminigunmk1" />
+        </Ticker>
+      </FriendlyAI>
+    </MissionType>
+  </Tileset>
+
+
+  <Tileset MODMERGEATTRIBUTE="name" MODMERGE="insert" name="forest">
+    <MissionType name="Common" civilianCount="2" friendlyAICount="1">
+      <FriendlyAI>
+         <Ticker value="300">
+          <Weapon percent="25" name="weapon.SKS" />
+          <Weapon percent="50" name="weapon.m14" />
+		  <Weapon percent="20" name="weapon.saiga" />
+		  <Weapon percent="5" name="weapon.m1895" />
+        </Ticker>
+         <Ticker value="600">
+          <Weapon percent="25" name="weapon.division.heavymk1" />
+          <Weapon percent="73" name="weapon.division.riflemk1" />
+          <Weapon percent="02" name="weapon.division.minigunmk1" />
+        </Ticker>
+        <Ticker value="900">
+          <Weapon percent="25" name="weapon.MAGSTORM" />
+          <Weapon percent="73" name="weapon.MAGrifle" />
+          <Weapon percent="02" name="weapon.MAGminigunmk1" />
+        </Ticker>
+        <Ticker value="1200">
+          <Weapon percent="25" name="weapon.gauss.heavymk1" />
+          <Weapon percent="73" name="weapon.gauss.riflemk1" />
+          <Weapon percent="02" name="weapon.pulseminigunmk1" />
+        </Ticker>
+        <Ticker value="inf">
+          <Weapon percent="25" name="weapon.railheavymk1" />
+          <Weapon percent="73" name="weapon.railriflemk1" />
+          <Weapon percent="02" name="weapon.railminigunmk1" />
+        </Ticker>
+      </FriendlyAI>
+    </MissionType>
+  </Tileset>
+
+
+  <Tileset MODMERGEATTRIBUTE="name" MODMERGE="replace" name="arctic">
+    <MissionType name="Common" civilianCount="2" friendlyAICount="1">
+      <FriendlyAI>
+         <Ticker value="300">
+          <Weapon percent="80" name="weapon.shotgun" />
+		  <Weapon percent="20" name="weapon.saiga" />
+        </Ticker>
+         <Ticker value="600">
+          <Weapon percent="49" name="weapon.division.shotgunmk1" />
+          <Weapon percent="49" name="weapon.laserrifle" />
+          <Weapon percent="02" name="weapon.division.minigunmk1" />
+        </Ticker>
+        <Ticker value="900">
+          <Weapon percent="49" name="weapon.MAGcarbine" />
+          <Weapon percent="49" name="weapon.plasmarifle" />
+          <Weapon percent="02" name="weapon.MAGminigunmk1" />
+        </Ticker>
+        <Ticker value="1200">
+          <Weapon percent="49" name="weapon.gauss.shotgunmk1" />
+          <Weapon percent="49" name="weapon.pulseriflemk3" />
+          <Weapon percent="02" name="weapon.pulseminigunmk1" />
+        </Ticker>
+        <Ticker value="inf">
+          <Weapon percent="49" name="weapon.railcarbinemk1" />
+          <Weapon percent="49" name="weapon.sonicriflemk1" />
+          <Weapon percent="02" name="weapon.railminigunmk1" />
+        </Ticker>
+      </FriendlyAI>
+    </MissionType>
+  </Tileset>
+
+  <Tileset MODMERGEATTRIBUTE="name" MODMERGE="replace" name="middleeast">
+    <MissionType name="Common" civilianCount="4" friendlyAICount="3">
+      <FriendlyAI>
+         <Ticker value="300">
+          <Weapon percent="70" name="weapon.ak47" />
+          <Weapon percent="20" name="weapon.gw_machinegun" />
+		  <Weapon percent="10" name="weapon.kiparis" />
+        </Ticker>
+         <Ticker value="600">
+          <Weapon percent="49" name="weapon.lasercarbine" />
+          <Weapon percent="49" name="weapon.division.heavymk1" />
+          <Weapon percent="02" name="weapon.division.minigunmk1" />
+        </Ticker>
+        <Ticker value="900">
+          <Weapon percent="49" name="weapon.plasmarifle" />
+          <Weapon percent="49" name="weapon.MAGSTORMmk1" />
+          <Weapon percent="02" name="weapon.MAGminigunmk1" />
+        </Ticker>
+        <Ticker value="1200">
+          <Weapon percent="49" name="weapon.pulsecarbinemk1" />
+          <Weapon percent="49" name="weapon.gauss.heavymk1" />
+          <Weapon percent="02" name="weapon.pulseminigunmk1" />
+        </Ticker>
+        <Ticker value="inf">
+          <Weapon percent="49" name="weapon.sonicriflemk1" />
+          <Weapon percent="49" name="weapon.railheavymk1" />
+          <Weapon percent="02" name="weapon.railminigunmk1" />
+        </Ticker>
+      </FriendlyAI>
+    </MissionType>
+  </Tileset>
+
+
+  <Tileset MODMERGEATTRIBUTE="name" MODMERGE="replace" name="desert">
+    <MissionType name="Common" civilianCount="2" friendlyAICount="1">
+      <FriendlyAI>
+         <Ticker value="300">
+          <Weapon percent="15" name="weapon.barrettm82a1" />
+          <Weapon percent="60" name="weapon.rifle" />
+		  <Weapon percent="25" name="weapon.hkg3" />
+        </Ticker>
+         <Ticker value="600">
+          <Weapon percent="25" name="weapon.division.snipermk1" />
+          <Weapon percent="73" name="weapon.division.riflemk1" />
+          <Weapon percent="02" name="weapon.laserminigunmk1" />
+        </Ticker>
+        <Ticker value="900">
+          <Weapon percent="25" name="weapon.MAGprecision" />
+          <Weapon percent="73" name="weapon.MAGrifle" />
+          <Weapon percent="02" name="weapon.plasmacannonmk1" />
+        </Ticker>
+        <Ticker value="1200">
+          <Weapon percent="25" name="weapon.gauss.snipermk1" />
+          <Weapon percent="73" name="weapon.gauss.riflemk1" />
+          <Weapon percent="02" name="weapon.pulseminigunmk1" />
+        </Ticker>
+        <Ticker value="inf">
+          <Weapon percent="25" name="weapon.railsnipermk1" />
+          <Weapon percent="73" name="weapon.railriflemk1" />
+          <Weapon percent="02" name="weapon.soniccannonmk1" />
+        </Ticker>
+      </FriendlyAI>
+    </MissionType>
+  </Tileset>
+    
+    <!--<MissionType name="CrashSite?" civilianCount="8" friendlyAICount="10">
+      <FriendlyAI>
+        ... ... ... 
+      </FriendlyAI>
+    </MissionType>-->
+
+  <Tileset MODMERGEATTRIBUTE="name" MODMERGE="replace" name="soviettown">
+    <MissionType name="Common" civilianCount="18" friendlyAICount="6">
+      <FriendlyAI>
+         <Ticker value="300">
+          <Weapon percent="65" name="weapon.ak74" />
+          <Weapon percent="15" name="weapon.pkm" />
+		  <Weapon percent="8" name="weapon.svd" />
+		  <Weapon percent="12" name="weapon.kiparis" />
+        </Ticker>
+         <Ticker value="600">
+          <Weapon percent="49" name="weapon.scatterlaser" />
+          <Weapon percent="49" name="weapon.division.heavymk1" />
+          <Weapon percent="02" name="weapon.division.minigunmk1" />
+        </Ticker>
+        <Ticker value="900">
+          <Weapon percent="49" name="weapon.plasmacaster" />
+          <Weapon percent="49" name="weapon.MAGSTORMmk1" />
+          <Weapon percent="02" name="weapon.MAGminigunmk1" />
+        </Ticker>
+        <Ticker value="1200">
+          <Weapon percent="49" name="weapon.pulseheavymk1" />
+          <Weapon percent="49" name="weapon.gauss.heavymk1" />
+          <Weapon percent="02" name="weapon.pulseminigunmk1" />
+        </Ticker>
+        <Ticker value="inf">
+          <Weapon percent="49" name="weapon.sonicheavymk1" />
+          <Weapon percent="49" name="weapon.railheavymk1" />
+          <Weapon percent="02" name="weapon.railminigunmk1" />
+        </Ticker>
+      </FriendlyAI>
+    </MissionType>
+  </Tileset>
+
+
+  <Tileset MODMERGEATTRIBUTE="name" MODMERGE="replace" name="town">
+    <MissionType name="Common" civilianCount="18" friendlyAICount="6">
+      <FriendlyAI>
+         <Ticker value="300">
+          <Weapon percent="65" name="weapon.rifle" />
+          <Weapon percent="15" name="weapon.gw_machinegun" />
+		  <Weapon percent="8" name="weapon.barrettm82a1" />
+		  <Weapon percent="12" name="weapon.p90" />
+        </Ticker>
+         <Ticker value="600">
+          <Weapon percent="58" name="weapon.laserrifle" />
+          <Weapon percent="40" name="weapon.division.heavymk1" />
+          <Weapon percent="02" name="weapon.division.minigunmk1" />
+        </Ticker>
+        <Ticker value="900">
+          <Weapon percent="58" name="weapon.plasmarifle" />
+          <Weapon percent="40" name="weapon.MAGSTORMmk1" />
+          <Weapon percent="02" name="weapon.MAGminigunmk1" />
+        </Ticker>
+        <Ticker value="1200">
+          <Weapon percent="58" name="weapon.pulseriflemk1" />
+          <Weapon percent="40" name="weapon.gauss.heavymk1" />
+          <Weapon percent="02" name="weapon.pulseminigunmk1" />
+        </Ticker>
+        <Ticker value="inf">
+          <Weapon percent="58" name="weapon.sonicriflemk1" />
+          <Weapon percent="40" name="weapon.railheavymk1" />
+          <Weapon percent="02" name="weapon.railminigunmk1" />
+        </Ticker>
+      </FriendlyAI>
+    </MissionType>
+  </Tileset>
+
+
+  <Tileset MODMERGEATTRIBUTE="name" MODMERGE="replace" name="tundra">
+    <MissionType name="Common" civilianCount="14" friendlyAICount="6">
+      <FriendlyAI>
+         <Ticker value="300">
+          <Weapon percent="80" name="weapon.rifle" />
+          <Weapon percent="20" name="weapon.machinegun" />
+        </Ticker>
+         <Ticker value="600">
+          <Weapon percent="58" name="weapon.laserrifle" />
+          <Weapon percent="40" name="weapon.division.riflemk1" />
+          <Weapon percent="02" name="weapon.division.minigunmk1" />
+        </Ticker>
+        <Ticker value="900">
+          <Weapon percent="58" name="weapon.plasmarifle" />
+          <Weapon percent="40" name="weapon.MAGrifle" />
+          <Weapon percent="02" name="weapon.MAGminigunmk1" />
+        </Ticker>
+        <Ticker value="1200">
+          <Weapon percent="58" name="weapon.pulseriflemk1" />
+          <Weapon percent="40" name="weapon.gauss.riflemk1" />
+          <Weapon percent="02" name="weapon.pulseminigunmk1" />
+        </Ticker>
+        <Ticker value="inf">
+          <Weapon percent="58" name="weapon.sonicriflemk1" />
+          <Weapon percent="40" name="weapon.railriflemk1" />
+          <Weapon percent="02" name="weapon.railminigunmk1" />
+        </Ticker>
+      </FriendlyAI>
+    </MissionType>
+  </Tileset>
+
+
+</MissionTypeProps>
