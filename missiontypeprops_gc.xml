@@ -66,10 +66,9 @@
     <MissionType name="Common" civilianCount="2" friendlyAICount="1">
       <FriendlyAI>
          <Ticker value="300">
-          <Weapon percent="25" name="weapon.SKS" />
+          <Weapon percent="30" name="weapon.SKS" />
           <Weapon percent="50" name="weapon.m14" />
 		  <Weapon percent="20" name="weapon.saiga" />
-		  <Weapon percent="5" name="weapon.m1895" />
         </Ticker>
          <Ticker value="600">
           <Weapon percent="25" name="weapon.division.heavymk1" />

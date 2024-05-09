@@ -1468,7 +1468,7 @@
     <Cell><Data ss:Type="String">ProvingGrounds</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
-    <Cell><Data ss:Type="String">2xItems.SebillianFlightKnowledge;2xItems.EngineKnowledge</Data></Cell>
+    <Cell><Data ss:Type="String">2xItems.FlightKnowledge;2xItems.EngineKnowledge</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
@@ -1477,7 +1477,7 @@
     <Cell><Data ss:Type="String">ProvingGrounds</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">10</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">50000</Data></Cell>
-    <Cell><Data ss:Type="String">2xItems.SebillianFlightKnowledge;2xItems.EngineKnowledge</Data></Cell>
+    <Cell><Data ss:Type="String">2xItems.FlightKnowledge;2xItems.EngineKnowledge</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
    </Row>
@@ -1619,7 +1619,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>28</TopRowBottomPane>
+   <TopRowBottomPane>129</TopRowBottomPane>
    <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
@@ -1627,7 +1627,7 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>39</ActiveRow>
+     <ActiveRow>156</ActiveRow>
      <ActiveCol>4</ActiveCol>
     </Pane>
    </Panes>
